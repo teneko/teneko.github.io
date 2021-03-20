@@ -22,3 +22,9 @@ jobs:
 
     - name: Generate
       run: ./build.sh generate
+
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Documentation generated
+        branch: master
+        file_pattern: docs/
