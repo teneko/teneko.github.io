@@ -1,0 +1,481 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AccountManager&lt;DbContextType, UserType, RoleType&gt;
+   | Teroneko GitHub Page </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AccountManager&lt;DbContextType, UserType, RoleType&gt;
+   | Teroneko GitHub Page ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3">
+  
+  
+  <h1 id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3" class="text-break">Class AccountManager&lt;DbContextType, UserType, RoleType&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AccountManager&lt;DbContextType, UserType, RoleType&gt;</span></div>
+      <div class="level2"><a class="xref" href="Teronis.AspNetCore.Identity.AccountManaging.AccountManager-1.html">AccountManager&lt;DbContextType&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.AspNetCore.Identity.AccountManaging.IAccountManager-2.html">IAccountManager</a>&lt;UserType, RoleType&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.AspNetCore.Identity.AccountManaging.html">Teronis.AspNetCore.Identity.AccountManaging</a></h6>
+  <h6><strong>Assembly</strong>: Teronis.AspNetCore.Identity.dll</h6>
+  <h5 id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AccountManager&lt;DbContextType, UserType, RoleType&gt; : object, IAccountManager&lt;UserType, RoleType&gt; where DbContextType : DbContext where UserType : class, IAccountUserEntity where RoleType : class, IAccountRoleEntity</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">DbContextType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">UserType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">RoleType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3__ctor_IOptions_Teronis_AspNetCore_Identity_AccountManaging_AccountManagerOptions___0_UserManager__1__RoleManager__2__System_Nullable_ILogger_Teronis_AspNetCore_Identity_AccountManaging_AccountManager__0__1__2____.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.AccountManaging.AccountManager%603.%23ctor(IOptions%7BTeronis.AspNetCore.Identity.AccountManaging.AccountManagerOptions%7D%2C%600%2CUserManager%7B%601%7D%2CRoleManager%7B%602%7D%2CSystem.Nullable%7BILogger%7BTeronis.AspNetCore.Identity.AccountManaging.AccountManager%7B%600%2C%601%2C%602%7D%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Identity/src/AccountManaging/AccountManager{UserType,RoleType}.cs/#L25">View Source</a>
+  </span>
+  <a id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3__ctor_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.#ctor*"></a>
+  <h4 id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3__ctor_IOptions_Teronis_AspNetCore_Identity_AccountManaging_AccountManagerOptions___0_UserManager__1__RoleManager__2__System_Nullable_ILogger_Teronis_AspNetCore_Identity_AccountManaging_AccountManager__0__1__2____" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.#ctor(IOptions{Teronis.AspNetCore.Identity.AccountManaging.AccountManagerOptions},`0,UserManager{`1},RoleManager{`2},System.Nullable{ILogger{Teronis.AspNetCore.Identity.AccountManaging.AccountManager{`0,`1,`2}}})">AccountManager(IOptions&lt;AccountManagerOptions&gt;, DbContextType, UserManager&lt;UserType&gt;, RoleManager&lt;RoleType&gt;, Nullable&lt;ILogger&lt;AccountManager&lt;DbContextType, UserType, RoleType&gt;&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountManager(IOptions&lt;AccountManagerOptions&gt; _, DbContextType dbContext, UserManager&lt;UserType&gt; userManager, RoleManager&lt;RoleType&gt; roleManager, ILogger&lt;AccountManager&lt;DbContextType, UserType, RoleType&gt;&gt;? logger = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IOptions</span>&lt;<a class="xref" href="Teronis.AspNetCore.Identity.AccountManaging.AccountManagerOptions.html">AccountManagerOptions</a>&gt;</td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DbContextType</span></td>
+        <td><span class="parametername">dbContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UserManager</span>&lt;UserType&gt;</td>
+        <td><span class="parametername">userManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">RoleManager</span>&lt;RoleType&gt;</td>
+        <td><span class="parametername">roleManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ILogger</span>&lt;<a class="xref" href="Teronis.AspNetCore.Identity.AccountManaging.AccountManager-3.html">AccountManager</a>&lt;DbContextType, UserType, RoleType&gt;&gt;&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_CreateRoleAsync__2_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.AccountManaging.AccountManager%603.CreateRoleAsync(%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Identity/src/AccountManaging/AccountManager{UserType,RoleType}.cs/#L52">View Source</a>
+  </span>
+  <a id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_CreateRoleAsync_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.CreateRoleAsync*"></a>
+  <h4 id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_CreateRoleAsync__2_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.CreateRoleAsync(`2)">CreateRoleAsync(RoleType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RoleType&gt; CreateRoleAsync(RoleType roleEntity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RoleType</span></td>
+        <td><span class="parametername">roleEntity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;RoleType&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_CreateUserAsync__1_System_String_System_String___.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.AccountManaging.AccountManager%603.CreateUserAsync(%601%2CSystem.String%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Identity/src/AccountManaging/AccountManager{UserType,RoleType}.cs/#L91">View Source</a>
+  </span>
+  <a id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_CreateUserAsync_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.CreateUserAsync*"></a>
+  <h4 id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_CreateUserAsync__1_System_String_System_String___" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.CreateUserAsync(`1,System.String,System.String[])">CreateUserAsync(UserType, String, String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;UserType&gt; CreateUserAsync(UserType userEntity, string password, params string[] roles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UserType</span></td>
+        <td><span class="parametername">userEntity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">roles</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;UserType&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_GetRoleByNameAsync_System_String_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.AccountManaging.AccountManager%603.GetRoleByNameAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Identity/src/AccountManaging/AccountManager{UserType,RoleType}.cs/#L44">View Source</a>
+  </span>
+  <a id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_GetRoleByNameAsync_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.GetRoleByNameAsync*"></a>
+  <h4 id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_GetRoleByNameAsync_System_String_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.GetRoleByNameAsync(System.String)">GetRoleByNameAsync(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RoleType&gt; GetRoleByNameAsync(string roleName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">roleName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;RoleType&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_GetUserByNameAsync_System_String_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.AccountManaging.AccountManager%603.GetUserByNameAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Identity/src/AccountManaging/AccountManager{UserType,RoleType}.cs/#L83">View Source</a>
+  </span>
+  <a id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_GetUserByNameAsync_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.GetUserByNameAsync*"></a>
+  <h4 id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_GetUserByNameAsync_System_String_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.GetUserByNameAsync(System.String)">GetUserByNameAsync(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;UserType&gt; GetUserByNameAsync(string userName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;UserType&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_InvalidateSecurityStampAsync_System_String_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.AccountManaging.AccountManager%603.InvalidateSecurityStampAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Identity/src/AccountManaging/AccountManager{UserType,RoleType}.cs/#L150">View Source</a>
+  </span>
+  <a id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_InvalidateSecurityStampAsync_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.InvalidateSecurityStampAsync*"></a>
+  <h4 id="Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3_InvalidateSecurityStampAsync_System_String_" data-uid="Teronis.AspNetCore.Identity.AccountManaging.AccountManager`3.InvalidateSecurityStampAsync(System.String)">InvalidateSecurityStampAsync(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task InvalidateSecurityStampAsync(string userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Teronis.AspNetCore.Identity.AccountManaging.IAccountManager-2.html">IAccountManager&lt;UserType, RoleType&gt;</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_AccountManaging_AccountManager_3.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.AccountManaging.AccountManager%603%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Identity/src/AccountManaging/AccountManager{UserType,RoleType}.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

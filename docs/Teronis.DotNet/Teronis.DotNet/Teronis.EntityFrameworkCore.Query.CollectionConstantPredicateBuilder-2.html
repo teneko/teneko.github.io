@@ -1,0 +1,666 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;
+   | Teroneko GitHub Page </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;
+   | Teroneko GitHub Page ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2">
+  
+  
+  <h1 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2" class="text-break">Class CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>The collection constant predicate builder produces one predicate that includes
+the comparison between the source of type <code data-dev-comment-type="typeparamref" class="typeparamref">SourceType</code> and
+each collection item of type <code data-dev-comment-type="typeparamref" class="typeparamref">ComparisonItemType</code>. Each
+collection item can be itself a source of type <code data-dev-comment-type="typeparamref" class="typeparamref">ComparisonItemType</code>
+and therefore be compared to collection item of a collection that is member of
+<code data-dev-comment-type="typeparamref" class="typeparamref">ComparisonItemType</code> and so on.
+<br>
+<br>(e.g. src1.A == cmpItem1.Z</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.EntityFrameworkCore.Query.IThenInCollectionConstantPredicateBuilder-2.html">IThenInCollectionConstantPredicateBuilder</a>&lt;SourceType, ComparisonItemType&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.EntityFrameworkCore.Query.html">Teronis.EntityFrameworkCore.Query</a></h6>
+  <h6><strong>Assembly</strong>: Teronis.NetStandard.EntityFrameworkCore.Query.dll</h6>
+  <h5 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt; : object, IThenInCollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;, IChildCollectionConstantPredicateBuilder</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">SourceType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">ComparisonItemType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2__ctor_Func_Expression_Expression_BinaryExpression__IEnumerable__1__Expression_Teronis_Linq_Expressions_SourceInConstantPredicateDelegate__0__1___.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602.%23ctor(Func%7BExpression%2CExpression%2CBinaryExpression%7D%2CIEnumerable%7B%601%7D%2CExpression%7BTeronis.Linq.Expressions.SourceInConstantPredicateDelegate%7B%600%2C%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L51">View Source</a>
+  </span>
+  <a id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2__ctor_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.#ctor*"></a>
+  <h4 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2__ctor_Func_Expression_Expression_BinaryExpression__IEnumerable__1__Expression_Teronis_Linq_Expressions_SourceInConstantPredicateDelegate__0__1___" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.#ctor(Func{Expression,Expression,BinaryExpression},IEnumerable{`1},Expression{Teronis.Linq.Expressions.SourceInConstantPredicateDelegate{`0,`1}})">CollectionConstantPredicateBuilder(Func&lt;Expression, Expression, BinaryExpression&gt;, IEnumerable&lt;ComparisonItemType&gt;, Expression&lt;SourceInConstantPredicateDelegate&lt;SourceType, ComparisonItemType&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a collection constant predicate builder from a non-null and non-empty collection. Otherwise
+<see cref="!:ArgumentNullException"></see> will be thrown. When starting with a non-null and non-empty colection
+you are able to use <a class="xref" href="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder-2.html#Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_ThenCreateFromCollection__1_Func_Expression_Expression_BinaryExpression__Func__1_System_Nullable_IEnumerable___0____Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_">ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt;, Func&lt;ComparisonItemType, Nullable&lt;IEnumerable&lt;ThenComparisonItemType&gt;&gt;&gt;, ComparisonItemsBehaviourFlags)</a>
+and this collection can then be null or empy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CollectionConstantPredicateBuilder(Func&lt;Expression, Expression, BinaryExpression&gt; consecutiveItemBinaryExpressionFactory, IEnumerable&lt;ComparisonItemType&gt; comparisonItems, Expression&lt;SourceInConstantPredicateDelegate&lt;SourceType, ComparisonItemType&gt;&gt; sourceAndComparisonItemPredicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Expression</span>, <span class="xref">Expression</span>, <span class="xref">BinaryExpression</span>&gt;</td>
+        <td><span class="parametername">consecutiveItemBinaryExpressionFactory</span></td>
+        <td><p>The binary expression factory that combines an item predicate, an item predicate that is arisen from
+<code data-dev-comment-type="paramref" class="paramref">comparisonItems</code> and that encloses every item predicate of item
+predicates of child collection and their collections, with another item predicate arisen from
+<code data-dev-comment-type="paramref" class="paramref">comparisonItems</code> that encloses every item predicate of item
+predicates of child collection and their collections.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;ComparisonItemType&gt;</td>
+        <td><span class="parametername">comparisonItems</span></td>
+        <td><p>A collection of comparison values with at least one item. Otherwise an <see cref="!:ArgumentNullException"></see>
+is thrown.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Expression</span>&lt;<a class="xref" href="Teronis.Linq.Expressions.SourceInConstantPredicateDelegate-2.html">SourceInConstantPredicateDelegate</a>&lt;SourceType, ComparisonItemType&gt;&gt;</td>
+        <td><span class="parametername">sourceAndComparisonItemPredicate</span></td>
+        <td><p>The expression that represents the predicate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildBodyExpression_System_Nullable_Func_Expression_Expression___.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602.BuildBodyExpression(System.Nullable%7BFunc%7BExpression%2CExpression%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L252">View Source</a>
+  </span>
+  <a id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildBodyExpression_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.BuildBodyExpression*"></a>
+  <h4 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildBodyExpression_System_Nullable_Func_Expression_Expression___" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.BuildBodyExpression(System.Nullable{Func{Expression,Expression}})">BuildBodyExpression(Nullable&lt;Func&lt;Expression, Expression&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds the body expression for a possible lambda expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Expression BuildBodyExpression(Func&lt;Expression, Expression&gt;? concatenatedExpressionFactory = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">Expression</span>, <span class="xref">Expression</span>&gt;&gt;</td>
+        <td><span class="parametername">concatenatedExpressionFactory</span></td>
+        <td><p>Manipulates the concatenated expression result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Expression</span></td>
+        <td><p>The body expression for a possible lambda expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildBodyExpression__1_Action_Teronis_EntityFrameworkCore_Query_ICollectionConstantPredicateBuilderExpressionMapper__0___0___System_Nullable_Func_Expression_Expression___.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602.BuildBodyExpression%60%601(Action%7BTeronis.EntityFrameworkCore.Query.ICollectionConstantPredicateBuilderExpressionMapper%7B%600%2C%60%600%7D%7D%2CSystem.Nullable%7BFunc%7BExpression%2CExpression%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L298">View Source</a>
+  </span>
+  <a id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildBodyExpression_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.BuildBodyExpression*"></a>
+  <h4 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildBodyExpression__1_Action_Teronis_EntityFrameworkCore_Query_ICollectionConstantPredicateBuilderExpressionMapper__0___0___System_Nullable_Func_Expression_Expression___" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.BuildBodyExpression``1(Action{Teronis.EntityFrameworkCore.Query.ICollectionConstantPredicateBuilderExpressionMapper{`0,``0}},System.Nullable{Func{Expression,Expression}})">BuildBodyExpression&lt;TargetType&gt;(Action&lt;ICollectionConstantPredicateBuilderExpressionMapper&lt;SourceType, TargetType&gt;&gt;, Nullable&lt;Func&lt;Expression, Expression&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds the body expression for a possible lambda expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Expression BuildBodyExpression&lt;TargetType&gt;(Action&lt;ICollectionConstantPredicateBuilderExpressionMapper&lt;SourceType, TargetType&gt;&gt; configureMemberMappings, Func&lt;Expression, Expression&gt;? concatenatedExpressionFactory = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Teronis.EntityFrameworkCore.Query.ICollectionConstantPredicateBuilderExpressionMapper-2.html">ICollectionConstantPredicateBuilderExpressionMapper</a>&lt;SourceType, TargetType&gt;&gt;</td>
+        <td><span class="parametername">configureMemberMappings</span></td>
+        <td><p>Lets you map source type member accesses to target type member accesses.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">Expression</span>, <span class="xref">Expression</span>&gt;&gt;</td>
+        <td><span class="parametername">concatenatedExpressionFactory</span></td>
+        <td><p>Manipulates the concatenated expression result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Expression</span></td>
+        <td><p>The body expression for a possible lambda expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TargetType</span></td>
+        <td><p>The target type you can use for mapping in <code data-dev-comment-type="paramref" class="paramref">configureMemberMappings</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildLambdaExpression_System_Nullable_Func_Expression_Expression___.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602.BuildLambdaExpression(System.Nullable%7BFunc%7BExpression%2CExpression%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L310">View Source</a>
+  </span>
+  <a id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildLambdaExpression_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.BuildLambdaExpression*"></a>
+  <h4 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildLambdaExpression_System_Nullable_Func_Expression_Expression___" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.BuildLambdaExpression(System.Nullable{Func{Expression,Expression}})">BuildLambdaExpression(Nullable&lt;Func&lt;Expression, Expression&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds the lambda expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;SourceType, bool&gt;&gt; BuildLambdaExpression(Func&lt;Expression, Expression&gt;? concatenatedExpressionFactory = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">Expression</span>, <span class="xref">Expression</span>&gt;&gt;</td>
+        <td><span class="parametername">concatenatedExpressionFactory</span></td>
+        <td><p>Manipulates the concatenated expression result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;SourceType, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><p>The lambda expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildLambdaExpression__1_Action_Teronis_EntityFrameworkCore_Query_ICollectionConstantPredicateBuilderExpressionMapper__0___0___System_Nullable_Func_Expression_Expression___.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602.BuildLambdaExpression%60%601(Action%7BTeronis.EntityFrameworkCore.Query.ICollectionConstantPredicateBuilderExpressionMapper%7B%600%2C%60%600%7D%7D%2CSystem.Nullable%7BFunc%7BExpression%2CExpression%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L323">View Source</a>
+  </span>
+  <a id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildLambdaExpression_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.BuildLambdaExpression*"></a>
+  <h4 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_BuildLambdaExpression__1_Action_Teronis_EntityFrameworkCore_Query_ICollectionConstantPredicateBuilderExpressionMapper__0___0___System_Nullable_Func_Expression_Expression___" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.BuildLambdaExpression``1(Action{Teronis.EntityFrameworkCore.Query.ICollectionConstantPredicateBuilderExpressionMapper{`0,``0}},System.Nullable{Func{Expression,Expression}})">BuildLambdaExpression&lt;TargetType&gt;(Action&lt;ICollectionConstantPredicateBuilderExpressionMapper&lt;SourceType, TargetType&gt;&gt;, Nullable&lt;Func&lt;Expression, Expression&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds the lambda expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;TargetType, bool&gt;&gt; BuildLambdaExpression&lt;TargetType&gt;(Action&lt;ICollectionConstantPredicateBuilderExpressionMapper&lt;SourceType, TargetType&gt;&gt; configureMemberMappings, Func&lt;Expression, Expression&gt;? concatenatedExpressionFactory = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Teronis.EntityFrameworkCore.Query.ICollectionConstantPredicateBuilderExpressionMapper-2.html">ICollectionConstantPredicateBuilderExpressionMapper</a>&lt;SourceType, TargetType&gt;&gt;</td>
+        <td><span class="parametername">configureMemberMappings</span></td>
+        <td><p>Lets you map source type member accesses to target type member accesses.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">Expression</span>, <span class="xref">Expression</span>&gt;&gt;</td>
+        <td><span class="parametername">concatenatedExpressionFactory</span></td>
+        <td><p>Manipulates the concatenated expression result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;TargetType, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><p>The lambda expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TargetType</span></td>
+        <td><p>The target type you can use for mapping in <code data-dev-comment-type="paramref" class="paramref">configureMemberMappings</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_concatenateComparisonExpressions.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602.concatenateComparisonExpressions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L221">View Source</a>
+  </span>
+  <a id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_concatenateComparisonExpressions_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.concatenateComparisonExpressions*"></a>
+  <h4 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_concatenateComparisonExpressions" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.concatenateComparisonExpressions">concatenateComparisonExpressions()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Expression concatenateComparisonExpressions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Expression</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_ThenCreateFromCollection__1_Func_Expression_Expression_BinaryExpression__Func__1_System_Nullable_IEnumerable___0____Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602.ThenCreateFromCollection%60%601(Func%7BExpression%2CExpression%2CBinaryExpression%7D%2CFunc%7B%601%2CSystem.Nullable%7BIEnumerable%7B%60%600%7D%7D%7D%2CTeronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L209">View Source</a>
+  </span>
+  <a id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_ThenCreateFromCollection_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.ThenCreateFromCollection*"></a>
+  <h4 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_ThenCreateFromCollection__1_Func_Expression_Expression_BinaryExpression__Func__1_System_Nullable_IEnumerable___0____Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.ThenCreateFromCollection``1(Func{Expression,Expression,BinaryExpression},Func{`1,System.Nullable{IEnumerable{``0}}},Teronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags)">ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt;, Func&lt;ComparisonItemType, Nullable&lt;IEnumerable&lt;ThenComparisonItemType&gt;&gt;&gt;, ComparisonItemsBehaviourFlags)</h4>
+  <div class="markdown level1 summary"><p>Creates a deferred collection constant predicate builder from <code data-dev-comment-type="paramref" class="paramref">comparisonItemsFactory</code> that might return a null or
+empty collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;.DeferredThenCreateBuilder&lt;ThenComparisonItemType&gt; ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt; parentBinaryExpressionFactory, Func&lt;ComparisonItemType, IEnumerable&lt;ThenComparisonItemType&gt;?&gt; comparisonItemsFactory, ComparisonItemsBehaviourFlags comparisonItemsBehaviourFlags = default(ComparisonItemsBehaviourFlags))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Expression</span>, <span class="xref">Expression</span>, <span class="xref">BinaryExpression</span>&gt;</td>
+        <td><span class="parametername">parentBinaryExpressionFactory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;ComparisonItemType, <span class="xref">System.Nullable</span>&lt;<span class="xref">IEnumerable</span>&lt;ThenComparisonItemType&gt;&gt;&gt;</td>
+        <td><span class="parametername">comparisonItemsFactory</span></td>
+        <td><p>A collection expression that might return a comparison value list with at least one item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Teronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags.html">ComparisonItemsBehaviourFlags</a></td>
+        <td><span class="parametername">comparisonItemsBehaviourFlags</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder-2.DeferredThenCreateBuilder-1.html">CollectionConstantPredicateBuilder.DeferredThenCreateBuilder</a>&lt;ThenComparisonItemType&gt;</td>
+        <td><p>A deferred collection constant predicate builder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">ThenComparisonItemType</span></td>
+        <td><p>The type of an item of the return value of <code data-dev-comment-type="paramref" class="paramref">comparisonItemsFactory</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_Teronis_EntityFrameworkCore_Query_IThenInCollectionConstantPredicateBuilder_SourceType_ComparisonItemType__ThenCreateFromCollection__1_Func_Expression_Expression_BinaryExpression__Func__1_System_Nullable_IEnumerable___0____Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602.Teronis%23EntityFrameworkCore%23Query%23IThenInCollectionConstantPredicateBuilder%7BSourceType%2CComparisonItemType%7D%23ThenCreateFromCollection%60%601(Func%7BExpression%2CExpression%2CBinaryExpression%7D%2CFunc%7B%601%2CSystem.Nullable%7BIEnumerable%7B%60%600%7D%7D%7D%2CTeronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L215">View Source</a>
+  </span>
+  <a id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_Teronis_EntityFrameworkCore_Query_IThenInCollectionConstantPredicateBuilder_SourceType_ComparisonItemType__ThenCreateFromCollection_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.Teronis#EntityFrameworkCore#Query#IThenInCollectionConstantPredicateBuilder{SourceType,ComparisonItemType}#ThenCreateFromCollection*"></a>
+  <h4 id="Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2_Teronis_EntityFrameworkCore_Query_IThenInCollectionConstantPredicateBuilder_SourceType_ComparisonItemType__ThenCreateFromCollection__1_Func_Expression_Expression_BinaryExpression__Func__1_System_Nullable_IEnumerable___0____Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_" data-uid="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder`2.Teronis#EntityFrameworkCore#Query#IThenInCollectionConstantPredicateBuilder{SourceType,ComparisonItemType}#ThenCreateFromCollection``1(Func{Expression,Expression,BinaryExpression},Func{`1,System.Nullable{IEnumerable{``0}}},Teronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags)">IThenInCollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;.ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt;, Func&lt;ComparisonItemType, Nullable&lt;IEnumerable&lt;ThenComparisonItemType&gt;&gt;&gt;, ComparisonItemsBehaviourFlags)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;.IDeferredThenCreateCollectionConstantBuilder&lt;ThenComparisonItemType&gt; IThenInCollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;.ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt; parentBinaryExpressionFactory, Func&lt;ComparisonItemType, IEnumerable&lt;ThenComparisonItemType&gt;?&gt; comparisonItemsFactory, ComparisonItemsBehaviourFlags comparisonItemsBehaviourFlags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Expression</span>, <span class="xref">Expression</span>, <span class="xref">BinaryExpression</span>&gt;</td>
+        <td><span class="parametername">parentBinaryExpressionFactory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;ComparisonItemType, <span class="xref">System.Nullable</span>&lt;<span class="xref">IEnumerable</span>&lt;ThenComparisonItemType&gt;&gt;&gt;</td>
+        <td><span class="parametername">comparisonItemsFactory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Teronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags.html">ComparisonItemsBehaviourFlags</a></td>
+        <td><span class="parametername">comparisonItemsBehaviourFlags</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder-2.IDeferredThenCreateCollectionConstantBuilder-1.html">CollectionConstantPredicateBuilder.IDeferredThenCreateCollectionConstantBuilder</a>&lt;ThenComparisonItemType&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">ThenComparisonItemType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Teronis.EntityFrameworkCore.Query.IThenInCollectionConstantPredicateBuilder-2.html">IThenInCollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_CollectionConstantPredicateBuilder_2.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.CollectionConstantPredicateBuilder%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/CollectionConstantPredicateBuilder{SourceType,ComparisonType}.cs/#L21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
