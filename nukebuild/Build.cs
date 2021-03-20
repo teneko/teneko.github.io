@@ -27,46 +27,60 @@ partial class Build : NukeBuild
     ///   - Microsoft VisualStudio     https://nuke.build/visualstudio
     ///   - Microsoft VSCode           https://nuke.build/vscode
 
-    public static int Main () => Execute<Build>(x => x.Compile);
+    public static int Main() => Execute<Build>(x => x.Generate);
 
     [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
     readonly GitRepository TeronisDotNetRepository;
 
-    AbsolutePath RootObjectDirectory => RootDirectory / "obj";
-    AbsolutePath TeronisDotNetDirectory => RootObjectDirectory / TeronisDotNetRepository.Identifier;
-    AbsolutePath TeronisDotNetSolutionFile => TeronisDotNetDirectory / "Teronis.DotNet~Publish.sln";
+    AbsolutePath DocsDirectory => RootDirectory / "docs";
+
+    //AbsolutePath ObjDirectory => RootDirectory / "obj";
+    AbsolutePath DocsMetaDirectory => RootDirectory / "docs-meta";
+
+    AbsolutePath DocsMetaObjDirectory => DocsMetaDirectory / "obj";
+    AbsolutePath TeronisDotNetGitHubCloneDirectory => DocsMetaObjDirectory / (TeronisDotNetRepository.Identifier.Split("/").Last() + "~GitHubClone");
+    AbsolutePath TeronisDotNetGitHubCloneSolutionFile => TeronisDotNetGitHubCloneDirectory / "Teronis.DotNet~Publish.sln";
+
+    [PackageExecutable("docfx.console", "docfx.exe")]
+    readonly Tool DocFx;
 
     readonly Lazy<Solution> LazyTeronisDotNetSolution;
 
-    public Build() {
+    public Build()
+    {
         TeronisDotNetRepository = GitRepository.FromUrl("https://github.com/teroneko/Teronis.DotNet.git");
-        LazyTeronisDotNetSolution = new Lazy<Solution>(() => ParseSolution(TeronisDotNetSolutionFile));
+        LazyTeronisDotNetSolution = new Lazy<Solution>(() => ParseSolution(TeronisDotNetGitHubCloneSolutionFile));
     }
 
     Target Clean => _ => _
         .Before(Restore)
         .Executes(() =>
         {
-            DeleteDirectory(RootObjectDirectory);
+            DeleteDirectory(DocsMetaObjDirectory);
+            DeleteDirectory(DocsDirectory);
         });
 
     Target Restore => _ => _
-        .Before(Compile)
+        .Before(Generate)
         .Executes(() =>
         {
             DotNetRestore();
-            RunSimpleProcess(GitExecutableName, $"clone --depth 1 {TeronisDotNetRepository.HttpsUrl} {TeronisDotNetDirectory}", echoCommand: true);
+            RunSimpleProcess(GitExecutableName, $"clone --depth 1 {TeronisDotNetRepository.HttpsUrl} {TeronisDotNetGitHubCloneDirectory}", echoCommand: true);
         });
 
-    Target Compile => _ => _
+    Target Generate => _ => _
         .DependsOn(Restore)
         .Executes(() =>
         {
-            LazyTeronisDotNetSolution.Value.AllProjects.ForEach(project => {
-                //RunDocFx(
-            });
+            DocFx.Invoke(
+                arguments: "metadata ./docfx.json",
+                workingDirectory: DocsMetaDirectory);
+
+            DocFx.Invoke(
+                arguments: "build ./docfx.json",
+                workingDirectory: DocsMetaDirectory);
         });
 
 }

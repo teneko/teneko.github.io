@@ -10,5 +10,5 @@ partial class Build
         string.Join(' ', args);
 
     public static void RunDocFx(string args) =>
-        RunSimpleProcess(DotNetExecutableName, Arguments("tool run docfx --", args), echoCommand: true);
+        RunSimpleProcess(DotNetExecutableName, Arguments("tool run docfx -- ", args), echoCommand: true);
     }

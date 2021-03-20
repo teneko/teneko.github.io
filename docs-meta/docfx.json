@@ -1,0 +1,37 @@
+{
+  "metadata": [
+    {
+      "src": {
+        "files": [
+          "Teronis.DotNet~Publish.sln"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**"
+        ],
+        "src": "obj/Teronis.DotNet~GitHubClone"
+      },
+      "dest": "obj/Teronis.DotNet~DocFxMetadata"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "./obj/Teronis.DotNet~DocFxMetadata",
+        "dest": "Teronis.DotNet"
+      },
+      {
+        "files": [ "toc.yml", "index.md" ]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "Teroneko GitHub Page",
+      "_enableSearch": true
+    },
+    "markdownEngineName": "markdig",
+    "dest": "../docs/Teronis.DotNet"
+  }
+}
