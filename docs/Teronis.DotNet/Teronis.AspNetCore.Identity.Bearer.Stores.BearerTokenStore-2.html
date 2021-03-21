@@ -158,14 +158,122 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteAsync__1_CancellationToken_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore%602.DeleteAsync(%601%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Stores/BearerTokenStore{DbContextType,BearerTokenType}.cs/#L39">View Source</a>
+  </span>
+  <a id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.DeleteAsync*"></a>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteAsync__1_CancellationToken_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.DeleteAsync(`1,CancellationToken)">DeleteAsync(BearerTokenType, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Deletes refresh token.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(BearerTokenType refreshTokenEntity, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BearerTokenType</span></td>
+        <td><span class="parametername">refreshTokenEntity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteAsync_Guid_CancellationToken_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore%602.DeleteAsync(Guid%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Stores/BearerTokenStore{DbContextType,BearerTokenType}.cs/#L52">View Source</a>
+  </span>
+  <a id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.DeleteAsync*"></a>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteAsync_Guid_CancellationToken_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.DeleteAsync(Guid,CancellationToken)">DeleteAsync(Guid, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Deletes refresh token by identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(Guid refreshTokenId, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><span class="parametername">refreshTokenId</span></td>
+        <td><p>The refresh token identifier.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteExpiredOnesAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore%602.DeleteExpiredOnesAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Stores/BearerTokenStore{DbContextType,BearerTokenType}.cs/#L59">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Stores/BearerTokenStore{DbContextType,BearerTokenType}.cs/#L86">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteExpiredOnesAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.DeleteExpiredOnesAsync*"></a>
   <h4 id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_DeleteExpiredOnesAsync_CancellationToken_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.DeleteExpiredOnesAsync(CancellationToken)">DeleteExpiredOnesAsync(CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Deletes expired bearer tokens.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -366,66 +474,15 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_TryDeleteAsync__1_CancellationToken_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore%602.TryDeleteAsync(%601%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Stores/BearerTokenStore{DbContextType,BearerTokenType}.cs/#L36">View Source</a>
-  </span>
-  <a id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_TryDeleteAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.TryDeleteAsync*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_TryDeleteAsync__1_CancellationToken_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.TryDeleteAsync(`1,CancellationToken)">TryDeleteAsync(BearerTokenType, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; TryDeleteAsync(BearerTokenType refreshTokenEntity, CancellationToken cancellationToken = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">BearerTokenType</span></td>
-        <td><span class="parametername">refreshTokenEntity</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_TryDeleteAsync_Guid_CancellationToken_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore%602.TryDeleteAsync(Guid%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Stores/BearerTokenStore{DbContextType,BearerTokenType}.cs/#L47">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Stores/BearerTokenStore{DbContextType,BearerTokenType}.cs/#L69">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_TryDeleteAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.TryDeleteAsync*"></a>
   <h4 id="Teronis_AspNetCore_Identity_Bearer_Stores_BearerTokenStore_2_TryDeleteAsync_Guid_CancellationToken_" data-uid="Teronis.AspNetCore.Identity.Bearer.Stores.BearerTokenStore`2.TryDeleteAsync(Guid,CancellationToken)">TryDeleteAsync(Guid, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Deletes refresh token by identifier but skips when the bearer token identifier does not exist.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -444,7 +501,8 @@
       <tr>
         <td><span class="xref">Guid</span></td>
         <td><span class="parametername">refreshTokenId</span></td>
-        <td></td>
+        <td><p>The refresh token identifier.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">CancellationToken</span></td>

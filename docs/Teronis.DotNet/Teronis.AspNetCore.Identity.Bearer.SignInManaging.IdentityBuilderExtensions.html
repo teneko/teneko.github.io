@@ -103,7 +103,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_SignInManaging_IdentityBuilderExtensions_AddBearerSignInManager__1_IdentityBuilder_System_Nullable_Action_Teronis_AspNetCore_Identity_Bearer_BearerSignInManagerOptions___.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.SignInManaging.IdentityBuilderExtensions.AddBearerSignInManager%60%601(IdentityBuilder%2CSystem.Nullable%7BAction%7BTeronis.AspNetCore.Identity.Bearer.BearerSignInManagerOptions%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/IdentityBuilderExtensions.cs/#L92">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/IdentityBuilderExtensions.cs/#L102">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_SignInManaging_IdentityBuilderExtensions_AddBearerSignInManager_" data-uid="Teronis.AspNetCore.Identity.Bearer.SignInManaging.IdentityBuilderExtensions.AddBearerSignInManager*"></a>
   <h4 id="Teronis_AspNetCore_Identity_Bearer_SignInManaging_IdentityBuilderExtensions_AddBearerSignInManager__1_IdentityBuilder_System_Nullable_Action_Teronis_AspNetCore_Identity_Bearer_BearerSignInManagerOptions___" data-uid="Teronis.AspNetCore.Identity.Bearer.SignInManaging.IdentityBuilderExtensions.AddBearerSignInManager``1(IdentityBuilder,System.Nullable{Action{Teronis.AspNetCore.Identity.Bearer.BearerSignInManagerOptions}})">AddBearerSignInManager&lt;DbContextType&gt;(IdentityBuilder, Nullable&lt;Action&lt;BearerSignInManagerOptions&gt;&gt;)</h4>
@@ -171,11 +171,12 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_SignInManaging_IdentityBuilderExtensions_AddBearerSignInManager__3_IdentityBuilder_Func_IServiceProvider_Teronis_AspNetCore_Identity_Bearer_IBearerSignInManager__System_Nullable_Action_Teronis_AspNetCore_Identity_Bearer_BearerSignInManagerOptions___.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.SignInManaging.IdentityBuilderExtensions.AddBearerSignInManager%60%603(IdentityBuilder%2CFunc%7BIServiceProvider%2CTeronis.AspNetCore.Identity.Bearer.IBearerSignInManager%7D%2CSystem.Nullable%7BAction%7BTeronis.AspNetCore.Identity.Bearer.BearerSignInManagerOptions%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/IdentityBuilderExtensions.cs/#L80">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/IdentityBuilderExtensions.cs/#L90">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_SignInManaging_IdentityBuilderExtensions_AddBearerSignInManager_" data-uid="Teronis.AspNetCore.Identity.Bearer.SignInManaging.IdentityBuilderExtensions.AddBearerSignInManager*"></a>
   <h4 id="Teronis_AspNetCore_Identity_Bearer_SignInManaging_IdentityBuilderExtensions_AddBearerSignInManager__3_IdentityBuilder_Func_IServiceProvider_Teronis_AspNetCore_Identity_Bearer_IBearerSignInManager__System_Nullable_Action_Teronis_AspNetCore_Identity_Bearer_BearerSignInManagerOptions___" data-uid="Teronis.AspNetCore.Identity.Bearer.SignInManaging.IdentityBuilderExtensions.AddBearerSignInManager``3(IdentityBuilder,Func{IServiceProvider,Teronis.AspNetCore.Identity.Bearer.IBearerSignInManager},System.Nullable{Action{Teronis.AspNetCore.Identity.Bearer.BearerSignInManagerOptions}})">AddBearerSignInManager&lt;DbContextType, UserType, RoleType&gt;(IdentityBuilder, Func&lt;IServiceProvider, IBearerSignInManager&gt;, Nullable&lt;Action&lt;BearerSignInManagerOptions&gt;&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds <a class="xref" href="Teronis.AspNetCore.Identity.Bearer.IBearerSignInManager.html">IBearerSignInManager</a> created from <code data-dev-comment-type="paramref" class="paramref">bearerSignInManagerFactory</code> to services.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -195,17 +196,20 @@
       <tr>
         <td><span class="xref">IdentityBuilder</span></td>
         <td><span class="parametername">identityBuilder</span></td>
-        <td></td>
+        <td><p>The identity builder.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Func</span>&lt;<span class="xref">IServiceProvider</span>, <a class="xref" href="Teronis.AspNetCore.Identity.Bearer.IBearerSignInManager.html">IBearerSignInManager</a>&gt;</td>
         <td><span class="parametername">bearerSignInManagerFactory</span></td>
-        <td></td>
+        <td><p>A <a class="xref" href="Teronis.AspNetCore.Identity.Bearer.IBearerSignInManager.html">IBearerSignInManager</a> factory.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<a class="xref" href="Teronis.AspNetCore.Identity.Bearer.BearerSignInManagerOptions.html">BearerSignInManagerOptions</a>&gt;&gt;</td>
         <td><span class="parametername">configureOptions</span></td>
-        <td></td>
+        <td><p>Configures options.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -235,15 +239,18 @@
     <tbody>
       <tr>
         <td><span class="parametername">DbContextType</span></td>
-        <td></td>
+        <td><p>Type of database context.</p>
+</td>
       </tr>
       <tr>
         <td><span class="parametername">UserType</span></td>
-        <td></td>
+        <td><p>Type of user entity.</p>
+</td>
       </tr>
       <tr>
         <td><span class="parametername">RoleType</span></td>
-        <td></td>
+        <td><p>Type of role entity.</p>
+</td>
       </tr>
     </tbody>
   </table>
