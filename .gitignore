@@ -265,3 +265,10 @@ __pycache__/
 
 # Ignore databases
 *.db
+
+# Ignore jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
