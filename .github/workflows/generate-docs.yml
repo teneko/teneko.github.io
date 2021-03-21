@@ -1,8 +1,8 @@
 name: Generate Docs
 
 on:
-  push:
-    branches: [ master ]
+  repository_dispatch:
+    types: [ generate-docs ]
 
 jobs:
   build:
