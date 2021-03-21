@@ -83,6 +83,10 @@ public static IMvcBuilder AddBearerSignInControllers(this IMvcBuilder mvcBuilder
 }
 {% endhighlight %}
 
+In the above code sequence you can see that we are creating an application part that will announce our controller as available. No more magic.
+
+*This is my first post; thanks for reading it. 🙂*
+
 [ApiExplorer]: https://github.com/aspnet/AspNetWebStack/blob/main/src/System.Web.Http/Description/ApiExplorer.cs
 [Andrew Lock]: https://andrewlock.net/when-asp-net-core-cant-find-your-controller-debugging-application-parts/
 [TypesProvidingApplicationPart Code]: https://teroneko.de/docs/Teronis.DotNet/Teronis.Mvc.TypesProvidingApplicationPart.html
