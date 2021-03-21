@@ -169,8 +169,11 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+
+  - build.cmd
+  - build.sh
+  - build.ps1
+  - CNAME
 keep_files:
   - .git
   - .svn
