@@ -1,7 +1,7 @@
 ---
 title: How to prevent controller auto-discovery in ASP.NET Core
 category: ASP.NET Core MVC
-tags: [ASP.NET Core, MVC]
+tags: [ASP.NET Core, MVC, Controller]
 ---
 
 When you are a library author of controllers and the user has the ability to use their desired controllers from your library, then your customer will somewhat wonder that not only the desired but also the unsdesired controllers are showing up in the API documentation of Swagger/OpenAPI provided by Swashbuckle or NSwag. So, what's the reason?
