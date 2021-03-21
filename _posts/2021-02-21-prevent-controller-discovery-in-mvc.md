@@ -1,6 +1,6 @@
 ---
 title: How to prevent controller auto-discovery in ASP.NET Core
-category: ASP.NET Core MVC
+category: "asp-net-core-mvc"
 tags: [ASP.NET Core, MVC, Controller]
 ---
 
