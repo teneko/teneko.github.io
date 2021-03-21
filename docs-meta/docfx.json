@@ -28,10 +28,10 @@
       }
     ],
     "globalMetadata": {
-      "_appTitle": "Teroneko GitHub Page",
+      "_appTitle": "Documentations",
       "_enableSearch": true
     },
     "markdownEngineName": "markdig",
-    "dest": "../docs/Teronis.DotNet"
+    "dest": "../docs"
   }
 }

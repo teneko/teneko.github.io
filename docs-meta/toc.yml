@@ -1,4 +1,4 @@
-- name: Home
+- name: Blogs
   href: https://teroneko.de/
 - name: Teronis.DotNet Docs
-  href: https://teroneko.de/docs/Teronis.DotNet
+  href: obj/Teronis.DotNet~DocFxMetadata/
