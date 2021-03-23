@@ -14,23 +14,23 @@ For more informations regarding this bug take a look at:
 1. [The use of namespaces that partially share names with those in Blazor project will fail build of project #28012](https://github.com/dotnet/aspnetcore/issues/28012)
 2. [Update Razor compiler to use global:: more liberally #18757](https://github.com/dotnet/aspnetcore/issues/18757)
 
-In case you are the luckily author of a typical .razor component that resides in the namespace `<name>.AspNetCore[.<name>]` then there are two workarounds.
+In case you are the luckily author of a typical .razor component that resides in the namespace `<name>.AspNetCore[.<name>]` then there are three workarounds.
 
 ## First workaround (worst)
 
 Use another namespace overall.
 
-### Disadvantages
+**Consequence**
 
-1. You cannot use your desired namespace. 
+You cannot use your desired namespace. 
 
 ## Seocond workaround
 
 Make use of `@namespace` in `<name>.razor` and if `<name>.razor.cs` exists, update the namespace in `<name>.razor.cs` accordingly.
 
-### Disadvantages 
+**Consequence**
 
-1. The namespace of components and other classes differ. 
+The namespace of components and other classes differ. 
 
 ## Third workaround (best)
 
@@ -53,6 +53,6 @@ namespace <name>.AspNetCore.<name>
 2\. Imitate render logic from `<name>.razor` in {% highlight csharp %}protected override void BuildRenderTree(RenderTreeBuilder builder){% endhighlight %}
 <br/>3\. Remove `<name>.razor`
 
-### Disadvantages
+**Consequence**
 
-1. You have to learn how to implement render logic.
+You have to know or learn how to implement render logic.
