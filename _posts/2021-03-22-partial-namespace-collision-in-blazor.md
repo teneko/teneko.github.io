@@ -14,7 +14,7 @@ For more informations regarding this bug take a look at:
 1. [The use of namespaces that partially share names with those in Blazor project will fail build of project #28012](https://github.com/dotnet/aspnetcore/issues/28012)
 2. [Update Razor compiler to use global:: more liberally #18757](https://github.com/dotnet/aspnetcore/issues/18757)
 
-In case you are the luckily author of a typical .razor component that resides in the namespace `<name>.AspNetCore[.<name>]` then there are three workarounds.
+In case you are the luckily author of a typical `.razor` component that resides in the namespace `<name>.AspNetCore[.<name>]` then there are three workarounds.
 
 ## First workaround (worst)
 
