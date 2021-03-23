@@ -50,6 +50,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.NUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.NUnitTests.html",
+          "hash": "YwouTodMqyaTwJGU/49ORg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.NUnitTestsReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.NUnitTestsReport.html",
+          "hash": "lv5kPL1FAL18+LxfwIEa6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.NUnitTestsReportDefaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.NUnitTestsReportDefaults.html",
+          "hash": "HW3tYvMM7ksGtJZ3AUjPQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.WebAssemblyHostExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.WebAssemblyHostExtensions.html",
+          "hash": "4eskzNtrYSTg/mX9B5rkyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.html",
+          "hash": "gwkN3FjMN5zg8ndGbD1P0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Identity.AccountManaging.AccountManager-1.yml",
       "output": {
         ".html": {
@@ -6278,6 +6338,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.SlimLazy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.SlimLazy-1.html",
+          "hash": "HtD+H7jKUqnY/GhHh8ZJeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource-1.yml",
       "output": {
         ".html": {
@@ -6318,7 +6390,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.html",
-          "hash": "1gOmbUW7aeARNuRkrRc0Ug=="
+          "hash": "gy8FW0H7QswcoSkW1WsLKA=="
         }
       },
       "is_incremental": false,
@@ -7843,6 +7915,186 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.html",
           "hash": "0O3AoILtSsi2FXSOZuRRFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.Api.ITestResultExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.Api.ITestResultExtensions.html",
+          "hash": "S6BsuzpzPtYwA4J7uzpUnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.html",
+          "hash": "rPs7o+jfY9SCkKaE/xUXSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.Api.html",
+          "hash": "UAmQtjwWUczHyvJWPeFfjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.IInitializableTaskTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.IInitializableTaskTests.html",
+          "hash": "WP51Eq3lfKVMkp5SQyCzCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.IServiceProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.IServiceProviderExtensions.html",
+          "hash": "vt+EBae4+pjhErfjCJMOtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.ITaskTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.ITaskTests.html",
+          "hash": "CQFDKWKkhxTtozMux3emKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.LazyTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.LazyTask.html",
+          "hash": "DKzH3LxuLC3QhkgV+5UoUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.LazyTaskList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.LazyTaskList.html",
+          "hash": "NlGDpuuQynQOIOl6z4P8og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskExtensions.html",
+          "hash": "CwIx2neOgIjOS4MyZajVvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestSourceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestSourceAttribute.html",
+          "hash": "wNKgpKFZ/fIr6xMtwSCfrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTests-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTests-1.html",
+          "hash": "KpEv5qVP6cqFqs6fOSijJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsAttribute.html",
+          "hash": "aGbj3vl4DksovUmAbjJmWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsClassInstanceCollector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsClassInstanceCollector.html",
+          "hash": "oyMOZF/c0tnu8WzggxGCsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsClassInstanceCollectorEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsClassInstanceCollectorEntry.html",
+          "hash": "ef9thagdxUA8+kSdh5x7Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.html",
+          "hash": "7Et1BvmXqojhTR4aV+nBlw=="
         }
       },
       "is_incremental": false,
@@ -10218,7 +10470,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "gz0bpQbyEkh8/m+Bf9HpPA=="
+          "hash": "DjykXb5NzTt7CNOShBURxw=="
         }
       },
       "is_incremental": false,
@@ -10257,7 +10509,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 849,
+          "total_file_count": 870,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
