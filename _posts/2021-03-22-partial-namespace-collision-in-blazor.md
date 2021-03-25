@@ -1,7 +1,9 @@
 ---
 title: Workaround partial namespace collision in ASP.NET Core Blazor
-category: "asp-net-core-blazor"
+category: "asp-net-core"
 tags: [ASP.NET Core, Blazor]
+redirect_from:
+  - /asp-net-core-blazor/partial-namespace-collision-in-blazor/
 ---
 
 Errors like these are very annoying:
