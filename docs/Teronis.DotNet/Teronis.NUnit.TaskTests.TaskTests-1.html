@@ -146,7 +146,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected TaskTests(LazyTaskList awaitableTestList)</code></pre>
+    <pre><code class="lang-csharp hljs">protected TaskTests(LazyTaskList assertableTaskFactoryList)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -160,7 +160,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Teronis.NUnit.TaskTests.LazyTaskList.html">LazyTaskList</a></td>
-        <td><span class="parametername">awaitableTestList</span></td>
+        <td><span class="parametername">assertableTaskFactoryList</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -169,18 +169,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_awaitableTestList.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.awaitableTestList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_AssertableTaskFactoryList.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.AssertableTaskFactoryList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L13">View Source</a>
   </span>
-  <a id="Teronis_NUnit_TaskTests_TaskTests_1_awaitableTestList_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.awaitableTestList*"></a>
-  <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_awaitableTestList" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.awaitableTestList">awaitableTestList</h4>
+  <a id="Teronis_NUnit_TaskTests_TaskTests_1_AssertableTaskFactoryList_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.AssertableTaskFactoryList*"></a>
+  <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_AssertableTaskFactoryList" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.AssertableTaskFactoryList">AssertableTaskFactoryList</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual LazyTaskList awaitableTestList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual LazyTaskList AssertableTaskFactoryList { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,7 +204,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_AddTest_Func_Task__System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.AddTest(Func%7BTask%7D%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L35">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L48">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTests_1_AddTest_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.AddTest*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_AddTest_Func_Task__System_Nullable_System_String__" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.AddTest(Func{Task},System.Nullable{System.String})">AddTest(Func&lt;Task&gt;, Nullable&lt;String&gt;)</h4>
@@ -212,7 +212,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static LazyTask AddTest(Func&lt;Task&gt; testProvider, string? callerName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static LazyTask AddTest(Func&lt;Task&gt; assertableTaskFactory, string? testName = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,13 +226,14 @@
     <tbody>
       <tr>
         <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">testProvider</span></td>
+        <td><span class="parametername">assertableTaskFactory</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">callerName</span></td>
-        <td></td>
+        <td><span class="parametername">testName</span></td>
+        <td><p>Inferred by <see cref="!:CallerMemberNameAttribute"></see>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -256,15 +257,16 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_AddTest_Teronis_NUnit_TaskTests_LazyTaskList_Func_Task__System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.AddTest(Teronis.NUnit.TaskTests.LazyTaskList%2CFunc%7BTask%7D%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L21">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L28">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTests_1_AddTest_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.AddTest*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_AddTest_Teronis_NUnit_TaskTests_LazyTaskList_Func_Task__System_Nullable_System_String__" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.AddTest(Teronis.NUnit.TaskTests.LazyTaskList,Func{Task},System.Nullable{System.String})">AddTest(LazyTaskList, Func&lt;Task&gt;, Nullable&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds <code data-dev-comment-type="paramref" class="paramref">assertableTaskFactory</code> to <code data-dev-comment-type="paramref" class="paramref">assertableTaskFactoryList</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static LazyTask AddTest(LazyTaskList taskTestList, Func&lt;Task&gt; func, string? callerName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static LazyTask AddTest(LazyTaskList assertableTaskFactoryList, Func&lt;Task&gt; assertableTaskFactory, string? testName = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -278,18 +280,20 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Teronis.NUnit.TaskTests.LazyTaskList.html">LazyTaskList</a></td>
-        <td><span class="parametername">taskTestList</span></td>
+        <td><span class="parametername">assertableTaskFactoryList</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">func</span></td>
-        <td></td>
+        <td><span class="parametername">assertableTaskFactory</span></td>
+        <td><p>The assertable task factory.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">callerName</span></td>
-        <td></td>
+        <td><span class="parametername">testName</span></td>
+        <td><p>Inferred by <see cref="!:CallerMemberNameAttribute"></see>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -310,49 +314,21 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_AwaitTaskTestsWhileIgnoringExceptionsAsync.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.AwaitTaskTestsWhileIgnoringExceptionsAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_GetAssertableTasks.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.GetAssertableTasks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L52">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L77">View Source</a>
   </span>
-  <a id="Teronis_NUnit_TaskTests_TaskTests_1_AwaitTaskTestsWhileIgnoringExceptionsAsync_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.AwaitTaskTestsWhileIgnoringExceptionsAsync*"></a>
-  <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_AwaitTaskTestsWhileIgnoringExceptionsAsync" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.AwaitTaskTestsWhileIgnoringExceptionsAsync">AwaitTaskTestsWhileIgnoringExceptionsAsync()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task AwaitTaskTestsWhileIgnoringExceptionsAsync()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_GetAwaitableTasksToBeTested.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.GetAwaitableTasksToBeTested%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L59">View Source</a>
-  </span>
-  <a id="Teronis_NUnit_TaskTests_TaskTests_1_GetAwaitableTasksToBeTested_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.GetAwaitableTasksToBeTested*"></a>
-  <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_GetAwaitableTasksToBeTested" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.GetAwaitableTasksToBeTested">GetAwaitableTasksToBeTested()</h4>
-  <div class="markdown level1 summary"><p>Returns all tasks that you can await (e.g. rethrow (assertion) exceptions).</p>
+  <a id="Teronis_NUnit_TaskTests_TaskTests_1_GetAssertableTasks_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.GetAssertableTasks*"></a>
+  <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_GetAssertableTasks" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.GetAssertableTasks">GetAssertableTasks()</h4>
+  <div class="markdown level1 summary"><p>Returns all tasks that you can await (e.g. rethrow (assertion) exceptions)
+from <a class="xref" href="Teronis.NUnit.TaskTests.TaskTests-1.html#Teronis_NUnit_TaskTests_TaskTests_1_AssertableTaskFactoryList">AssertableTaskFactoryList</a>. Each assertable task represents
+one test.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Task&gt; GetAwaitableTasksToBeTested()</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Task&gt; GetAssertableTasks()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -365,7 +341,7 @@
     <tbody>
       <tr>
         <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Task</span>&gt;</td>
-        <td><p>The tasks (yielded).</p>
+        <td><p>The assertable tasks (yielded).</p>
 </td>
       </tr>
     </tbody>
@@ -375,7 +351,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_Initialize.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L46">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L62">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTests_1_Initialize_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.Initialize*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_Initialize" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.Initialize">Initialize()</h4>
@@ -407,7 +383,7 @@ list. Must be called when you use <a class="xref" href="Teronis.NUnit.TaskTests.
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_InitializeInstance.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.InitializeInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L38">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L51">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTests_1_InitializeInstance_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.InitializeInstance*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_InitializeInstance" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.InitializeInstance">InitializeInstance()</h4>
@@ -417,6 +393,36 @@ list. Must be called when you use <a class="xref" href="Teronis.NUnit.TaskTests.
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void InitializeInstance()</code></pre>
   </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_PrepareTasksAssertion.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.PrepareTasksAssertion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L68">View Source</a>
+  </span>
+  <a id="Teronis_NUnit_TaskTests_TaskTests_1_PrepareTasksAssertion_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.PrepareTasksAssertion*"></a>
+  <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_PrepareTasksAssertion" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.PrepareTasksAssertion">PrepareTasksAssertion()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task PrepareTasksAssertion()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
   <span class="small pull-right mobile-hide">
@@ -424,7 +430,7 @@ list. Must be called when you use <a class="xref" href="Teronis.NUnit.TaskTests.
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTests_1_Teronis_NUnit_TaskTests_IInitializableTaskTests_Initialize.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTests%601.Teronis%23NUnit%23TaskTests%23IInitializableTaskTests%23Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L66">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTests.cs/#L84">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTests_1_Teronis_NUnit_TaskTests_IInitializableTaskTests_Initialize_" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.Teronis#NUnit#TaskTests#IInitializableTaskTests#Initialize*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTests_1_Teronis_NUnit_TaskTests_IInitializableTaskTests_Initialize" data-uid="Teronis.NUnit.TaskTests.TaskTests`1.Teronis#NUnit#TaskTests#IInitializableTaskTests#Initialize">IInitializableTaskTests.Initialize()</h4>

@@ -83,10 +83,14 @@
   
   <h1 id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner" class="text-break">Class NUnitSingleThreadAssemblyRunner
   </h1>
-  <div class="markdown level0 summary"><p>Creates a runner with following hardcoded settings:
+  <div class="markdown level0 summary"><p>
+Creates a runner with following hardcoded settings:
 <br>[FrameworkPackageSettings.NumberOfTestWorkers] = 0,
 <br>[FrameworkPackageSettings.SynchronousEvents] = true,
-<br>[FrameworkPackageSettings.RunOnMainThread] = true</p>
+<br>[FrameworkPackageSettings.RunOnMainThread] = true
+<p>
+Uses <see cref="!:NUnitTestAssemblyRunner"></see> internally.
+</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -107,7 +111,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner__ctor.md&amp;value=---%0Auid%3A%20Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L21">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L37">View Source</a>
   </span>
   <a id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner__ctor_" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.#ctor*"></a>
   <h4 id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner__ctor" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.#ctor">NUnitSingleThreadAssemblyRunner()</h4>
@@ -117,6 +121,38 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public NUnitSingleThreadAssemblyRunner()</code></pre>
   </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner__ctor_System_Nullable_IDictionary_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.%23ctor(System.Nullable%7BIDictionary%7BSystem.String%2CSystem.Object%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L25">View Source</a>
+  </span>
+  <a id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner__ctor_" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.#ctor*"></a>
+  <h4 id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner__ctor_System_Nullable_IDictionary_System_String_System_Object___" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.#ctor(System.Nullable{IDictionary{System.String,System.Object}})">NUnitSingleThreadAssemblyRunner(Nullable&lt;IDictionary&lt;String, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NUnitSingleThreadAssemblyRunner(IDictionary&lt;string, object&gt;? settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -124,7 +160,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner_LoadTestsInAssembly_Assembly_.md&amp;value=---%0Auid%3A%20Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.LoadTestsInAssembly(Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L33">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L40">View Source</a>
   </span>
   <a id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner_LoadTestsInAssembly_" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.LoadTestsInAssembly*"></a>
   <h4 id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner_LoadTestsInAssembly_Assembly_" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.LoadTestsInAssembly(Assembly)">LoadTestsInAssembly(Assembly)</h4>
@@ -156,7 +192,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner_RunTests_System_Nullable_ITestListener__System_Nullable_ITestFilter__.md&amp;value=---%0Auid%3A%20Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.RunTests(System.Nullable%7BITestListener%7D%2CSystem.Nullable%7BITestFilter%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L36">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L43">View Source</a>
   </span>
   <a id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner_RunTests_" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.RunTests*"></a>
   <h4 id="Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner_RunTests_System_Nullable_ITestListener__System_Nullable_ITestFilter__" data-uid="Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.RunTests(System.Nullable{ITestListener},System.Nullable{ITestFilter})">RunTests(Nullable&lt;ITestListener&gt;, Nullable&lt;ITestFilter&gt;)</h4>
@@ -221,7 +257,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_Api_NUnitSingleThreadAssemblyRunner.md&amp;value=---%0Auid%3A%20Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/NUnitSingleThreadAssemblyRunner.cs/#L20" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

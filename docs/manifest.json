@@ -50,11 +50,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.IServiceProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.IServiceProviderExtensions.html",
+          "hash": "nvxat+aWzdl9BjTi6kAduQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.NUnitTests.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.NUnitTests.html",
-          "hash": "YwouTodMqyaTwJGU/49ORg=="
+          "hash": "tsyvmxEhiOyMfmNY2gRY3w=="
         }
       },
       "is_incremental": false,
@@ -86,23 +98,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.WebAssemblyHostExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.WebAssemblyHostExtensions.html",
-          "hash": "4eskzNtrYSTg/mX9B5rkyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Components.NUnit.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Components.NUnit.html",
-          "hash": "gwkN3FjMN5zg8ndGbD1P0g=="
+          "hash": "iToA2vq6dA4BgSMczKBo8g=="
         }
       },
       "is_incremental": false,
@@ -4782,7 +4782,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Localization.StringResources.html",
-          "hash": "lFlRub3s6hUhopTTSGhxrA=="
+          "hash": "T/lz2RCxyl4C94q6PEv9Vw=="
         }
       },
       "is_incremental": false,
@@ -4802,11 +4802,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.MSBuild.MetadataToStringTask.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.MSBuild.BuildTasks.GetSolutionProjects.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.MSBuild.MetadataToStringTask.html",
-          "hash": "SU5toqL2G4gN59rgF67VSw=="
+          "relative_path": "Teronis.DotNet/Teronis.MSBuild.BuildTasks.GetSolutionProjects.html",
+          "hash": "CfHVzhe+fqNO1Xlp86sE+A=="
         }
       },
       "is_incremental": false,
@@ -4814,11 +4814,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.MSBuild.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.MSBuild.BuildTasks.MetadataToString.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.MSBuild.html",
-          "hash": "jVVJAoKj8f0Y6FE1uldcsg=="
+          "relative_path": "Teronis.DotNet/Teronis.MSBuild.BuildTasks.MetadataToString.html",
+          "hash": "zDA3uYrdFjMXI7DoL6A8lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.MSBuild.BuildTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.MSBuild.BuildTasks.html",
+          "hash": "7B05BWFoRBI7ZGl/magqKw=="
         }
       },
       "is_incremental": false,
@@ -7926,7 +7938,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.Api.ITestResultExtensions.html",
-          "hash": "S6BsuzpzPtYwA4J7uzpUnw=="
+          "hash": "X+lpzW/lalOR2ao8KKIngw=="
         }
       },
       "is_incremental": false,
@@ -7938,7 +7950,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.Api.NUnitSingleThreadAssemblyRunner.html",
-          "hash": "rPs7o+jfY9SCkKaE/xUXSQ=="
+          "hash": "Brcm+/aKv++IrwXMo23txw=="
         }
       },
       "is_incremental": false,
@@ -7950,7 +7962,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.Api.html",
-          "hash": "UAmQtjwWUczHyvJWPeFfjw=="
+          "hash": "WG+u4pI8JN67wtNk1nPmfA=="
         }
       },
       "is_incremental": false,
@@ -7962,7 +7974,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.IInitializableTaskTests.html",
-          "hash": "WP51Eq3lfKVMkp5SQyCzCQ=="
+          "hash": "u86StVBoACD1JkeJgExBGg=="
         }
       },
       "is_incremental": false,
@@ -7974,7 +7986,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.IServiceProviderExtensions.html",
-          "hash": "vt+EBae4+pjhErfjCJMOtQ=="
+          "hash": "awrjvozfbvPjzeXYdn5Rrw=="
         }
       },
       "is_incremental": false,
@@ -7986,7 +7998,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.ITaskTests.html",
-          "hash": "CQFDKWKkhxTtozMux3emKA=="
+          "hash": "nQrtWapy9tiPfne3S9SVEQ=="
         }
       },
       "is_incremental": false,
@@ -8010,7 +8022,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.LazyTaskList.html",
-          "hash": "NlGDpuuQynQOIOl6z4P8og=="
+          "hash": "xpVcYpYlTNw+wi4aQhevrQ=="
         }
       },
       "is_incremental": false,
@@ -8022,19 +8034,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskExtensions.html",
-          "hash": "CwIx2neOgIjOS4MyZajVvQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestSourceAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestSourceAttribute.html",
-          "hash": "wNKgpKFZ/fIr6xMtwSCfrQ=="
+          "hash": "50yhoAajiX0TOKZ+lb16bQ=="
         }
       },
       "is_incremental": false,
@@ -8046,7 +8046,43 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTests-1.html",
-          "hash": "KpEv5qVP6cqFqs6fOSijJQ=="
+          "hash": "k+VKLGK3jigBxmxlCNOZpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsAnnotatedClassCollector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsAnnotatedClassCollector.html",
+          "hash": "3JHKPdl4PrDMTnl9kydLAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsAnnotatedClassCollectorEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsAnnotatedClassCollectorEntry.html",
+          "hash": "VEeUOsqLY7cHGw/C5dM0fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsAnnotatedClasses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsAnnotatedClasses.html",
+          "hash": "nkxUwdDN5FOmcPyIxEvtAg=="
         }
       },
       "is_incremental": false,
@@ -8066,11 +8102,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsClassInstanceCollector.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsServices.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsClassInstanceCollector.html",
-          "hash": "oyMOZF/c0tnu8WzggxGCsg=="
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsServices.html",
+          "hash": "o2tSaqsjpf6mOF0TD1Fc5A=="
         }
       },
       "is_incremental": false,
@@ -8078,11 +8114,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsClassInstanceCollectorEntry.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.TaskTests.TaskTestsSourceAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsClassInstanceCollectorEntry.html",
-          "hash": "ef9thagdxUA8+kSdh5x7Ow=="
+          "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.TaskTestsSourceAttribute.html",
+          "hash": "FhZDkBizqtkobphAEN7MgQ=="
         }
       },
       "is_incremental": false,
@@ -8094,7 +8130,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.NUnit.TaskTests.html",
-          "hash": "7Et1BvmXqojhTR4aV+nBlw=="
+          "hash": "0aTHEG0SCVPWdd351UuVTA=="
         }
       },
       "is_incremental": false,
@@ -10470,7 +10506,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "DjykXb5NzTt7CNOShBURxw=="
+          "hash": "VTVAFT+jvRyZpHkhcdk5wQ=="
         }
       },
       "is_incremental": false,
@@ -10509,7 +10545,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 870,
+          "total_file_count": 873,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

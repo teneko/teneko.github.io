@@ -103,11 +103,13 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_Api_ITestResultExtensions_GenerateErrorsFailuresAndWarningsReport_System_Nullable_ITestResult__.md&amp;value=---%0Auid%3A%20Teronis.NUnit.Api.ITestResultExtensions.GenerateErrorsFailuresAndWarningsReport(System.Nullable%7BITestResult%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/ITestResultExtensions.cs/#L35">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/Api/ITestResultExtensions.cs/#L44">View Source</a>
   </span>
   <a id="Teronis_NUnit_Api_ITestResultExtensions_GenerateErrorsFailuresAndWarningsReport_" data-uid="Teronis.NUnit.Api.ITestResultExtensions.GenerateErrorsFailuresAndWarningsReport*"></a>
   <h4 id="Teronis_NUnit_Api_ITestResultExtensions_GenerateErrorsFailuresAndWarningsReport_System_Nullable_ITestResult__" data-uid="Teronis.NUnit.Api.ITestResultExtensions.GenerateErrorsFailuresAndWarningsReport(System.Nullable{ITestResult})">GenerateErrorsFailuresAndWarningsReport(Nullable&lt;ITestResult&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Generates an human readable errors, failures and warnings report. It may be empty when
+no such error, failures or warnings are part of the result.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -141,7 +143,9 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>The result report generated from
+<see cref="!:TextUI.DisplayErrorsFailuresAndWarningsReport(ITestResult)"></see>.</p>
+</td>
       </tr>
     </tbody>
   </table>

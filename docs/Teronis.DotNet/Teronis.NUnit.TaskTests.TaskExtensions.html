@@ -103,11 +103,21 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskExtensions_AssertIsNotErroneous_Task_.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskExtensions.AssertIsNotErroneous(Task)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskExtensions.cs/#L12">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskExtensions.cs/#L22">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskExtensions_AssertIsNotErroneous_" data-uid="Teronis.NUnit.TaskTests.TaskExtensions.AssertIsNotErroneous*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskExtensions_AssertIsNotErroneous_Task_" data-uid="Teronis.NUnit.TaskTests.TaskExtensions.AssertIsNotErroneous(Task)">AssertIsNotErroneous(Task)</h4>
-  <div class="markdown level1 summary"><p>Asserts that task is not erroneous, otherwise the inner exception is thrown.</p>
+  <div class="markdown level1 summary"><p>
+Asserts that task is not erroneous, otherwise the
+inner exception is thrown.
+</p>
+<p>
+You may call it in a
+test case that is decorated with 
+<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestsSourceAttribute.html">TaskTestsSourceAttribute</a> or
+<see cref="!:TestCaseSourceAttribute"></see> that provides 
+assertable task as first parameter.
+</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -127,7 +137,8 @@
       <tr>
         <td><span class="xref">Task</span></td>
         <td><span class="parametername">task</span></td>
-        <td></td>
+        <td><p>The task to be asserted.</p>
+</td>
       </tr>
     </tbody>
   </table>
