@@ -63,24 +63,43 @@ partial class Build : NukeBuild
         });
 
     Target Restore => _ => _
-        .Before(Generate)
+        .Before(GenerateMetadata)
+        .Before(GenerateBuild)
         .Executes(() =>
         {
             DotNetRestore();
             RunSimpleProcess(GitExecutableName, $"clone --depth 1 {TeronisDotNetRepository.HttpsUrl} {TeronisDotNetGitHubCloneDirectory}", echoCommand: true);
         });
 
-    Target Generate => _ => _
+    Target GenerateMetadata => _ => _
+        .DependsOn(Restore)
+        .Before(GenerateBuild)
+        .Executes(() =>
+        {
+            var metadataArgs = new Arguments()
+                 .Add("metadata ./docfx.json");
+
+            DocFx.Invoke(
+                arguments: metadataArgs.RenderForExecution(),
+                workingDirectory: DocsMetaDirectory);
+        });
+
+    Target GenerateBuild => _ => _
         .DependsOn(Restore)
         .Executes(() =>
         {
-            DocFx.Invoke(
-                arguments: "metadata ./docfx.json",
-                workingDirectory: DocsMetaDirectory);
+            var buildArgs = new Arguments()
+                .Add("build ./docfx.json")
+                .Add("--maxParallelism 0", condition: IsLocalBuild);
 
             DocFx.Invoke(
-                arguments: "build ./docfx.json",
+                arguments: buildArgs.RenderForExecution(),
                 workingDirectory: DocsMetaDirectory);
         });
+
+    Target Generate => _ => _
+        .DependsOn(Restore)
+        .DependsOn(GenerateMetadata)
+        .DependsOn(GenerateBuild);
 
 }

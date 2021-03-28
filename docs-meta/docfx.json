@@ -31,6 +31,7 @@
       "_appTitle": "Documentations",
       "_enableSearch": true
     },
+    "template":["default","templates/darkfx"],
     "markdownEngineName": "markdig",
     "dest": "../docs"
   }
