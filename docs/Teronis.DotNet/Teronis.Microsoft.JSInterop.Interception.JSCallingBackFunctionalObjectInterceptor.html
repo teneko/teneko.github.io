@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class JSCallingBackFunctionalObjectInterceptor
+   | Documentations </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class JSCallingBackFunctionalObjectInterceptor
+   | Documentations ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body class="dark-theme" data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor">
+  
+  
+  <h1 id="Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor" data-uid="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor" class="text-break">Class JSCallingBackFunctionalObjectInterceptor
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptor.html">JSFunctionalObjectInterceptor</a></div>
+    <div class="level2"><span class="xref">JSCallingBackFunctionalObjectInterceptor</span></div>
+      <div class="level3"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor-1.html">JSCallingBackFunctionalObjectInterceptor&lt;ValueTaskArgumentType&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor.html">IJSFunctionalObjectInterceptor</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.html">Teronis.Microsoft.JSInterop.Interception</a></h6>
+  <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
+  <h5 id="Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class JSCallingBackFunctionalObjectInterceptor : JSFunctionalObjectInterceptor, IJSFunctionalObjectInterceptor</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor__ctor_System_Func_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInvocation_System_Threading_Tasks_ValueTask__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.%23ctor(System.Func%7BTeronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation%2CSystem.Threading.Tasks.ValueTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSCallingBackFunctionalObjectInterceptor.cs/#L13">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor__ctor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.#ctor*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor__ctor_System_Func_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInvocation_System_Threading_Tasks_ValueTask__" data-uid="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.#ctor(System.Func{Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation,System.Threading.Tasks.ValueTask})">JSCallingBackFunctionalObjectInterceptor(Func&lt;IJSFunctionalObjectInvocation, ValueTask&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JSCallingBackFunctionalObjectInterceptor(Func&lt;IJSFunctionalObjectInvocation, ValueTask&gt; invokeVoidInvocationCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation.html">IJSFunctionalObjectInvocation</a>, <span class="xref">System.Threading.Tasks.ValueTask</span>&gt;</td>
+        <td><span class="parametername">invokeVoidInvocationCallback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInvocation___0__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.InterceptInvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSCallingBackFunctionalObjectInterceptor.cs/#L17">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor_InterceptInvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.InterceptInvokeAsync*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInvocation___0__" data-uid="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.InterceptInvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation{``0})">InterceptInvokeAsync&lt;TValue&gt;(IJSFunctionalObjectInvocation&lt;TValue&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ValueTask InterceptInvokeAsync&lt;TValue&gt;(IJSFunctionalObjectInvocation&lt;TValue&gt; invocation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation-1.html">IJSFunctionalObjectInvocation</a>&lt;TValue&gt;</td>
+        <td><span class="parametername">invocation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptor.InterceptInvokeAsync&lt;TValue&gt;(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation&lt;TValue&gt;)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor_InterceptInvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInvocation_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.InterceptInvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSCallingBackFunctionalObjectInterceptor.cs/#L20">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor_InterceptInvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.InterceptInvokeVoidAsync*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor_InterceptInvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInvocation_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.InterceptInvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation)">InterceptInvokeVoidAsync(IJSFunctionalObjectInvocation)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ValueTask InterceptInvokeVoidAsync(IJSFunctionalObjectInvocation invocation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInvocation.html">IJSFunctionalObjectInvocation</a></td>
+        <td><span class="parametername">invocation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptor.html#Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptor_InterceptInvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInvocation_">JSFunctionalObjectInterceptor.InterceptInvokeVoidAsync(IJSFunctionalObjectInvocation)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor.html">IJSFunctionalObjectInterceptor</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSCallingBackFunctionalObjectInterceptor.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSCallingBackFunctionalObjectInterceptor.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <div class="page__footer-copyright" style="">© 2021 Teroneko. Powered by <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>, <a href="https://dotnet.github.io/docfx/" rel="nofollow">DocFX</a> &amp; <a href="https://github.com/steffen-wilke/darkfx" rel="nofollow">darkFX</a>. Text on this page is available under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

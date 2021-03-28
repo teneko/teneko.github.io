@@ -1,0 +1,1496 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OrderedDictionary&lt;K, V&gt;
+   | Documentations </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OrderedDictionary&lt;K, V&gt;
+   | Documentations ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body class="dark-theme" data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2">
+  
+  
+  <h1 id="Teronis_Collections_Specialized_OrderedDictionary_2" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2" class="text-break">Class OrderedDictionary&lt;K, V&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>A dictionary object that allows rapid hash lookups using keys, but also
+maintains the key insertion order so that values can be retrieved by
+key index.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OrderedDictionary&lt;K, V&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.Collections.Specialized.IOrderedDictionary-2.html">IOrderedDictionary</a>&lt;K, V&gt;</div>
+    <div><span class="xref">IDictionary</span>&lt;K, V&gt;</div>
+    <div><span class="xref">Teronis.Collections.Specialized.IOrderedDictionary</span></div>
+    <div><span class="xref">IReadOnlyDictionary</span>&lt;K, V&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Collections.Specialized.html">Teronis.Collections.Specialized</a></h6>
+  <h6><strong>Assembly</strong>: Teronis.NetStandard.Collections.dll</h6>
+  <h5 id="Teronis_Collections_Specialized_OrderedDictionary_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OrderedDictionary&lt;K, V&gt; : object, IOrderedDictionary&lt;K, V&gt;, IDictionary&lt;K, V&gt;, IOrderedDictionary, IReadOnlyDictionary&lt;K, V&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">K</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">V</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Teronis_Collections_Specialized_OrderedDictionary_2_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Similar to the way a DataColumn is indexed by column position and by column name, this
+advanced dictionary construct allows for a very natural and robust handling of indexed
+structured data.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2__ctor.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L75">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor">OrderedDictionary()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderedDictionary()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2__ctor_IEnumerable_KeyValuePair__0__1___.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.%23ctor(IEnumerable%7BKeyValuePair%7B%600%2C%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L99">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_IEnumerable_KeyValuePair__0__1___" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor(IEnumerable{KeyValuePair{`0,`1}})">OrderedDictionary(IEnumerable&lt;KeyValuePair&lt;K, V&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderedDictionary(IEnumerable&lt;KeyValuePair&lt;K, V&gt;&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;K, V&gt;&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2__ctor_IEnumerable_KeyValuePair__0__1___IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.%23ctor(IEnumerable%7BKeyValuePair%7B%600%2C%601%7D%7D%2CIEqualityComparer%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L108">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_IEnumerable_KeyValuePair__0__1___IEqualityComparer__0__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor(IEnumerable{KeyValuePair{`0,`1}},IEqualityComparer{`0})">OrderedDictionary(IEnumerable&lt;KeyValuePair&lt;K, V&gt;&gt;, IEqualityComparer&lt;K&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderedDictionary(IEnumerable&lt;KeyValuePair&lt;K, V&gt;&gt; items, IEqualityComparer&lt;K&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;K, V&gt;&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEqualityComparer</span>&lt;K&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2__ctor_IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.%23ctor(IEqualityComparer%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L78">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_IEqualityComparer__0__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor(IEqualityComparer{`0})">OrderedDictionary(IEqualityComparer&lt;K&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderedDictionary(IEqualityComparer&lt;K&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEqualityComparer</span>&lt;K&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2__ctor_Teronis_Collections_Specialized_IOrderedDictionary__0__1__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.%23ctor(Teronis.Collections.Specialized.IOrderedDictionary%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L81">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_Teronis_Collections_Specialized_IOrderedDictionary__0__1__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor(Teronis.Collections.Specialized.IOrderedDictionary{`0,`1})">OrderedDictionary(IOrderedDictionary&lt;K, V&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderedDictionary(IOrderedDictionary&lt;K, V&gt; dictionary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Teronis.Collections.Specialized.IOrderedDictionary-2.html">IOrderedDictionary</a>&lt;K, V&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2__ctor_Teronis_Collections_Specialized_IOrderedDictionary__0__1__IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.%23ctor(Teronis.Collections.Specialized.IOrderedDictionary%7B%600%2C%601%7D%2CIEqualityComparer%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L90">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2__ctor_Teronis_Collections_Specialized_IOrderedDictionary__0__1__IEqualityComparer__0__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.#ctor(Teronis.Collections.Specialized.IOrderedDictionary{`0,`1},IEqualityComparer{`0})">OrderedDictionary(IOrderedDictionary&lt;K, V&gt;, IEqualityComparer&lt;K&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderedDictionary(IOrderedDictionary&lt;K, V&gt; dictionary, IEqualityComparer&lt;K&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Teronis.Collections.Specialized.IOrderedDictionary-2.html">IOrderedDictionary</a>&lt;K, V&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEqualityComparer</span>&lt;K&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Comparer.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Comparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L71">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Comparer_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Comparer*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Comparer" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Comparer">Comparer</h4>
+  <div class="markdown level1 summary"><p>Gets the key comparer for this dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEqualityComparer&lt;K&gt;? Comparer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IEqualityComparer</span>&lt;K&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Count.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L56">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Count_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Count*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Count" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Count">Count</h4>
+  <div class="markdown level1 summary"><p>Gets the number of items in the dictionary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Item__0_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Item(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L39">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Item_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Item*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Item__0_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Item(`0)">Item[K]</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public V this[K key] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key associated with the value to get or set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Item_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L48">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Item_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Item*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Item_System_Int32_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Item(System.Int32)">Item[Int32]</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the value at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValuePair&lt;K, V&gt; this[int index] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index of the value to get or set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;K, V&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Keys.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Keys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L61">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Keys_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Keys*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Keys" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Keys">Keys</h4>
+  <div class="markdown level1 summary"><p>Gets all the keys in the ordered dictionary in their proper order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICollection&lt;K&gt; Keys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICollection</span>&lt;K&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Values.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Values%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L66">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Values_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Values*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Values" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Values">Values</h4>
+  <div class="markdown level1 summary"><p>Gets all the values in the ordered dictionary in their proper order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICollection&lt;V&gt; Values { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICollection</span>&lt;V&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Add__0__1_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Add(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L135">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Add_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Add*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Add__0__1_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Add(`0,`1)">Add(K, V)</h4>
+  <div class="markdown level1 summary"><p>Adds the specified key and value to the dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(K key, V value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key of the element to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the element to add.  The value can be null for reference types.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_AsReadOnly.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.AsReadOnly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L306">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_AsReadOnly_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.AsReadOnly*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_AsReadOnly" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.AsReadOnly">AsReadOnly()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyDictionary&lt;K, V&gt; AsReadOnly()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlyDictionary</span>&lt;K, V&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Clear.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L141">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Clear_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Clear*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Clear" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Removes all keys and values from this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_ContainsKey__0_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.ContainsKey(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L191">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_ContainsKey_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.ContainsKey*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_ContainsKey__0_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.ContainsKey(`0)">ContainsKey(K)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this object contains the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsKey(K key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to locate in this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the key is found.  False otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_ContainsValue__1_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.ContainsValue(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L174">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_ContainsValue_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.ContainsValue*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_ContainsValue__1_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.ContainsValue(`1)">ContainsValue(V)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this object contains the specified value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsValue(V value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to locate in this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the value is found.  False otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_ContainsValue__1_IEqualityComparer__1__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.ContainsValue(%601%2CIEqualityComparer%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L183">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_ContainsValue_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.ContainsValue*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_ContainsValue__1_IEqualityComparer__1__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.ContainsValue(`1,IEqualityComparer{`1})">ContainsValue(V, IEqualityComparer&lt;V&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this object contains the specified value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsValue(V value, IEqualityComparer&lt;V&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to locate in this object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEqualityComparer</span>&lt;V&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The equality comparer used to locate the specified value in this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the value is found.  False otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_GetEnumerator.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L230">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_GetEnumerator_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.GetEnumerator*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_GetEnumerator" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Returns an enumerator that iterates through all the KeyValuePairs in this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;K, V&gt;&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span>&lt;<span class="xref">KeyValuePair</span>&lt;K, V&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_GetItem_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.GetItem(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L201">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_GetItem_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.GetItem*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_GetItem_System_Int32_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.GetItem(System.Int32)">GetItem(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the KeyValuePair at the index specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValuePair&lt;K, V&gt; GetItem(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index of the KeyValuePair desired</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;K, V&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_GetValue__0_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.GetValue(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L257">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_GetValue_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.GetValue*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_GetValue__0_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.GetValue(`0)">GetValue(K)</h4>
+  <div class="markdown level1 summary"><p>Gets the value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public V GetValue(K key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key associated with the value to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_IndexOf__0_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.IndexOf(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L160">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_IndexOf_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.IndexOf*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_IndexOf__0_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.IndexOf(`0)">IndexOf(K)</h4>
+  <div class="markdown level1 summary"><p>Gets the index of the key specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOf(K key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key whose index will be located</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns the index of the key specified if found.  Returns -1 if the key could not be located.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Insert_System_Int32__0__1_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Insert(System.Int32%2C%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L153">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Insert_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Insert*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Insert_System_Int32__0__1_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Insert(System.Int32,`0,`1)">Insert(Int32, K, V)</h4>
+  <div class="markdown level1 summary"><p>Inserts a new key-value pair at the index specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Insert(int index, K key, V value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The insertion index.  This value must be between 0 and the count of items in this object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A unique key for the element to add</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the element to add.  Can be null for reference types.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Insert_System_Int32_KeyValuePair__0__1__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Insert(System.Int32%2CKeyValuePair%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L144">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Insert_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Insert*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Insert_System_Int32_KeyValuePair__0__1__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Insert(System.Int32,KeyValuePair{`0,`1})">Insert(Int32, KeyValuePair&lt;K, V&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Insert(int index, KeyValuePair&lt;K, V&gt; pair)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;K, V&gt;</td>
+        <td><span class="parametername">pair</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_Remove__0_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.Remove(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L238">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_Remove_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Remove*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_Remove__0_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.Remove(`0)">Remove(K)</h4>
+  <div class="markdown level1 summary"><p>Removes the key-value pair for the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(K key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to remove from the dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the item specified existed and the removal was successful.  False otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_RemoveAt_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.RemoveAt(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L244">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_RemoveAt_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.RemoveAt*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_RemoveAt_System_Int32_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.RemoveAt(System.Int32)">RemoveAt(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes the key-value pair at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAt(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index of the key-value pair to remove from the dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_SetItem_System_Int32__1_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.SetItem(System.Int32%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L218">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_SetItem_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SetItem*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_SetItem_System_Int32__1_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SetItem(System.Int32,`1)">SetItem(Int32, V)</h4>
+  <div class="markdown level1 summary"><p>Sets the value at the index specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetItem(int index, V value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index of the value desired</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to set</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_SetValue__0__1_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.SetValue(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L272">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_SetValue_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SetValue*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_SetValue__0__1_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SetValue(`0,`1)">SetValue(K, V)</h4>
+  <div class="markdown level1 summary"><p>Sets the value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValue(K key, V value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key associated with the value to set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The the value to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.SortKeys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L310">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortKeys*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortKeys">SortKeys()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SortKeys()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys_Comparison__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.SortKeys(Comparison%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L312">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortKeys*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys_Comparison__0__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortKeys(Comparison{`0})">SortKeys(Comparison&lt;K&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SortKeys(Comparison&lt;K&gt; comparison)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Comparison</span>&lt;K&gt;</td>
+        <td><span class="parametername">comparison</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys_IComparer__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.SortKeys(IComparer%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L311">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortKeys*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_SortKeys_IComparer__0__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortKeys(IComparer{`0})">SortKeys(IComparer&lt;K&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SortKeys(IComparer&lt;K&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IComparer</span>&lt;K&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_SortValues.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.SortValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L314">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_SortValues_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortValues*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_SortValues" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortValues">SortValues()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SortValues()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_SortValues_Comparison__1__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.SortValues(Comparison%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L321">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_SortValues_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortValues*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_SortValues_Comparison__1__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortValues(Comparison{`1})">SortValues(Comparison&lt;V&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SortValues(Comparison&lt;V&gt; comparison)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Comparison</span>&lt;V&gt;</td>
+        <td><span class="parametername">comparison</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_SortValues_IComparer__1__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.SortValues(IComparer%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L320">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_SortValues_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortValues*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_SortValues_IComparer__1__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.SortValues(IComparer{`1})">SortValues(IComparer&lt;V&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SortValues(IComparer&lt;V&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IComparer</span>&lt;V&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2_TryGetValue__0__1__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602.TryGetValue(%600%2C%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L295">View Source</a>
+  </span>
+  <a id="Teronis_Collections_Specialized_OrderedDictionary_2_TryGetValue_" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.TryGetValue*"></a>
+  <h4 id="Teronis_Collections_Specialized_OrderedDictionary_2_TryGetValue__0__1__" data-uid="Teronis.Collections.Specialized.OrderedDictionary`2.TryGetValue(`0,`1@)">TryGetValue(K, out V)</h4>
+  <div class="markdown level1 summary"><p>Tries to get the value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetValue(K key, out V value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">K</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key of the desired element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">V</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>When this method returns, contains the value associated with the specified key if
+that key was found.  Otherwise it will contain the default value for parameter's type.
+This parameter should be provided uninitialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the value was found.  False otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Teronis.Collections.Specialized.IOrderedDictionary-2.html">IOrderedDictionary&lt;TKey, TValue&gt;</a>
+  </div>
+  <div>
+      <span class="xref">IDictionary&lt;, &gt;</span>
+  </div>
+  <div>
+      <span class="xref">Teronis.Collections.Specialized.IOrderedDictionary</span>
+  </div>
+  <div>
+      <span class="xref">IReadOnlyDictionary&lt;, &gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Teronis.Collections.Specialized.OrderedDictionaryExtensions.html#Teronis_Collections_Specialized_OrderedDictionaryExtensions_Swap__2_Teronis_Collections_Specialized_OrderedDictionary___0___1__System_Int32_System_Int32_">OrderedDictionaryExtensions.Swap&lt;K, V&gt;(OrderedDictionary&lt;K, V&gt;, Int32, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Specialized_OrderedDictionary_2.md&amp;value=---%0Auid%3A%20Teronis.Collections.Specialized.OrderedDictionary%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Collections/src/Specialized/OrderedDictionary.cs/#L27" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <div class="page__footer-copyright" style="">© 2021 Teroneko. Powered by <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>, <a href="https://dotnet.github.io/docfx/" rel="nofollow">DocFX</a> &amp; <a href="https://github.com/steffen-wilke/darkfx" rel="nofollow">darkFX</a>. Text on this page is available under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
