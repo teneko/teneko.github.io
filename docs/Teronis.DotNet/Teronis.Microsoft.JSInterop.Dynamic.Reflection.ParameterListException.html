@@ -86,86 +86,13 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Exception</span></div>
-    <div class="level2"><span class="xref">System.AggregateException</span></div>
-    <div class="level3"><span class="xref">ParameterListException</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.AggregateException.Flatten()</span>
-    </div>
-    <div>
-      <span class="xref">System.AggregateException.GetBaseException()</span>
-    </div>
-    <div>
-      <span class="xref">System.AggregateException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
-    </div>
-    <div>
-      <span class="xref">System.AggregateException.Handle(System.Func&lt;System.Exception, System.Boolean&gt;)</span>
-    </div>
-    <div>
-      <span class="xref">System.AggregateException.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.AggregateException.InnerExceptions</span>
-    </div>
-    <div>
-      <span class="xref">System.AggregateException.Message</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Data</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HelpLink</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HResult</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.InnerException</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Source</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.StackTrace</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.TargetSite</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.SerializeObjectState</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
+    <div class="level1"><span class="xref">ParameterListException</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Dynamic.Reflection.html">Teronis.Microsoft.JSInterop.Dynamic.Reflection</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Dynamic.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class ParameterListException : AggregateException, ISerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class ParameterListException : AggregateException</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -186,45 +113,13 @@ public class ParameterListException : AggregateException, ISerializable</code></
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Collections_Generic_IEnumerable_System_Exception__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.Collections.Generic.IEnumerable%7BSystem.Exception%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L16">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Collections_Generic_IEnumerable_System_Exception__" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.Collections.Generic.IEnumerable{System.Exception})">ParameterListException(IEnumerable&lt;Exception&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterListException(IEnumerable&lt;Exception&gt; innerExceptions)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Exception</span>&gt;</td>
-        <td><span class="parametername">innerExceptions</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Exception___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.Exception%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_Exception___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(Exception%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L19">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Exception___" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.Exception[])">ParameterListException(Exception[])</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_Exception___" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(Exception[])">ParameterListException(Exception[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -242,7 +137,7 @@ public class ParameterListException : AggregateException, ISerializable</code></
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span>[]</td>
+        <td><span class="xref">Exception</span>[]</td>
         <td><span class="parametername">innerExceptions</span></td>
         <td></td>
       </tr>
@@ -250,13 +145,45 @@ public class ParameterListException : AggregateException, ISerializable</code></
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_IEnumerable_Exception__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(IEnumerable%7BException%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L16">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_IEnumerable_Exception__" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(IEnumerable{Exception})">ParameterListException(IEnumerable&lt;Exception&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParameterListException(IEnumerable&lt;Exception&gt; innerExceptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Exception</span>&gt;</td>
+        <td><span class="parametername">innerExceptions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_SerializationInfo_StreamingContext_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(SerializationInfo%2CStreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L34">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">ParameterListException(SerializationInfo, StreamingContext)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_SerializationInfo_StreamingContext_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(SerializationInfo,StreamingContext)">ParameterListException(SerializationInfo, StreamingContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -274,12 +201,12 @@ public class ParameterListException : AggregateException, ISerializable</code></
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Runtime.Serialization.SerializationInfo</span></td>
+        <td><span class="xref">SerializationInfo</span></td>
         <td><span class="parametername">info</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Runtime.Serialization.StreamingContext</span></td>
+        <td><span class="xref">StreamingContext</span></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -287,18 +214,18 @@ public class ParameterListException : AggregateException, ISerializable</code></
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L22">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_String_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.String)">ParameterListException(String)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Nullable_System_String__" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.Nullable{System.String})">ParameterListException(Nullable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterListException(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">public ParameterListException(string? message)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -311,7 +238,7 @@ public class ParameterListException : AggregateException, ISerializable</code></
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
@@ -319,55 +246,18 @@ public class ParameterListException : AggregateException, ISerializable</code></
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_String_System_Collections_Generic_IEnumerable_System_Exception__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.Exception%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L25">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_String_System_Collections_Generic_IEnumerable_System_Exception__" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.String,System.Collections.Generic.IEnumerable{System.Exception})">ParameterListException(String, IEnumerable&lt;Exception&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterListException(string message, IEnumerable&lt;Exception&gt; innerExceptions)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">message</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Exception</span>&gt;</td>
-        <td><span class="parametername">innerExceptions</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_String_System_Exception_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.String%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Nullable_System_String__Exception_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.Nullable%7BSystem.String%7D%2CException)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L28">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_String_System_Exception_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.String,System.Exception)">ParameterListException(String, Exception)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Nullable_System_String__Exception_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.Nullable{System.String},Exception)">ParameterListException(Nullable&lt;String&gt;, Exception)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterListException(string message, Exception innerException)</code></pre>
+    <pre><code class="lang-csharp hljs">public ParameterListException(string? message, Exception innerException)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -380,12 +270,12 @@ public class ParameterListException : AggregateException, ISerializable</code></
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
+        <td><span class="xref">Exception</span></td>
         <td><span class="parametername">innerException</span></td>
         <td></td>
       </tr>
@@ -393,18 +283,18 @@ public class ParameterListException : AggregateException, ISerializable</code></
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_String_System_Exception___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.String%2CSystem.Exception%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Nullable_System_String__Exception___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.Nullable%7BSystem.String%7D%2CException%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L31">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_String_System_Exception___" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.String,System.Exception[])">ParameterListException(String, Exception[])</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Nullable_System_String__Exception___" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.Nullable{System.String},Exception[])">ParameterListException(Nullable&lt;String&gt;, Exception[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterListException(string message, params Exception[] innerExceptions)</code></pre>
+    <pre><code class="lang-csharp hljs">public ParameterListException(string? message, params Exception[] innerExceptions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -417,39 +307,60 @@ public class ParameterListException : AggregateException, ISerializable</code></
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Exception</span>[]</td>
+        <td><span class="xref">Exception</span>[]</td>
         <td><span class="parametername">innerExceptions</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.Runtime.Serialization.ISerializable</span>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Nullable_System_String__IEnumerable_Exception__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.%23ctor(System.Nullable%7BSystem.String%7D%2CIEnumerable%7BException%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Reflection/ParameterListException.cs/#L25">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_Reflection_ParameterListException__ctor_System_Nullable_System_String__IEnumerable_Exception__" data-uid="Teronis.Microsoft.JSInterop.Dynamic.Reflection.ParameterListException.#ctor(System.Nullable{System.String},IEnumerable{Exception})">ParameterListException(Nullable&lt;String&gt;, IEnumerable&lt;Exception&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParameterListException(string? message, IEnumerable&lt;Exception&gt; innerExceptions)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Exception</span>&gt;</td>
+        <td><span class="parametername">innerExceptions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Teronis.Windows.PresentationFoundation.Extensions.ExceptionExtensions.html#Teronis_Windows_PresentationFoundation_Extensions_ExceptionExtensions_ShowMessageBox_System_Exception_">ExceptionExtensions.ShowMessageBox(Exception)</a>
-  </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ExceptionExtensions.html#Teronis_AspNetCore_Identity_Extensions_ExceptionExtensions_ToJsonError_System_Exception_System_String_">ExceptionExtensions.ToJsonError(Exception, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ExceptionExtensions.html#Teronis_AspNetCore_Identity_Extensions_ExceptionExtensions_ToJsonErrors_System_Exception_System_String_">ExceptionExtensions.ToJsonErrors(Exception, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

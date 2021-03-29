@@ -88,35 +88,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">JSFacadesActivatorOptions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.html">Teronis.Microsoft.JSInterop.Facades</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Facades_JSFacadesActivatorOptions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSFacadesActivatorOptions</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSFacadesActivatorOptions : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -151,7 +127,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OrderedDictionary&lt;Type, Func&lt;IServiceProvider, IComponentPropertyAssigner&gt;&gt; ComponentPropertyAssignerFactories { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public OrderedDictionary&lt;Type, Func&lt;IServiceProvider, IComponentPropertyAssigner&gt;?&gt; ComponentPropertyAssignerFactories { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,14 +139,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Collections.Specialized.OrderedDictionary-2.html">OrderedDictionary</a>&lt;<span class="xref">System.Type</span>, <span class="xref">System.Func</span>&lt;<span class="xref">System.IServiceProvider</span>, <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.ComponentPropertyAssigners.IComponentPropertyAssigner.html">IComponentPropertyAssigner</a>&gt;&gt;</td>
+        <td><a class="xref" href="Teronis.Collections.Specialized.OrderedDictionary-2.html">OrderedDictionary</a>&lt;<span class="xref">Type</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">IServiceProvider</span>, <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.ComponentPropertyAssigners.IComponentPropertyAssigner.html">IComponentPropertyAssigner</a>&gt;&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <span class="xref">Teronis.Microsoft.JSInterop.Facades.JSFacadesActivatorOptionsExtensions.AddDefaultDynamicComponentPropertyAssigners(Teronis.Microsoft.JSInterop.Facades.JSFacadesActivatorOptions)</span>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.JSFacadesActivatorOptionsExtensions.html#Teronis_Microsoft_JSInterop_Facades_JSFacadesActivatorOptionsExtensions_AddDefaultComponentPropertyAssigners_Teronis_Microsoft_JSInterop_Facades_JSFacadesActivatorOptions_">JSFacadesActivatorOptionsExtensions.AddDefaultComponentPropertyAssigners(JSFacadesActivatorOptions)</a>
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
@@ -179,10 +155,7 @@
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
   </div>
   <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.JSFacadesActivatorOptionsExtensions.html#Teronis_Microsoft_JSInterop_Facades_JSFacadesActivatorOptionsExtensions_AddDefaultComponentPropertyAssigners_Teronis_Microsoft_JSInterop_Facades_JSFacadesActivatorOptions_">JSFacadesActivatorOptionsExtensions.AddDefaultComponentPropertyAssigners(JSFacadesActivatorOptions)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
+      <span class="xref">Teronis.Microsoft.JSInterop.Facades.JSFacadesActivatorOptionsExtensions.AddDefaultDynamicComponentPropertyAssigners(Teronis.Microsoft.JSInterop.Facades.JSFacadesActivatorOptions)</span>
   </div>
 </article>
           </div>

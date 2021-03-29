@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate JSCustomFacadeFactoryDelegate&lt;T&gt;
+    <title>Delegate JSCustomFacadeFactoryDelegate&lt;TCustomFacade&gt;
    | Documentations </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate JSCustomFacadeFactoryDelegate&lt;T&gt;
+    <meta name="title" content="Delegate JSCustomFacadeFactoryDelegate&lt;TCustomFacade&gt;
    | Documentations ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -79,7 +79,7 @@
             <article class="content wrap" id="_content" data-uid="Teronis.Microsoft.JSInterop.Facades.JSCustomFacadeFactoryDelegate`1">
   
   
-  <h1 id="Teronis_Microsoft_JSInterop_Facades_JSCustomFacadeFactoryDelegate_1" data-uid="Teronis.Microsoft.JSInterop.Facades.JSCustomFacadeFactoryDelegate`1" class="text-break">Delegate JSCustomFacadeFactoryDelegate&lt;T&gt;
+  <h1 id="Teronis_Microsoft_JSInterop_Facades_JSCustomFacadeFactoryDelegate_1" data-uid="Teronis.Microsoft.JSInterop.Facades.JSCustomFacadeFactoryDelegate`1" class="text-break">Delegate JSCustomFacadeFactoryDelegate&lt;TCustomFacade&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -87,8 +87,8 @@
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Abstractions.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Facades_JSCustomFacadeFactoryDelegate_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate T JSCustomFacadeFactoryDelegate&lt;out T&gt;(IJSObjectReferenceFacade jsObjectReferenceFacade)
-    where T : class, IAsyncDisposable;</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate TCustomFacade JSCustomFacadeFactoryDelegate&lt;out TCustomFacade&gt;(IJSCustomFacadeFactoryServiceProvider serviceProvider)
+    where TCustomFacade : class, IAsyncDisposable;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -101,8 +101,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.IJSObjectReferenceFacade.html">IJSObjectReferenceFacade</a></td>
-        <td><span class="parametername">jsObjectReferenceFacade</span></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Facades.IJSCustomFacadeFactoryServiceProvider.html">IJSCustomFacadeFactoryServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -117,7 +117,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><span class="xref">TCustomFacade</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -132,7 +132,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="parametername">TCustomFacade</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -143,9 +143,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

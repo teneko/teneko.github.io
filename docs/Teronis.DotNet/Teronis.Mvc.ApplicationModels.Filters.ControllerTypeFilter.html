@@ -93,107 +93,14 @@
     <div><a class="xref" href="Teronis.Mvc.ApplicationModels.Filters.IControllerModelFilter.html">IControllerModelFilter</a></div>
     <div><a class="xref" href="Teronis.Reflection.ITypeInfoFilter.html">ITypeInfoFilter</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Mvc.ApplicationModels.Filters.html">Teronis.Mvc.ApplicationModels.Filters</a></h6>
   <h6><strong>Assembly</strong>: Teronis.AspNetCore.Mvc.dll</h6>
   <h5 id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ControllerTypeFilter : IControllerModelFilter, ITypeInfoFilter</code></pre>
+    <pre><code class="lang-csharp hljs">public class ControllerTypeFilter : object, IControllerModelFilter, ITypeInfoFilter</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_System_Reflection_TypeInfo___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.%23ctor(System.Reflection.TypeInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ApplicationModels/Filters/ControllerTypeFilter.cs/#L20">View Source</a>
-  </span>
-  <a id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.#ctor*"></a>
-  <h4 id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_System_Reflection_TypeInfo___" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.#ctor(System.Reflection.TypeInfo[])">ControllerTypeFilter(TypeInfo[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ControllerTypeFilter(params TypeInfo[] typeInfoAllowList)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.TypeInfo</span>[]</td>
-        <td><span class="parametername">typeInfoAllowList</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_System_Reflection_TypeInfo___System_Reflection_TypeInfo___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.%23ctor(System.Reflection.TypeInfo%5B%5D%2CSystem.Reflection.TypeInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ApplicationModels/Filters/ControllerTypeFilter.cs/#L17">View Source</a>
-  </span>
-  <a id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.#ctor*"></a>
-  <h4 id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_System_Reflection_TypeInfo___System_Reflection_TypeInfo___" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.#ctor(System.Reflection.TypeInfo[],System.Reflection.TypeInfo[])">ControllerTypeFilter(TypeInfo[], TypeInfo[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ControllerTypeFilter(TypeInfo[] typeInfoAllowList, params TypeInfo[] typeInfoBlockList)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.TypeInfo</span>[]</td>
-        <td><span class="parametername">typeInfoAllowList</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Reflection.TypeInfo</span>[]</td>
-        <td><span class="parametername">typeInfoBlockList</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_Teronis_Reflection_TypeInfoFilter_.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.%23ctor(Teronis.Reflection.TypeInfoFilter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -222,6 +129,75 @@
       <tr>
         <td><a class="xref" href="Teronis.Reflection.TypeInfoFilter.html">TypeInfoFilter</a></td>
         <td><span class="parametername">controllerTypeFilter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_TypeInfo___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.%23ctor(TypeInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ApplicationModels/Filters/ControllerTypeFilter.cs/#L20">View Source</a>
+  </span>
+  <a id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.#ctor*"></a>
+  <h4 id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_TypeInfo___" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.#ctor(TypeInfo[])">ControllerTypeFilter(TypeInfo[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ControllerTypeFilter(params TypeInfo[] typeInfoAllowList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TypeInfo</span>[]</td>
+        <td><span class="parametername">typeInfoAllowList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_TypeInfo___TypeInfo___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.%23ctor(TypeInfo%5B%5D%2CTypeInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ApplicationModels/Filters/ControllerTypeFilter.cs/#L17">View Source</a>
+  </span>
+  <a id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.#ctor*"></a>
+  <h4 id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter__ctor_TypeInfo___TypeInfo___" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.#ctor(TypeInfo[],TypeInfo[])">ControllerTypeFilter(TypeInfo[], TypeInfo[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ControllerTypeFilter(TypeInfo[] typeInfoAllowList, params TypeInfo[] typeInfoBlockList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TypeInfo</span>[]</td>
+        <td><span class="parametername">typeInfoAllowList</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TypeInfo</span>[]</td>
+        <td><span class="parametername">typeInfoBlockList</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -309,18 +285,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter_IsAllowed_System_Reflection_TypeInfo_.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.IsAllowed(System.Reflection.TypeInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter_IsAllowed_System_Nullable_TypeInfo__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.IsAllowed(System.Nullable%7BTypeInfo%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ApplicationModels/Filters/ControllerTypeFilter.cs/#L23">View Source</a>
   </span>
   <a id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter_IsAllowed_" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.IsAllowed*"></a>
-  <h4 id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter_IsAllowed_System_Reflection_TypeInfo_" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.IsAllowed(System.Reflection.TypeInfo)">IsAllowed(TypeInfo)</h4>
+  <h4 id="Teronis_Mvc_ApplicationModels_Filters_ControllerTypeFilter_IsAllowed_System_Nullable_TypeInfo__" data-uid="Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.IsAllowed(System.Nullable{TypeInfo})">IsAllowed(Nullable&lt;TypeInfo&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsAllowed(TypeInfo type)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsAllowed(TypeInfo? type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -333,7 +309,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.TypeInfo</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TypeInfo</span>&gt;</td>
         <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
@@ -367,9 +343,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

@@ -88,35 +88,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Area</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Windows.Drawing.html">Teronis.Windows.Drawing</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Windows.Core.dll</h6>
   <h5 id="Teronis_Windows_Drawing_Area_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Area</code></pre>
+    <pre><code class="lang-csharp hljs">public class Area : object</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -219,7 +195,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;Point&gt; nPolygon</code></pre>
+    <pre><code class="lang-csharp hljs">public IList&lt;Point&gt;? nPolygon</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,7 +207,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.Drawing.Point</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IList</span>&lt;<span class="xref">Point</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -260,7 +236,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Drawing.Rectangle</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Rectangle</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -443,18 +419,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Drawing_Area_CreateArea_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Drawing_Rectangle__System_Boolean_System_Collections_Generic_IList_System_Drawing_Point__.md&amp;value=---%0Auid%3A%20Teronis.Windows.Drawing.Area.CreateArea(System.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Drawing.Rectangle%7D%2CSystem.Boolean%2CSystem.Collections.Generic.IList%7BSystem.Drawing.Point%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Drawing_Area_CreateArea_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_Rectangle__System_Boolean_System_Nullable_IList_Point___.md&amp;value=---%0Auid%3A%20Teronis.Windows.Drawing.Area.CreateArea(System.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BRectangle%7D%2CSystem.Boolean%2CSystem.Nullable%7BIList%7BPoint%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Windows/Core/src/Drawing/Area.cs/#L15">View Source</a>
   </span>
   <a id="Teronis_Windows_Drawing_Area_CreateArea_" data-uid="Teronis.Windows.Drawing.Area.CreateArea*"></a>
-  <h4 id="Teronis_Windows_Drawing_Area_CreateArea_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Drawing_Rectangle__System_Boolean_System_Collections_Generic_IList_System_Drawing_Point__" data-uid="Teronis.Windows.Drawing.Area.CreateArea(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Drawing.Rectangle},System.Boolean,System.Collections.Generic.IList{System.Drawing.Point})">CreateArea(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Rectangle&gt;, Boolean, IList&lt;Point&gt;)</h4>
+  <h4 id="Teronis_Windows_Drawing_Area_CreateArea_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_Rectangle__System_Boolean_System_Nullable_IList_Point___" data-uid="Teronis.Windows.Drawing.Area.CreateArea(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{Rectangle},System.Boolean,System.Nullable{IList{Point}})">CreateArea(Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Rectangle&gt;, Boolean, Nullable&lt;IList&lt;Point&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Area CreateArea(int? nX, int? nY, int? nWidth, int? nHeight, int? nYHeight, int? nXWidth, Rectangle? nRect, bool nEllipse, IList&lt;Point&gt; nPolygon)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Area CreateArea(int? nX, int? nY, int? nWidth, int? nHeight, int? nYHeight, int? nXWidth, Rectangle? nRect, bool nEllipse, IList&lt;Point&gt;? nPolygon)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -497,7 +473,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Drawing.Rectangle</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Rectangle</span>&gt;</td>
         <td><span class="parametername">nRect</span></td>
         <td></td>
       </tr>
@@ -507,7 +483,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.Drawing.Point</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IList</span>&lt;<span class="xref">Point</span>&gt;&gt;</td>
         <td><span class="parametername">nPolygon</span></td>
         <td></td>
       </tr>
@@ -562,18 +538,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Drawing_Area_VerifyValues_Teronis_Windows_Drawing_ISnapshot_System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Drawing_RectangleF__System_Boolean_System_Collections_Generic_IList_System_Drawing_Point__Teronis_Windows_Drawing_ECancelScanIteration_System_Boolean__System_Nullable_System_Int32___System_Nullable_System_Int32___.md&amp;value=---%0Auid%3A%20Teronis.Windows.Drawing.Area.VerifyValues(Teronis.Windows.Drawing.ISnapshot%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Drawing.RectangleF%7D%2CSystem.Boolean%2CSystem.Collections.Generic.IList%7BSystem.Drawing.Point%7D%2CTeronis.Windows.Drawing.ECancelScanIteration%2CSystem.Boolean%40%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Int32%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Drawing_Area_VerifyValues_Teronis_Windows_Drawing_ISnapshot_System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_RectangleF__System_Boolean_System_Nullable_IList_Point___Teronis_Windows_Drawing_ECancelScanIteration_System_Boolean__System_Nullable_System_Int32___System_Nullable_System_Int32___.md&amp;value=---%0Auid%3A%20Teronis.Windows.Drawing.Area.VerifyValues(Teronis.Windows.Drawing.ISnapshot%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BRectangleF%7D%2CSystem.Boolean%2CSystem.Nullable%7BIList%7BPoint%7D%7D%2CTeronis.Windows.Drawing.ECancelScanIteration%2CSystem.Boolean%40%2CSystem.Nullable%7BSystem.Int32%7D%40%2CSystem.Nullable%7BSystem.Int32%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Windows/Core/src/Drawing/Area.cs/#L20">View Source</a>
   </span>
   <a id="Teronis_Windows_Drawing_Area_VerifyValues_" data-uid="Teronis.Windows.Drawing.Area.VerifyValues*"></a>
-  <h4 id="Teronis_Windows_Drawing_Area_VerifyValues_Teronis_Windows_Drawing_ISnapshot_System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Drawing_RectangleF__System_Boolean_System_Collections_Generic_IList_System_Drawing_Point__Teronis_Windows_Drawing_ECancelScanIteration_System_Boolean__System_Nullable_System_Int32___System_Nullable_System_Int32___" data-uid="Teronis.Windows.Drawing.Area.VerifyValues(Teronis.Windows.Drawing.ISnapshot,System.Nullable{System.Int32}@,System.Nullable{System.Int32}@,System.Nullable{System.Int32}@,System.Nullable{System.Int32}@,System.Nullable{System.Drawing.RectangleF},System.Boolean,System.Collections.Generic.IList{System.Drawing.Point},Teronis.Windows.Drawing.ECancelScanIteration,System.Boolean@,System.Nullable{System.Int32}@,System.Nullable{System.Int32}@)">VerifyValues(ISnapshot, ref Nullable&lt;Int32&gt;, ref Nullable&lt;Int32&gt;, ref Nullable&lt;Int32&gt;, ref Nullable&lt;Int32&gt;, Nullable&lt;RectangleF&gt;, Boolean, IList&lt;Point&gt;, ECancelScanIteration, ref Boolean, ref Nullable&lt;Int32&gt;, ref Nullable&lt;Int32&gt;)</h4>
+  <h4 id="Teronis_Windows_Drawing_Area_VerifyValues_Teronis_Windows_Drawing_ISnapshot_System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_System_Int32___System_Nullable_RectangleF__System_Boolean_System_Nullable_IList_Point___Teronis_Windows_Drawing_ECancelScanIteration_System_Boolean__System_Nullable_System_Int32___System_Nullable_System_Int32___" data-uid="Teronis.Windows.Drawing.Area.VerifyValues(Teronis.Windows.Drawing.ISnapshot,System.Nullable{System.Int32}@,System.Nullable{System.Int32}@,System.Nullable{System.Int32}@,System.Nullable{System.Int32}@,System.Nullable{RectangleF},System.Boolean,System.Nullable{IList{Point}},Teronis.Windows.Drawing.ECancelScanIteration,System.Boolean@,System.Nullable{System.Int32}@,System.Nullable{System.Int32}@)">VerifyValues(ISnapshot, ref Nullable&lt;Int32&gt;, ref Nullable&lt;Int32&gt;, ref Nullable&lt;Int32&gt;, ref Nullable&lt;Int32&gt;, Nullable&lt;RectangleF&gt;, Boolean, Nullable&lt;IList&lt;Point&gt;&gt;, ECancelScanIteration, ref Boolean, ref Nullable&lt;Int32&gt;, ref Nullable&lt;Int32&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void VerifyValues(ISnapshot snapshot, ref int? nX, ref int? nY, ref int? nWidth, ref int? nHeight, RectangleF? nRect, bool nEllipse, IList&lt;Point&gt; nPolygon, ECancelScanIteration cancelScanIteration, ref bool precalculated, ref int? nYHeight, ref int? nXWidth)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void VerifyValues(ISnapshot snapshot, ref int? nX, ref int? nY, ref int? nWidth, ref int? nHeight, RectangleF? nRect, bool nEllipse, IList&lt;Point&gt;? nPolygon, ECancelScanIteration cancelScanIteration, ref bool precalculated, ref int? nYHeight, ref int? nXWidth)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -611,7 +587,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Drawing.RectangleF</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">RectangleF</span>&gt;</td>
         <td><span class="parametername">nRect</span></td>
         <td></td>
       </tr>
@@ -621,7 +597,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.Drawing.Point</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IList</span>&lt;<span class="xref">Point</span>&gt;&gt;</td>
         <td><span class="parametername">nPolygon</span></td>
         <td></td>
       </tr>
@@ -653,9 +629,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

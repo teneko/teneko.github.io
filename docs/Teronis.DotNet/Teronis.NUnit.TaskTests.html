@@ -100,39 +100,36 @@ requested service by using <see cref="!:Activator.CreateInstance(Type)"></see>.<
       <section></section>
       <h4><a class="xref" href="Teronis.NUnit.TaskTests.IEnumerableTaskTestsMemberExtensions.html">IEnumerableTaskTestsMemberExtensions</a></h4>
       <section></section>
+      <h4><a class="xref" href="Teronis.NUnit.TaskTests.IInitializableTaskTestCaseBlockExtensions.html">IInitializableTaskTestCaseBlockExtensions</a></h4>
+      <section></section>
       <h4><a class="xref" href="Teronis.NUnit.TaskTests.TaskExtensions.html">TaskExtensions</a></h4>
       <section></section>
       <h4><a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCase.html">TaskTestCase</a></h4>
       <section></section>
       <h4><a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a></h4>
-      <section><p>This class is inteded to be inherited. In its derived class it is intended to implement a
-static member of such derived class. In contrast to <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock-1.html">TaskTestCaseBlock&lt;TDerived&gt;</a> this
-class has only the manual way to initialize the static member. You should store a static
-instance of <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseList.html">TaskTestCaseList</a> in derived class and pass it always as parameter
-to <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(TaskTestCaseList, Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>. By calling
-<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_GetTestCases">GetTestCases()</a> you get the assertable tasks, but before that you need
-prepare them by calling <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_PrepareTasksAssertion_CancellationToken_">PrepareTasksAssertion(CancellationToken)</a>.</p>
-</section>
-      <h4><a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock-1.html">TaskTestCaseBlock&lt;TDerived&gt;</a></h4>
       <section><p>
 This class is inteded to be inherited. In its derived class it is intended to implement a
 static member of such derived class. There are three ways to initialize the static member.
 </p>
 <p>
-The manual way is only achievable with <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a>. See coments there.
+First store a static instance of <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseList.html">TaskTestCaseList</a> in derived
+class and pass it as parameter to constructor of <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a>. Then use
+<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(TaskTestCaseList, Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>. By calling
+<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_GetTestCases">GetTestCases()</a> you get the <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseParameters.html">TaskTestCaseParameters</a>, but before that you
+need to prepare them by calling <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_PrepareTasksAssertion_CancellationToken_">PrepareTasksAssertion(CancellationToken)</a>.
 </p>
 <p>
-The more automatic way is to use <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock-1.html">TaskTestCaseBlock&lt;TDerived&gt;</a>. It passes a
-<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseList.html">TaskTestCaseList</a> to its base type <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock-1.html">TaskTestCaseBlock&lt;TDerived&gt;</a>. Because you
-can&apos;t to call <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(TaskTestCaseList, Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a> but
-<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock-1.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_1_AddTest_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>, you have to <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock-1.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_1_Initialize">Initialize()</a> after
-the creation of derived class.
+The more automatic way is to use the parameterless constructor of <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a>.
+It passes a <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_TaskTestCaseList">TaskTestCaseList</a> to its base type <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a>. Because
+you can&apos;t to call <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(TaskTestCaseList, Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>
+but <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>, you have to call
+<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_Initialize">Initialize()</a> after the creation of derived class.
 </p>
 <p>
-Last but not least you can you just skip the instantiation of the static member. You then
-can leave the instantiaton to <a class="xref" href="Teronis.NUnit.TaskTests.AssemblyTaskTestCaseBlockStaticMemberCollector.html">AssemblyTaskTestCaseBlockStaticMemberCollector</a> in
-conjunction with <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlockStaticMemberProviderAttribute.html">TaskTestCaseBlockStaticMemberProviderAttribute</a> and
-<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlockMemberAssigner.html">TaskTestCaseBlockMemberAssigner</a>.
+Last but not least you can you just skip the instantiation of the static member. Then you must
+decorate the derived class with <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlockStaticMemberProviderAttribute.html">TaskTestCaseBlockStaticMemberProviderAttribute</a>. After
+that you can leave the instantiaton to <a class="xref" href="Teronis.NUnit.TaskTests.AssemblyTaskTestCaseBlockStaticMemberCollector.html">AssemblyTaskTestCaseBlockStaticMemberCollector</a>
+in conjunction with <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlockMemberAssigner.html">TaskTestCaseBlockMemberAssigner</a>.
 </p>
 </section>
       <h4><a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlockMember.html">TaskTestCaseBlockMember</a></h4>

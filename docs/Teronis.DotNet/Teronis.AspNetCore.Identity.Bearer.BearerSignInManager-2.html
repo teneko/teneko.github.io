@@ -93,35 +93,11 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.AspNetCore.Identity.Bearer.IBearerSignInManager.html">IBearerSignInManager</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.AspNetCore.Identity.Bearer.html">Teronis.AspNetCore.Identity.Bearer</a></h6>
   <h6><strong>Assembly</strong>: Teronis.AspNetCore.Identity.Bearer.dll</h6>
   <h5 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BearerSignInManager&lt;UserType, BearerTokenType&gt; : IBearerSignInManager where UserType : class, IBearerUserEntity where BearerTokenType : class, IBearerTokenEntity</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BearerSignInManager&lt;UserType, BearerTokenType&gt; : object, IBearerSignInManager where UserType : class, IBearerUserEntity where BearerTokenType : class, IBearerTokenEntity</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,7 +133,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BearerSignInManager(IOptions&lt;BearerSignInManagerOptions&gt; options, UserManager&lt;UserType&gt; userManager, IOptions&lt;IdentityOptions&gt; identityOptions, IBearerTokenStore&lt;BearerTokenType&gt; bearerTokenStore, ILogger&lt;BearerSignInManager&lt;UserType, BearerTokenType&gt;&gt;? logger = default(ILogger&lt;BearerSignInManager&lt;UserType, BearerTokenType&gt;&gt;? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public BearerSignInManager(IOptions&lt;BearerSignInManagerOptions&gt; options, UserManager&lt;UserType&gt; userManager, IOptions&lt;IdentityOptions&gt; identityOptions, IBearerTokenStore&lt;BearerTokenType&gt; bearerTokenStore, ILogger&lt;BearerSignInManager&lt;UserType, BearerTokenType&gt;&gt;? logger = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -200,18 +176,14 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateNextTokensAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.CreateNextTokensAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateNextTokensAsync_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.CreateNextTokensAsync(ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/BearerSignInManager{UserType,BearerTokenType}.cs/#L190">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateNextTokensAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateNextTokensAsync*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateNextTokensAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateNextTokensAsync(System.Security.Claims.ClaimsPrincipal)">CreateNextTokensAsync(ClaimsPrincipal)</h4>
-  <div class="markdown level1 summary"><p>Creates sign-in tokens: 1. Search for user by claim <span class="xref">System.Security.Claims.ClaimTypes.NameIdentifier</span>
-2. Find stored refresh token and delete it
-2. Create tokens and store new refresh token
-3. Return tokens</p>
-</div>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateNextTokensAsync_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateNextTokensAsync(ClaimsPrincipal)">CreateNextTokensAsync(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -228,12 +200,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="xref">ClaimsPrincipal</span></td>
         <td><span class="parametername">principal</span></td>
-        <td><p>The principal represents the authenticated user. It must be guranteed that the claim <span class="xref">System.Security.Claims.ClaimTypes.NameIdentifier</span> exists.
-The claim <see cref="!:ClaimsIdentityOptions.SecurityStampClaimType"></see> when existing is a logout mechanism. If you use refresh token after
-you changed the security stamp of the user the token is invalid.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -247,21 +216,20 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Teronis.AspNetCore.Identity.Bearer.SignInTokens.html">SignInTokens</a>&gt;</td>
-        <td><p>The sign-in tokens: the refresh and the access token</p>
-</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Teronis.AspNetCore.Identity.Bearer.SignInTokens.html">SignInTokens</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateRefreshToken_System_String_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.CreateRefreshToken(System.String%2CSystem.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateRefreshToken_System_String_DateTime_DateTime_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.CreateRefreshToken(System.String%2CDateTime%2CDateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/BearerSignInManager{UserType,BearerTokenType}.cs/#L37">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateRefreshToken_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateRefreshToken*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateRefreshToken_System_String_System_DateTime_System_DateTime_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateRefreshToken(System.String,System.DateTime,System.DateTime)">CreateRefreshToken(String, DateTime, DateTime)</h4>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateRefreshToken_System_String_DateTime_DateTime_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateRefreshToken(System.String,DateTime,DateTime)">CreateRefreshToken(String, DateTime, DateTime)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -284,12 +252,12 @@ you changed the security stamp of the user the token is invalid.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td><span class="parametername">issuedAtUtc</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td><span class="parametername">expiresAtUtc</span></td>
         <td></td>
       </tr>
@@ -312,17 +280,14 @@ you changed the security stamp of the user the token is invalid.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateTokensAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.CreateTokensAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateTokensAsync_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.CreateTokensAsync(ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/BearerSignInManager{UserType,BearerTokenType}.cs/#L165">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateTokensAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateTokensAsync*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateTokensAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateTokensAsync(System.Security.Claims.ClaimsPrincipal)">CreateTokensAsync(ClaimsPrincipal)</h4>
-  <div class="markdown level1 summary"><p>Creates sign-in tokens: 1. Search for user by claim <span class="xref">System.Security.Claims.ClaimTypes.NameIdentifier</span>
-2. Create tokens and store refresh token
-3. Return tokens</p>
-</div>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_CreateTokensAsync_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.CreateTokensAsync(ClaimsPrincipal)">CreateTokensAsync(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -339,12 +304,9 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="xref">ClaimsPrincipal</span></td>
         <td><span class="parametername">principal</span></td>
-        <td><p>The principal represents the authenticated user. It must be guranteed that the claim <span class="xref">System.Security.Claims.ClaimTypes.NameIdentifier</span> exists.
-The claim <see cref="!:ClaimsIdentityOptions.SecurityStampClaimType"></see> when existing is a logout mechanism. If you use refresh token after
-you changed the security stamp of the user the token is invalid.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -358,21 +320,20 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Teronis.AspNetCore.Identity.Bearer.SignInTokens.html">SignInTokens</a>&gt;</td>
-        <td><p>The sign-in tokens: the refresh and the access token</p>
-</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Teronis.AspNetCore.Identity.Bearer.SignInTokens.html">SignInTokens</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_DeleteUserRefreshTokenAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.DeleteUserRefreshTokenAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_DeleteUserRefreshTokenAsync_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.DeleteUserRefreshTokenAsync(ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/BearerSignInManager{UserType,BearerTokenType}.cs/#L76">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_DeleteUserRefreshTokenAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.DeleteUserRefreshTokenAsync*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_DeleteUserRefreshTokenAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.DeleteUserRefreshTokenAsync(System.Security.Claims.ClaimsPrincipal)">DeleteUserRefreshTokenAsync(ClaimsPrincipal)</h4>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_DeleteUserRefreshTokenAsync_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.DeleteUserRefreshTokenAsync(ClaimsPrincipal)">DeleteUserRefreshTokenAsync(ClaimsPrincipal)</h4>
   <div class="markdown level1 summary"><p>Deletes the refresh token associated by <see cref="!:BearerSignInManagerContext.Principal"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -391,7 +352,7 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="xref">ClaimsPrincipal</span></td>
         <td><span class="parametername">principal</span></td>
         <td></td>
       </tr>
@@ -407,7 +368,7 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -455,7 +416,7 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -503,7 +464,7 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.ValueTuple</span>&lt;BearerTokenType, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.ValueTuple</span>&lt;BearerTokenType, <span class="xref">System.String</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -550,20 +511,20 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, BearerTokenType, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, BearerTokenType, <span class="xref">System.String</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_GetUserAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.GetUserAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_GetUserAsync_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.GetUserAsync(ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/BearerSignInManager{UserType,BearerTokenType}.cs/#L45">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_GetUserAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.GetUserAsync*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_GetUserAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.GetUserAsync(System.Security.Claims.ClaimsPrincipal)">GetUserAsync(ClaimsPrincipal)</h4>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_GetUserAsync_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.GetUserAsync(ClaimsPrincipal)">GetUserAsync(ClaimsPrincipal)</h4>
   <div class="markdown level1 summary"><p>Gets user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -582,7 +543,7 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="xref">ClaimsPrincipal</span></td>
         <td><span class="parametername">principal</span></td>
         <td></td>
       </tr>
@@ -598,36 +559,20 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;UserType&gt;</td>
+        <td><span class="xref">Task</span>&lt;UserType&gt;</td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>Thrown by <see cref="!:UserManager&lt;TUser>.GetUserAsync(ClaimsPrincipal)"></see>.</p>
-</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_InvalidateRefreshTokenAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.InvalidateRefreshTokenAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_InvalidateRefreshTokenAsync_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.InvalidateRefreshTokenAsync(ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/BearerSignInManager{UserType,BearerTokenType}.cs/#L200">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_InvalidateRefreshTokenAsync_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.InvalidateRefreshTokenAsync*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_InvalidateRefreshTokenAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.InvalidateRefreshTokenAsync(System.Security.Claims.ClaimsPrincipal)">InvalidateRefreshTokenAsync(ClaimsPrincipal)</h4>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_InvalidateRefreshTokenAsync_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.InvalidateRefreshTokenAsync(ClaimsPrincipal)">InvalidateRefreshTokenAsync(ClaimsPrincipal)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -645,7 +590,7 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="xref">ClaimsPrincipal</span></td>
         <td><span class="parametername">principal</span></td>
         <td></td>
       </tr>
@@ -661,7 +606,7 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -708,7 +653,7 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -739,20 +684,20 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_ValidatePrincipalRefreshToken_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.ValidatePrincipalRefreshToken(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_ValidatePrincipalRefreshToken_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.BearerSignInManager%602.ValidatePrincipalRefreshToken(ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/SignInManaging/BearerSignInManager{UserType,BearerTokenType}.cs/#L179">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_ValidatePrincipalRefreshToken_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.ValidatePrincipalRefreshToken*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_ValidatePrincipalRefreshToken_System_Security_Claims_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.ValidatePrincipalRefreshToken(System.Security.Claims.ClaimsPrincipal)">ValidatePrincipalRefreshToken(ClaimsPrincipal)</h4>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_BearerSignInManager_2_ValidatePrincipalRefreshToken_ClaimsPrincipal_" data-uid="Teronis.AspNetCore.Identity.Bearer.BearerSignInManager`2.ValidatePrincipalRefreshToken(ClaimsPrincipal)">ValidatePrincipalRefreshToken(ClaimsPrincipal)</h4>
   <div class="markdown level1 summary"><p>Validates whether the refresh token is valid.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -771,23 +716,8 @@ you changed the security stamp of the user the token is invalid.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="xref">ClaimsPrincipal</span></td>
         <td><span class="parametername">principal</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.FormatException</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -802,9 +732,6 @@ you changed the security stamp of the user the token is invalid.</p>
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

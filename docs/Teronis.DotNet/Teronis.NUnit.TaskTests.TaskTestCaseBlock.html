@@ -81,20 +81,36 @@
   
   <h1 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock" class="text-break">Class TaskTestCaseBlock
   </h1>
-  <div class="markdown level0 summary"><p>This class is inteded to be inherited. In its derived class it is intended to implement a
-static member of such derived class. In contrast to <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock-1.html">TaskTestCaseBlock&lt;TDerived&gt;</a> this
-class has only the manual way to initialize the static member. You should store a static
-instance of <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseList.html">TaskTestCaseList</a> in derived class and pass it always as parameter
-to <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(TaskTestCaseList, Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>. By calling
-<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_GetTestCases">GetTestCases()</a> you get the assertable tasks, but before that you need
-prepare them by calling <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_PrepareTasksAssertion_CancellationToken_">PrepareTasksAssertion(CancellationToken)</a>.</p>
+  <div class="markdown level0 summary"><p>
+This class is inteded to be inherited. In its derived class it is intended to implement a
+static member of such derived class. There are three ways to initialize the static member.
+</p>
+<p>
+First store a static instance of <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseList.html">TaskTestCaseList</a> in derived
+class and pass it as parameter to constructor of <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a>. Then use
+<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(TaskTestCaseList, Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>. By calling
+<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_GetTestCases">GetTestCases()</a> you get the <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseParameters.html">TaskTestCaseParameters</a>, but before that you
+need to prepare them by calling <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_PrepareTasksAssertion_CancellationToken_">PrepareTasksAssertion(CancellationToken)</a>.
+</p>
+<p>
+The more automatic way is to use the parameterless constructor of <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a>.
+It passes a <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_TaskTestCaseList">TaskTestCaseList</a> to its base type <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a>. Because
+you can&apos;t to call <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(TaskTestCaseList, Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>
+but <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Func_CancellationToken_Task__System_Nullable_System_String__">AddTest(Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</a>, you have to call
+<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_Initialize">Initialize()</a> after the creation of derived class.
+</p>
+<p>
+Last but not least you can you just skip the instantiation of the static member. Then you must
+decorate the derived class with <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlockStaticMemberProviderAttribute.html">TaskTestCaseBlockStaticMemberProviderAttribute</a>. After
+that you can leave the instantiaton to <a class="xref" href="Teronis.NUnit.TaskTests.AssemblyTaskTestCaseBlockStaticMemberCollector.html">AssemblyTaskTestCaseBlockStaticMemberCollector</a>
+in conjunction with <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlockMemberAssigner.html">TaskTestCaseBlockMemberAssigner</a>.
+</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">TaskTestCaseBlock</span></div>
-      <div class="level2"><a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock-1.html">TaskTestCaseBlock</a>&lt;TDerived&gt;</div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -111,10 +127,25 @@ prepare them by calling <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCa
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock__ctor.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L48">View Source</a>
+  </span>
+  <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock__ctor_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.#ctor*"></a>
+  <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock__ctor" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.#ctor">TaskTestCaseBlock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TaskTestCaseBlock()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock__ctor_Teronis_NUnit_TaskTests_TaskTestCaseList_.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.%23ctor(Teronis.NUnit.TaskTests.TaskTestCaseList)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L28">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L45">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock__ctor_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.#ctor*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock__ctor_Teronis_NUnit_TaskTests_TaskTestCaseList_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.#ctor(Teronis.NUnit.TaskTests.TaskTestCaseList)">TaskTestCaseBlock(TaskTestCaseList)</h4>
@@ -148,7 +179,7 @@ prepare them by calling <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCa
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock_TaskTestCaseList.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.TaskTestCaseList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L26">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L43">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_TaskTestCaseList_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.TaskTestCaseList*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_TaskTestCaseList" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.TaskTestCaseList">TaskTestCaseList</h4>
@@ -177,10 +208,67 @@ prepare them by calling <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCa
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Func_CancellationToken_Task__System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.AddTest(Func%7BCancellationToken%2CTask%7D%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L80">View Source</a>
+  </span>
+  <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.AddTest*"></a>
+  <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Func_CancellationToken_Task__System_Nullable_System_String__" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.AddTest(Func{CancellationToken,Task},System.Nullable{System.String})">AddTest(Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds <code data-dev-comment-type="paramref" class="paramref">assertableTaskFactory</code> to an internal static task factory list.
+You must call <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html#Teronis_NUnit_TaskTests_TaskTestCaseBlock_Initialize">Initialize()</a> when creating
+<a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCaseBlock.html">TaskTestCaseBlock</a>
+manually.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TaskTestCase AddTest(Func&lt;CancellationToken, Task&gt; assertableTaskFactory, string? testName = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">CancellationToken</span>, <span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">assertableTaskFactory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">testName</span></td>
+        <td><p>Inferred by <see cref="!:CallerMemberNameAttribute"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCase.html">TaskTestCase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.AddTest(Teronis.NUnit.TaskTests.TaskTestCaseList%2CFunc%7BCancellationToken%2CTask%7D%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L38">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L58">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.AddTest*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_AddTest_Teronis_NUnit_TaskTests_TaskTestCaseList_Func_CancellationToken_Task__System_Nullable_System_String__" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.AddTest(Teronis.NUnit.TaskTests.TaskTestCaseList,Func{CancellationToken,Task},System.Nullable{System.String})">AddTest(TaskTestCaseList, Func&lt;CancellationToken, Task&gt;, Nullable&lt;String&gt;)</h4>
@@ -240,7 +328,7 @@ prepare them by calling <a class="xref" href="Teronis.NUnit.TaskTests.TaskTestCa
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock_GetTestCases.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.GetTestCases%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L69">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L109">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_GetTestCases_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.GetTestCases*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_GetTestCases" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.GetTestCases">GetTestCases()</h4>
@@ -271,10 +359,25 @@ one test.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock_Initialize.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L92">View Source</a>
+  </span>
+  <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_Initialize_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.Initialize*"></a>
+  <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_Initialize" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock_InitializeInstance.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.InitializeInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L54">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L86">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_InitializeInstance_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.InitializeInstance*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_InitializeInstance" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.InitializeInstance">InitializeInstance()</h4>
@@ -290,11 +393,12 @@ one test.</p>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock_PrepareTasksAssertion_CancellationToken_.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.PrepareTasksAssertion(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L60">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L100">View Source</a>
   </span>
   <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_PrepareTasksAssertion_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.PrepareTasksAssertion*"></a>
   <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_PrepareTasksAssertion_CancellationToken_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.PrepareTasksAssertion(CancellationToken)">PrepareTasksAssertion(CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Awaits each task but ignores exceptions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -332,23 +436,6 @@ one test.</p>
       </tr>
     </tbody>
   </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock_Teronis_NUnit_TaskTests_IInitializableTaskTestCaseBlock_Initialize.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock.Teronis%23NUnit%23TaskTests%23IInitializableTaskTestCaseBlock%23Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L76">View Source</a>
-  </span>
-  <a id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_Teronis_NUnit_TaskTests_IInitializableTaskTestCaseBlock_Initialize_" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.Teronis#NUnit#TaskTests#IInitializableTaskTestCaseBlock#Initialize*"></a>
-  <h4 id="Teronis_NUnit_TaskTests_TaskTestCaseBlock_Teronis_NUnit_TaskTests_IInitializableTaskTestCaseBlock_Initialize" data-uid="Teronis.NUnit.TaskTests.TaskTestCaseBlock.Teronis#NUnit#TaskTests#IInitializableTaskTestCaseBlock#Initialize">IInitializableTaskTestCaseBlock.Initialize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IInitializableTaskTestCaseBlock.Initialize()</code></pre>
-  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Teronis.NUnit.TaskTests.ITaskTestCaseBlock.html">ITaskTestCaseBlock</a>
@@ -363,9 +450,6 @@ one test.</p>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
   </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
-  </div>
 </article>
           </div>
           
@@ -377,7 +461,7 @@ one test.</p>
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_NUnit_TaskTests_TaskTestCaseBlock.md&amp;value=---%0Auid%3A%20Teronis.NUnit.TaskTests.TaskTestCaseBlock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L22" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NUnit/Core/src/TaskTests/TaskTestCaseBlock.cs/#L39" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

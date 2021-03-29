@@ -88,52 +88,28 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ControlCollectionExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Windows.Forms.Extensions.html">Teronis.Windows.Forms.Extensions</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Windows.Forms.dll</h6>
   <h5 id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ControlCollectionExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ControlCollectionExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift__1_System_Windows_Forms_Control_ControlCollection___0___0_System_Func___0_System_Boolean__System_Action_System_Int32_System_Int32__System_Action___0___0__.md&amp;value=---%0Auid%3A%20Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift%60%601(System.Windows.Forms.Control.ControlCollection%2C%60%600%2C%60%600%2CSystem.Func%7B%60%600%2CSystem.Boolean%7D%2CSystem.Action%7BSystem.Int32%2CSystem.Int32%7D%2CSystem.Action%7B%60%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift__1_Control_ControlCollection___0___0_Func___0_System_Boolean__System_Nullable_Action_System_Int32_System_Int32___System_Nullable_Action___0___0___.md&amp;value=---%0Auid%3A%20Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift%60%601(Control.ControlCollection%2C%60%600%2C%60%600%2CFunc%7B%60%600%2CSystem.Boolean%7D%2CSystem.Nullable%7BAction%7BSystem.Int32%2CSystem.Int32%7D%7D%2CSystem.Nullable%7BAction%7B%60%600%2C%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Windows/Forms/0/src/Extensions/ControlCollection.cs/#L29">View Source</a>
   </span>
   <a id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift_" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift*"></a>
-  <h4 id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift__1_System_Windows_Forms_Control_ControlCollection___0___0_System_Func___0_System_Boolean__System_Action_System_Int32_System_Int32__System_Action___0___0__" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift``1(System.Windows.Forms.Control.ControlCollection,``0,``0,System.Func{``0,System.Boolean},System.Action{System.Int32,System.Int32},System.Action{``0,``0})">Shift&lt;T&gt;(Control.ControlCollection, T, T, Func&lt;T, Boolean&gt;, Action&lt;Int32, Int32&gt;, Action&lt;T, T&gt;)</h4>
+  <h4 id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift__1_Control_ControlCollection___0___0_Func___0_System_Boolean__System_Nullable_Action_System_Int32_System_Int32___System_Nullable_Action___0___0___" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift``1(Control.ControlCollection,``0,``0,Func{``0,System.Boolean},System.Nullable{Action{System.Int32,System.Int32}},System.Nullable{Action{``0,``0}})">Shift&lt;T&gt;(Control.ControlCollection, T, T, Func&lt;T, Boolean&gt;, Nullable&lt;Action&lt;Int32, Int32&gt;&gt;, Nullable&lt;Action&lt;T, T&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Shift&lt;T&gt;(this Control.ControlCollection source, T from, T to, Func&lt;T, bool&gt; isItemMovable, Action&lt;int, int&gt; fromIndexToIndexAction = null, Action&lt;T, T&gt; fromToAction = null)
+    <pre><code class="lang-csharp hljs">public static void Shift&lt;T&gt;(this Control.ControlCollection source, T from, T to, Func&lt;T, bool&gt; isItemMovable, Action&lt;int, int&gt;? fromIndexToIndexAction = null, Action&lt;T, T&gt;? fromToAction = null)
     where T : Control</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -147,7 +123,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Windows.Forms.Control.ControlCollection</span></td>
+        <td><span class="xref">Control.ControlCollection</span></td>
         <td><span class="parametername">source</span></td>
         <td></td>
       </tr>
@@ -162,17 +138,17 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">isItemMovable</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>&gt;&gt;</td>
         <td><span class="parametername">fromIndexToIndexAction</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T, T&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;T, T&gt;&gt;</td>
         <td><span class="parametername">fromToAction</span></td>
         <td></td>
       </tr>
@@ -195,18 +171,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift__1_System_Windows_Forms_Control_ControlCollection_System_Int32_System_Int32_System_Func___0_System_Boolean__System_Action_System_Int32_System_Int32__System_Action___0___0__.md&amp;value=---%0Auid%3A%20Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift%60%601(System.Windows.Forms.Control.ControlCollection%2CSystem.Int32%2CSystem.Int32%2CSystem.Func%7B%60%600%2CSystem.Boolean%7D%2CSystem.Action%7BSystem.Int32%2CSystem.Int32%7D%2CSystem.Action%7B%60%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift__1_Control_ControlCollection_System_Int32_System_Int32_Func___0_System_Boolean__System_Nullable_Action_System_Int32_System_Int32___System_Nullable_Action___0___0___.md&amp;value=---%0Auid%3A%20Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift%60%601(Control.ControlCollection%2CSystem.Int32%2CSystem.Int32%2CFunc%7B%60%600%2CSystem.Boolean%7D%2CSystem.Nullable%7BAction%7BSystem.Int32%2CSystem.Int32%7D%7D%2CSystem.Nullable%7BAction%7B%60%600%2C%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Windows/Forms/0/src/Extensions/ControlCollection.cs/#L36">View Source</a>
   </span>
   <a id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift_" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift*"></a>
-  <h4 id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift__1_System_Windows_Forms_Control_ControlCollection_System_Int32_System_Int32_System_Func___0_System_Boolean__System_Action_System_Int32_System_Int32__System_Action___0___0__" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift``1(System.Windows.Forms.Control.ControlCollection,System.Int32,System.Int32,System.Func{``0,System.Boolean},System.Action{System.Int32,System.Int32},System.Action{``0,``0})">Shift&lt;T&gt;(Control.ControlCollection, Int32, Int32, Func&lt;T, Boolean&gt;, Action&lt;Int32, Int32&gt;, Action&lt;T, T&gt;)</h4>
+  <h4 id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Shift__1_Control_ControlCollection_System_Int32_System_Int32_Func___0_System_Boolean__System_Nullable_Action_System_Int32_System_Int32___System_Nullable_Action___0___0___" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Shift``1(Control.ControlCollection,System.Int32,System.Int32,Func{``0,System.Boolean},System.Nullable{Action{System.Int32,System.Int32}},System.Nullable{Action{``0,``0}})">Shift&lt;T&gt;(Control.ControlCollection, Int32, Int32, Func&lt;T, Boolean&gt;, Nullable&lt;Action&lt;Int32, Int32&gt;&gt;, Nullable&lt;Action&lt;T, T&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Shift&lt;T&gt;(this Control.ControlCollection source, int fromIndex, int toIndex, Func&lt;T, bool&gt; isItemMovable, Action&lt;int, int&gt; fromIndex_ToIndexCallback = null, Action&lt;T, T&gt; from_ToCallback = null)
+    <pre><code class="lang-csharp hljs">public static void Shift&lt;T&gt;(this Control.ControlCollection source, int fromIndex, int toIndex, Func&lt;T, bool&gt; isItemMovable, Action&lt;int, int&gt;? fromIndex_ToIndexCallback = null, Action&lt;T, T&gt;? from_ToCallback = null)
     where T : Control</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -220,7 +196,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Windows.Forms.Control.ControlCollection</span></td>
+        <td><span class="xref">Control.ControlCollection</span></td>
         <td><span class="parametername">source</span></td>
         <td></td>
       </tr>
@@ -235,17 +211,17 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">isItemMovable</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>&gt;&gt;</td>
         <td><span class="parametername">fromIndex_ToIndexCallback</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;T, T&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;T, T&gt;&gt;</td>
         <td><span class="parametername">from_ToCallback</span></td>
         <td></td>
       </tr>
@@ -268,13 +244,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Swap_System_Windows_Forms_Control_ControlCollection_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Swap(System.Windows.Forms.Control.ControlCollection%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Swap_Control_ControlCollection_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Swap(Control.ControlCollection%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Windows/Forms/0/src/Extensions/ControlCollection.cs/#L14">View Source</a>
   </span>
   <a id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Swap_" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Swap*"></a>
-  <h4 id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Swap_System_Windows_Forms_Control_ControlCollection_System_Int32_System_Int32_" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Swap(System.Windows.Forms.Control.ControlCollection,System.Int32,System.Int32)">Swap(Control.ControlCollection, Int32, Int32)</h4>
+  <h4 id="Teronis_Windows_Forms_Extensions_ControlCollectionExtensions_Swap_Control_ControlCollection_System_Int32_System_Int32_" data-uid="Teronis.Windows.Forms.Extensions.ControlCollectionExtensions.Swap(Control.ControlCollection,System.Int32,System.Int32)">Swap(Control.ControlCollection, Int32, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -292,7 +268,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Windows.Forms.Control.ControlCollection</span></td>
+        <td><span class="xref">Control.ControlCollection</span></td>
         <td><span class="parametername">source</span></td>
         <td></td>
       </tr>

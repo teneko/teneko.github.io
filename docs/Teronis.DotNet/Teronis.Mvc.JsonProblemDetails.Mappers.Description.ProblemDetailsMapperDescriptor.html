@@ -88,52 +88,28 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ProblemDetailsMapperDescriptor</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Mvc.JsonProblemDetails.Mappers.Description.html">Teronis.Mvc.JsonProblemDetails.Mappers.Description</a></h6>
   <h6><strong>Assembly</strong>: Teronis.AspNetCore.Mvc.dll</h6>
   <h5 id="Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ProblemDetailsMapperDescriptor</code></pre>
+    <pre><code class="lang-csharp hljs">public class ProblemDetailsMapperDescriptor : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor__ctor_System_Type_System_Boolean_System_Collections_Generic_IEnumerable_System_Int32__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.%23ctor(System.Type%2CSystem.Boolean%2CSystem.Collections.Generic.IEnumerable%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor__ctor_Type_System_Boolean_System_Nullable_IEnumerable_System_Int32___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.%23ctor(Type%2CSystem.Boolean%2CSystem.Nullable%7BIEnumerable%7BSystem.Int32%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/JsonProblemDetails/Mappers/Description/ProblemDetailsMapperDescriptor.cs/#L32">View Source</a>
   </span>
   <a id="Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor__ctor_" data-uid="Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.#ctor*"></a>
-  <h4 id="Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor__ctor_System_Type_System_Boolean_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.#ctor(System.Type,System.Boolean,System.Collections.Generic.IEnumerable{System.Int32})">ProblemDetailsMapperDescriptor(Type, Boolean, IEnumerable&lt;Int32&gt;)</h4>
+  <h4 id="Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor__ctor_Type_System_Boolean_System_Nullable_IEnumerable_System_Int32___" data-uid="Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.#ctor(Type,System.Boolean,System.Nullable{IEnumerable{System.Int32}})">ProblemDetailsMapperDescriptor(Type, Boolean, Nullable&lt;IEnumerable&lt;Int32&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ProblemDetailsMapperDescriptor(Type mapperType, bool allowDerivedMapperSourceObjectTypes, IEnumerable&lt;int&gt; statusCodes)</code></pre>
+    <pre><code class="lang-csharp hljs">public ProblemDetailsMapperDescriptor(Type mapperType, bool allowDerivedMapperSourceObjectTypes, IEnumerable&lt;int&gt;? statusCodes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,7 +122,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">mapperType</span></td>
         <td></td>
       </tr>
@@ -156,7 +132,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
         <td><span class="parametername">statusCodes</span></td>
         <td></td>
       </tr>
@@ -207,7 +183,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Type MappableObjectType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Type? MappableObjectType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -219,7 +195,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Type</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -249,7 +225,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<a class="xref" href="Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea.html">MapperConstructorArea</a>, <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation.html">MapperConstructorEvaluation</a>&gt;&gt;</td>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<a class="xref" href="Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea.html">MapperConstructorArea</a>, <span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation.html">MapperConstructorEvaluation</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -279,7 +255,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -300,7 +276,7 @@ property is ignored.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;int&gt; StatusCodes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;int&gt;? StatusCodes { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -312,7 +288,7 @@ property is ignored.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IReadOnlyCollection</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -400,18 +376,18 @@ two sorted values which represents a range.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor_TryFindConstructor_System_Int32_Teronis_Mvc_JsonProblemDetails_Reflection_MapperConstructorArea_System_Type_System_Nullable_System_ValueTuple_Teronis_Mvc_JsonProblemDetails_Reflection_MapperConstructorEvaluation_System_Int32____System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.TryFindConstructor(System.Int32%2CTeronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea%2CSystem.Type%2CSystem.Nullable%7BSystem.ValueTuple%7BTeronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation%2CSystem.Int32%7D%7D%40%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor_TryFindConstructor_System_Int32_Teronis_Mvc_JsonProblemDetails_Reflection_MapperConstructorArea_System_Nullable_Type__System_Nullable_System_ValueTuple_Teronis_Mvc_JsonProblemDetails_Reflection_MapperConstructorEvaluation_System_Int32____System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.TryFindConstructor(System.Int32%2CTeronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea%2CSystem.Nullable%7BType%7D%2CSystem.Nullable%7BSystem.ValueTuple%7BTeronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation%2CSystem.Int32%7D%7D%40%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/JsonProblemDetails/Mappers/Description/ProblemDetailsMapperDescriptor.cs/#L66">View Source</a>
   </span>
   <a id="Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor_TryFindConstructor_" data-uid="Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.TryFindConstructor*"></a>
-  <h4 id="Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor_TryFindConstructor_System_Int32_Teronis_Mvc_JsonProblemDetails_Reflection_MapperConstructorArea_System_Type_System_Nullable_System_ValueTuple_Teronis_Mvc_JsonProblemDetails_Reflection_MapperConstructorEvaluation_System_Int32____System_Nullable_System_Boolean__" data-uid="Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.TryFindConstructor(System.Int32,Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea,System.Type,System.Nullable{System.ValueTuple{Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation,System.Int32}}@,System.Nullable{System.Boolean})">TryFindConstructor(Int32, MapperConstructorArea, Type, out Nullable&lt;(MapperConstructorEvaluation ConstructorEvaluation, Int32 NextIndex)&gt;, Nullable&lt;Boolean&gt;)</h4>
+  <h4 id="Teronis_Mvc_JsonProblemDetails_Mappers_Description_ProblemDetailsMapperDescriptor_TryFindConstructor_System_Int32_Teronis_Mvc_JsonProblemDetails_Reflection_MapperConstructorArea_System_Nullable_Type__System_Nullable_System_ValueTuple_Teronis_Mvc_JsonProblemDetails_Reflection_MapperConstructorEvaluation_System_Int32____System_Nullable_System_Boolean__" data-uid="Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.TryFindConstructor(System.Int32,Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea,System.Nullable{Type},System.Nullable{System.ValueTuple{Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation,System.Int32}}@,System.Nullable{System.Boolean})">TryFindConstructor(Int32, MapperConstructorArea, Nullable&lt;Type&gt;, out Nullable&lt;(MapperConstructorEvaluation ConstructorEvaluation, Int32 NextIndex)&gt;, Nullable&lt;Boolean&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool TryFindConstructor(int startIndex, MapperConstructorArea area, Type mappableObjectType, out (MapperConstructorEvaluation ConstructorEvaluation, int NextIndex)? foundConstructor, bool? globalAllowDerivedMappableObjectTypes = default(bool? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TryFindConstructor(int startIndex, MapperConstructorArea area, Type? mappableObjectType, out (MapperConstructorEvaluation ConstructorEvaluation, int NextIndex)? foundConstructor, bool? globalAllowDerivedMappableObjectTypes = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -434,7 +410,7 @@ two sorted values which represents a range.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Type</span>&gt;</td>
         <td><span class="parametername">mappableObjectType</span></td>
         <td></td>
       </tr>
@@ -471,9 +447,6 @@ two sorted values which represents a range.</p>
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

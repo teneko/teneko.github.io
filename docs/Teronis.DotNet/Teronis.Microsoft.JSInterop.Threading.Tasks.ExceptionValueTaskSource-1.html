@@ -91,8 +91,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.Threading.Tasks.Sources.IValueTaskSource</span></div>
-    <div><span class="xref">System.Threading.Tasks.Sources.IValueTaskSource</span>&lt;T&gt;</div>
+    <div><span class="xref">IValueTaskSource</span>&lt;T&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,36 +104,12 @@
     <div>
       <a class="xref" href="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource.html#Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_GetStatus_System_Int16_">ExceptionValueTaskSource.GetStatus(Int16)</a>
     </div>
-    <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource.html#Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted_System_Action_System_Object__System_Object_System_Int16_System_Threading_Tasks_Sources_ValueTaskSourceOnCompletedFlags_">ExceptionValueTaskSource.IValueTaskSource.OnCompleted(Action&lt;Object&gt;, Object, Int16, ValueTaskSourceOnCompletedFlags)</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Threading.Tasks.html">Teronis.Microsoft.JSInterop.Threading.Tasks</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Abstractions.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ExceptionValueTaskSource&lt;T&gt; : ExceptionValueTaskSource, IValueTaskSource, IValueTaskSource&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ExceptionValueTaskSource&lt;T&gt; : ExceptionValueTaskSource, IValueTaskSource&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,13 +130,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1__ctor_System_Exception_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource%601.%23ctor(System.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1__ctor_Exception_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource%601.%23ctor(Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Threading/Tasks/ExceptionValueTaskSource{`1}.cs/#L11">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1__ctor_" data-uid="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource`1.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1__ctor_System_Exception_" data-uid="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource`1.#ctor(System.Exception)">ExceptionValueTaskSource(Exception)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1__ctor_Exception_" data-uid="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource`1.#ctor(Exception)">ExceptionValueTaskSource(Exception)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -179,114 +154,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
+        <td><span class="xref">Exception</span></td>
         <td><span class="parametername">exception</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1_System_Threading_Tasks_Sources_IValueTaskSource_T__GetResult_System_Int16_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource%601.System%23Threading%23Tasks%23Sources%23IValueTaskSource%7BT%7D%23GetResult(System.Int16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Threading/Tasks/ExceptionValueTaskSource{`1}.cs/#L14">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1_System_Threading_Tasks_Sources_IValueTaskSource_T__GetResult_" data-uid="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource`1.System#Threading#Tasks#Sources#IValueTaskSource{T}#GetResult*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1_System_Threading_Tasks_Sources_IValueTaskSource_T__GetResult_System_Int16_" data-uid="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource`1.System#Threading#Tasks#Sources#IValueTaskSource{T}#GetResult(System.Int16)">IValueTaskSource&lt;T&gt;.GetResult(Int16)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T IValueTaskSource&lt;T&gt;.GetResult(short token)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int16</span></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1_System_Threading_Tasks_Sources_IValueTaskSource_T__OnCompleted_System_Action_System_Object__System_Object_System_Int16_System_Threading_Tasks_Sources_ValueTaskSourceOnCompletedFlags_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource%601.System%23Threading%23Tasks%23Sources%23IValueTaskSource%7BT%7D%23OnCompleted(System.Action%7BSystem.Object%7D%2CSystem.Object%2CSystem.Int16%2CSystem.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Threading/Tasks/ExceptionValueTaskSource{`1}.cs/#L17">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1_System_Threading_Tasks_Sources_IValueTaskSource_T__OnCompleted_" data-uid="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource`1.System#Threading#Tasks#Sources#IValueTaskSource{T}#OnCompleted*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Threading_Tasks_ExceptionValueTaskSource_1_System_Threading_Tasks_Sources_IValueTaskSource_T__OnCompleted_System_Action_System_Object__System_Object_System_Int16_System_Threading_Tasks_Sources_ValueTaskSourceOnCompletedFlags_" data-uid="Teronis.Microsoft.JSInterop.Threading.Tasks.ExceptionValueTaskSource`1.System#Threading#Tasks#Sources#IValueTaskSource{T}#OnCompleted(System.Action{System.Object},System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags)">IValueTaskSource&lt;T&gt;.OnCompleted(Action&lt;Object&gt;, Object, Int16, ValueTaskSourceOnCompletedFlags)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IValueTaskSource&lt;T&gt;.OnCompleted(Action&lt;object&gt; continuation, object state, short token, ValueTaskSourceOnCompletedFlags flags)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">continuation</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">state</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int16</span></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags</span></td>
-        <td><span class="parametername">flags</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.Threading.Tasks.Sources.IValueTaskSource</span>
-  </div>
-  <div>
-      <span class="xref">System.Threading.Tasks.Sources.IValueTaskSource&lt;TResult&gt;</span>
+      <span class="xref">IValueTaskSource&lt;&gt;</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
@@ -294,9 +170,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

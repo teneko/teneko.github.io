@@ -93,47 +93,23 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.AspNetCore.Identity.Entities.IBearerTokenEntity.html">IBearerTokenEntity</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.AspNetCore.Identity.Entities.html">Teronis.AspNetCore.Identity.Entities</a></h6>
   <h6><strong>Assembly</strong>: Teronis.AspNetCore.Identity.Bearer.Abstractions.dll</h6>
   <h5 id="Teronis_AspNetCore_Identity_Entities_BearerTokenEntity_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BearerTokenEntity : IBearerTokenEntity</code></pre>
+    <pre><code class="lang-csharp hljs">public class BearerTokenEntity : object, IBearerTokenEntity</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Entities_BearerTokenEntity__ctor_System_String_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Entities.BearerTokenEntity.%23ctor(System.String%2CSystem.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Entities_BearerTokenEntity__ctor_System_String_DateTime_DateTime_.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Entities.BearerTokenEntity.%23ctor(System.String%2CDateTime%2CDateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer.Abstractions/src/Entities/BearerTokenEntity.cs/#L28">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Entities_BearerTokenEntity__ctor_" data-uid="Teronis.AspNetCore.Identity.Entities.BearerTokenEntity.#ctor*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Entities_BearerTokenEntity__ctor_System_String_System_DateTime_System_DateTime_" data-uid="Teronis.AspNetCore.Identity.Entities.BearerTokenEntity.#ctor(System.String,System.DateTime,System.DateTime)">BearerTokenEntity(String, DateTime, DateTime)</h4>
+  <h4 id="Teronis_AspNetCore_Identity_Entities_BearerTokenEntity__ctor_System_String_DateTime_DateTime_" data-uid="Teronis.AspNetCore.Identity.Entities.BearerTokenEntity.#ctor(System.String,DateTime,DateTime)">BearerTokenEntity(String, DateTime, DateTime)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -156,12 +132,12 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td><span class="parametername">createdAtUtc</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td><span class="parametername">expiresAtUtc</span></td>
         <td></td>
       </tr>
@@ -194,7 +170,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Guid</span></td>
+        <td><span class="xref">Guid</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -224,7 +200,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -254,7 +230,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -299,9 +275,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

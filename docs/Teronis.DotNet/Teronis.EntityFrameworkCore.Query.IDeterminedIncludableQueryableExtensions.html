@@ -88,52 +88,28 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">IDeterminedIncludableQueryableExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.EntityFrameworkCore.Query.html">Teronis.EntityFrameworkCore.Query</a></h6>
   <h6><strong>Assembly</strong>: Teronis.NetStandard.EntityFrameworkCore.Query.dll</h6>
   <h5 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class IDeterminedIncludableQueryableExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class IDeterminedIncludableQueryableExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_Include__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__System_Linq_Expressions_Expression_System_Func___0___2___.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.Include%60%603(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable%7B%60%600%2C%60%601%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2C%60%602%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_Include__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__Expression_Func___0___2___.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.Include%60%603(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable%7B%60%600%2C%60%601%7D%2CExpression%7BFunc%7B%60%600%2C%60%602%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/IDeterminedIncludableQueryableExtensions.cs/#L78">View Source</a>
   </span>
   <a id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_Include_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.Include*"></a>
-  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_Include__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__System_Linq_Expressions_Expression_System_Func___0___2___" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.Include``3(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable{``0,``1},System.Linq.Expressions.Expression{System.Func{``0,``2}})">Include&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, PreviousPropertyType&gt;, Expression&lt;Func&lt;EntityType, PropertyType&gt;&gt;)</h4>
+  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_Include__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__Expression_Func___0___2___" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.Include``3(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable{``0,``1},Expression{Func{``0,``2}})">Include&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, PreviousPropertyType&gt;, Expression&lt;Func&lt;EntityType, PropertyType&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Specifies related entities to include in the query results. The navigation
 property to be included is specified starting with the type of entity being
 queried (<code data-dev-comment-type="typeparamref" class="typeparamref">EntityType</code>). If you wish to include additional
 types based on the navigation properties of the type being included, then chain
-a call to <a class="xref" href="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.html#Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_System_Collections_Generic_IEnumerable___1___System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</a>
+a call to <a class="xref" href="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.html#Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_IEnumerable___1___Expression_Func___1___2___System_Boolean_">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</a>
 after this call.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -159,7 +135,7 @@ after this call.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;EntityType, PropertyType&gt;&gt;</td>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;EntityType, PropertyType&gt;&gt;</td>
         <td><span class="parametername">includePath</span></td>
         <td><p>A lambda expression representing the navigation property to be included</p>
 </td>
@@ -207,36 +183,20 @@ after this call.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>The parameter <code data-dev-comment-type="paramref" class="paramref">determinedQuery</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf__2_System_Linq_IQueryable___0__System_Linq_Expressions_Expression_System_Func___0___1___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf%60%602(System.Linq.IQueryable%7B%60%600%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2C%60%601%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf__2_IQueryable___0__Expression_Func___0___1___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf%60%602(IQueryable%7B%60%600%7D%2CExpression%7BFunc%7B%60%600%2C%60%601%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/IDeterminedIncludableQueryableExtensions.cs/#L31">View Source</a>
   </span>
   <a id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf*"></a>
-  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf__2_System_Linq_IQueryable___0__System_Linq_Expressions_Expression_System_Func___0___1___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf``2(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Boolean)">IncludeIf&lt;EntityType, PropertyType&gt;(IQueryable&lt;EntityType&gt;, Expression&lt;Func&lt;EntityType, PropertyType&gt;&gt;, Boolean)</h4>
+  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf__2_IQueryable___0__Expression_Func___0___1___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf``2(IQueryable{``0},Expression{Func{``0,``1}},System.Boolean)">IncludeIf&lt;EntityType, PropertyType&gt;(IQueryable&lt;EntityType&gt;, Expression&lt;Func&lt;EntityType, PropertyType&gt;&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Specifies related entities to include in the query results. The navigation
 property to be included is specified starting with the type of entity being
 queried (<code data-dev-comment-type="typeparamref" class="typeparamref">EntityType</code>). If you wish to include additional
 types based on the navigation properties of the type being included, then chain
-a call to <a class="xref" href="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.html#Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_System_Collections_Generic_IEnumerable___1___System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</a>
+a call to <a class="xref" href="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.html#Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_IEnumerable___1___Expression_Func___1___2___System_Boolean_">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</a>
 after this call.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -256,13 +216,13 @@ after this call.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.IQueryable</span>&lt;EntityType&gt;</td>
+        <td><span class="xref">IQueryable</span>&lt;EntityType&gt;</td>
         <td><span class="parametername">query</span></td>
         <td><p>The source query.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;EntityType, PropertyType&gt;&gt;</td>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;EntityType, PropertyType&gt;&gt;</td>
         <td><span class="parametername">includePath</span></td>
         <td><p>A lambda expression representing the navigation property to be included</p>
 </td>
@@ -312,36 +272,20 @@ after this call.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>The parameter <code data-dev-comment-type="paramref" class="paramref">query</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__System_Linq_Expressions_Expression_System_Func___0___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf%60%603(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable%7B%60%600%2C%60%601%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__Expression_Func___0___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf%60%603(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable%7B%60%600%2C%60%601%7D%2CExpression%7BFunc%7B%60%600%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/IDeterminedIncludableQueryableExtensions.cs/#L58">View Source</a>
   </span>
   <a id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf*"></a>
-  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__System_Linq_Expressions_Expression_System_Func___0___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf``3(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable{``0,``1},System.Linq.Expressions.Expression{System.Func{``0,``2}},System.Boolean)">IncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, PreviousPropertyType&gt;, Expression&lt;Func&lt;EntityType, PropertyType&gt;&gt;, Boolean)</h4>
+  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_IncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__Expression_Func___0___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.IncludeIf``3(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable{``0,``1},Expression{Func{``0,``2}},System.Boolean)">IncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, PreviousPropertyType&gt;, Expression&lt;Func&lt;EntityType, PropertyType&gt;&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Specifies related entities to include in the query results. The navigation
 property to be included is specified starting with the type of entity being
 queried (<code data-dev-comment-type="typeparamref" class="typeparamref">EntityType</code>). If you wish to include additional
 types based on the navigation properties of the type being included, then chain
-a call to <a class="xref" href="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.html#Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_System_Collections_Generic_IEnumerable___1___System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</a>
+a call to <a class="xref" href="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.html#Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_IEnumerable___1___Expression_Func___1___2___System_Boolean_">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</a>
 after this call.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -367,7 +311,7 @@ after this call.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;EntityType, PropertyType&gt;&gt;</td>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;EntityType, PropertyType&gt;&gt;</td>
         <td><span class="parametername">includePath</span></td>
         <td><p>A lambda expression representing the navigation property to be included</p>
 </td>
@@ -421,31 +365,15 @@ after this call.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p>The parameter <code data-dev-comment-type="paramref" class="paramref">determinedQuery</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_IIncludableQueryable___0___1__System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf%60%603(IIncludableQueryable%7B%60%600%2C%60%601%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%601%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_IIncludableQueryable___0___1__Expression_Func___1___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf%60%603(IIncludableQueryable%7B%60%600%2C%60%601%7D%2CExpression%7BFunc%7B%60%601%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/IDeterminedIncludableQueryableExtensions.cs/#L89">View Source</a>
   </span>
   <a id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf*"></a>
-  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_IIncludableQueryable___0___1__System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf``3(IIncludableQueryable{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Boolean)">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IIncludableQueryable&lt;EntityType, PreviousPropertyType&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</h4>
+  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_IIncludableQueryable___0___1__Expression_Func___1___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf``3(IIncludableQueryable{``0,``1},Expression{Func{``1,``2}},System.Boolean)">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IIncludableQueryable&lt;EntityType, PreviousPropertyType&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -469,7 +397,7 @@ after this call.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;PreviousPropertyType, PropertyType&gt;&gt;</td>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;PreviousPropertyType, PropertyType&gt;&gt;</td>
         <td><span class="parametername">includePath</span></td>
         <td></td>
       </tr>
@@ -520,13 +448,13 @@ after this call.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_IIncludableQueryable___0_System_Collections_Generic_IEnumerable___1___System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf%60%603(IIncludableQueryable%7B%60%600%2CSystem.Collections.Generic.IEnumerable%7B%60%601%7D%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%601%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_IIncludableQueryable___0_IEnumerable___1___Expression_Func___1___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf%60%603(IIncludableQueryable%7B%60%600%2CIEnumerable%7B%60%601%7D%7D%2CExpression%7BFunc%7B%60%601%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/IDeterminedIncludableQueryableExtensions.cs/#L116">View Source</a>
   </span>
   <a id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf*"></a>
-  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_IIncludableQueryable___0_System_Collections_Generic_IEnumerable___1___System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf``3(IIncludableQueryable{``0,System.Collections.Generic.IEnumerable{``1}},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Boolean)">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</h4>
+  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_IIncludableQueryable___0_IEnumerable___1___Expression_Func___1___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf``3(IIncludableQueryable{``0,IEnumerable{``1}},Expression{Func{``1,``2}},System.Boolean)">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -545,12 +473,12 @@ after this call.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IIncludableQueryable</span>&lt;EntityType, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;PreviousPropertyType&gt;&gt;</td>
+        <td><span class="xref">IIncludableQueryable</span>&lt;EntityType, <span class="xref">IEnumerable</span>&lt;PreviousPropertyType&gt;&gt;</td>
         <td><span class="parametername">query</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;PreviousPropertyType, PropertyType&gt;&gt;</td>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;PreviousPropertyType, PropertyType&gt;&gt;</td>
         <td><span class="parametername">includePath</span></td>
         <td></td>
       </tr>
@@ -601,13 +529,13 @@ after this call.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf%60%603(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable%7B%60%600%2C%60%601%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%601%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__Expression_Func___1___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf%60%603(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable%7B%60%600%2C%60%601%7D%2CExpression%7BFunc%7B%60%601%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/IDeterminedIncludableQueryableExtensions.cs/#L143">View Source</a>
   </span>
   <a id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf*"></a>
-  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf``3(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable{``0,``1},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Boolean)">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, PreviousPropertyType&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</h4>
+  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0___1__Expression_Func___1___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf``3(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable{``0,``1},Expression{Func{``1,``2}},System.Boolean)">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, PreviousPropertyType&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -631,7 +559,7 @@ after this call.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;PreviousPropertyType, PropertyType&gt;&gt;</td>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;PreviousPropertyType, PropertyType&gt;&gt;</td>
         <td><span class="parametername">includePath</span></td>
         <td></td>
       </tr>
@@ -682,13 +610,13 @@ after this call.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_System_Collections_Generic_IEnumerable___1___System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf%60%603(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable%7B%60%600%2CSystem.Collections.Generic.IEnumerable%7B%60%601%7D%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%601%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_IEnumerable___1___Expression_Func___1___2___System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf%60%603(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable%7B%60%600%2CIEnumerable%7B%60%601%7D%7D%2CExpression%7BFunc%7B%60%601%2C%60%602%7D%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/IDeterminedIncludableQueryableExtensions.cs/#L170">View Source</a>
   </span>
   <a id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf*"></a>
-  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_System_Collections_Generic_IEnumerable___1___System_Linq_Expressions_Expression_System_Func___1___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf``3(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable{``0,System.Collections.Generic.IEnumerable{``1}},System.Linq.Expressions.Expression{System.Func{``1,``2}},System.Boolean)">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</h4>
+  <h4 id="Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryableExtensions_ThenIncludeIf__3_Teronis_EntityFrameworkCore_Query_IDeterminedIncludableQueryable___0_IEnumerable___1___Expression_Func___1___2___System_Boolean_" data-uid="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryableExtensions.ThenIncludeIf``3(Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable{``0,IEnumerable{``1}},Expression{Func{``1,``2}},System.Boolean)">ThenIncludeIf&lt;EntityType, PreviousPropertyType, PropertyType&gt;(IDeterminedIncludableQueryable&lt;EntityType, IEnumerable&lt;PreviousPropertyType&gt;&gt;, Expression&lt;Func&lt;PreviousPropertyType, PropertyType&gt;&gt;, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -707,12 +635,12 @@ after this call.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable-2.html">IDeterminedIncludableQueryable</a>&lt;EntityType, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;PreviousPropertyType&gt;&gt;</td>
+        <td><a class="xref" href="Teronis.EntityFrameworkCore.Query.IDeterminedIncludableQueryable-2.html">IDeterminedIncludableQueryable</a>&lt;EntityType, <span class="xref">IEnumerable</span>&lt;PreviousPropertyType&gt;&gt;</td>
         <td><span class="parametername">determinedQuery</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;PreviousPropertyType, PropertyType&gt;&gt;</td>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;PreviousPropertyType, PropertyType&gt;&gt;</td>
         <td><span class="parametername">includePath</span></td>
         <td></td>
       </tr>

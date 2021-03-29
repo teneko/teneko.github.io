@@ -91,37 +91,13 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.Microsoft.JSInterop.Facades.IJSFacades-1.html">IJSFacades</a>&lt;TJSFacadeActivators&gt;</div>
-    <div><span class="xref">System.IAsyncDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
+    <div><span class="xref">IAsyncDisposable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.html">Teronis.Microsoft.JSInterop.Facades</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSFacades&lt;TJSFacadeActivators&gt; : IJSFacades&lt;TJSFacadeActivators&gt;, IAsyncDisposable where TJSFacadeActivators : IJSFacadeActivators</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSFacades&lt;TJSFacadeActivators&gt; : object, IJSFacades&lt;TJSFacadeActivators&gt;, IAsyncDisposable where TJSFacadeActivators : IJSFacadeActivators</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,7 +227,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IAsyncDisposable</span></td>
+        <td><span class="xref">IAsyncDisposable</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -281,7 +257,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.IAsyncDisposable</span>&gt;</td>
+        <td><span class="xref">IReadOnlyList</span>&lt;<span class="xref">IAsyncDisposable</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -290,13 +266,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_JSFacades_1_CreateCustomFacade_System_Func__0_Teronis_Microsoft_JSInterop_IJSObjectReferenceFacade__System_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.JSFacades%601.CreateCustomFacade(System.Func%7B%600%2CTeronis.Microsoft.JSInterop.IJSObjectReferenceFacade%7D%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_JSFacades_1_CreateCustomFacade_Func__0_Teronis_Microsoft_JSInterop_IJSObjectReferenceFacade__Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.JSFacades%601.CreateCustomFacade(Func%7B%600%2CTeronis.Microsoft.JSInterop.IJSObjectReferenceFacade%7D%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Facades/JSFacades.cs/#L51">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_CreateCustomFacade_" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.CreateCustomFacade*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_CreateCustomFacade_System_Func__0_Teronis_Microsoft_JSInterop_IJSObjectReferenceFacade__System_Type_" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.CreateCustomFacade(System.Func{`0,Teronis.Microsoft.JSInterop.IJSObjectReferenceFacade},System.Type)">CreateCustomFacade(Func&lt;TJSFacadeActivators, IJSObjectReferenceFacade&gt;, Type)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_CreateCustomFacade_Func__0_Teronis_Microsoft_JSInterop_IJSObjectReferenceFacade__Type_" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.CreateCustomFacade(Func{`0,Teronis.Microsoft.JSInterop.IJSObjectReferenceFacade},Type)">CreateCustomFacade(Func&lt;TJSFacadeActivators, IJSObjectReferenceFacade&gt;, Type)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -314,12 +290,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;TJSFacadeActivators, <a class="xref" href="Teronis.Microsoft.JSInterop.IJSObjectReferenceFacade.html">IJSObjectReferenceFacade</a>&gt;</td>
+        <td><span class="xref">Func</span>&lt;TJSFacadeActivators, <a class="xref" href="Teronis.Microsoft.JSInterop.IJSObjectReferenceFacade.html">IJSObjectReferenceFacade</a>&gt;</td>
         <td><span class="parametername">getCustomFacadeConstructorParameter</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">jsCustomFacadeType</span></td>
         <td></td>
       </tr>
@@ -335,7 +311,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IAsyncDisposable</span></td>
+        <td><span class="xref">IAsyncDisposable</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -365,7 +341,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -395,7 +371,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -465,13 +441,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposableFacade_System_IAsyncDisposable_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.JSFacades%601.RegisterAsyncDisposableFacade(System.IAsyncDisposable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposableFacade_IAsyncDisposable_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.JSFacades%601.RegisterAsyncDisposableFacade(IAsyncDisposable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Facades/JSFacades.cs/#L34">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposableFacade_" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.RegisterAsyncDisposableFacade*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposableFacade_System_IAsyncDisposable_" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.RegisterAsyncDisposableFacade(System.IAsyncDisposable)">RegisterAsyncDisposableFacade(IAsyncDisposable)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposableFacade_IAsyncDisposable_" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.RegisterAsyncDisposableFacade(IAsyncDisposable)">RegisterAsyncDisposableFacade(IAsyncDisposable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -489,7 +465,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IAsyncDisposable</span></td>
+        <td><span class="xref">IAsyncDisposable</span></td>
         <td><span class="parametername">jsFacadesDisposable</span></td>
         <td></td>
       </tr>
@@ -497,13 +473,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposables_System_Collections_Generic_IEnumerable_System_IAsyncDisposable__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.JSFacades%601.RegisterAsyncDisposables(System.Collections.Generic.IEnumerable%7BSystem.IAsyncDisposable%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposables_IEnumerable_IAsyncDisposable__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.JSFacades%601.RegisterAsyncDisposables(IEnumerable%7BIAsyncDisposable%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Facades/JSFacades.cs/#L37">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposables_" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.RegisterAsyncDisposables*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposables_System_Collections_Generic_IEnumerable_System_IAsyncDisposable__" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.RegisterAsyncDisposables(System.Collections.Generic.IEnumerable{System.IAsyncDisposable})">RegisterAsyncDisposables(IEnumerable&lt;IAsyncDisposable&gt;)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Facades_JSFacades_1_RegisterAsyncDisposables_IEnumerable_IAsyncDisposable__" data-uid="Teronis.Microsoft.JSInterop.Facades.JSFacades`1.RegisterAsyncDisposables(IEnumerable{IAsyncDisposable})">RegisterAsyncDisposables(IEnumerable&lt;IAsyncDisposable&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -521,7 +497,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.IAsyncDisposable</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">IAsyncDisposable</span>&gt;</td>
         <td><span class="parametername">jsFacadesDisposables</span></td>
         <td></td>
       </tr>
@@ -532,7 +508,7 @@
       <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.IJSFacades-1.html">IJSFacades&lt;TJSFacadeActivators&gt;</a>
   </div>
   <div>
-      <span class="xref">System.IAsyncDisposable</span>
+      <span class="xref">IAsyncDisposable</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
@@ -540,9 +516,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

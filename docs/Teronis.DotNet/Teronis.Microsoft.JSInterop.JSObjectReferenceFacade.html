@@ -92,37 +92,13 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.Microsoft.JSInterop.IJSObjectReferenceFacade.html">IJSObjectReferenceFacade</a></div>
-    <div><span class="xref">System.IAsyncDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
+    <div><span class="xref">IAsyncDisposable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.html">Teronis.Microsoft.JSInterop</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSObjectReferenceFacade : IJSObjectReferenceFacade, IAsyncDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSObjectReferenceFacade : object, IJSObjectReferenceFacade, IAsyncDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -284,7 +260,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -314,92 +290,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync%60%601(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L26">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_Object___" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync``1(System.String,System.Object[])">InvokeAsync&lt;TValue&gt;(String, Object[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, params object[] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">args</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_Threading_CancellationToken_System_Object___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync%60%601(System.String%2CSystem.Threading.CancellationToken%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_CancellationToken_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync%60%601(System.String%2CCancellationToken%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L29">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_Threading_CancellationToken_System_Object___" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync``1(System.String,System.Threading.CancellationToken,System.Object[])">InvokeAsync&lt;TValue&gt;(String, CancellationToken, Object[])</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_CancellationToken_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync``1(System.String,CancellationToken,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(String, CancellationToken, Nullable&lt;Object&gt;[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, CancellationToken cancellationToken, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, CancellationToken cancellationToken, params object? [] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -417,12 +326,12 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
         <td><span class="parametername">args</span></td>
         <td></td>
       </tr>
@@ -438,7 +347,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;TValue&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -460,18 +369,85 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_TimeSpan_System_Object___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync%60%601(System.String%2CSystem.TimeSpan%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync%60%601(System.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L26">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync``1(System.String,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(String, Nullable&lt;Object&gt;[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, params object? [] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_TimeSpan_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync%60%601(System.String%2CTimeSpan%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L32">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_TimeSpan_System_Object___" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync``1(System.String,System.TimeSpan,System.Object[])">InvokeAsync&lt;TValue&gt;(String, TimeSpan, Object[])</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_TimeSpan_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeAsync``1(System.String,TimeSpan,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(String, TimeSpan, Nullable&lt;Object&gt;[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, TimeSpan timeout, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, TimeSpan timeout, params object? [] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -489,12 +465,12 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">TimeSpan</span></td>
         <td><span class="parametername">timeout</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
         <td><span class="parametername">args</span></td>
         <td></td>
       </tr>
@@ -510,7 +486,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;TValue&gt;</td>
+        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -532,70 +508,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L35">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_Object___" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String,System.Object[])">InvokeVoidAsync(String, Object[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask InvokeVoidAsync(string identifier, params object[] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">args</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_Threading_CancellationToken_System_Object___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String%2CSystem.Threading.CancellationToken%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_CancellationToken_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String%2CCancellationToken%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L38">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_Threading_CancellationToken_System_Object___" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String,System.Threading.CancellationToken,System.Object[])">InvokeVoidAsync(String, CancellationToken, Object[])</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_CancellationToken_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String,CancellationToken,System.Nullable{System.Object}[])">InvokeVoidAsync(String, CancellationToken, Nullable&lt;Object&gt;[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask InvokeVoidAsync(string identifier, CancellationToken cancellationToken, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask InvokeVoidAsync(string identifier, CancellationToken cancellationToken, params object? [] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -613,12 +537,12 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
         <td><span class="parametername">args</span></td>
         <td></td>
       </tr>
@@ -634,25 +558,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_TimeSpan_System_Object___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String%2CSystem.TimeSpan%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L41">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L35">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_TimeSpan_System_Object___" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String,System.TimeSpan,System.Object[])">InvokeVoidAsync(String, TimeSpan, Object[])</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String,System.Nullable{System.Object}[])">InvokeVoidAsync(String, Nullable&lt;Object&gt;[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask InvokeVoidAsync(string identifier, TimeSpan timeout, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask InvokeVoidAsync(string identifier, params object? [] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -670,12 +594,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
         <td><span class="parametername">args</span></td>
         <td></td>
       </tr>
@@ -691,7 +610,64 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.ValueTask</span></td>
+        <td><span class="xref">ValueTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_TimeSpan_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String%2CTimeSpan%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/JSObjectReferenceFacade.cs/#L41">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_TimeSpan_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.InvokeVoidAsync(System.String,TimeSpan,System.Nullable{System.Object}[])">InvokeVoidAsync(String, TimeSpan, Nullable&lt;Object&gt;[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual ValueTask InvokeVoidAsync(string identifier, TimeSpan timeout, params object? [] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ValueTask</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -701,7 +677,7 @@
       <a class="xref" href="Teronis.Microsoft.JSInterop.IJSObjectReferenceFacade.html">IJSObjectReferenceFacade</a>
   </div>
   <div>
-      <span class="xref">System.IAsyncDisposable</span>
+      <span class="xref">IAsyncDisposable</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
@@ -709,9 +685,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

@@ -88,47 +88,23 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">TParentHotkey</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Windows.Forms.Hooks.html">Teronis.Windows.Forms.Hooks</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Windows.Forms.dll</h6>
   <h5 id="Teronis_Windows_Forms_Hooks_TParentHotkey_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TParentHotkey</code></pre>
+    <pre><code class="lang-csharp hljs">public class TParentHotkey : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Forms_Hooks_TParentHotkey__ctor_System_Int32_Teronis_Windows_Forms_Hooks_TKeyEventArgs_System_Action_Teronis_Windows_Forms_Hooks_EHotkeyState___System_Action_Teronis_Windows_Forms_Hooks_TChildHotkey__.md&amp;value=---%0Auid%3A%20Teronis.Windows.Forms.Hooks.TParentHotkey.%23ctor(System.Int32%2CTeronis.Windows.Forms.Hooks.TKeyEventArgs%2CSystem.Action%7BTeronis.Windows.Forms.Hooks.EHotkeyState%7D%40%2CSystem.Action%7BTeronis.Windows.Forms.Hooks.TChildHotkey%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Windows_Forms_Hooks_TParentHotkey__ctor_System_Int32_Teronis_Windows_Forms_Hooks_TKeyEventArgs_Action_Teronis_Windows_Forms_Hooks_EHotkeyState___Action_Teronis_Windows_Forms_Hooks_TChildHotkey__.md&amp;value=---%0Auid%3A%20Teronis.Windows.Forms.Hooks.TParentHotkey.%23ctor(System.Int32%2CTeronis.Windows.Forms.Hooks.TKeyEventArgs%2CAction%7BTeronis.Windows.Forms.Hooks.EHotkeyState%7D%40%2CAction%7BTeronis.Windows.Forms.Hooks.TChildHotkey%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Windows/Forms/0/src/Hooks/KeyboardHookManager.cs/#L189">View Source</a>
   </span>
   <a id="Teronis_Windows_Forms_Hooks_TParentHotkey__ctor_" data-uid="Teronis.Windows.Forms.Hooks.TParentHotkey.#ctor*"></a>
-  <h4 id="Teronis_Windows_Forms_Hooks_TParentHotkey__ctor_System_Int32_Teronis_Windows_Forms_Hooks_TKeyEventArgs_System_Action_Teronis_Windows_Forms_Hooks_EHotkeyState___System_Action_Teronis_Windows_Forms_Hooks_TChildHotkey__" data-uid="Teronis.Windows.Forms.Hooks.TParentHotkey.#ctor(System.Int32,Teronis.Windows.Forms.Hooks.TKeyEventArgs,System.Action{Teronis.Windows.Forms.Hooks.EHotkeyState}@,System.Action{Teronis.Windows.Forms.Hooks.TChildHotkey})">TParentHotkey(Int32, TKeyEventArgs, out Action&lt;EHotkeyState&gt;, Action&lt;TChildHotkey&gt;)</h4>
+  <h4 id="Teronis_Windows_Forms_Hooks_TParentHotkey__ctor_System_Int32_Teronis_Windows_Forms_Hooks_TKeyEventArgs_Action_Teronis_Windows_Forms_Hooks_EHotkeyState___Action_Teronis_Windows_Forms_Hooks_TChildHotkey__" data-uid="Teronis.Windows.Forms.Hooks.TParentHotkey.#ctor(System.Int32,Teronis.Windows.Forms.Hooks.TKeyEventArgs,Action{Teronis.Windows.Forms.Hooks.EHotkeyState}@,Action{Teronis.Windows.Forms.Hooks.TChildHotkey})">TParentHotkey(Int32, TKeyEventArgs, out Action&lt;EHotkeyState&gt;, Action&lt;TChildHotkey&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -156,12 +132,12 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Teronis.Windows.Forms.Hooks.EHotkeyState.html">EHotkeyState</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Teronis.Windows.Forms.Hooks.EHotkeyState.html">EHotkeyState</a>&gt;</td>
         <td><span class="parametername">invokeHotkeyFired</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Teronis.Windows.Forms.Hooks.TChildHotkey.html">TChildHotkey</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Teronis.Windows.Forms.Hooks.TChildHotkey.html">TChildHotkey</a>&gt;</td>
         <td><span class="parametername">unregister</span></td>
         <td></td>
       </tr>
@@ -284,9 +260,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

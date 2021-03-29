@@ -112,19 +112,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IThenInCollectionConstantPredicateBuilder_2_ThenCreateFromCollection__1_System_Func_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression_System_Linq_Expressions_BinaryExpression__System_Func__1_System_Collections_Generic_IEnumerable___0___Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IThenInCollectionConstantPredicateBuilder%602.ThenCreateFromCollection%60%601(System.Func%7BSystem.Linq.Expressions.Expression%2CSystem.Linq.Expressions.Expression%2CSystem.Linq.Expressions.BinaryExpression%7D%2CSystem.Func%7B%601%2CSystem.Collections.Generic.IEnumerable%7B%60%600%7D%7D%2CTeronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_EntityFrameworkCore_Query_IThenInCollectionConstantPredicateBuilder_2_ThenCreateFromCollection__1_Func_Expression_Expression_BinaryExpression__Func__1_System_Nullable_IEnumerable___0____Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_.md&amp;value=---%0Auid%3A%20Teronis.EntityFrameworkCore.Query.IThenInCollectionConstantPredicateBuilder%602.ThenCreateFromCollection%60%601(Func%7BExpression%2CExpression%2CBinaryExpression%7D%2CFunc%7B%601%2CSystem.Nullable%7BIEnumerable%7B%60%600%7D%7D%7D%2CTeronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/EntityFrameworkCore/Query/src/ICollectionConstantPredicateBuilder`2.cs/#L19">View Source</a>
   </span>
   <a id="Teronis_EntityFrameworkCore_Query_IThenInCollectionConstantPredicateBuilder_2_ThenCreateFromCollection_" data-uid="Teronis.EntityFrameworkCore.Query.IThenInCollectionConstantPredicateBuilder`2.ThenCreateFromCollection*"></a>
-  <h4 id="Teronis_EntityFrameworkCore_Query_IThenInCollectionConstantPredicateBuilder_2_ThenCreateFromCollection__1_System_Func_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression_System_Linq_Expressions_BinaryExpression__System_Func__1_System_Collections_Generic_IEnumerable___0___Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_" data-uid="Teronis.EntityFrameworkCore.Query.IThenInCollectionConstantPredicateBuilder`2.ThenCreateFromCollection``1(System.Func{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.BinaryExpression},System.Func{`1,System.Collections.Generic.IEnumerable{``0}},Teronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags)">ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt;, Func&lt;ComparisonItemType, IEnumerable&lt;ThenComparisonItemType&gt;&gt;, ComparisonItemsBehaviourFlags)</h4>
+  <h4 id="Teronis_EntityFrameworkCore_Query_IThenInCollectionConstantPredicateBuilder_2_ThenCreateFromCollection__1_Func_Expression_Expression_BinaryExpression__Func__1_System_Nullable_IEnumerable___0____Teronis_EntityFrameworkCore_Query_ComparisonItemsBehaviourFlags_" data-uid="Teronis.EntityFrameworkCore.Query.IThenInCollectionConstantPredicateBuilder`2.ThenCreateFromCollection``1(Func{Expression,Expression,BinaryExpression},Func{`1,System.Nullable{IEnumerable{``0}}},Teronis.EntityFrameworkCore.Query.ComparisonItemsBehaviourFlags)">ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt;, Func&lt;ComparisonItemType, Nullable&lt;IEnumerable&lt;ThenComparisonItemType&gt;&gt;&gt;, ComparisonItemsBehaviourFlags)</h4>
   <div class="markdown level1 summary"><p>Creates a deferred collection constant predicate builder from <code data-dev-comment-type="paramref" class="paramref">comparisonItemsFactory</code> that might return a null or empty collection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;.IDeferredThenCreateCollectionConstantBuilder&lt;ThenComparisonItemType&gt; ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt; parentBinaryExpressionFactory, Func&lt;ComparisonItemType, IEnumerable&lt;ThenComparisonItemType&gt;&gt; comparisonItemsFactory, ComparisonItemsBehaviourFlags comparisonItemsBehaviourFlags)</code></pre>
+    <pre><code class="lang-csharp hljs">CollectionConstantPredicateBuilder&lt;SourceType, ComparisonItemType&gt;.IDeferredThenCreateCollectionConstantBuilder&lt;ThenComparisonItemType&gt; ThenCreateFromCollection&lt;ThenComparisonItemType&gt;(Func&lt;Expression, Expression, BinaryExpression&gt; parentBinaryExpressionFactory, Func&lt;ComparisonItemType, IEnumerable&lt;ThenComparisonItemType&gt;?&gt; comparisonItemsFactory, ComparisonItemsBehaviourFlags comparisonItemsBehaviourFlags)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,13 +137,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Linq.Expressions.Expression</span>, <span class="xref">System.Linq.Expressions.Expression</span>, <span class="xref">System.Linq.Expressions.BinaryExpression</span>&gt;</td>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Expression</span>, <span class="xref">Expression</span>, <span class="xref">BinaryExpression</span>&gt;</td>
         <td><span class="parametername">parentBinaryExpressionFactory</span></td>
         <td><p>The binary expression factory combines a collection predicate with a previous collection predicate.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;ComparisonItemType, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;ThenComparisonItemType&gt;&gt;</td>
+        <td><span class="xref">Func</span>&lt;ComparisonItemType, <span class="xref">System.Nullable</span>&lt;<span class="xref">IEnumerable</span>&lt;ThenComparisonItemType&gt;&gt;&gt;</td>
         <td><span class="parametername">comparisonItemsFactory</span></td>
         <td><p>A collection expression that might return a comparison value list with at least one item.</p>
 </td>
@@ -193,9 +193,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

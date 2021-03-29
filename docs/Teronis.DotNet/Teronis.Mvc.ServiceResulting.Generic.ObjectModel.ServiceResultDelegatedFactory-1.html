@@ -93,35 +93,11 @@
     <div><a class="xref" href="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.IServiceResultDelegatedFactory-2.html">IServiceResultDelegatedFactory</a>&lt;<a class="xref" href="Teronis.Mvc.ServiceResulting.Generic.IServiceResult-1.html">IServiceResult</a>&lt;ContentType&gt;, ContentType&gt;</div>
     <div><a class="xref" href="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.IServiceResultDelegatedFactory-1.html">IServiceResultDelegatedFactory</a>&lt;ContentType&gt;</div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.html">Teronis.Mvc.ServiceResulting.Generic.ObjectModel</a></h6>
   <h6><strong>Assembly</strong>: Teronis.AspNetCore.Mvc.dll</h6>
   <h5 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ServiceResultDelegatedFactory&lt;ContentType&gt; : IServiceResultDelegatedFactory&lt;IServiceResult&lt;ContentType&gt;, ContentType&gt;, IServiceResultDelegatedFactory&lt;ContentType&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ServiceResultDelegatedFactory&lt;ContentType&gt; : object, IServiceResultDelegatedFactory&lt;IServiceResult&lt;ContentType&gt;, ContentType&gt;, IServiceResultDelegatedFactory&lt;ContentType&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,18 +182,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_System_Exception_.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory%601.ToFailure(System.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_System_Nullable_Exception__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory%601.ToFailure(System.Nullable%7BException%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/Generic/ObjectModel/ServiceResultDelegatedFactory{ContentType}.cs/#L58">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.ToFailure*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_System_Exception_" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.ToFailure(System.Exception)">ToFailure(Exception)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_System_Nullable_Exception__" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.ToFailure(System.Nullable{Exception})">ToFailure(Nullable&lt;Exception&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IServiceResultPostConfiguration&lt;IServiceResult&lt;ContentType&gt;, ContentType&gt; ToFailure(Exception error)</code></pre>
+    <pre><code class="lang-csharp hljs">public IServiceResultPostConfiguration&lt;IServiceResult&lt;ContentType&gt;, ContentType&gt; ToFailure(Exception? error)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -230,7 +206,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Exception</span>&gt;</td>
         <td><span class="parametername">error</span></td>
         <td></td>
       </tr>
@@ -253,18 +229,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory%601.ToFailure(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory%601.ToFailure(System.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/Generic/ObjectModel/ServiceResultDelegatedFactory{ContentType}.cs/#L64">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.ToFailure*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_System_String_" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.ToFailure(System.String)">ToFailure(String)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_ToFailure_System_Nullable_System_String__" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.ToFailure(System.Nullable{System.String})">ToFailure(Nullable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IServiceResultPostConfiguration&lt;IServiceResult&lt;ContentType&gt;, ContentType&gt; ToFailure(string errorMessage)</code></pre>
+    <pre><code class="lang-csharp hljs">public IServiceResultPostConfiguration&lt;IServiceResult&lt;ContentType&gt;, ContentType&gt; ToFailure(string? errorMessage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -277,7 +253,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">errorMessage</span></td>
         <td></td>
       </tr>
@@ -550,18 +526,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_System_Exception_.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory%601.Teronis%23Mvc%23ServiceResulting%23Generic%23ObjectModel%23IServiceResultDelegatedFactory%7BContentType%7D%23ToFailure(System.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_System_Nullable_Exception__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory%601.Teronis%23Mvc%23ServiceResulting%23Generic%23ObjectModel%23IServiceResultDelegatedFactory%7BContentType%7D%23ToFailure(System.Nullable%7BException%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/Generic/ObjectModel/ServiceResultDelegatedFactory{ContentType}.cs/#L90">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.Teronis#Mvc#ServiceResulting#Generic#ObjectModel#IServiceResultDelegatedFactory{ContentType}#ToFailure*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_System_Exception_" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.Teronis#Mvc#ServiceResulting#Generic#ObjectModel#IServiceResultDelegatedFactory{ContentType}#ToFailure(System.Exception)">IServiceResultDelegatedFactory&lt;ContentType&gt;.ToFailure(Exception)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_System_Nullable_Exception__" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.Teronis#Mvc#ServiceResulting#Generic#ObjectModel#IServiceResultDelegatedFactory{ContentType}#ToFailure(System.Nullable{Exception})">IServiceResultDelegatedFactory&lt;ContentType&gt;.ToFailure(Nullable&lt;Exception&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IServiceResultPostConfiguration IServiceResultDelegatedFactory&lt;ContentType&gt;.ToFailure(Exception error)</code></pre>
+    <pre><code class="lang-csharp hljs">IServiceResultPostConfiguration IServiceResultDelegatedFactory&lt;ContentType&gt;.ToFailure(Exception? error)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -574,7 +550,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Exception</span>&gt;</td>
         <td><span class="parametername">error</span></td>
         <td></td>
       </tr>
@@ -597,18 +573,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory%601.Teronis%23Mvc%23ServiceResulting%23Generic%23ObjectModel%23IServiceResultDelegatedFactory%7BContentType%7D%23ToFailure(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory%601.Teronis%23Mvc%23ServiceResulting%23Generic%23ObjectModel%23IServiceResultDelegatedFactory%7BContentType%7D%23ToFailure(System.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/Generic/ObjectModel/ServiceResultDelegatedFactory{ContentType}.cs/#L93">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.Teronis#Mvc#ServiceResulting#Generic#ObjectModel#IServiceResultDelegatedFactory{ContentType}#ToFailure*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_System_String_" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.Teronis#Mvc#ServiceResulting#Generic#ObjectModel#IServiceResultDelegatedFactory{ContentType}#ToFailure(System.String)">IServiceResultDelegatedFactory&lt;ContentType&gt;.ToFailure(String)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_Generic_ObjectModel_ServiceResultDelegatedFactory_1_Teronis_Mvc_ServiceResulting_Generic_ObjectModel_IServiceResultDelegatedFactory_ContentType__ToFailure_System_Nullable_System_String__" data-uid="Teronis.Mvc.ServiceResulting.Generic.ObjectModel.ServiceResultDelegatedFactory`1.Teronis#Mvc#ServiceResulting#Generic#ObjectModel#IServiceResultDelegatedFactory{ContentType}#ToFailure(System.Nullable{System.String})">IServiceResultDelegatedFactory&lt;ContentType&gt;.ToFailure(Nullable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IServiceResultPostConfiguration IServiceResultDelegatedFactory&lt;ContentType&gt;.ToFailure(string errorMessage)</code></pre>
+    <pre><code class="lang-csharp hljs">IServiceResultPostConfiguration IServiceResultDelegatedFactory&lt;ContentType&gt;.ToFailure(string? errorMessage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -621,7 +597,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">errorMessage</span></td>
         <td></td>
       </tr>
@@ -873,9 +849,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

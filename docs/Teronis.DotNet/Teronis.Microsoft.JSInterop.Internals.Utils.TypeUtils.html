@@ -89,49 +89,25 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">TypeUtils</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Internals.Utils.html">Teronis.Microsoft.JSInterop.Internals.Utils</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class TypeUtils</code></pre>
+    <pre><code class="lang-csharp hljs">public static class TypeUtils : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_EnsureInterfaceTypeIsAssignaleTo__1_System_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.EnsureInterfaceTypeIsAssignaleTo%60%601(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_EnsureInterfaceTypeIsAssignaleTo__1_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.EnsureInterfaceTypeIsAssignaleTo%60%601(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Internals/Utils/TypeUtils.cs/#L20">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_EnsureInterfaceTypeIsAssignaleTo_" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.EnsureInterfaceTypeIsAssignaleTo*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_EnsureInterfaceTypeIsAssignaleTo__1_System_Type_" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.EnsureInterfaceTypeIsAssignaleTo``1(System.Type)">EnsureInterfaceTypeIsAssignaleTo&lt;TAssignableTo&gt;(Type)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_EnsureInterfaceTypeIsAssignaleTo__1_Type_" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.EnsureInterfaceTypeIsAssignaleTo``1(Type)">EnsureInterfaceTypeIsAssignaleTo&lt;TAssignableTo&gt;(Type)</h4>
   <div class="markdown level1 summary"><p>Ensures that <code data-dev-comment-type="paramref" class="paramref">interfaceType</code> is assignable to
-<code data-dev-comment-type="typeparamref" class="typeparamref">TAssignableTo</code>,otherwise an excpetion is
+<code data-dev-comment-type="typeparamref" class="typeparamref">TAssignableTo</code>, otherwise an excpetion is
 thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -150,7 +126,7 @@ thrown.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">interfaceType</span></td>
         <td></td>
       </tr>
@@ -171,30 +147,15 @@ thrown.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_GetInterfaces_System_Type___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.GetInterfaces(System.Type%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_GetInterfaces_Type___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.GetInterfaces(Type%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Internals/Utils/TypeUtils.cs/#L30">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_GetInterfaces_" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.GetInterfaces*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_GetInterfaces_System_Type___" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.GetInterfaces(System.Type[])">GetInterfaces(Type[])</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_GetInterfaces_Type___" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.GetInterfaces(Type[])">GetInterfaces(Type[])</h4>
   <div class="markdown level1 summary"><p>Gets all the interfaces implemented or inherited.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -213,7 +174,7 @@ thrown.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="xref">Type</span>[]</td>
         <td><span class="parametername">types</span></td>
         <td></td>
       </tr>
@@ -229,20 +190,20 @@ thrown.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td><span class="xref">HashSet</span>&lt;<span class="xref">Type</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_SortByName_System_Type___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.SortByName(System.Type%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_SortByName_Type___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.SortByName(Type%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Internals/Utils/TypeUtils.cs/#L62">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_SortByName_" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.SortByName*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_SortByName_System_Type___" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.SortByName(System.Type[])">SortByName(Type[])</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Internals_Utils_TypeUtils_SortByName_Type___" data-uid="Teronis.Microsoft.JSInterop.Internals.Utils.TypeUtils.SortByName(Type[])">SortByName(Type[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -260,7 +221,7 @@ thrown.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="xref">Type</span>[]</td>
         <td><span class="parametername">array</span></td>
         <td></td>
       </tr>

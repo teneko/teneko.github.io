@@ -88,40 +88,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">JsonErrors</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Teronis.Mvc.ServiceResulting.JsonError.html">JsonError</a>&gt;</div>
-    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="Teronis.Mvc.ServiceResulting.JsonError.html">JsonError</a>&gt;</div>
-    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Teronis.Mvc.ServiceResulting.JsonError.html">JsonError</a>&gt;</div>
-    <div><span class="xref">System.Collections.IEnumerable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Mvc.ServiceResulting.html">Teronis.Mvc.ServiceResulting</a></h6>
   <h6><strong>Assembly</strong>: Teronis.AspNetCore.Mvc.dll</h6>
   <h5 id="Teronis_Mvc_ServiceResulting_JsonErrors_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(JsonErrorsTextJsonConverter))]
-public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, IEnumerable&lt;JsonError&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class JsonErrors : IList&lt;JsonError&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -142,13 +113,13 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_Exception_System_String___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.%23ctor(System.Collections.Generic.IEnumerable%7BSystem.Collections.Generic.KeyValuePair%7BSystem.Exception%2CSystem.String%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors__ctor_IEnumerable_KeyValuePair_Exception_System_String___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.%23ctor(IEnumerable%7BKeyValuePair%7BException%2CSystem.String%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/JsonErrors.cs/#L57">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_Exception_System_String___" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.Exception,System.String}})">JsonErrors(IEnumerable&lt;KeyValuePair&lt;Exception, String&gt;&gt;)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_IEnumerable_KeyValuePair_Exception_System_String___" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor(IEnumerable{KeyValuePair{Exception,System.String}})">JsonErrors(IEnumerable&lt;KeyValuePair&lt;Exception, String&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -166,7 +137,7 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Exception</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">Exception</span>, <span class="xref">System.String</span>&gt;&gt;</td>
         <td><span class="parametername">errors</span></td>
         <td></td>
       </tr>
@@ -174,13 +145,13 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.%23ctor(System.Collections.Generic.IEnumerable%7BSystem.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.String%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors__ctor_IEnumerable_KeyValuePair_System_String_System_String___.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.%23ctor(IEnumerable%7BKeyValuePair%7BSystem.String%2CSystem.String%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/JsonErrors.cs/#L51">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">JsonErrors(IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_IEnumerable_KeyValuePair_System_String_System_String___" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor(IEnumerable{KeyValuePair{System.String,System.String}})">JsonErrors(IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -198,7 +169,7 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
         <td><span class="parametername">errors</span></td>
         <td></td>
       </tr>
@@ -206,18 +177,18 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Exception_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.%23ctor(System.Exception%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Nullable_Exception__System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.%23ctor(System.Nullable%7BException%7D%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/JsonErrors.cs/#L45">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Exception_System_String_" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor(System.Exception,System.String)">JsonErrors(Exception, String)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Nullable_Exception__System_Nullable_System_String__" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor(System.Nullable{Exception},System.Nullable{System.String})">JsonErrors(Nullable&lt;Exception&gt;, Nullable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonErrors(Exception error, string errorCode = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonErrors(Exception? error, string? errorCode = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -230,12 +201,12 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Exception</span>&gt;</td>
         <td><span class="parametername">error</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">errorCode</span></td>
         <td></td>
       </tr>
@@ -243,18 +214,18 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_String_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Nullable_System_String__System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.%23ctor(System.Nullable%7BSystem.String%7D%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/JsonErrors.cs/#L48">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_String_System_String_" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor(System.String,System.String)">JsonErrors(String, String)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors__ctor_System_Nullable_System_String__System_Nullable_System_String__" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.#ctor(System.Nullable{System.String},System.Nullable{System.String})">JsonErrors(Nullable&lt;String&gt;, Nullable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonErrors(string errorMessage, string errorCode = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonErrors(string? errorMessage, string? errorCode = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -267,12 +238,12 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">errorMessage</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">errorCode</span></td>
         <td></td>
       </tr>
@@ -397,7 +368,7 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Teronis.Mvc.ServiceResulting.JsonError.html">JsonError</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Teronis.Mvc.ServiceResulting.JsonError.html">JsonError</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -637,7 +608,7 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<a class="xref" href="Teronis.Mvc.ServiceResulting.JsonError.html">JsonError</a>&gt;</td>
+        <td><span class="xref">IEnumerator</span>&lt;<a class="xref" href="Teronis.Mvc.ServiceResulting.JsonError.html">JsonError</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -835,53 +806,6 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_JsonErrors_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.JsonErrors.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/JsonErrors.cs/#L139">View Source</a>
-  </span>
-  <a id="Teronis_Mvc_ServiceResulting_JsonErrors_System_Collections_IEnumerable_GetEnumerator_" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.System#Collections#IEnumerable#GetEnumerator*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_JsonErrors_System_Collections_IEnumerable_GetEnumerator" data-uid="Teronis.Mvc.ServiceResulting.JsonErrors.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.IEnumerable</span>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
@@ -909,9 +833,6 @@ public class JsonErrors : IList&lt;JsonError&gt;, ICollection&lt;JsonError&gt;, 
   </div>
   <div>
       <a class="xref" href="Teronis.Mvc.ServiceResulting.JsonErrorsExtensions.html#Teronis_Mvc_ServiceResulting_JsonErrorsExtensions_ToServiceResultFactory__1_Teronis_Mvc_ServiceResulting_JsonErrors_">JsonErrorsExtensions.ToServiceResultFactory&lt;ContentType&gt;(JsonErrors)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

@@ -116,18 +116,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_ServiceResult__ctor_System_Boolean_System_Object_System_Nullable_System_Int32__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.ServiceResult.%23ctor(System.Boolean%2CSystem.Object%2CSystem.Nullable%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Mvc_ServiceResulting_ServiceResult__ctor_System_Boolean_System_Nullable_System_Object__System_Nullable_System_Int32__.md&amp;value=---%0Auid%3A%20Teronis.Mvc.ServiceResulting.ServiceResult.%23ctor(System.Boolean%2CSystem.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Mvc/Mvc/src/ServiceResulting/ServiceResult.cs/#L69">View Source</a>
   </span>
   <a id="Teronis_Mvc_ServiceResulting_ServiceResult__ctor_" data-uid="Teronis.Mvc.ServiceResulting.ServiceResult.#ctor*"></a>
-  <h4 id="Teronis_Mvc_ServiceResulting_ServiceResult__ctor_System_Boolean_System_Object_System_Nullable_System_Int32__" data-uid="Teronis.Mvc.ServiceResulting.ServiceResult.#ctor(System.Boolean,System.Object,System.Nullable{System.Int32})">ServiceResult(Boolean, Object, Nullable&lt;Int32&gt;)</h4>
+  <h4 id="Teronis_Mvc_ServiceResulting_ServiceResult__ctor_System_Boolean_System_Nullable_System_Object__System_Nullable_System_Int32__" data-uid="Teronis.Mvc.ServiceResulting.ServiceResult.#ctor(System.Boolean,System.Nullable{System.Object},System.Nullable{System.Int32})">ServiceResult(Boolean, Nullable&lt;Object&gt;, Nullable&lt;Int32&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServiceResult(bool succeeded, object content = null, int? statusCode = default(int? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public ServiceResult(bool succeeded, object? content = null, int? statusCode = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,7 +145,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">content</span></td>
         <td></td>
       </tr>
@@ -171,7 +171,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object Content { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public object? Content { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,7 +183,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -201,7 +201,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual object ContentOrDefault { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual object? ContentOrDefault { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,7 +213,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -325,7 +325,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object IMutableServiceResult.Content { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">object? IMutableServiceResult.Content { get; set; }</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -337,7 +337,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -453,16 +453,13 @@
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
   </div>
   <div>
-      <a class="xref" href="Teronis.Mvc.ServiceResulting.IServiceResultExtensions.html#Teronis_Mvc_ServiceResulting_IServiceResultExtensions_Success_Teronis_Mvc_ServiceResulting_IServiceResult_System_Collections_Generic_IEnumerable_System_String__">IServiceResultExtensions.Success(IServiceResult, IEnumerable&lt;String&gt;)</a>
+      <a class="xref" href="Teronis.Mvc.ServiceResulting.IServiceResultExtensions.html#Teronis_Mvc_ServiceResulting_IServiceResultExtensions_Success_Teronis_Mvc_ServiceResulting_IServiceResult_IEnumerable_System_String__">IServiceResultExtensions.Success(IServiceResult, IEnumerable&lt;String&gt;)</a>
   </div>
   <div>
       <a class="xref" href="Teronis.Mvc.ServiceResulting.IServiceResultExtensions.html#Teronis_Mvc_ServiceResulting_IServiceResultExtensions_Success_Teronis_Mvc_ServiceResulting_IServiceResult_System_String___">IServiceResultExtensions.Success(IServiceResult, String[])</a>
   </div>
   <div>
       <a class="xref" href="Teronis.Mvc.ServiceResulting.IServiceResultExtensions.html#Teronis_Mvc_ServiceResulting_IServiceResultExtensions_ThrowOnError_Teronis_Mvc_ServiceResulting_IServiceResult_">IServiceResultExtensions.ThrowOnError(IServiceResult)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>

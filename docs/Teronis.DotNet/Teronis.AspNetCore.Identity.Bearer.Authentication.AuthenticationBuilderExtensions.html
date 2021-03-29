@@ -88,53 +88,29 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">AuthenticationBuilderExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.AspNetCore.Identity.Bearer.Authentication.html">Teronis.AspNetCore.Identity.Bearer.Authentication</a></h6>
   <h6><strong>Assembly</strong>: Teronis.AspNetCore.Identity.Bearer.dll</h6>
   <h5 id="Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class AuthenticationBuilderExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class AuthenticationBuilderExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic__1_AuthenticationBuilder_System_Action_BasicAuthenticationOptions__.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic%60%601(AuthenticationBuilder%2CSystem.Action%7BBasicAuthenticationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic__1_AuthenticationBuilder_System_Nullable_Action_BasicAuthenticationOptions___.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic%60%601(AuthenticationBuilder%2CSystem.Nullable%7BAction%7BBasicAuthenticationOptions%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Authentication/AuthenticationBuilderExtensions.cs/#L37">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic_" data-uid="Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic__1_AuthenticationBuilder_System_Action_BasicAuthenticationOptions__" data-uid="Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic``1(AuthenticationBuilder,System.Action{BasicAuthenticationOptions})">AddIdentityBasic&lt;UserType&gt;(AuthenticationBuilder, Action&lt;BasicAuthenticationOptions&gt;)</h4>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic__1_AuthenticationBuilder_System_Nullable_Action_BasicAuthenticationOptions___" data-uid="Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic``1(AuthenticationBuilder,System.Nullable{Action{BasicAuthenticationOptions}})">AddIdentityBasic&lt;UserType&gt;(AuthenticationBuilder, Nullable&lt;Action&lt;BasicAuthenticationOptions&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Uses <a class="xref" href="Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationDefaults.html#Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationDefaults_IdentityBasicScheme">IdentityBasicScheme</a> as scheme.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AuthenticationBuilder AddIdentityBasic&lt;UserType&gt;(this AuthenticationBuilder authenticationBuilder, Action&lt;BasicAuthenticationOptions&gt; configureOptions = null)
+    <pre><code class="lang-csharp hljs">public static AuthenticationBuilder AddIdentityBasic&lt;UserType&gt;(this AuthenticationBuilder authenticationBuilder, Action&lt;BasicAuthenticationOptions&gt;? configureOptions = null)
     where UserType : class, IBearerUserEntity</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -153,7 +129,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">BasicAuthenticationOptions</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<span class="xref">BasicAuthenticationOptions</span>&gt;&gt;</td>
         <td><span class="parametername">configureOptions</span></td>
         <td></td>
       </tr>
@@ -191,19 +167,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic__1_AuthenticationBuilder_System_String_System_Action_BasicAuthenticationOptions__.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic%60%601(AuthenticationBuilder%2CSystem.String%2CSystem.Action%7BBasicAuthenticationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic__1_AuthenticationBuilder_System_String_System_Nullable_Action_BasicAuthenticationOptions___.md&amp;value=---%0Auid%3A%20Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic%60%601(AuthenticationBuilder%2CSystem.String%2CSystem.Nullable%7BAction%7BBasicAuthenticationOptions%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/AspNetCore/Identity/Bearer/src/Authentication/AuthenticationBuilderExtensions.cs/#L47">View Source</a>
   </span>
   <a id="Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic_" data-uid="Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic*"></a>
-  <h4 id="Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic__1_AuthenticationBuilder_System_String_System_Action_BasicAuthenticationOptions__" data-uid="Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic``1(AuthenticationBuilder,System.String,System.Action{BasicAuthenticationOptions})">AddIdentityBasic&lt;UserType&gt;(AuthenticationBuilder, String, Action&lt;BasicAuthenticationOptions&gt;)</h4>
+  <h4 id="Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationBuilderExtensions_AddIdentityBasic__1_AuthenticationBuilder_System_String_System_Nullable_Action_BasicAuthenticationOptions___" data-uid="Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationBuilderExtensions.AddIdentityBasic``1(AuthenticationBuilder,System.String,System.Nullable{Action{BasicAuthenticationOptions}})">AddIdentityBasic&lt;UserType&gt;(AuthenticationBuilder, String, Nullable&lt;Action&lt;BasicAuthenticationOptions&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Uses <a class="xref" href="Teronis.AspNetCore.Identity.Bearer.Authentication.AuthenticationDefaults.html#Teronis_AspNetCore_Identity_Bearer_Authentication_AuthenticationDefaults_IdentityBasicScheme">IdentityBasicScheme</a> as scheme.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AuthenticationBuilder AddIdentityBasic&lt;UserType&gt;(this AuthenticationBuilder authenticationBuilder, string authenticationScheme, Action&lt;BasicAuthenticationOptions&gt; configureOptions)
+    <pre><code class="lang-csharp hljs">public static AuthenticationBuilder AddIdentityBasic&lt;UserType&gt;(this AuthenticationBuilder authenticationBuilder, string authenticationScheme, Action&lt;BasicAuthenticationOptions&gt;? configureOptions)
     where UserType : class, IBearerUserEntity</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -227,7 +203,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">BasicAuthenticationOptions</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<span class="xref">BasicAuthenticationOptions</span>&gt;&gt;</td>
         <td><span class="parametername">configureOptions</span></td>
         <td></td>
       </tr>

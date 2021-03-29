@@ -94,47 +94,23 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.Microsoft.JSInterop.Facades.IMemberInfoAttributes.html">IMemberInfoAttributes</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.html">Teronis.Microsoft.JSInterop.Facades</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MemberInfoAttributeLookup : IMemberInfoAttributes</code></pre>
+    <pre><code class="lang-csharp hljs">public class MemberInfoAttributeLookup : object, IMemberInfoAttributes</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup__ctor_System_Reflection_MemberInfo_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.%23ctor(System.Reflection.MemberInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup__ctor_MemberInfo_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.%23ctor(MemberInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Facades/MemberInfoAttributeLookup.cs/#L29">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup__ctor_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup__ctor_System_Reflection_MemberInfo_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.#ctor(System.Reflection.MemberInfo)">MemberInfoAttributeLookup(MemberInfo)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup__ctor_MemberInfo_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.#ctor(MemberInfo)">MemberInfoAttributeLookup(MemberInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -152,7 +128,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="xref">MemberInfo</span></td>
         <td><span class="parametername">memberInfo</span></td>
         <td></td>
       </tr>
@@ -185,7 +161,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.Type</span>, <span class="xref">System.Attribute</span>&gt;</td>
+        <td><span class="xref">ILookup</span>&lt;<span class="xref">Type</span>, <span class="xref">Attribute</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -217,20 +193,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Attribute</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Attribute</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsAttributeDefined_System_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsAttributeDefined(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsAttributeDefined_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsAttributeDefined(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Facades/MemberInfoAttributeLookup.cs/#L40">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsAttributeDefined_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsAttributeDefined*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsAttributeDefined_System_Type_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsAttributeDefined(System.Type)">IsAttributeDefined(Type)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsAttributeDefined_Type_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsAttributeDefined(Type)">IsAttributeDefined(Type)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -248,7 +224,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">attributeType</span></td>
         <td></td>
       </tr>
@@ -316,13 +292,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsDefined_System_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsDefined(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsDefined_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsDefined(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Facades/MemberInfoAttributeLookup.cs/#L37">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsDefined_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsDefined*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsDefined_System_Type_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsDefined(System.Type)">IsDefined(Type)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Facades_MemberInfoAttributeLookup_IsDefined_Type_" data-uid="Teronis.Microsoft.JSInterop.Facades.MemberInfoAttributeLookup.IsDefined(Type)">IsDefined(Type)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -340,7 +316,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">attributeType</span></td>
         <td></td>
       </tr>
@@ -434,9 +410,6 @@
   </div>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.AspNetCore.Identity.Extensions.ObjectResultExtensions.html#Teronis_AspNetCore_Identity_Extensions_ObjectResultExtensions_WithHttpStatusCode__1___0_System_Net_HttpStatusCode_">ObjectResultExtensions.WithHttpStatusCode&lt;T&gt;(T, HttpStatusCode)</a>
   </div>
 </article>
           </div>
