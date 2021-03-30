@@ -90,13 +90,13 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptorWalkerBuilder.html">IJSFunctionalObjectInterceptorWalkerBuilder</a></div>
+    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorWalkerBuilder.html">IJSObjectInterceptorWalkerBuilder</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.html">Teronis.Microsoft.JSInterop.Interception</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class JSFunctionalObjectInterceptorWalkerBuilder : object, IJSFunctionalObjectInterceptorWalkerBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class JSFunctionalObjectInterceptorWalkerBuilder : object, IJSObjectInterceptorWalkerBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -115,6 +115,38 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public JSFunctionalObjectInterceptorWalkerBuilder()</code></pre>
   </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder__ctor_IEnumerable_Teronis_Microsoft_JSInterop_Interception_JSObjectInterceptorDescriptor__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.%23ctor(IEnumerable%7BTeronis.Microsoft.JSInterop.Interception.JSObjectInterceptorDescriptor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L20">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder__ctor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.#ctor*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder__ctor_IEnumerable_Teronis_Microsoft_JSInterop_Interception_JSObjectInterceptorDescriptor__" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.#ctor(IEnumerable{Teronis.Microsoft.JSInterop.Interception.JSObjectInterceptorDescriptor})">JSFunctionalObjectInterceptorWalkerBuilder(IEnumerable&lt;JSObjectInterceptorDescriptor&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JSFunctionalObjectInterceptorWalkerBuilder(IEnumerable&lt;JSObjectInterceptorDescriptor&gt; interceptorDescriptors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSObjectInterceptorDescriptor.html">JSObjectInterceptorDescriptor</a>&gt;</td>
+        <td><span class="parametername">interceptorDescriptors</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -130,7 +162,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;JSFunctionalObjectInterceptorDescriptor&gt; InterceptorDescriptors { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;JSObjectInterceptorDescriptor&gt; InterceptorDescriptors { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,7 +174,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorDescriptor.html">JSFunctionalObjectInterceptorDescriptor</a>&gt;</td>
+        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSObjectInterceptorDescriptor.html">JSObjectInterceptorDescriptor</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -151,18 +183,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L52">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L55">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)">AddInterceptor(IJSFunctionalObjectInterceptor)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)">AddInterceptor(IJSObjectInterceptor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSFunctionalObjectInterceptorWalkerBuilder AddInterceptor(IJSFunctionalObjectInterceptor interceptor)</code></pre>
+    <pre><code class="lang-csharp hljs">public JSFunctionalObjectInterceptorWalkerBuilder AddInterceptor(IJSObjectInterceptor interceptor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,7 +207,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor.html">IJSFunctionalObjectInterceptor</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
         <td><span class="parametername">interceptor</span></td>
         <td></td>
       </tr>
@@ -201,7 +233,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L49">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L52">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_Type_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor(Type)">AddInterceptor(Type)</h4>
@@ -248,7 +280,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_BuildInterceptorWalker.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.BuildInterceptorWalker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L73">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L76">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_BuildInterceptorWalker_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.BuildInterceptorWalker*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_BuildInterceptorWalker" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.BuildInterceptorWalker">BuildInterceptorWalker()</h4>
@@ -279,7 +311,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_BuildInterceptorWalker_IServiceProvider_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.BuildInterceptorWalker(IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L86">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L89">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_BuildInterceptorWalker_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.BuildInterceptorWalker*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_BuildInterceptorWalker_IServiceProvider_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.BuildInterceptorWalker(IServiceProvider)">BuildInterceptorWalker(IServiceProvider)</h4>
@@ -323,18 +355,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor(System.Int32%2CTeronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor(System.Int32%2CTeronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L42">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L45">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor(System.Int32,Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)">InsertInterceptor(Int32, IJSFunctionalObjectInterceptor)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor(System.Int32,Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)">InsertInterceptor(Int32, IJSObjectInterceptor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSFunctionalObjectInterceptorWalkerBuilder InsertInterceptor(int index, IJSFunctionalObjectInterceptor interceptor)</code></pre>
+    <pre><code class="lang-csharp hljs">public JSFunctionalObjectInterceptorWalkerBuilder InsertInterceptor(int index, IJSObjectInterceptor interceptor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -352,7 +384,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor.html">IJSFunctionalObjectInterceptor</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
         <td><span class="parametername">interceptor</span></td>
         <td></td>
       </tr>
@@ -378,7 +410,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor(System.Int32%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L36">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L39">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Type_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor(System.Int32,Type)">InsertInterceptor(Int32, Type)</h4>
@@ -427,18 +459,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L62">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L65">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)">RemoveInterceptor(IJSFunctionalObjectInterceptor)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)">RemoveInterceptor(IJSObjectInterceptor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSFunctionalObjectInterceptorWalkerBuilder RemoveInterceptor(IJSFunctionalObjectInterceptor interceptor)</code></pre>
+    <pre><code class="lang-csharp hljs">public JSFunctionalObjectInterceptorWalkerBuilder RemoveInterceptor(IJSObjectInterceptor interceptor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -451,7 +483,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor.html">IJSFunctionalObjectInterceptor</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
         <td><span class="parametername">interceptor</span></td>
         <td></td>
       </tr>
@@ -477,7 +509,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L55">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L58">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_Type_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor(Type)">RemoveInterceptor(Type)</h4>
@@ -523,18 +555,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis%23Microsoft%23JSInterop%23Interception%23IJSFunctionalObjectInterceptorWalkerBuilder%23AddInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_AddInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis%23Microsoft%23JSInterop%23Interception%23IJSObjectInterceptorWalkerBuilder%23AddInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L111">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L114">View Source</a>
   </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSFunctionalObjectInterceptorWalkerBuilder#AddInterceptor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_AddInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSFunctionalObjectInterceptorWalkerBuilder#AddInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)">IJSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor(IJSFunctionalObjectInterceptor)</h4>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_AddInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSObjectInterceptorWalkerBuilder#AddInterceptor*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_AddInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSObjectInterceptorWalkerBuilder#AddInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)">IJSObjectInterceptorWalkerBuilder.AddInterceptor(IJSObjectInterceptor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IJSFunctionalObjectInterceptorWalkerBuilder IJSFunctionalObjectInterceptorWalkerBuilder.AddInterceptor(IJSFunctionalObjectInterceptor interceptor)</code></pre>
+    <pre><code class="lang-csharp hljs">IJSObjectInterceptorWalkerBuilder IJSObjectInterceptorWalkerBuilder.AddInterceptor(IJSObjectInterceptor interceptor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -547,7 +579,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor.html">IJSFunctionalObjectInterceptor</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
         <td><span class="parametername">interceptor</span></td>
         <td></td>
       </tr>
@@ -563,25 +595,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptorWalkerBuilder.html">IJSFunctionalObjectInterceptorWalkerBuilder</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorWalkerBuilder.html">IJSObjectInterceptorWalkerBuilder</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis%23Microsoft%23JSInterop%23Interception%23IJSFunctionalObjectInterceptorWalkerBuilder%23InsertInterceptor(System.Int32%2CTeronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis%23Microsoft%23JSInterop%23Interception%23IJSObjectInterceptorWalkerBuilder%23InsertInterceptor(System.Int32%2CTeronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L105">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L108">View Source</a>
   </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSFunctionalObjectInterceptorWalkerBuilder#InsertInterceptor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSFunctionalObjectInterceptorWalkerBuilder#InsertInterceptor(System.Int32,Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)">IJSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor(Int32, IJSFunctionalObjectInterceptor)</h4>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_InsertInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSObjectInterceptorWalkerBuilder#InsertInterceptor*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_InsertInterceptor_System_Int32_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSObjectInterceptorWalkerBuilder#InsertInterceptor(System.Int32,Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)">IJSObjectInterceptorWalkerBuilder.InsertInterceptor(Int32, IJSObjectInterceptor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IJSFunctionalObjectInterceptorWalkerBuilder IJSFunctionalObjectInterceptorWalkerBuilder.InsertInterceptor(int index, IJSFunctionalObjectInterceptor interceptor)</code></pre>
+    <pre><code class="lang-csharp hljs">IJSObjectInterceptorWalkerBuilder IJSObjectInterceptorWalkerBuilder.InsertInterceptor(int index, IJSObjectInterceptor interceptor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -599,7 +631,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor.html">IJSFunctionalObjectInterceptor</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
         <td><span class="parametername">interceptor</span></td>
         <td></td>
       </tr>
@@ -615,25 +647,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptorWalkerBuilder.html">IJSFunctionalObjectInterceptorWalkerBuilder</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorWalkerBuilder.html">IJSObjectInterceptorWalkerBuilder</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis%23Microsoft%23JSInterop%23Interception%23IJSFunctionalObjectInterceptorWalkerBuilder%23RemoveInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_RemoveInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis%23Microsoft%23JSInterop%23Interception%23IJSObjectInterceptorWalkerBuilder%23RemoveInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L117">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSFunctionalObjectInterceptorWalkerBuilder.cs/#L120">View Source</a>
   </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSFunctionalObjectInterceptorWalkerBuilder#RemoveInterceptor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptorWalkerBuilder_RemoveInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSFunctionalObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSFunctionalObjectInterceptorWalkerBuilder#RemoveInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor)">IJSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor(IJSFunctionalObjectInterceptor)</h4>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_RemoveInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSObjectInterceptorWalkerBuilder#RemoveInterceptor*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSFunctionalObjectInterceptorWalkerBuilder_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptorWalkerBuilder_RemoveInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.Teronis#Microsoft#JSInterop#Interception#IJSObjectInterceptorWalkerBuilder#RemoveInterceptor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)">IJSObjectInterceptorWalkerBuilder.RemoveInterceptor(IJSObjectInterceptor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IJSFunctionalObjectInterceptorWalkerBuilder IJSFunctionalObjectInterceptorWalkerBuilder.RemoveInterceptor(IJSFunctionalObjectInterceptor interceptor)</code></pre>
+    <pre><code class="lang-csharp hljs">IJSObjectInterceptorWalkerBuilder IJSObjectInterceptorWalkerBuilder.RemoveInterceptor(IJSObjectInterceptor interceptor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -646,7 +678,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptor.html">IJSFunctionalObjectInterceptor</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
         <td><span class="parametername">interceptor</span></td>
         <td></td>
       </tr>
@@ -662,14 +694,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptorWalkerBuilder.html">IJSFunctionalObjectInterceptorWalkerBuilder</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorWalkerBuilder.html">IJSObjectInterceptorWalkerBuilder</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSFunctionalObjectInterceptorWalkerBuilder.html">IJSFunctionalObjectInterceptorWalkerBuilder</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorWalkerBuilder.html">IJSObjectInterceptorWalkerBuilder</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
