@@ -100,7 +100,7 @@
       <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_JSObjectReference">JSObjectReferenceFacade.JSObjectReference</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_JSFunctionalObject">JSObjectReferenceFacade.JSFunctionalObject</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_Interceptor">JSObjectReferenceFacade.Interceptor</a>
     </div>
     <div>
       <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_Nullable_System_Object____">JSObjectReferenceFacade.InvokeAsync&lt;TValue&gt;(String, Nullable&lt;Object&gt;[])</a>
@@ -140,7 +140,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy__ctor_IJSObjectReference_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.%23ctor(IJSObjectReference)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/JSDynamicProxy.cs/#L13">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/JSDynamicProxy.cs/#L14">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.#ctor*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy__ctor_IJSObjectReference_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.#ctor(IJSObjectReference)">JSDynamicProxy(IJSObjectReference)</h4>
@@ -169,18 +169,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy__ctor_IJSObjectReference_IJSFunctionalObject_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.%23ctor(IJSObjectReference%2CIJSFunctionalObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy__ctor_IJSObjectReference_IJSObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.%23ctor(IJSObjectReference%2CIJSObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/JSDynamicProxy.cs/#L10">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/JSDynamicProxy.cs/#L11">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy__ctor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy__ctor_IJSObjectReference_IJSFunctionalObject_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.#ctor(IJSObjectReference,IJSFunctionalObject)">JSDynamicProxy(IJSObjectReference, IJSFunctionalObject)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy__ctor_IJSObjectReference_IJSObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.#ctor(IJSObjectReference,IJSObjectInterceptor)">JSDynamicProxy(IJSObjectReference, IJSObjectInterceptor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSDynamicProxy(IJSObjectReference jsObjectReference, IJSFunctionalObject jsFunctionalObject)</code></pre>
+    <pre><code class="lang-csharp hljs">public JSDynamicProxy(IJSObjectReference jsObjectReference, IJSObjectInterceptor jsObjectInterceptor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,8 +198,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IJSFunctionalObject</span></td>
-        <td><span class="parametername">jsFunctionalObject</span></td>
+        <td><span class="xref">IJSObjectInterceptor</span></td>
+        <td><span class="parametername">jsObjectInterceptor</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -229,7 +229,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxy.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/JSDynamicProxy.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/JSDynamicProxy.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -4886,6 +4886,174 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Annotations.JSLocalObjectActivatingInterceptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSLocalObjectActivatingInterceptorAttribute.html",
+          "hash": "pdLbEdzn5t3crASTWxv/tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.html",
+          "hash": "8WAdyxs2DBCL/TUrQ8ItzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.html",
+          "hash": "bzqFT4sE1uKc6jy2gFEZkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Annotations.JSModuleClassAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleClassAttribute.html",
+          "hash": "Z9iutPFO8Tkeh0j3BSuxpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Annotations.JSModulePropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModulePropertyAttribute.html",
+          "hash": "FL7r+4/da572pl90LdRg6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Annotations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.html",
+          "hash": "fLUvkBU1AqglZD3BHElIhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Activators.IJSDynamicLocalObjectActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Activators.IJSDynamicLocalObjectActivator.html",
+          "hash": "A+JooWiAKWNgU5XrFgC5Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Activators.IJSDynamicLocalObjectActivatorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Activators.IJSDynamicLocalObjectActivatorExtensions.html",
+          "hash": "lquYIcmvqZ47h5DXKdNiBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Activators.IJSDynamicModuleActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Activators.IJSDynamicModuleActivator.html",
+          "hash": "mzu3EYFLFhQIzk+ueQ/YtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Activators.IJSDynamicModuleActivatorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Activators.IJSDynamicModuleActivatorExtensions.html",
+          "hash": "agybYhmThohzh4rV6JSVYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Activators.JSDynamicFacadeActivators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Activators.JSDynamicFacadeActivators.html",
+          "hash": "34gBFSiGHeI516I5ZTVaww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Activators.JSDynamicLocalObjectActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Activators.JSDynamicLocalObjectActivator.html",
+          "hash": "r+DvK7WlxBAqBdAAS5aZ0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Activators.JSDynamicModuleActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Activators.JSDynamicModuleActivator.html",
+          "hash": "lJpQ1zKvrbsyDiZEzlMYBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Activators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Activators.html",
+          "hash": "QhomjWk+O33hDfdy+iH7Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Annotations.AccommodatableAttribute.yml",
       "output": {
         ".html": {
@@ -4922,11 +5090,71 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Annotations.JSDynamicModuleActivatingInterceptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Annotations.JSDynamicModuleActivatingInterceptorAttribute.html",
+          "hash": "2eNMyOW5ww/gkzB+v0GpLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Annotations.JSDynamicModuleClassAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Annotations.JSDynamicModuleClassAttribute.html",
+          "hash": "mUWvEwPKm/iBYU7QnyFOgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Annotations.JSDynamicModulePropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Annotations.JSDynamicModulePropertyAttribute.html",
+          "hash": "5rIcPJI918aDfHoVb797aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Annotations.JSDynamicProxyActivatingInterceptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Annotations.JSDynamicProxyActivatingInterceptorAttribute.html",
+          "hash": "L4+j102hmerHAJZVToHdAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Annotations.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Annotations.html",
-          "hash": "kFwlqJ8fmo0jJEz5HA31Gw=="
+          "hash": "igFfjBO5TTnCWw5OQ1uzmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.DynamicFacadesIServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.DynamicFacadesIServiceCollectionExtensions.html",
+          "hash": "0NtKWKcUZCvxDM0vJ3LCcQ=="
         }
       },
       "is_incremental": false,
@@ -4938,7 +5166,31 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.DynamicIServiceCollectionExtensions.html",
-          "hash": "LHR6K4hAm2Sy+PojPJibDg=="
+          "hash": "lGOpKcVbQEyUumN6Y0pu0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.DynamicLocalityIServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.DynamicLocalityIServiceCollectionExtensions.html",
+          "hash": "Ty8IK1C9kwNaCmlwwJjnSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.DynamicModuleIServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.DynamicModuleIServiceCollectionExtensions.html",
+          "hash": "SlGDMN8wgEfKOTmKAj1Ztw=="
         }
       },
       "is_incremental": false,
@@ -4950,55 +5202,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.DynamicProxyCreationOptions.html",
-          "hash": "U16EjbAYzedC15I2fQzNfQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Facades.Annotations.JSDynamicModuleClassAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Facades.Annotations.JSDynamicModuleClassAttribute.html",
-          "hash": "nWCbzH45b3pG2+rNvBaWYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Facades.Annotations.JSDynamicModulePropertyAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Facades.Annotations.JSDynamicModulePropertyAttribute.html",
-          "hash": "NQ7XbXGCuqSQLc9MR01GXQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Facades.Annotations.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Facades.Annotations.html",
-          "hash": "/aSe8BhYRI11WYymvN1OeQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Facades.DynamicFacadesIServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Facades.DynamicFacadesIServiceCollectionExtensions.html",
-          "hash": "hAEO+VNQNJvJ1GXBj4qHyA=="
+          "hash": "c+WHBXSrLPQX6hb1ndEegQ=="
         }
       },
       "is_incremental": false,
@@ -5010,7 +5214,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Facades.PropertyAssigners.JSDynamicModulePropertyAssigner.html",
-          "hash": "xsvBjSniUd/JEibas3OSJg=="
+          "hash": "r3syNA4XtORg/ffwFhnLGA=="
         }
       },
       "is_incremental": false,
@@ -5022,7 +5226,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Facades.PropertyAssigners.PropertyAssignerFactoriesExtensions.html",
-          "hash": "JOufaAKbEQsldyUehuzFxA=="
+          "hash": "UehcpSUmVfRqLCTF1n3w2A=="
         }
       },
       "is_incremental": false,
@@ -5042,23 +5246,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Facades.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Facades.html",
-          "hash": "zVDmhmeHnc3P13Z6AQbtEQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.IJSDynamicProxyActivator.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.IJSDynamicProxyActivator.html",
-          "hash": "vy1nJ5dyvXHMKcJ5ILzGAw=="
+          "hash": "noODofZ5US2qLzGOhVowMQ=="
         }
       },
       "is_incremental": false,
@@ -5070,7 +5262,19 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.IJSDynamicProxyActivatorExtensions.html",
-          "hash": "eeu4zmngReXrKfR8nRm3Cw=="
+          "hash": "z7mEFMJ7WffpJNzlVuk2cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Interceptors.JSDynamicModuleActivatingInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Interceptors.JSDynamicModuleActivatingInterceptor.html",
+          "hash": "dw4Y4PueeIaCZ64kBJnTJQ=="
         }
       },
       "is_incremental": false,
@@ -5082,19 +5286,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Interceptors.JSDynamicProxyActivatingInterceptor.html",
-          "hash": "2ytSi+dlMyFKHDfjYHEQkQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Interceptors.JSDynamicProxyActivatingInterceptorAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Interceptors.JSDynamicProxyActivatingInterceptorAttribute.html",
-          "hash": "LFDfyhB34lAOnQLun6ZNBw=="
+          "hash": "IwDGdAxCgWF65T0R9YYtow=="
         }
       },
       "is_incremental": false,
@@ -5106,7 +5298,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Interceptors.html",
-          "hash": "r3A23QGrw9iHDpTw+0c3+g=="
+          "hash": "LyU6wQZzVwxLeaRUPtWbOQ=="
         }
       },
       "is_incremental": false,
@@ -5118,7 +5310,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxy.html",
-          "hash": "S8ajZfYJOLTSutAeaWEHZg=="
+          "hash": "b9P0fumcQaD2qZDc22LTow=="
         }
       },
       "is_incremental": false,
@@ -5130,7 +5322,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxyActivator.html",
-          "hash": "j5V97QpTIcbyeEgFZjkoVQ=="
+          "hash": "tztm0UnySihvxYcHSgPmkg=="
         }
       },
       "is_incremental": false,
@@ -5154,7 +5346,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxyActivatorOptions.html",
-          "hash": "4YKmrbtHSiSuhAJsrZf2bg=="
+          "hash": "qKdQFyMFlWXNnjlJL6g84Q=="
         }
       },
       "is_incremental": false,
@@ -5167,126 +5359,6 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxyActivatorUtils.html",
           "hash": "+SmyDJxUERXdoGAnOToOvQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Locality.DynamicLocalityIServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Locality.DynamicLocalityIServiceCollectionExtensions.html",
-          "hash": "nEDq4/+5wvs2fV6p7iq/Og=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Locality.IJSDynamicLocalObjectActivator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Locality.IJSDynamicLocalObjectActivator.html",
-          "hash": "kMMRbt5cJWqmcevKJVWHAg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Locality.IJSDynamicLocalObjectActivatorExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Locality.IJSDynamicLocalObjectActivatorExtensions.html",
-          "hash": "e9ACz8S17FP+zkPAnu3rWQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Locality.JSDynamicLocalObjectActivator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Locality.JSDynamicLocalObjectActivator.html",
-          "hash": "wV9+XU9lQddmsFh9pMdNnQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Locality.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Locality.html",
-          "hash": "6f1wCbz0s7H9W1u1XUJulA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Module.DynamicModuleIServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Module.DynamicModuleIServiceCollectionExtensions.html",
-          "hash": "12qw2ccf9i/49l6u25BHAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Module.IJSDynamicModuleActivator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Module.IJSDynamicModuleActivator.html",
-          "hash": "/awPmp15i/WF6cWTzv05Hw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Module.IJSDynamicModuleActivatorExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Module.IJSDynamicModuleActivatorExtensions.html",
-          "hash": "uQi4iqneW4ke3avJ8uNAgg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Module.JSDynamicModuleActivator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Module.JSDynamicModuleActivator.html",
-          "hash": "OO6SzoPoYBjVxuQfzClo8w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Dynamic.Module.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.Module.html",
-          "hash": "EpeGhYGpIilhdcbADh6dpQ=="
         }
       },
       "is_incremental": false,
@@ -5346,67 +5418,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.html",
-          "hash": "GYaxHPw4u0E5LOFktUk4ug=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Facades.Annotations.JSModuleAttributeBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.Annotations.JSModuleAttributeBase.html",
-          "hash": "s3qZYpVldjuWjaH/2tdp3Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Facades.Annotations.JSModuleAttributeUtils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.Annotations.JSModuleAttributeUtils.html",
-          "hash": "hrCFzRUDL1uktQgdi/selA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Facades.Annotations.JSModuleClassAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.Annotations.JSModuleClassAttribute.html",
-          "hash": "78mSrXYR4w60HEuugV3Ygg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Facades.Annotations.JSModulePropertyAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.Annotations.JSModulePropertyAttribute.html",
-          "hash": "GnkRsJzQChJ4aQY0H+DiWA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Facades.Annotations.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.Annotations.html",
-          "hash": "P+8wO1hIpILt/myAf3D62A=="
+          "hash": "V8yS6QS9vsohy1C77SH1Bw=="
         }
       },
       "is_incremental": false,
@@ -5418,7 +5430,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.ComponentProperty.html",
-          "hash": "sc7NnM5vxeuZXfbN0VsU7A=="
+          "hash": "ME0YGVm4S50xsvbbJ6oFZg=="
         }
       },
       "is_incremental": false,
@@ -5430,7 +5442,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.ComponentPropertyType.html",
-          "hash": "sCHi990E/x2I5lc2p6SKqQ=="
+          "hash": "o7cafu1rQH9NXk/805nizA=="
         }
       },
       "is_incremental": false,
@@ -5442,7 +5454,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.FacadesIServiceCollectionExtensions.html",
-          "hash": "wZiqqz2Wk0P1yIdxIzY6MA=="
+          "hash": "8JUN+f+Bo40jvMNXW797NA=="
         }
       },
       "is_incremental": false,
@@ -5454,7 +5466,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.IComponentProperty.html",
-          "hash": "e265JlbdtIxBsmutQQM7Ww=="
+          "hash": "E5R+nboZFPrbUQSs60ugmQ=="
         }
       },
       "is_incremental": false,
@@ -5466,7 +5478,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.IComponentPropertyType.html",
-          "hash": "0TS2CV1PFD68Eu//6Vo5Wg=="
+          "hash": "bD1yy5Qi2MiM2jxXlUL3Aw=="
         }
       },
       "is_incremental": false,
@@ -5526,7 +5538,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.IJSFacadeActivators.html",
-          "hash": "TYwv3oo/TIUt9yVCveFr+g=="
+          "hash": "SOZ+TpcSVpoAGgy5Uqrv4w=="
         }
       },
       "is_incremental": false,
@@ -5642,23 +5654,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Facades.JSDynamicFacadeActivators.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.JSDynamicFacadeActivators.html",
-          "hash": "XSjnjOVUX0sITWYhjaZSog=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Facades.JSFacadeActivators.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.JSFacadeActivators.html",
-          "hash": "H3rbXdU9g3QDDV17jCgI4g=="
+          "hash": "6uc8xxWmVqaI3Up2vNUNsg=="
         }
       },
       "is_incremental": false,
@@ -5694,7 +5694,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.JSFacadesActivator.html",
-          "hash": "vd07SoPYjoxoNLfR9SFwtw=="
+          "hash": "FGbmetYh9P/srcdpGa3Dwg=="
         }
       },
       "is_incremental": false,
@@ -5718,7 +5718,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.PropertyAssigners.IPropertyAssigner.html",
-          "hash": "c8KSzOXPlOrOQ/MlWy8UVA=="
+          "hash": "+Hwx6TWGe/wGQxWLGYpwuA=="
         }
       },
       "is_incremental": false,
@@ -5778,7 +5778,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facades.html",
-          "hash": "JAGHBu7K/nlTDGHJuSlSRQ=="
+          "hash": "jbm3+I21vX+bUNL1pXnyAw=="
         }
       },
       "is_incremental": false,
@@ -5786,11 +5786,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.GetOrBuildJSInterceptableFunctionalObjectDelegate.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.GetOrBuildInterceptorDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.GetOrBuildJSInterceptableFunctionalObjectDelegate.html",
-          "hash": "8Q/Rgde/6F2hI5FY/noE0w=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.GetOrBuildInterceptorDelegate.html",
+          "hash": "yWK1e3NDIApuiavuHACDsg=="
         }
       },
       "is_incremental": false,
@@ -5810,23 +5810,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.IInstanceActivatorBase-1.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.IJSObjectInterceptorExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.IInstanceActivatorBase-1.html",
-          "hash": "4Ke5Th+6JH+O41VcMAbBjw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.IJSFunctionalObject.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.IJSFunctionalObject.html",
-          "hash": "3so/upjgmcSAV4BqkD5TRg=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.IJSObjectInterceptorExtensions.html",
+          "hash": "YElAYxPq1NtOGhse6dFaaA=="
         }
       },
       "is_incremental": false,
@@ -5870,11 +5858,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.InstanceActivatorBase-1.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html",
-          "hash": "sAL8Z8mviwQw++7iI5/DFw=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.InstanceActivatorBase-1.html",
+          "hash": "15KmpOYsPYTFJJ7SYYGnFQ=="
         }
       },
       "is_incremental": false,
@@ -5882,11 +5870,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorWalkerBuilder.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.IJSIteratingObjectInterceptorBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorWalkerBuilder.html",
-          "hash": "ljJveIJ3Y3YC3s90HRgzLQ=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.IJSIteratingObjectInterceptorBuilder.html",
+          "hash": "90mO4enFNSoGqJCJYt4N0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html",
+          "hash": "t1bZw7DE8Ea5TLkUUnGxFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptorExtensions.html",
+          "hash": "6JtsDDiM6Ej3gggnhkWxpQ=="
         }
       },
       "is_incremental": false,
@@ -5898,7 +5910,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation-1.html",
-          "hash": "4cLD3BH74KDr2aWWx8fLeA=="
+          "hash": "SBeSdlum4oYogS4apgyq/g=="
         }
       },
       "is_incremental": false,
@@ -5942,11 +5954,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor-1.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSCallingBackObjectInterceptor-1.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor-1.html",
-          "hash": "0VPWMiBmNuPXffjOuBiN2g=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSCallingBackObjectInterceptor-1.html",
+          "hash": "MoZWm4wKiM+QQzsTnZqVwA=="
         }
       },
       "is_incremental": false,
@@ -5954,11 +5966,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSCallingBackObjectInterceptor.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSCallingBackFunctionalObjectInterceptor.html",
-          "hash": "VKCzZFwhuVfz41+hQaj5Ug=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSCallingBackObjectInterceptor.html",
+          "hash": "ZOAOCmCGslNH+JKbF8g3CQ=="
         }
       },
       "is_incremental": false,
@@ -5966,11 +5978,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptor.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSIteratingObjectInterceptor.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptor.html",
-          "hash": "YRlpj5I9O4rxuIHr9wvj2g=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSIteratingObjectInterceptor.html",
+          "hash": "iCVUqh8A4lq3W2WbdUhYTQ=="
         }
       },
       "is_incremental": false,
@@ -5978,11 +5990,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalker.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSIteratingObjectInterceptorBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalker.html",
-          "hash": "X+AAFUCgPdGkzXTHmYR0AA=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSIteratingObjectInterceptorBuilder.html",
+          "hash": "+gD6GVvRm/XJafKG4h4O3g=="
         }
       },
       "is_incremental": false,
@@ -5990,11 +6002,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSIteratingObjectInterceptorBuilderOptions-1.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilder.html",
-          "hash": "9SVPQYvxqhUodqrhzX+5Hw=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSIteratingObjectInterceptorBuilderOptions-1.html",
+          "hash": "IDzl+0ek9ohQcVv1FfJFYQ=="
         }
       },
       "is_incremental": false,
@@ -6002,11 +6014,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilderExtensions.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSObjectInterceptor.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSFunctionalObjectInterceptorWalkerBuilderExtensions.html",
-          "hash": "MdunOMB8d+5n4w25S6nCLw=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSObjectInterceptor.html",
+          "hash": "SHVenqpBiTN9brQZ5okkzQ=="
         }
       },
       "is_incremental": false,
@@ -6014,11 +6026,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSInterceptableFunctionalObject.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interception.JSObjectInterceptorBuilderOptionsConfiguration-1.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSInterceptableFunctionalObject.html",
-          "hash": "co7aCTeFR7PPxbDkiJDnuw=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSObjectInterceptorBuilderOptionsConfiguration-1.html",
+          "hash": "FZhqb5zf5vwJZe7PkrWMLg=="
         }
       },
       "is_incremental": false,
@@ -6042,7 +6054,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation-1.html",
-          "hash": "pxFZW0w/AtEvx8Edj+meQg=="
+          "hash": "UAHc3evh8n1Ol5WsPDGDUQ=="
         }
       },
       "is_incremental": false,
@@ -6054,7 +6066,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation.html",
-          "hash": "a/C4NOdfCLuoq02xRxZGBw=="
+          "hash": "XDldt4G5FA+3Q0st9wuRhQ=="
         }
       },
       "is_incremental": false,
@@ -6066,7 +6078,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.JSObjectInvocationBase-1.html",
-          "hash": "nq2dlr3XqUT32ZC0eAgSag=="
+          "hash": "zFGB4RNaitnHibfRtx4Qtw=="
         }
       },
       "is_incremental": false,
@@ -6078,7 +6090,31 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.html",
-          "hash": "3Zhv8/YCnERVIvM87oeHqw=="
+          "hash": "KrR5QrOOpQFw1u6XvKxvTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interceptors.JSLocalObjectActivatingInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interceptors.JSLocalObjectActivatingInterceptor.html",
+          "hash": "yGHG7DHbFmZNTCgbeGUprQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Interceptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interceptors.html",
+          "hash": "BoJhCHxrc2H7lmevOBnbmQ=="
         }
       },
       "is_incremental": false,
@@ -6110,47 +6146,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.JSFunctionalObject.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.JSFunctionalObject.html",
-          "hash": "d3jlNj91hIR4EwlamFl0DA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.JSFunctionalObjectOptions-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.JSFunctionalObjectOptions-1.html",
-          "hash": "XxMYBjJgpDdvdgOBEl57Cw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.JSFunctionalObjectOptionsConfiguration-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.JSFunctionalObjectOptionsConfiguration-1.html",
-          "hash": "kvmdxTDdXCGekNmtdIa+lA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html",
-          "hash": "8Mfbnlbeac0IayR7iqWIeQ=="
+          "hash": "37T/h5wRhMiTM32PgA9GNg=="
         }
       },
       "is_incremental": false,
@@ -6206,47 +6206,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Locality.Interceptors.JSLocalObjectActivatingInterceptor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.Interceptors.JSLocalObjectActivatingInterceptor.html",
-          "hash": "jKu/VCLYD9CjetBaySBpIQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Locality.Interceptors.JSLocalObjectActivatingInterceptorAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.Interceptors.JSLocalObjectActivatingInterceptorAttribute.html",
-          "hash": "1jnxUZc6FNFMSFdJmwJbcQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Locality.Interceptors.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.Interceptors.html",
-          "hash": "Uc0Kcc+jtFG2Yhnrd5nv1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Locality.JSLocalObject.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.JSLocalObject.html",
-          "hash": "hq6x131q/xZcaa1/jrRT7g=="
+          "hash": "sQ8RFNnxFVopX9eBmQZVbg=="
         }
       },
       "is_incremental": false,
@@ -6258,7 +6222,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.JSLocalObjectActivator.html",
-          "hash": "+D11U4PkFTdA86oYwIhg3A=="
+          "hash": "UFDdkDclMRxde6p67b0MLw=="
         }
       },
       "is_incremental": false,
@@ -6270,19 +6234,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.JSLocalObjectActivatorOptions.html",
-          "hash": "b2gYxfRizHX4qFhbKca3wQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Locality.LocalityIServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.LocalityIServiceCollectionExtensions.html",
-          "hash": "pNLE00+yAXOfeSM20l1DnQ=="
+          "hash": "/N9BQXuATSpBU5O6qUC6+g=="
         }
       },
       "is_incremental": false,
@@ -6330,7 +6282,19 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.html",
-          "hash": "KMiV50DX2135aUfPVs8ILw=="
+          "hash": "JLqgHhLStmG8RXsSIUzRxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.LocalityIServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.LocalityIServiceCollectionExtensions.html",
+          "hash": "rhp5LA9ss0SChLnxuA5HWA=="
         }
       },
       "is_incremental": false,
@@ -6366,7 +6330,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.JSModule.html",
-          "hash": "orXGMFnLfOYtnUrizV82ag=="
+          "hash": "zYfc1ivQV1FV5ZcHi0J7vA=="
         }
       },
       "is_incremental": false,
@@ -6378,7 +6342,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.JSModuleActivator.html",
-          "hash": "VWS2AaRVDQn3hBt0wGm6Bw=="
+          "hash": "QAoMZbPZrDvn6W+XM8LbkA=="
         }
       },
       "is_incremental": false,
@@ -6390,19 +6354,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.JSModuleActivatorOptions.html",
-          "hash": "IfK5eICu4tS2HuO/87zV2A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Module.ModuleIServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.ModuleIServiceCollectionExtensions.html",
-          "hash": "wmdHLDoRNM3VJgdHeFc2+A=="
+          "hash": "qxtVjHP31oMQLv5MO9Q30A=="
         }
       },
       "is_incremental": false,
@@ -6414,7 +6366,19 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.html",
-          "hash": "pmTYbNT5fIjIb+RABeE+WA=="
+          "hash": "HwEdHXwBDnuKVukJlh+PEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.ModuleIServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.ModuleIServiceCollectionExtensions.html",
+          "hash": "SAq2iMOqbP5NWgz06wQOGA=="
         }
       },
       "is_incremental": false,
@@ -6426,7 +6390,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Reflection.CustomAttributeLookup.html",
-          "hash": "xhz39wahOCx0TXX0x7j2AA=="
+          "hash": "WcsIlQ6tCHXdpRMDwLJTTA=="
         }
       },
       "is_incremental": false,
@@ -6438,7 +6402,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Reflection.EmptyCustomAttributeLookup.html",
-          "hash": "xHQVwBryLb5ArETQXETflg=="
+          "hash": "3ISgDsXDjuQlpppzkRTJ8A=="
         }
       },
       "is_incremental": false,
@@ -6450,7 +6414,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html",
-          "hash": "OA6YPgVCEaFXJjSR6eMttg=="
+          "hash": "uzAPh7xUYPe93ZLqyazXQg=="
         }
       },
       "is_incremental": false,
@@ -6510,7 +6474,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.html",
-          "hash": "ZM5AjEctdNFVF2czapnkzA=="
+          "hash": "A107RebWfFVfAmLkEFCcjw=="
         }
       },
       "is_incremental": false,
@@ -10758,7 +10722,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "2TqNKo+egQT8wW2EcXTXxw=="
+          "hash": "WNKNV3lw/jQDjl72n4DW0g=="
         }
       },
       "is_incremental": false,
@@ -10797,7 +10761,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 894,
+          "total_file_count": 891,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

@@ -96,13 +96,14 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Facades_IJSFacadeActivators_PrepareInstanceActivatedCapableActivators_Teronis_Microsoft_JSInterop_InstanceActivatedDelegate_IAsyncDisposable__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Facades.IJSFacadeActivators.PrepareInstanceActivatedCapableActivators(Teronis.Microsoft.JSInterop.InstanceActivatedDelegate%7BIAsyncDisposable%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Facades/IJSFacadeActivators.cs/#L16">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Facades/IJSFacadeActivators.cs/#L17">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Facades_IJSFacadeActivators_PrepareInstanceActivatedCapableActivators_" data-uid="Teronis.Microsoft.JSInterop.Facades.IJSFacadeActivators.PrepareInstanceActivatedCapableActivators*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Facades_IJSFacadeActivators_PrepareInstanceActivatedCapableActivators_Teronis_Microsoft_JSInterop_InstanceActivatedDelegate_IAsyncDisposable__" data-uid="Teronis.Microsoft.JSInterop.Facades.IJSFacadeActivators.PrepareInstanceActivatedCapableActivators(Teronis.Microsoft.JSInterop.InstanceActivatedDelegate{IAsyncDisposable})">PrepareInstanceActivatedCapableActivators(InstanceActivatedDelegate&lt;IAsyncDisposable&gt;)</h4>
-  <div class="markdown level1 summary"><p>A hook called in constructor of class that implements <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.IJSFacades-1.html">IJSFacades&lt;TJSFacadeActivators&gt;</a>. Expects all
-member that implement <a class="xref" href="Teronis.Microsoft.JSInterop.IInstanceActivator-1.html">IInstanceActivator&lt;T&gt;</a> to add <code data-dev-comment-type="paramref" class="paramref">registerAsyncDisposableFacade</code>
-to <a class="xref" href="Teronis.Microsoft.JSInterop.IInstanceActivator-1.html#Teronis_Microsoft_JSInterop_IInstanceActivator_1_InstanceActivated">InstanceActivated</a>.</p>
+  <div class="markdown level1 summary"><p>A hook called in constructor of class that implements <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.IJSFacades-1.html">IJSFacades&lt;TJSFacadeActivators&gt;</a>. This method injects
+the delegate that can be called in derived classes of <a class="xref" href="Teronis.Microsoft.JSInterop.Facades.IJSFacadeActivators.html">IJSFacadeActivators</a>. It is expected that every activated
+instance of an activator (implements most of times <a class="xref" href="Teronis.Microsoft.JSInterop.IInstanceActivator-1.html">IInstanceActivator&lt;T&gt;</a>) is passed to
+<code data-dev-comment-type="paramref" class="paramref">registerAsyncDisposableFacade</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -122,7 +123,8 @@ to <a class="xref" href="Teronis.Microsoft.JSInterop.IInstanceActivator-1.html#T
       <tr>
         <td><a class="xref" href="Teronis.Microsoft.JSInterop.InstanceActivatedDelegate-1.html">InstanceActivatedDelegate</a>&lt;<span class="xref">IAsyncDisposable</span>&gt;</td>
         <td><span class="parametername">registerAsyncDisposableFacade</span></td>
-        <td></td>
+        <td><p>The method that registers an disposable instance to be disposed.</p>
+</td>
       </tr>
     </tbody>
   </table>
