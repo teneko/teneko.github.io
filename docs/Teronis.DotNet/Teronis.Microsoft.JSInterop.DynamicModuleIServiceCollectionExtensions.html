@@ -101,11 +101,11 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_DynamicModuleIServiceCollectionExtensions_AddJSDynamicModule_IServiceCollection_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.DynamicModuleIServiceCollectionExtensions.AddJSDynamicModule(IServiceCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0/src/DynamicModuleIServiceCollectionExtensions.cs/#L30">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0/src/DynamicModuleIServiceCollectionExtensions.cs/#L34">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_DynamicModuleIServiceCollectionExtensions_AddJSDynamicModule_" data-uid="Teronis.Microsoft.JSInterop.DynamicModuleIServiceCollectionExtensions.AddJSDynamicModule*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_DynamicModuleIServiceCollectionExtensions_AddJSDynamicModule_IServiceCollection_" data-uid="Teronis.Microsoft.JSInterop.DynamicModuleIServiceCollectionExtensions.AddJSDynamicModule(IServiceCollection)">AddJSDynamicModule(IServiceCollection)</h4>
-  <div class="markdown level1 summary"><p>Calls <see cref="!:ModuleIServiceCollectionExtensions.AddJSModuleActivator(IServiceCollection, System.Action&lt;JSModuleInterceptorBuilderOptions>?)"></see>,
+  <div class="markdown level1 summary"><p>Calls <see cref="!:ModuleIServiceCollectionExtensions.AddJSModule(IServiceCollection)"></see>,
 <a class="xref" href="Teronis.Microsoft.JSInterop.DynamicIServiceCollectionExtensions.html#Teronis_Microsoft_JSInterop_DynamicIServiceCollectionExtensions_AddJSDynamicProxy_IServiceCollection_">AddJSDynamicProxy(IServiceCollection)</a>
 and <a class="xref" href="Teronis.Microsoft.JSInterop.DynamicModuleIServiceCollectionExtensions.html#Teronis_Microsoft_JSInterop_DynamicModuleIServiceCollectionExtensions_AddJSDynamicModuleActivator_IServiceCollection_">AddJSDynamicModuleActivator(IServiceCollection)</a>.</p>
 </div>
@@ -151,11 +151,13 @@ and <a class="xref" href="Teronis.Microsoft.JSInterop.DynamicModuleIServiceColle
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_DynamicModuleIServiceCollectionExtensions_AddJSDynamicModuleActivator_IServiceCollection_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.DynamicModuleIServiceCollectionExtensions.AddJSDynamicModuleActivator(IServiceCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0/src/DynamicModuleIServiceCollectionExtensions.cs/#L17">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0/src/DynamicModuleIServiceCollectionExtensions.cs/#L19">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_DynamicModuleIServiceCollectionExtensions_AddJSDynamicModuleActivator_" data-uid="Teronis.Microsoft.JSInterop.DynamicModuleIServiceCollectionExtensions.AddJSDynamicModuleActivator*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_DynamicModuleIServiceCollectionExtensions_AddJSDynamicModuleActivator_IServiceCollection_" data-uid="Teronis.Microsoft.JSInterop.DynamicModuleIServiceCollectionExtensions.AddJSDynamicModuleActivator(IServiceCollection)">AddJSDynamicModuleActivator(IServiceCollection)</h4>
-  <div class="markdown level1 summary"><p>Tries to add <a class="xref" href="Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.html">JSDynamicModuleActivator</a> as <see cref="!:IJSModuleActivator"></see>.</p>
+  <div class="markdown level1 summary"><p>Calls <see cref="!:ModuleIServiceCollectionExtensions.AddJSModuleActivator(IServiceCollection, System.Action&lt;JSModulePropertyAssignerOptions>?, System.Action&lt;JSModuleInterceptorBuilderOptions>?, Interception.LateConfigureInterceptorBuilderDelegate&lt;JSModuleInterceptorBuilderOptions, JSModulePropertyAssignerOptions>?)"></see>,
+<see cref="!:DynamicIServiceCollectionExtensions.AddJSDynamicProxyActivator(IServiceCollection, System.Action&lt;Dynamic.JSDynamicProxyPropertyAssignerOptions>?, System.Action&lt;Dynamic.JSDynamicProxyInterceptorBuilderOptions>?, Interception.LateConfigureInterceptorBuilderDelegate&lt;Dynamic.JSDynamicProxyInterceptorBuilderOptions, Dynamic.JSDynamicProxyPropertyAssignerOptions>?)"></see>,
+and tries to add <a class="xref" href="Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.html">JSDynamicModuleActivator</a> as <see cref="!:IJSModuleActivator"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

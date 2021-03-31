@@ -101,7 +101,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_GetModuleNameOrPath__1_Teronis_Microsoft_JSInterop_Annotations_JSModulePropertyAttribute_Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.GetModuleNameOrPath%60%601(Teronis.Microsoft.JSInterop.Annotations.JSModulePropertyAttribute%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeUtils.cs/#L13">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeUtils.cs/#L12">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_GetModuleNameOrPath_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.GetModuleNameOrPath*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_GetModuleNameOrPath__1_Teronis_Microsoft_JSInterop_Annotations_JSModulePropertyAttribute_Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.GetModuleNameOrPath``1(Teronis.Microsoft.JSInterop.Annotations.JSModulePropertyAttribute,Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">GetModuleNameOrPath&lt;TClassAttribute&gt;(JSModulePropertyAttribute, ICustomAttributes)</h4>
@@ -166,13 +166,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_TryGetModuleNameOrPath__2_Teronis_Microsoft_JSInterop_Facades_IComponentProperty_System_String__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.TryGetModuleNameOrPath%60%602(Teronis.Microsoft.JSInterop.Facades.IComponentProperty%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_TryGetModuleNameOrPath__2_Teronis_Microsoft_JSInterop_Reflection_IDefinition_System_String__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.TryGetModuleNameOrPath%60%602(Teronis.Microsoft.JSInterop.Reflection.IDefinition%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeUtils.cs/#L41">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeUtils.cs/#L40">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_TryGetModuleNameOrPath_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.TryGetModuleNameOrPath*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_TryGetModuleNameOrPath__2_Teronis_Microsoft_JSInterop_Facades_IComponentProperty_System_String__" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.TryGetModuleNameOrPath``2(Teronis.Microsoft.JSInterop.Facades.IComponentProperty,System.String@)">TryGetModuleNameOrPath&lt;TPropertyAttribute, TClassAttribute&gt;(IComponentProperty, out String)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_TryGetModuleNameOrPath__2_Teronis_Microsoft_JSInterop_Reflection_IDefinition_System_String__" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.TryGetModuleNameOrPath``2(Teronis.Microsoft.JSInterop.Reflection.IDefinition,System.String@)">TryGetModuleNameOrPath&lt;TPropertyAttribute, TClassAttribute&gt;(IDefinition, out String)</h4>
   <div class="markdown level1 summary"><p>Tries to get the module name or path. If property
 attribute does exist the module name or path has
 to be provided either from property attribute or
@@ -181,7 +181,7 @@ module attribute.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryGetModuleNameOrPath&lt;TPropertyAttribute, TClassAttribute&gt;(IComponentProperty componentProperty, out string moduleNameOrPath)
+    <pre><code class="lang-csharp hljs">public static bool TryGetModuleNameOrPath&lt;TPropertyAttribute, TClassAttribute&gt;(IDefinition componentProperty, out string moduleNameOrPath)
     where TPropertyAttribute : JSModulePropertyAttribute where TClassAttribute : JSModuleClassAttribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -195,7 +195,7 @@ module attribute.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Facades.IComponentProperty.html">IComponentProperty</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.IDefinition.html">IDefinition</a></td>
         <td><span class="parametername">componentProperty</span></td>
         <td></td>
       </tr>
@@ -251,7 +251,7 @@ module attribute.</p>
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeUtils.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeUtils.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
