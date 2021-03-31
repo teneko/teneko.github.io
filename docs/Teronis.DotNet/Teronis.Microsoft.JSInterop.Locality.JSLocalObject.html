@@ -86,8 +86,9 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">JSLocalObject</span></div>
-      <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Module.JSModule.html">JSModule</a></div>
+    <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html">JSObjectReferenceFacade</a></div>
+    <div class="level2"><span class="xref">JSLocalObject</span></div>
+      <div class="level3"><a class="xref" href="Teronis.Microsoft.JSInterop.Module.JSModule.html">JSModule</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -96,28 +97,61 @@
     <div><span class="xref">IAsyncDisposable</span></div>
     <div><span class="xref">IAsyncDisposable</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_JSObjectReference">JSObjectReferenceFacade.JSObjectReference</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_Interceptor">JSObjectReferenceFacade.Interceptor</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_System_Nullable_System_Object____">JSObjectReferenceFacade.InvokeAsync&lt;TValue&gt;(String, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_CancellationToken_System_Nullable_System_Object____">JSObjectReferenceFacade.InvokeAsync&lt;TValue&gt;(String, CancellationToken, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeAsync__1_System_String_TimeSpan_System_Nullable_System_Object____">JSObjectReferenceFacade.InvokeAsync&lt;TValue&gt;(String, TimeSpan, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_System_Nullable_System_Object____">JSObjectReferenceFacade.InvokeVoidAsync(String, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_CancellationToken_System_Nullable_System_Object____">JSObjectReferenceFacade.InvokeVoidAsync(String, CancellationToken, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_InvokeVoidAsync_System_String_TimeSpan_System_Nullable_System_Object____">JSObjectReferenceFacade.InvokeVoidAsync(String, TimeSpan, Nullable&lt;Object&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_DisposeAsyncCore">JSObjectReferenceFacade.DisposeAsyncCore()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.JSObjectReferenceFacade.html#Teronis_Microsoft_JSInterop_JSObjectReferenceFacade_DisposeAsync">JSObjectReferenceFacade.DisposeAsync()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Locality.html">Teronis.Microsoft.JSInterop.Locality</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSLocalObject : IAsyncDisposable, IJSLocalObject, IJSObjectReferenceFacade, IAsyncDisposable, IAsyncDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSLocalObject : JSObjectReferenceFacade, IJSLocalObject, IJSObjectReferenceFacade, IAsyncDisposable, IAsyncDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject__ctor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_IJSObjectReference_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.%23ctor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor%2CIJSObjectReference)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject__ctor_IJSObjectReference_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.%23ctor(IJSObjectReference%2CTeronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L18">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L11">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject__ctor_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject__ctor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_IJSObjectReference_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.#ctor(Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor,IJSObjectReference)">JSLocalObject(IJSObjectInterceptor, IJSObjectReference)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject__ctor_IJSObjectReference_Teronis_Microsoft_JSInterop_Interception_IJSObjectInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.#ctor(IJSObjectReference,Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor)">JSLocalObject(IJSObjectReference, IJSObjectInterceptor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSLocalObject(IJSObjectInterceptor jsObjectInterceptor, IJSObjectReference jsObjectReference)</code></pre>
+    <pre><code class="lang-csharp hljs">public JSLocalObject(IJSObjectReference jsObjectReference, IJSObjectInterceptor jsObjectInterceptor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,485 +163,14 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
-        <td><span class="parametername">jsObjectInterceptor</span></td>
-        <td></td>
-      </tr>
       <tr>
         <td><span class="xref">IJSObjectReference</span></td>
         <td><span class="parametername">jsObjectReference</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_JSObjectReference.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.JSObjectReference%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L14">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_JSObjectReference_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.JSObjectReference*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_JSObjectReference" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.JSObjectReference">JSObjectReference</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IJSObjectReference JSObjectReference { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_DisposeAsync.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.DisposeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L47">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_DisposeAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.DisposeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_DisposeAsync" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.DisposeAsync">DisposeAsync()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask DisposeAsync()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_DisposeAsyncCore.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.DisposeAsyncCore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L44">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_DisposeAsyncCore_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.DisposeAsyncCore*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_DisposeAsyncCore" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.DisposeAsyncCore">DisposeAsyncCore()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual ValueTask DisposeAsyncCore()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync__1_System_String_CancellationToken_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync%60%601(System.String%2CCancellationToken%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L29">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync__1_System_String_CancellationToken_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync``1(System.String,CancellationToken,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(String, CancellationToken, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, CancellationToken cancellationToken, object? [] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">args</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync__1_System_String_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync%60%601(System.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L26">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync__1_System_String_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync``1(System.String,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(String, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, object? [] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">args</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync__1_System_String_TimeSpan_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync%60%601(System.String%2CTimeSpan%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L32">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeAsync__1_System_String_TimeSpan_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeAsync``1(System.String,TimeSpan,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(String, TimeSpan, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(string identifier, TimeSpan timeout, object? [] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">args</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_System_String_CancellationToken_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync(System.String%2CCancellationToken%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L38">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_System_String_CancellationToken_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync(System.String,CancellationToken,System.Nullable{System.Object}[])">InvokeVoidAsync(String, CancellationToken, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask InvokeVoidAsync(string identifier, CancellationToken cancellationToken, params object? [] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">args</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_System_String_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync(System.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L35">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_System_String_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync(System.String,System.Nullable{System.Object}[])">InvokeVoidAsync(String, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask InvokeVoidAsync(string identifier, params object? [] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">args</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_System_String_TimeSpan_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync(System.String%2CTimeSpan%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L41">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSLocalObject_InvokeVoidAsync_System_String_TimeSpan_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Locality.JSLocalObject.InvokeVoidAsync(System.String,TimeSpan,System.Nullable{System.Object}[])">InvokeVoidAsync(String, TimeSpan, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask InvokeVoidAsync(string identifier, TimeSpan timeout, params object? [] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">args</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
+        <td><span class="parametername">jsObjectInterceptor</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -643,7 +206,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSLocalObject.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSLocalObject%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Locality/JSLocalObject.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
