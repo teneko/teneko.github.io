@@ -93,19 +93,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Component_IPropertyAssigner_TryAssignProperty_Teronis_Microsoft_JSInterop_Reflection_IDefinition_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Component.IPropertyAssigner.TryAssignProperty(Teronis.Microsoft.JSInterop.Reflection.IDefinition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Component_IPropertyAssigner_AssignPropertyAsync_Teronis_Microsoft_JSInterop_Reflection_IDefinition_Teronis_Microsoft_JSInterop_Component_PropertyAssignerContext_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Component.IPropertyAssigner.AssignPropertyAsync(Teronis.Microsoft.JSInterop.Reflection.IDefinition%2CTeronis.Microsoft.JSInterop.Component.PropertyAssignerContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Component/IPropertyAssigner.cs/#L17">View Source</a>
   </span>
-  <a id="Teronis_Microsoft_JSInterop_Component_IPropertyAssigner_TryAssignProperty_" data-uid="Teronis.Microsoft.JSInterop.Component.IPropertyAssigner.TryAssignProperty*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Component_IPropertyAssigner_TryAssignProperty_Teronis_Microsoft_JSInterop_Reflection_IDefinition_" data-uid="Teronis.Microsoft.JSInterop.Component.IPropertyAssigner.TryAssignProperty(Teronis.Microsoft.JSInterop.Reflection.IDefinition)">TryAssignProperty(IDefinition)</h4>
+  <a id="Teronis_Microsoft_JSInterop_Component_IPropertyAssigner_AssignPropertyAsync_" data-uid="Teronis.Microsoft.JSInterop.Component.IPropertyAssigner.AssignPropertyAsync*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Component_IPropertyAssigner_AssignPropertyAsync_Teronis_Microsoft_JSInterop_Reflection_IDefinition_Teronis_Microsoft_JSInterop_Component_PropertyAssignerContext_" data-uid="Teronis.Microsoft.JSInterop.Component.IPropertyAssigner.AssignPropertyAsync(Teronis.Microsoft.JSInterop.Reflection.IDefinition,Teronis.Microsoft.JSInterop.Component.PropertyAssignerContext)">AssignPropertyAsync(IDefinition, PropertyAssignerContext)</h4>
   <div class="markdown level1 summary"><p>Assigns the component property with returning non-null JavaScript facade.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ValueTask&lt;YetNullable&lt;IAsyncDisposable&gt;&gt; TryAssignProperty(IDefinition componentProperty)</code></pre>
+    <pre><code class="lang-csharp hljs">ValueTask AssignPropertyAsync(IDefinition componentProperty, PropertyAssignerContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,6 +123,11 @@
         <td><p>The component property.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Component.PropertyAssignerContext.html">PropertyAssignerContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -135,7 +140,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ValueTask</span>&lt;<a class="xref" href="Teronis.YetNullable-1.html">YetNullable</a>&lt;<span class="xref">IAsyncDisposable</span>&gt;&gt;</td>
+        <td><span class="xref">ValueTask</span></td>
         <td><p>&quot;Null&quot;/default or the JavaScript facade.</p>
 </td>
       </tr>
@@ -148,6 +153,9 @@
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
   </div>
+  <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Component.IPropertyAssignerExtensions.html#Teronis_Microsoft_JSInterop_Component_IPropertyAssignerExtensions_AssignPropertyAsync_Teronis_Microsoft_JSInterop_Component_IPropertyAssigner_Teronis_Microsoft_JSInterop_Reflection_IDefinition_">IPropertyAssignerExtensions.AssignPropertyAsync(IPropertyAssigner, IDefinition)</a>
+  </div>
 </article>
           </div>
           
@@ -159,7 +167,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Component_IPropertyAssigner.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Component.IPropertyAssigner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Component/IPropertyAssigner.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Component/IPropertyAssigner.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

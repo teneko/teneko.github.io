@@ -89,7 +89,7 @@
     <div class="level1"><span class="xref">IJSInterceptorExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.html">Teronis.Microsoft.JSInterop.Interception</a></h6>
-  <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
+  <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Abstractions.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class IJSInterceptorExtensions : object</code></pre>
@@ -98,18 +98,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_CancellationToken_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CCancellationToken%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation___0__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InterceptInvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CTeronis.Microsoft.JSInterop.Interception.IJSObjectInvocation%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L31">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Interception/IJSInterceptorExtensions.cs/#L10">View Source</a>
   </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_CancellationToken_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,CancellationToken,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(IJSInterceptor, IJSObjectReference, String, CancellationToken, Nullable&lt;Object&gt;[])</h4>
+  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InterceptInvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InterceptInvokeAsync*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation___0__" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InterceptInvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation{``0})">InterceptInvokeAsync&lt;TValue&gt;(IJSInterceptor, IJSObjectInvocation&lt;TValue&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, CancellationToken cancellationToken, params object? [] arguments)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ValueTask InterceptInvokeAsync&lt;TValue&gt;(this IJSInterceptor interceptor, IJSObjectInvocation&lt;TValue&gt; invocation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,524 +123,12 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
+        <td><span class="parametername">interceptor</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_CancellationToken_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CCancellationToken%2CSystem.Nullable%7BSystem.Object%7D%5B%5D%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L24">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_CancellationToken_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,CancellationToken,System.Nullable{System.Object}[],Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">InvokeAsync&lt;TValue&gt;(IJSInterceptor, IJSObjectReference, String, CancellationToken, Nullable&lt;Object&gt;[], ICustomAttributes)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, CancellationToken cancellationToken, object? [] arguments, ICustomAttributes customAttributes)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html">ICustomAttributes</a></td>
-        <td><span class="parametername">customAttributes</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L21">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(IJSInterceptor, IJSObjectReference, String, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, params object? [] arguments)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L14">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,System.Nullable{System.Object}[],Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">InvokeAsync&lt;TValue&gt;(IJSInterceptor, IJSObjectReference, String, Nullable&lt;Object&gt;[], ICustomAttributes)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, object? [] arguments, ICustomAttributes customAttributes)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html">ICustomAttributes</a></td>
-        <td><span class="parametername">customAttributes</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_TimeSpan_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CTimeSpan%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L41">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_TimeSpan_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,TimeSpan,System.Nullable{System.Object}[])">InvokeAsync&lt;TValue&gt;(IJSInterceptor, IJSObjectReference, String, TimeSpan, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, TimeSpan timeout, params object? [] arguments)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_TimeSpan_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CTimeSpan%2CSystem.Nullable%7BSystem.Object%7D%5B%5D%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L34">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_TimeSpan_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,TimeSpan,System.Nullable{System.Object}[],Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">InvokeAsync&lt;TValue&gt;(IJSInterceptor, IJSObjectReference, String, TimeSpan, Nullable&lt;Object&gt;[], ICustomAttributes)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask&lt;TValue&gt; InvokeAsync&lt;TValue&gt;(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, TimeSpan timeout, object? [] arguments, ICustomAttributes customAttributes)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html">ICustomAttributes</a></td>
-        <td><span class="parametername">customAttributes</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span>&lt;TValue&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_CancellationToken_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CCancellationToken%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L61">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_CancellationToken_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,CancellationToken,System.Nullable{System.Object}[])">InvokeVoidAsync(IJSInterceptor, IJSObjectReference, String, CancellationToken, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask InvokeVoidAsync(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, CancellationToken cancellationToken, params object? [] arguments)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation-1.html">IJSObjectInvocation</a>&lt;TValue&gt;</td>
+        <td><span class="parametername">invocation</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -660,20 +148,35 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_CancellationToken_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CCancellationToken%2CSystem.Nullable%7BSystem.Object%7D%5B%5D%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InterceptInvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InterceptInvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CTeronis.Microsoft.JSInterop.Interception.IJSObjectInvocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L54">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Interception/IJSInterceptorExtensions.cs/#L13">View Source</a>
   </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_CancellationToken_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,CancellationToken,System.Nullable{System.Object}[],Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">InvokeVoidAsync(IJSInterceptor, IJSObjectReference, String, CancellationToken, Nullable&lt;Object&gt;[], ICustomAttributes)</h4>
+  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InterceptInvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InterceptInvokeVoidAsync*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InterceptInvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InterceptInvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation)">InterceptInvokeVoidAsync(IJSInterceptor, IJSObjectInvocation)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask InvokeVoidAsync(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, CancellationToken cancellationToken, object? [] arguments, ICustomAttributes customAttributes)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ValueTask InterceptInvokeVoidAsync(this IJSInterceptor interceptor, IJSObjectInvocation invocation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -687,300 +190,12 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
+        <td><span class="parametername">interceptor</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html">ICustomAttributes</a></td>
-        <td><span class="parametername">customAttributes</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L51">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,System.Nullable{System.Object}[])">InvokeVoidAsync(IJSInterceptor, IJSObjectReference, String, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask InvokeVoidAsync(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, params object? [] arguments)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CSystem.Nullable%7BSystem.Object%7D%5B%5D%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L44">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,System.Nullable{System.Object}[],Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">InvokeVoidAsync(IJSInterceptor, IJSObjectReference, String, Nullable&lt;Object&gt;[], ICustomAttributes)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask InvokeVoidAsync(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, object? [] arguments, ICustomAttributes customAttributes)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html">ICustomAttributes</a></td>
-        <td><span class="parametername">customAttributes</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_TimeSpan_System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CTimeSpan%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L71">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_TimeSpan_System_Nullable_System_Object____" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,TimeSpan,System.Nullable{System.Object}[])">InvokeVoidAsync(IJSInterceptor, IJSObjectReference, String, TimeSpan, Nullable&lt;Object&gt;[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask InvokeVoidAsync(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, TimeSpan timeout, params object? [] arguments)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_TimeSpan_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor%2CIJSObjectReference%2CSystem.String%2CTimeSpan%2CSystem.Nullable%7BSystem.Object%7D%5B%5D%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L64">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions_InvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSInterceptor_IJSObjectReference_System_String_TimeSpan_System_Nullable_System_Object____Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions.InvokeVoidAsync(Teronis.Microsoft.JSInterop.Interception.IJSInterceptor,IJSObjectReference,System.String,TimeSpan,System.Nullable{System.Object}[],Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">InvokeVoidAsync(IJSInterceptor, IJSObjectReference, String, TimeSpan, Nullable&lt;Object&gt;[], ICustomAttributes)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ValueTask InvokeVoidAsync(this IJSInterceptor jsInterceptor, IJSObjectReference jsObjectReference, string identifier, TimeSpan timeout, object? [] arguments, ICustomAttributes customAttributes)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
-        <td><span class="parametername">jsInterceptor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IJSObjectReference</span></td>
-        <td><span class="parametername">jsObjectReference</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html">ICustomAttributes</a></td>
-        <td><span class="parametername">customAttributes</span></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation.html">IJSObjectInvocation</a></td>
+        <td><span class="parametername">invocation</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1011,7 +226,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_IJSInterceptorExtensions.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.IJSInterceptorExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/IJSInterceptorExtensions.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Interception/IJSInterceptorExtensions.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
