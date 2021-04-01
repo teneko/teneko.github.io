@@ -89,20 +89,28 @@
     <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions-1.html">JSInterceptorBuilderOptions</a>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxyInterceptorBuilderOptions.html">JSDynamicProxyInterceptorBuilderOptions</a>&gt;</div>
     <div class="level2"><span class="xref">JSDynamicProxyInterceptorBuilderOptions</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder.html">ILateInterceptorBuilder</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
       <span class="xref">Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions&lt;Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxyInterceptorBuilderOptions&gt;.ConfigureInterceptorBuilder(Action&lt;&gt;)</span>
     </div>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions-1.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSIteratingInterceptorBuilder___">JSInterceptorBuilderOptions&lt;JSDynamicProxyInterceptorBuilderOptions&gt;.BuildInterceptor(Nullable&lt;Action&lt;IJSIteratingInterceptorBuilder&gt;&gt;)</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions-1.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder___">JSInterceptorBuilderOptions&lt;JSDynamicProxyInterceptorBuilderOptions&gt;.BuildInterceptor(Nullable&lt;Action&lt;IJSInterceptorBuilder&gt;&gt;)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Dynamic.html">Teronis.Microsoft.JSInterop.Dynamic</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Dynamic.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Dynamic_JSDynamicProxyInterceptorBuilderOptions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSDynamicProxyInterceptorBuilderOptions : JSInterceptorBuilderOptions&lt;JSDynamicProxyInterceptorBuilderOptions&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSDynamicProxyInterceptorBuilderOptions : JSInterceptorBuilderOptions&lt;JSDynamicProxyInterceptorBuilderOptions&gt;, ILateInterceptorBuilder</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder.html">ILateInterceptorBuilder</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

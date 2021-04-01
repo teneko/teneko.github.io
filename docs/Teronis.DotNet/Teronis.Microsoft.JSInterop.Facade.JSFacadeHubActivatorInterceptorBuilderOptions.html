@@ -89,20 +89,28 @@
     <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions-1.html">JSInterceptorBuilderOptions</a>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Facade.JSFacadeHubActivatorInterceptorBuilderOptions.html">JSFacadeHubActivatorInterceptorBuilderOptions</a>&gt;</div>
     <div class="level2"><span class="xref">JSFacadeHubActivatorInterceptorBuilderOptions</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder.html">ILateInterceptorBuilder</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions-1.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_ConfigureInterceptorBuilder_Action_Teronis_Microsoft_JSInterop_Interception_IJSIteratingInterceptorBuilder__">JSInterceptorBuilderOptions&lt;JSFacadeHubActivatorInterceptorBuilderOptions&gt;.ConfigureInterceptorBuilder(Action&lt;IJSIteratingInterceptorBuilder&gt;)</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions-1.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_ConfigureInterceptorBuilder_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder__">JSInterceptorBuilderOptions&lt;JSFacadeHubActivatorInterceptorBuilderOptions&gt;.ConfigureInterceptorBuilder(Action&lt;IJSInterceptorBuilder&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions-1.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSIteratingInterceptorBuilder___">JSInterceptorBuilderOptions&lt;JSFacadeHubActivatorInterceptorBuilderOptions&gt;.BuildInterceptor(Nullable&lt;Action&lt;IJSIteratingInterceptorBuilder&gt;&gt;)</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions-1.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder___">JSInterceptorBuilderOptions&lt;JSFacadeHubActivatorInterceptorBuilderOptions&gt;.BuildInterceptor(Nullable&lt;Action&lt;IJSInterceptorBuilder&gt;&gt;)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Facade.html">Teronis.Microsoft.JSInterop.Facade</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Facade_JSFacadeHubActivatorInterceptorBuilderOptions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSFacadeHubActivatorInterceptorBuilderOptions : JSInterceptorBuilderOptions&lt;JSFacadeHubActivatorInterceptorBuilderOptions&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSFacadeHubActivatorInterceptorBuilderOptions : JSInterceptorBuilderOptions&lt;JSFacadeHubActivatorInterceptorBuilderOptions&gt;, ILateInterceptorBuilder</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder.html">ILateInterceptorBuilder</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

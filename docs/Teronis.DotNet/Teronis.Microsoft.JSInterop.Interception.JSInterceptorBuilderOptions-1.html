@@ -87,17 +87,21 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">JSInterceptorBuilderOptions&lt;DerivedType&gt;</span></div>
-      <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.CustomFacade.JSCustomFacadeInterceptorBuilderOptions.html">JSCustomFacadeInterceptorBuilderOptions</a></div>
+      <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.CustomFacade.JSCustomFacadeActivatorInterceptorBuilderOptions.html">JSCustomFacadeActivatorInterceptorBuilderOptions</a></div>
       <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxyInterceptorBuilderOptions.html">JSDynamicProxyInterceptorBuilderOptions</a></div>
       <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Facade.JSFacadeHubActivatorInterceptorBuilderOptions.html">JSFacadeHubActivatorInterceptorBuilderOptions</a></div>
       <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Locality.JSLocalObjectInterceptorBuilderOptions.html">JSLocalObjectInterceptorBuilderOptions</a></div>
       <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Module.JSModuleInterceptorBuilderOptions.html">JSModuleInterceptorBuilderOptions</a></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder.html">ILateInterceptorBuilder</a></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.html">Teronis.Microsoft.JSInterop.Interception</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSInterceptorBuilderOptions&lt;DerivedType&gt; : object where DerivedType : JSInterceptorBuilderOptions&lt;DerivedType&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSInterceptorBuilderOptions&lt;DerivedType&gt; : object, ILateInterceptorBuilder where DerivedType : JSInterceptorBuilderOptions&lt;DerivedType&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,18 +122,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSIteratingInterceptorBuilder___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions%601.BuildInterceptor(System.Nullable%7BAction%7BTeronis.Microsoft.JSInterop.Interception.IJSIteratingInterceptorBuilder%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions%601.BuildInterceptor(System.Nullable%7BAction%7BTeronis.Microsoft.JSInterop.Interception.IJSInterceptorBuilder%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSInterceptorBuilderOptions.cs/#L57">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSInterceptorBuilderOptions.cs/#L58">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions`1.BuildInterceptor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSIteratingInterceptorBuilder___" data-uid="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions`1.BuildInterceptor(System.Nullable{Action{Teronis.Microsoft.JSInterop.Interception.IJSIteratingInterceptorBuilder}})">BuildInterceptor(Nullable&lt;Action&lt;IJSIteratingInterceptorBuilder&gt;&gt;)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder___" data-uid="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions`1.BuildInterceptor(System.Nullable{Action{Teronis.Microsoft.JSInterop.Interception.IJSInterceptorBuilder}})">BuildInterceptor(Nullable&lt;Action&lt;IJSInterceptorBuilder&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IJSObjectInterceptor BuildInterceptor(Action&lt;IJSIteratingInterceptorBuilder&gt;? configureBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public IJSInterceptor BuildInterceptor(Action&lt;IJSInterceptorBuilder&gt;? configureBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,7 +146,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSIteratingInterceptorBuilder.html">IJSIteratingInterceptorBuilder</a>&gt;&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Action</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorBuilder.html">IJSInterceptorBuilder</a>&gt;&gt;</td>
         <td><span class="parametername">configureBuilder</span></td>
         <td></td>
       </tr>
@@ -158,28 +162,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_ConfigureInterceptorBuilder_Action_Teronis_Microsoft_JSInterop_Interception_IJSIteratingInterceptorBuilder__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions%601.ConfigureInterceptorBuilder(Action%7BTeronis.Microsoft.JSInterop.Interception.IJSIteratingInterceptorBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_ConfigureInterceptorBuilder_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions%601.ConfigureInterceptorBuilder(Action%7BTeronis.Microsoft.JSInterop.Interception.IJSInterceptorBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSInterceptorBuilderOptions.cs/#L48">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSInterceptorBuilderOptions.cs/#L49">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_ConfigureInterceptorBuilder_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions`1.ConfigureInterceptorBuilder*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_ConfigureInterceptorBuilder_Action_Teronis_Microsoft_JSInterop_Interception_IJSIteratingInterceptorBuilder__" data-uid="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions`1.ConfigureInterceptorBuilder(Action{Teronis.Microsoft.JSInterop.Interception.IJSIteratingInterceptorBuilder})">ConfigureInterceptorBuilder(Action&lt;IJSIteratingInterceptorBuilder&gt;)</h4>
-  <div class="markdown level1 summary"><p>Configures an implementation of <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSIteratingInterceptorBuilder.html">IJSIteratingInterceptorBuilder</a>
-to create an implementation of <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInterceptor.html">IJSObjectInterceptor</a> for being used as
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSInterceptorBuilderOptions_1_ConfigureInterceptorBuilder_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder__" data-uid="Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions`1.ConfigureInterceptorBuilder(Action{Teronis.Microsoft.JSInterop.Interception.IJSInterceptorBuilder})">ConfigureInterceptorBuilder(Action&lt;IJSInterceptorBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Configures an implementation of <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorBuilder.html">IJSInterceptorBuilder</a>
+to create an implementation of <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a> for being used as
 <span class="xref">Teronis.Microsoft.JSInterop.Interception.JSInterceptorBuilderOptions`1.interceptor</span> when it is null.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DerivedType ConfigureInterceptorBuilder(Action&lt;IJSIteratingInterceptorBuilder&gt; configure)</code></pre>
+    <pre><code class="lang-csharp hljs">public DerivedType ConfigureInterceptorBuilder(Action&lt;IJSInterceptorBuilder&gt; configure)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,7 +196,7 @@ to create an implementation of <a class="xref" href="Teronis.Microsoft.JSInterop
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSIteratingInterceptorBuilder.html">IJSIteratingInterceptorBuilder</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptorBuilder.html">IJSInterceptorBuilder</a>&gt;</td>
         <td><span class="parametername">configure</span></td>
         <td></td>
       </tr>
@@ -213,6 +217,10 @@ to create an implementation of <a class="xref" href="Teronis.Microsoft.JSInterop
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder.html">ILateInterceptorBuilder</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>

@@ -86,30 +86,49 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">JSDynamicLocalObjectActivator</span></div>
+    <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.InterceptableFacadeActivatorBase.html">InterceptableFacadeActivatorBase</a></div>
+    <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivatorBase-1.html">DynamicFacadeActivatorBase</a>&lt;<span class="xref">IJSLocalObject</span>&gt;</div>
+    <div class="level3"><a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivator-3.html">DynamicFacadeActivator</a>&lt;<span class="xref">IJSLocalObjectActivator</span>, <span class="xref">IJSLocalObject</span>, <span class="xref">JSDynamicLocalObjectCreationOptions</span>&gt;</div>
+    <div class="level4"><span class="xref">JSDynamicLocalObjectActivator</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IJSDynamicLocalObjectActivator</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivator-3.html#Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3_CreateInstanceAsync_Type_Func__0_ValueTask__1____2_">DynamicFacadeActivator&lt;IJSLocalObjectActivator, IJSLocalObject, JSDynamicLocalObjectCreationOptions&gt;.CreateInstanceAsync(Type, Func&lt;IJSLocalObjectActivator, ValueTask&lt;IJSLocalObject&gt;&gt;, JSDynamicLocalObjectCreationOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivatorBase-1.html#Teronis_Microsoft_JSInterop_DynamicFacadeActivatorBase_1_CreateInstanceAsync_Type_Func_ValueTask__0___System_Nullable_DynamicProxyCreationOptions__">DynamicFacadeActivatorBase&lt;IJSLocalObject&gt;.CreateInstanceAsync(Type, Func&lt;ValueTask&lt;IJSLocalObject&gt;&gt;, Nullable&lt;DynamicProxyCreationOptions&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.InterceptableFacadeActivatorBase.html#Teronis_Microsoft_JSInterop_InterceptableFacadeActivatorBase_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder___">InterceptableFacadeActivatorBase.BuildInterceptor(Nullable&lt;Action&lt;IJSInterceptorBuilder&gt;&gt;)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Locality.html">Teronis.Microsoft.JSInterop.Locality</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Dynamic.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSDynamicLocalObjectActivator : IJSDynamicLocalObjectActivator</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSDynamicLocalObjectActivator : DynamicFacadeActivator&lt;IJSLocalObjectActivator, IJSLocalObject, JSDynamicLocalObjectCreationOptions&gt;, IJSDynamicLocalObjectActivator</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator__ctor_IJSLocalObjectActivator_IJSDynamicProxyActivator_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.%23ctor(IJSLocalObjectActivator%2CIJSDynamicProxyActivator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator__ctor_IJSLocalObjectActivator_IJSDynamicProxyActivator_System_Nullable_IOptions_Teronis_Microsoft_JSInterop_Locality_JSLocalObjectInterceptorBuilderOptions___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.%23ctor(IJSLocalObjectActivator%2CIJSDynamicProxyActivator%2CSystem.Nullable%7BIOptions%7BTeronis.Microsoft.JSInterop.Locality.JSLocalObjectInterceptorBuilderOptions%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Locality/JSDynamicLocalObjectActivator.cs/#L17">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Locality/JSDynamicLocalObjectActivator.cs/#L14">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator__ctor_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator__ctor_IJSLocalObjectActivator_IJSDynamicProxyActivator_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.#ctor(IJSLocalObjectActivator,IJSDynamicProxyActivator)">JSDynamicLocalObjectActivator(IJSLocalObjectActivator, IJSDynamicProxyActivator)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator__ctor_IJSLocalObjectActivator_IJSDynamicProxyActivator_System_Nullable_IOptions_Teronis_Microsoft_JSInterop_Locality_JSLocalObjectInterceptorBuilderOptions___" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.#ctor(IJSLocalObjectActivator,IJSDynamicProxyActivator,System.Nullable{IOptions{Teronis.Microsoft.JSInterop.Locality.JSLocalObjectInterceptorBuilderOptions}})">JSDynamicLocalObjectActivator(IJSLocalObjectActivator, IJSDynamicProxyActivator, Nullable&lt;IOptions&lt;JSLocalObjectInterceptorBuilderOptions&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSDynamicLocalObjectActivator(IJSLocalObjectActivator jsLocalObjectActivator, IJSDynamicProxyActivator jSDynamicProxyActivator)</code></pre>
+    <pre><code class="lang-csharp hljs">public JSDynamicLocalObjectActivator(IJSLocalObjectActivator jsLocalObjectActivator, IJSDynamicProxyActivator jSDynamicProxyActivator, IOptions&lt;JSLocalObjectInterceptorBuilderOptions&gt;? interceptorBuilderOptions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,24 +150,29 @@
         <td><span class="parametername">jSDynamicProxyActivator</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IOptions</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Locality.JSLocalObjectInterceptorBuilderOptions.html">JSLocalObjectInterceptorBuilderOptions</a>&gt;&gt;</td>
+        <td><span class="parametername">interceptorBuilderOptions</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_Type_IJSObjectReference_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync(Type%2CIJSObjectReference%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_Type_IJSObjectReference_System_String_System_Nullable_JSDynamicLocalObjectCreationOptions__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync(Type%2CIJSObjectReference%2CSystem.String%2CSystem.Nullable%7BJSDynamicLocalObjectCreationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Locality/JSDynamicLocalObjectActivator.cs/#L31">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Locality/JSDynamicLocalObjectActivator.cs/#L26">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_Type_IJSObjectReference_System_String_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync(Type,IJSObjectReference,System.String)">CreateInstanceAsync(Type, IJSObjectReference, String)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_Type_IJSObjectReference_System_String_System_Nullable_JSDynamicLocalObjectCreationOptions__" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync(Type,IJSObjectReference,System.String,System.Nullable{JSDynamicLocalObjectCreationOptions})">CreateInstanceAsync(Type, IJSObjectReference, String, Nullable&lt;JSDynamicLocalObjectCreationOptions&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;IJSLocalObject&gt; CreateInstanceAsync(Type interfaceToBeProxied, IJSObjectReference jsObjectReference, string objectName)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;IJSLocalObject&gt; CreateInstanceAsync(Type interfaceToBeProxied, IJSObjectReference jsObjectReference, string objectName, JSDynamicLocalObjectCreationOptions? options = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,6 +199,11 @@
         <td><span class="parametername">objectName</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">JSDynamicLocalObjectCreationOptions</span>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -194,18 +223,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_Type_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync(Type%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_Type_System_String_System_Nullable_JSDynamicLocalObjectCreationOptions__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync(Type%2CSystem.String%2CSystem.Nullable%7BJSDynamicLocalObjectCreationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Locality/JSDynamicLocalObjectActivator.cs/#L23">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Locality/JSDynamicLocalObjectActivator.cs/#L20">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_Type_System_String_" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync(Type,System.String)">CreateInstanceAsync(Type, String)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Locality_JSDynamicLocalObjectActivator_CreateInstanceAsync_Type_System_String_System_Nullable_JSDynamicLocalObjectCreationOptions__" data-uid="Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.CreateInstanceAsync(Type,System.String,System.Nullable{JSDynamicLocalObjectCreationOptions})">CreateInstanceAsync(Type, String, Nullable&lt;JSDynamicLocalObjectCreationOptions&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;IJSLocalObject&gt; CreateInstanceAsync(Type interfaceToBeProxied, string objectName)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;IJSLocalObject&gt; CreateInstanceAsync(Type interfaceToBeProxied, string objectName, JSDynamicLocalObjectCreationOptions? options = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -227,6 +256,11 @@
         <td><span class="parametername">objectName</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">JSDynamicLocalObjectCreationOptions</span>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -244,6 +278,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IJSDynamicLocalObjectActivator</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>

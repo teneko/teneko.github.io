@@ -86,17 +86,24 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">JSModuleActivator</span></div>
+    <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.InterceptableFacadeActivatorBase.html">InterceptableFacadeActivatorBase</a></div>
+    <div class="level2"><span class="xref">JSModuleActivator</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.Microsoft.JSInterop.Module.IJSModuleActivator.html">IJSModuleActivator</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.InterceptableFacadeActivatorBase.html#Teronis_Microsoft_JSInterop_InterceptableFacadeActivatorBase_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder___">InterceptableFacadeActivatorBase.BuildInterceptor(Nullable&lt;Action&lt;IJSInterceptorBuilder&gt;&gt;)</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Module.html">Teronis.Microsoft.JSInterop.Module</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Module_JSModuleActivator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSModuleActivator : object, IJSModuleActivator</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSModuleActivator : InterceptableFacadeActivatorBase, IJSModuleActivator</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -105,7 +112,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Module_JSModuleActivator__ctor_IJSRuntime_System_Nullable_IOptions_Teronis_Microsoft_JSInterop_Module_JSModuleInterceptorBuilderOptions___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Module.JSModuleActivator.%23ctor(IJSRuntime%2CSystem.Nullable%7BIOptions%7BTeronis.Microsoft.JSInterop.Module.JSModuleInterceptorBuilderOptions%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Module/JSModuleActivator.cs/#L16">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Module/JSModuleActivator.cs/#L15">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Module_JSModuleActivator__ctor_" data-uid="Teronis.Microsoft.JSInterop.Module.JSModuleActivator.#ctor*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Module_JSModuleActivator__ctor_IJSRuntime_System_Nullable_IOptions_Teronis_Microsoft_JSInterop_Module_JSModuleInterceptorBuilderOptions___" data-uid="Teronis.Microsoft.JSInterop.Module.JSModuleActivator.#ctor(IJSRuntime,System.Nullable{IOptions{Teronis.Microsoft.JSInterop.Module.JSModuleInterceptorBuilderOptions}})">JSModuleActivator(IJSRuntime, Nullable&lt;IOptions&lt;JSModuleInterceptorBuilderOptions&gt;&gt;)</h4>
@@ -141,18 +148,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Module_JSModuleActivator_CreateInstanceAsync_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Module.JSModuleActivator.CreateInstanceAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Module_JSModuleActivator_CreateInstanceAsync_System_String_Teronis_Microsoft_JSInterop_Module_JSModuleCreationOptions_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Module.JSModuleActivator.CreateInstanceAsync(System.String%2CTeronis.Microsoft.JSInterop.Module.JSModuleCreationOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Module/JSModuleActivator.cs/#L22">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Module/JSModuleActivator.cs/#L19">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Module_JSModuleActivator_CreateInstanceAsync_" data-uid="Teronis.Microsoft.JSInterop.Module.JSModuleActivator.CreateInstanceAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Module_JSModuleActivator_CreateInstanceAsync_System_String_" data-uid="Teronis.Microsoft.JSInterop.Module.JSModuleActivator.CreateInstanceAsync(System.String)">CreateInstanceAsync(String)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Module_JSModuleActivator_CreateInstanceAsync_System_String_Teronis_Microsoft_JSInterop_Module_JSModuleCreationOptions_" data-uid="Teronis.Microsoft.JSInterop.Module.JSModuleActivator.CreateInstanceAsync(System.String,Teronis.Microsoft.JSInterop.Module.JSModuleCreationOptions)">CreateInstanceAsync(String, JSModuleCreationOptions)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;IJSModule&gt; CreateInstanceAsync(string moduleNameOrPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;IJSModule&gt; CreateInstanceAsync(string moduleNameOrPath, JSModuleCreationOptions creationOptions = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,6 +174,11 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">moduleNameOrPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Module.JSModuleCreationOptions.html">JSModuleCreationOptions</a></td>
+        <td><span class="parametername">creationOptions</span></td>
         <td></td>
       </tr>
     </tbody>

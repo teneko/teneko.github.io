@@ -98,18 +98,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_GetModuleNameOrPath__1_Teronis_Microsoft_JSInterop_Annotations_JSModulePropertyAttribute_Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.GetModuleNameOrPath%60%601(Teronis.Microsoft.JSInterop.Annotations.JSModulePropertyAttribute%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_GetModuleNameOrPath__1_Teronis_Microsoft_JSInterop_Annotations_AssignModuleAttribute_Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.GetModuleNameOrPath%60%601(Teronis.Microsoft.JSInterop.Annotations.AssignModuleAttribute%2CTeronis.Microsoft.JSInterop.Reflection.ICustomAttributes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeUtils.cs/#L12">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_GetModuleNameOrPath_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.GetModuleNameOrPath*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_GetModuleNameOrPath__1_Teronis_Microsoft_JSInterop_Annotations_JSModulePropertyAttribute_Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.GetModuleNameOrPath``1(Teronis.Microsoft.JSInterop.Annotations.JSModulePropertyAttribute,Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">GetModuleNameOrPath&lt;TClassAttribute&gt;(JSModulePropertyAttribute, ICustomAttributes)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeUtils_GetModuleNameOrPath__1_Teronis_Microsoft_JSInterop_Annotations_AssignModuleAttribute_Teronis_Microsoft_JSInterop_Reflection_ICustomAttributes_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeUtils.GetModuleNameOrPath``1(Teronis.Microsoft.JSInterop.Annotations.AssignModuleAttribute,Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes)">GetModuleNameOrPath&lt;TClassAttribute&gt;(AssignModuleAttribute, ICustomAttributes)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetModuleNameOrPath&lt;TClassAttribute&gt;(JSModulePropertyAttribute propertyAttribute, ICustomAttributes propertyTypeAttributes)
+    <pre><code class="lang-csharp hljs">public static string GetModuleNameOrPath&lt;TClassAttribute&gt;(AssignModuleAttribute propertyAttribute, ICustomAttributes propertyTypeAttributes)
     where TClassAttribute : JSModuleClassAttribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -123,7 +123,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.JSModulePropertyAttribute.html">JSModulePropertyAttribute</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignModuleAttribute.html">AssignModuleAttribute</a></td>
         <td><span class="parametername">propertyAttribute</span></td>
         <td></td>
       </tr>
@@ -182,7 +182,7 @@ module attribute.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool TryGetModuleNameOrPath&lt;TPropertyAttribute, TClassAttribute&gt;(IDefinition componentProperty, out string moduleNameOrPath)
-    where TPropertyAttribute : JSModulePropertyAttribute where TClassAttribute : JSModuleClassAttribute</code></pre>
+    where TPropertyAttribute : AssignModuleAttribute where TClassAttribute : JSModuleClassAttribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

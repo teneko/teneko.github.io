@@ -86,30 +86,49 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">JSDynamicModuleActivator</span></div>
+    <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.InterceptableFacadeActivatorBase.html">InterceptableFacadeActivatorBase</a></div>
+    <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivatorBase-1.html">DynamicFacadeActivatorBase</a>&lt;<span class="xref">IJSModule</span>&gt;</div>
+    <div class="level3"><a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivator-3.html">DynamicFacadeActivator</a>&lt;<span class="xref">IJSModuleActivator</span>, <span class="xref">IJSModule</span>, <span class="xref">DynamicModuleCreationOptions</span>&gt;</div>
+    <div class="level4"><span class="xref">JSDynamicModuleActivator</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IJSDynamicModuleActivator</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivator-3.html#Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3_CreateInstanceAsync_Type_Func__0_ValueTask__1____2_">DynamicFacadeActivator&lt;IJSModuleActivator, IJSModule, DynamicModuleCreationOptions&gt;.CreateInstanceAsync(Type, Func&lt;IJSModuleActivator, ValueTask&lt;IJSModule&gt;&gt;, DynamicModuleCreationOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivatorBase-1.html#Teronis_Microsoft_JSInterop_DynamicFacadeActivatorBase_1_CreateInstanceAsync_Type_Func_ValueTask__0___System_Nullable_DynamicProxyCreationOptions__">DynamicFacadeActivatorBase&lt;IJSModule&gt;.CreateInstanceAsync(Type, Func&lt;ValueTask&lt;IJSModule&gt;&gt;, Nullable&lt;DynamicProxyCreationOptions&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.InterceptableFacadeActivatorBase.html#Teronis_Microsoft_JSInterop_InterceptableFacadeActivatorBase_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder___">InterceptableFacadeActivatorBase.BuildInterceptor(Nullable&lt;Action&lt;IJSInterceptorBuilder&gt;&gt;)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Module.html">Teronis.Microsoft.JSInterop.Module</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Dynamic.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSDynamicModuleActivator : IJSDynamicModuleActivator</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSDynamicModuleActivator : DynamicFacadeActivator&lt;IJSModuleActivator, IJSModule, DynamicModuleCreationOptions&gt;, IJSDynamicModuleActivator</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator__ctor_IJSModuleActivator_IJSDynamicProxyActivator_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.%23ctor(IJSModuleActivator%2CIJSDynamicProxyActivator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator__ctor_IJSModuleActivator_IJSDynamicProxyActivator_System_Nullable_IOptions_Teronis_Microsoft_JSInterop_Module_JSModuleInterceptorBuilderOptions___.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.%23ctor(IJSModuleActivator%2CIJSDynamicProxyActivator%2CSystem.Nullable%7BIOptions%7BTeronis.Microsoft.JSInterop.Module.JSModuleInterceptorBuilderOptions%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Module/JSDynamicModuleActivator.cs/#L16">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Module/JSDynamicModuleActivator.cs/#L13">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator__ctor_" data-uid="Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator__ctor_IJSModuleActivator_IJSDynamicProxyActivator_" data-uid="Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.#ctor(IJSModuleActivator,IJSDynamicProxyActivator)">JSDynamicModuleActivator(IJSModuleActivator, IJSDynamicProxyActivator)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator__ctor_IJSModuleActivator_IJSDynamicProxyActivator_System_Nullable_IOptions_Teronis_Microsoft_JSInterop_Module_JSModuleInterceptorBuilderOptions___" data-uid="Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.#ctor(IJSModuleActivator,IJSDynamicProxyActivator,System.Nullable{IOptions{Teronis.Microsoft.JSInterop.Module.JSModuleInterceptorBuilderOptions}})">JSDynamicModuleActivator(IJSModuleActivator, IJSDynamicProxyActivator, Nullable&lt;IOptions&lt;JSModuleInterceptorBuilderOptions&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSDynamicModuleActivator(IJSModuleActivator jsModuleActivator, IJSDynamicProxyActivator jSDynamicProxyActivator)</code></pre>
+    <pre><code class="lang-csharp hljs">public JSDynamicModuleActivator(IJSModuleActivator jsModuleActivator, IJSDynamicProxyActivator jsDynamicProxyActivator, IOptions&lt;JSModuleInterceptorBuilderOptions&gt;? interceptorBuilderOptions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -128,7 +147,12 @@
       </tr>
       <tr>
         <td><span class="xref">IJSDynamicProxyActivator</span></td>
-        <td><span class="parametername">jSDynamicProxyActivator</span></td>
+        <td><span class="parametername">jsDynamicProxyActivator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IOptions</span>&lt;<a class="xref" href="Teronis.Microsoft.JSInterop.Module.JSModuleInterceptorBuilderOptions.html">JSModuleInterceptorBuilderOptions</a>&gt;&gt;</td>
+        <td><span class="parametername">interceptorBuilderOptions</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -137,18 +161,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator_CreateInstanceAsync_Type_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.CreateInstanceAsync(Type%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator_CreateInstanceAsync_Type_System_String_System_Nullable_DynamicModuleCreationOptions__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.CreateInstanceAsync(Type%2CSystem.String%2CSystem.Nullable%7BDynamicModuleCreationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Module/JSDynamicModuleActivator.cs/#L22">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/Module/JSDynamicModuleActivator.cs/#L19">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator_CreateInstanceAsync_" data-uid="Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.CreateInstanceAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator_CreateInstanceAsync_Type_System_String_" data-uid="Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.CreateInstanceAsync(Type,System.String)">CreateInstanceAsync(Type, String)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Module_JSDynamicModuleActivator_CreateInstanceAsync_Type_System_String_System_Nullable_DynamicModuleCreationOptions__" data-uid="Teronis.Microsoft.JSInterop.Module.JSDynamicModuleActivator.CreateInstanceAsync(Type,System.String,System.Nullable{DynamicModuleCreationOptions})">CreateInstanceAsync(Type, String, Nullable&lt;DynamicModuleCreationOptions&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;IJSModule&gt; CreateInstanceAsync(Type interfaceToBeProxied, string moduleNameOrPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ValueTask&lt;IJSModule&gt; CreateInstanceAsync(Type interfaceToBeProxied, string moduleNameOrPath, DynamicModuleCreationOptions? creationOptions = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,6 +194,11 @@
         <td><span class="parametername">moduleNameOrPath</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DynamicModuleCreationOptions</span>&gt;</td>
+        <td><span class="parametername">creationOptions</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -187,6 +216,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IJSDynamicModuleActivator</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
