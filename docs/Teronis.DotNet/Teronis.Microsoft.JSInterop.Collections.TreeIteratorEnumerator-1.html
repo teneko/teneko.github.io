@@ -87,14 +87,19 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">TreeIteratorEnumerator&lt;TEntry&gt;</span></div>
-      <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Component.PropertyAssignerContext.PropertyAssignerEntryEnumerator.html">PropertyAssignerContext.PropertyAssignerEntryEnumerator</a></div>
-      <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.InterceptionContext.InterceptionEntryEnumerator.html">InterceptionContext.InterceptionEntryEnumerator</a></div>
+      <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Component.ValueAssigner.ValueAssignerContext.ValueAssignerEntryEnumerator.html">ValueAssignerContext.ValueAssignerEntryEnumerator</a></div>
+      <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.InterceptionContext.InterceptionEntryEnumerator.html">InterceptionContext.InterceptionEntryEnumerator</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Collections.ITreeIteratorEnumerator-1.html">ITreeIteratorEnumerator</a>&lt;TEntry&gt;</div>
+    <div><span class="xref">IEnumerator</span>&lt;TEntry&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Collections.html">Teronis.Microsoft.JSInterop.Collections</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Abstractions.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Collections_TreeIteratorEnumerator_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TreeIteratorEnumerator&lt;TEntry&gt; : IEnumerator&lt;TEntry&gt; where TEntry : class, ITreeIteratorEntry</code></pre>
+    <pre><code class="lang-csharp hljs">public class TreeIteratorEnumerator&lt;TEntry&gt; : object, ITreeIteratorEnumerator&lt;TEntry&gt;, IEnumerator&lt;TEntry&gt; where TEntry : class, ITreeIteratorEntry</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -275,12 +280,12 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
   </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
+  <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Collections.ITreeIteratorEnumerator-1.html">ITreeIteratorEnumerator&lt;TEntry&gt;</a>
   </div>
   <div>
-      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
+      <span class="xref">IEnumerator&lt;&gt;</span>
   </div>
 </article>
           </div>

@@ -181,7 +181,7 @@ module attribute.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryGetModuleNameOrPath&lt;TPropertyAttribute, TClassAttribute&gt;(IDefinition componentProperty, out string moduleNameOrPath)
+    <pre><code class="lang-csharp hljs">public static bool TryGetModuleNameOrPath&lt;TPropertyAttribute, TClassAttribute&gt;(IDefinition componentMember, out string moduleNameOrPath)
     where TPropertyAttribute : AssignModuleAttribute where TClassAttribute : JSModuleClassAttribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -196,7 +196,7 @@ module attribute.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.IDefinition.html">IDefinition</a></td>
-        <td><span class="parametername">componentProperty</span></td>
+        <td><span class="parametername">componentMember</span></td>
         <td></td>
       </tr>
       <tr>

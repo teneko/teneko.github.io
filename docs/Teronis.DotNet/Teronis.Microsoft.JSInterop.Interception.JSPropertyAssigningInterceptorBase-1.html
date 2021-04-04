@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class JSPropertyAssigningInterceptorBase&lt;TPropertyAssigner&gt;
+    <title>Class JSPropertyAssigningInterceptorBase&lt;TValueAssigner&gt;
    | Documentations </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class JSPropertyAssigningInterceptorBase&lt;TPropertyAssigner&gt;
+    <meta name="title" content="Class JSPropertyAssigningInterceptorBase&lt;TValueAssigner&gt;
    | Documentations ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -79,41 +79,41 @@
             <article class="content wrap" id="_content" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1">
   
   
-  <h1 id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1" class="text-break">Class JSPropertyAssigningInterceptorBase&lt;TPropertyAssigner&gt;
+  <h1 id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1" class="text-break">Class JSPropertyAssigningInterceptorBase&lt;TValueAssigner&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptor.html">JSInterceptor</a></div>
-    <div class="level2"><span class="xref">JSPropertyAssigningInterceptorBase&lt;TPropertyAssigner&gt;</span></div>
+    <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.JSInterceptor.html">JSInterceptor</a></div>
+    <div class="level2"><span class="xref">JSPropertyAssigningInterceptorBase&lt;TValueAssigner&gt;</span></div>
       <div class="level3"><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSDynamicModuleActivatingInterceptor.html">JSDynamicModuleActivatingInterceptor</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a></div>
+    <div><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.IJSInterceptor.html">IJSInterceptor</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptor.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptor_Default">JSInterceptor.Default</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.JSInterceptor.html#Teronis_Microsoft_JSInterop_Interception_Interceptor_JSInterceptor_Default">JSInterceptor.Default</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptor.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptor_Interceptor">JSInterceptor.Interceptor</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.JSInterceptor.html#Teronis_Microsoft_JSInterop_Interception_Interceptor_JSInterceptor_Interceptor">JSInterceptor.Interceptor</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptor.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptor_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation___0__Teronis_Microsoft_JSInterop_Interception_InterceptionContext_">JSInterceptor.InterceptInvokeAsync&lt;TValue&gt;(IJSObjectInvocation&lt;TValue&gt;, InterceptionContext)</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.JSInterceptor.html#Teronis_Microsoft_JSInterop_Interception_Interceptor_JSInterceptor_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation___0__Teronis_Microsoft_JSInterop_Interception_Interceptor_InterceptionContext_">JSInterceptor.InterceptInvokeAsync&lt;TValue&gt;(IJSObjectInvocation&lt;TValue&gt;, InterceptionContext)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSInterceptor.html#Teronis_Microsoft_JSInterop_Interception_JSInterceptor_InterceptInvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation_Teronis_Microsoft_JSInterop_Interception_InterceptionContext_">JSInterceptor.InterceptInvokeVoidAsync(IJSObjectInvocation, InterceptionContext)</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.JSInterceptor.html#Teronis_Microsoft_JSInterop_Interception_Interceptor_JSInterceptor_InterceptInvokeVoidAsync_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation_Teronis_Microsoft_JSInterop_Interception_Interceptor_InterceptionContext_">JSInterceptor.InterceptInvokeVoidAsync(IJSObjectInvocation, InterceptionContext)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.html">Teronis.Microsoft.JSInterop.Interception</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Core.dll</h6>
   <h5 id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class JSPropertyAssigningInterceptorBase&lt;TPropertyAssigner&gt; : JSInterceptor, IJSInterceptor where TPropertyAssigner : IPropertyAssigner</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class JSPropertyAssigningInterceptorBase&lt;TValueAssigner&gt; : JSInterceptor, IJSInterceptor where TValueAssigner : IValueAssigner</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,7 +125,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TPropertyAssigner</span></td>
+        <td><span class="parametername">TValueAssigner</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -137,15 +137,15 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1__ctor__0_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSPropertyAssigningInterceptorBase{`1}.cs/#L14">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSPropertyAssigningInterceptorBase{`1}.cs/#L16">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1__ctor_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1__ctor__0_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1.#ctor(`0)">JSPropertyAssigningInterceptorBase(TPropertyAssigner)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1__ctor__0_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1.#ctor(`0)">JSPropertyAssigningInterceptorBase(TValueAssigner)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSPropertyAssigningInterceptorBase(TPropertyAssigner propertyAssigner)</code></pre>
+    <pre><code class="lang-csharp hljs">public JSPropertyAssigningInterceptorBase(TValueAssigner propertyAssigner)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,7 +158,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TPropertyAssigner</span></td>
+        <td><span class="xref">TValueAssigner</span></td>
         <td><span class="parametername">propertyAssigner</span></td>
         <td></td>
       </tr>
@@ -168,13 +168,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation___0__Teronis_Microsoft_JSInterop_Interception_InterceptionContext_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase%601.InterceptInvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation%7B%60%600%7D%2CTeronis.Microsoft.JSInterop.Interception.InterceptionContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation___0__Teronis_Microsoft_JSInterop_Interception_Interceptor_InterceptionContext_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase%601.InterceptInvokeAsync%60%601(Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation%7B%60%600%7D%2CTeronis.Microsoft.JSInterop.Interception.Interceptor.InterceptionContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSPropertyAssigningInterceptorBase{`1}.cs/#L17">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSPropertyAssigningInterceptorBase{`1}.cs/#L19">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1_InterceptInvokeAsync_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1.InterceptInvokeAsync*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation___0__Teronis_Microsoft_JSInterop_Interception_InterceptionContext_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1.InterceptInvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation{``0},Teronis.Microsoft.JSInterop.Interception.InterceptionContext)">InterceptInvokeAsync&lt;TTaskArgument&gt;(IJSObjectInvocation&lt;TTaskArgument&gt;, InterceptionContext)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1_InterceptInvokeAsync__1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation___0__Teronis_Microsoft_JSInterop_Interception_Interceptor_InterceptionContext_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase`1.InterceptInvokeAsync``1(Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation{``0},Teronis.Microsoft.JSInterop.Interception.Interceptor.InterceptionContext)">InterceptInvokeAsync&lt;TTaskArgument&gt;(IJSObjectInvocation&lt;TTaskArgument&gt;, InterceptionContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -197,7 +197,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.InterceptionContext.html">InterceptionContext</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.InterceptionContext.html">InterceptionContext</a></td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -234,17 +234,10 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Teronis.Microsoft.JSInterop.Interception.JSInterceptor.InterceptInvokeAsync&lt;TValue&gt;(Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation&lt;TValue&gt;, Teronis.Microsoft.JSInterop.Interception.InterceptionContext)</span></div>
+  <div><span class="xref">Teronis.Microsoft.JSInterop.Interception.Interceptor.JSInterceptor.InterceptInvokeAsync&lt;TValue&gt;(Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocation&lt;TValue&gt;, Teronis.Microsoft.JSInterop.Interception.Interceptor.InterceptionContext)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSInterceptor.html">IJSInterceptor</a>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.IJSInterceptor.html">IJSInterceptor</a>
   </div>
 </article>
           </div>
@@ -257,7 +250,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSPropertyAssigningInterceptorBase_1.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSPropertyAssigningInterceptorBase%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSPropertyAssigningInterceptorBase{`1}.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSPropertyAssigningInterceptorBase{`1}.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

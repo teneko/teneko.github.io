@@ -98,7 +98,7 @@
       <a class="xref" href="Teronis.Microsoft.JSInterop.DynamicFacadeActivatorBase-1.html#Teronis_Microsoft_JSInterop_DynamicFacadeActivatorBase_1_CreateInstanceAsync_Type_Func_ValueTask__0___System_Nullable_DynamicProxyCreationOptions__">DynamicFacadeActivatorBase&lt;TFacade&gt;.CreateInstanceAsync(Type, Func&lt;ValueTask&lt;TFacade&gt;&gt;, Nullable&lt;DynamicProxyCreationOptions&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.InterceptableFacadeActivatorBase.html#Teronis_Microsoft_JSInterop_InterceptableFacadeActivatorBase_BuildInterceptor_System_Nullable_Action_Teronis_Microsoft_JSInterop_Interception_IJSInterceptorBuilder___">InterceptableFacadeActivatorBase.BuildInterceptor(Nullable&lt;Action&lt;IJSInterceptorBuilder&gt;&gt;)</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.InterceptableFacadeActivatorBase.html#Teronis_Microsoft_JSInterop_InterceptableFacadeActivatorBase_BuildInterceptor">InterceptableFacadeActivatorBase.BuildInterceptor()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.html">Teronis.Microsoft.JSInterop</a></h6>
@@ -134,18 +134,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3__ctor__0_IJSDynamicProxyActivator_Teronis_Microsoft_JSInterop_Interception_ILateInterceptorBuilder_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.DynamicFacadeActivator%603.%23ctor(%600%2CIJSDynamicProxyActivator%2CTeronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3__ctor__0_IJSDynamicProxyActivator_Teronis_Microsoft_JSInterop_Interception_Interceptor_Builder_IJSInterceptorBuilder_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.DynamicFacadeActivator%603.%23ctor(%600%2CIJSDynamicProxyActivator%2CTeronis.Microsoft.JSInterop.Interception.Interceptor.Builder.IJSInterceptorBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/DynamicFacadeActivator.cs/#L18">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3__ctor_" data-uid="Teronis.Microsoft.JSInterop.DynamicFacadeActivator`3.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3__ctor__0_IJSDynamicProxyActivator_Teronis_Microsoft_JSInterop_Interception_ILateInterceptorBuilder_" data-uid="Teronis.Microsoft.JSInterop.DynamicFacadeActivator`3.#ctor(`0,IJSDynamicProxyActivator,Teronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder)">DynamicFacadeActivator(TFacadeActivator, IJSDynamicProxyActivator, ILateInterceptorBuilder)</h4>
+  <h4 id="Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3__ctor__0_IJSDynamicProxyActivator_Teronis_Microsoft_JSInterop_Interception_Interceptor_Builder_IJSInterceptorBuilder_" data-uid="Teronis.Microsoft.JSInterop.DynamicFacadeActivator`3.#ctor(`0,IJSDynamicProxyActivator,Teronis.Microsoft.JSInterop.Interception.Interceptor.Builder.IJSInterceptorBuilder)">DynamicFacadeActivator(TFacadeActivator, IJSDynamicProxyActivator, IJSInterceptorBuilder)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DynamicFacadeActivator(TFacadeActivator activator, IJSDynamicProxyActivator jsDynamicProxyActivator, ILateInterceptorBuilder interceptorBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public DynamicFacadeActivator(TFacadeActivator facadeActivator, IJSDynamicProxyActivator dynamicProxyActivator, IJSInterceptorBuilder interceptorBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -159,16 +159,16 @@
     <tbody>
       <tr>
         <td><span class="xref">TFacadeActivator</span></td>
-        <td><span class="parametername">activator</span></td>
+        <td><span class="parametername">facadeActivator</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">IJSDynamicProxyActivator</span></td>
-        <td><span class="parametername">jsDynamicProxyActivator</span></td>
+        <td><span class="parametername">dynamicProxyActivator</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.ILateInterceptorBuilder.html">ILateInterceptorBuilder</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Interception.Interceptor.Builder.IJSInterceptorBuilder.html">IJSInterceptorBuilder</a></td>
         <td><span class="parametername">interceptorBuilder</span></td>
         <td></td>
       </tr>
@@ -181,7 +181,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3_CreateInstanceAsync_Type_Func__0_ValueTask__1____2_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.DynamicFacadeActivator%603.CreateInstanceAsync(Type%2CFunc%7B%600%2CValueTask%7B%601%7D%7D%2C%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/DynamicFacadeActivator.cs/#L24">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/Dynamic/0.Core/src/DynamicFacadeActivator.cs/#L22">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3_CreateInstanceAsync_" data-uid="Teronis.Microsoft.JSInterop.DynamicFacadeActivator`3.CreateInstanceAsync*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_DynamicFacadeActivator_3_CreateInstanceAsync_Type_Func__0_ValueTask__1____2_" data-uid="Teronis.Microsoft.JSInterop.DynamicFacadeActivator`3.CreateInstanceAsync(Type,Func{`0,ValueTask{`1}},`2)">CreateInstanceAsync(Type, Func&lt;TFacadeActivator, ValueTask&lt;TFacade&gt;&gt;, TCreationOptions)</h4>
@@ -233,13 +233,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_">ObjectExtensions.SerializeObject(Object)</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.Json.Extensions.ObjectExtensions.html#Teronis_Json_Extensions_ObjectExtensions_SerializeObject_System_Object_JsonSerializerSettings_">ObjectExtensions.SerializeObject(Object, JsonSerializerSettings)</a>
-  </div>
 </article>
           </div>
           
