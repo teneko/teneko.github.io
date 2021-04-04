@@ -2846,366 +2846,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.DescriptorActivator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.DescriptorActivator.html",
-          "hash": "H1+LSQC+Yj1Er2/WzVduEw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.DescriptorActivatorBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.DescriptorActivatorBase-1.html",
-          "hash": "gMOxt0YPM8CNtJHJ9gtzpQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.ILifetimeServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.ILifetimeServiceCollectionExtensions.html",
-          "hash": "Hh0uPcn4c0kCV/iTjzcNig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.IReadOnlyLifetimeServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.IReadOnlyLifetimeServiceCollectionExtensions.html",
-          "hash": "e96lsiO7E6y54svJpznBDg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.IScopedServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.IScopedServiceCollectionExtensions.html",
-          "hash": "Xnhs6YqErkxdebvAaIUHSw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.IServiceCollectionAdapter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.IServiceCollectionAdapter-1.html",
-          "hash": "0RXo83uuKO0UDcEDGNkJnA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.ISingletonServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.ISingletonServiceCollectionExtensions.html",
-          "hash": "ys323VVhOug3KKgxm+gcLg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.ITransientServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.ITransientServiceCollectionExtensions.html",
-          "hash": "Y+68UNMZijr9Tha9/Bis4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.ScopedServiceCollectionInstanceExtension-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.ScopedServiceCollectionInstanceExtension-3.html",
-          "hash": "NvqwrOla829blt4183P5hw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.SingletonServiceCollectionInstanceExtension-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.SingletonServiceCollectionInstanceExtension-3.html",
-          "hash": "rMCmHK/6XrUYVDmy0HNyZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.TransientServiceCollectionInstanceExtension-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.TransientServiceCollectionInstanceExtension-3.html",
-          "hash": "pzFKEN6l25d8t9bQHFUGYQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.Extensions.html",
-          "hash": "2RVOAz6TjXbJsRPfyvGcyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.ILifetimeServiceCollection-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.ILifetimeServiceCollection-1.html",
-          "hash": "qOUYw00R0YensBk5+sZ8Mw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.INonSingletonServiceCollection-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.INonSingletonServiceCollection-1.html",
-          "hash": "ryJo0MLhz2QRUamfbegN1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html",
-          "hash": "JCxw6fg9ZE4ryHmoHTWdvA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.IScopedServiceCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.IScopedServiceCollection.html",
-          "hash": "bt9AZvSluacfVp33JpE/ow=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.ISingletonServiceCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.ISingletonServiceCollection.html",
-          "hash": "lDEkdE1Amyawb2+1aQsxaw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.ITransientServiceCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.ITransientServiceCollection.html",
-          "hash": "qpCqmcL3IyAv9jYluELntw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.LifetimeServiceActivator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.LifetimeServiceActivator.html",
-          "hash": "XDv8PCpvu65JknRFeKIhIQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.LifetimeServiceCollection-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.LifetimeServiceCollection-1.html",
-          "hash": "ylyVlNmB78fGdmZgGfqBaQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.LifetimeServiceDescriptor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.LifetimeServiceDescriptor.html",
-          "hash": "1J6TAj6ui7TwI4vlk1kWZg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.NonSingletonServiceCollection-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.NonSingletonServiceCollection-1.html",
-          "hash": "zJC/BTJnlSJfBbCDjrRw4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.NonSingletonServiceDescriptor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.NonSingletonServiceDescriptor.html",
-          "hash": "i+cQFs/XdO9+NUW2Z/OtrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.ScopedServiceCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.ScopedServiceCollection.html",
-          "hash": "wfgp5zv5N+i04r4gIrIDVg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.ScopedServiceDescriptor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.ScopedServiceDescriptor.html",
-          "hash": "1qYYgQtgTB8XXlcCgBR1Ow=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.SingletonServiceCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.SingletonServiceCollection.html",
-          "hash": "swo3oS8O3/1pO5LGQg4PJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.SingletonServiceDescriptor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.SingletonServiceDescriptor.html",
-          "hash": "zAFK4iWECSK6EYf89Q/4+g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.TransientServiceCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.TransientServiceCollection.html",
-          "hash": "UG9yapDJUczKmbvXl+OwkA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.TransientServiceDescriptor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.TransientServiceDescriptor.html",
-          "hash": "j+1PVcC0BtYURkqy3zW3+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.DependencyInjection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.DependencyInjection.html",
-          "hash": "/9RoHIGIxT0sEDxUuN3mRQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Diagnostics.IDebuggerDisplay.yml",
       "output": {
         ".html": {
@@ -5210,11 +4850,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.AspNetCore.Authorization.AuthorizationOptionsExtensions.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.AspNetCore.Authorization.Extensions.AuthorizationOptionsExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.AspNetCore.Authorization.AuthorizationOptionsExtensions.html",
-          "hash": "zSuOpP3rKG/Cw8z/3ArMUQ=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.AspNetCore.Authorization.Extensions.AuthorizationOptionsExtensions.html",
+          "hash": "NHIp3hUQ5KAb+ee22Ud8Nw=="
         }
       },
       "is_incremental": false,
@@ -5222,11 +4862,371 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.AspNetCore.Authorization.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.AspNetCore.Authorization.Extensions.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Microsoft.AspNetCore.Authorization.html",
-          "hash": "4Bzwe+9NPq9yBurh+xRy8Q=="
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.AspNetCore.Authorization.Extensions.html",
+          "hash": "NOEcO5HDlQe9y3UH5XWE+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.DescriptorActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.DescriptorActivator.html",
+          "hash": "qfshAbyuM5rqKwuMIraYww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.DescriptorActivatorBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.DescriptorActivatorBase-1.html",
+          "hash": "Y/hJLJOGUtsc07sEU+fmWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.ILifetimeServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.ILifetimeServiceCollectionExtensions.html",
+          "hash": "aQq7w/oIw7EAukSODvqOQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.IReadOnlyLifetimeServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.IReadOnlyLifetimeServiceCollectionExtensions.html",
+          "hash": "ECOYdFVt6ccrUth06yv53w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.IScopedServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.IScopedServiceCollectionExtensions.html",
+          "hash": "buzkyAq0EOm23tApG43zCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.IServiceCollectionAdapter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.IServiceCollectionAdapter-1.html",
+          "hash": "2kfML1+WCfcfyZm58o2LGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.ISingletonServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.ISingletonServiceCollectionExtensions.html",
+          "hash": "ns+7yrLMLCagqGXc8bbvRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.ITransientServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.ITransientServiceCollectionExtensions.html",
+          "hash": "TQA76F0iDq4PIxsWJkcTjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.ScopedServiceCollectionInstanceExtension-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.ScopedServiceCollectionInstanceExtension-3.html",
+          "hash": "b2H5uQ3tRmlzXULxSoT+nA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.SingletonServiceCollectionInstanceExtension-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.SingletonServiceCollectionInstanceExtension-3.html",
+          "hash": "X8p55eP1KwaGVQQUETgHzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.TransientServiceCollectionInstanceExtension-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.TransientServiceCollectionInstanceExtension-3.html",
+          "hash": "kEUYnqe6AB38box+bGfoWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.Extensions.html",
+          "hash": "FKoiRV/DVKKgtLslq2e9Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html",
+          "hash": "3Zp2CwHHO6aCKR8+4W/keg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.INonSingletonServiceCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.INonSingletonServiceCollection-1.html",
+          "hash": "6b6Ymq5J9fIwSmEPLyY2YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html",
+          "hash": "y3/k6rCQCyu1MWuuDVeWjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.IScopedServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.IScopedServiceCollection.html",
+          "hash": "3YxUjfMlQrDx2p6cM8ZAWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.ISingletonServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.ISingletonServiceCollection.html",
+          "hash": "vhVtg55QW7zdCa+LeSpRxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.ITransientServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.ITransientServiceCollection.html",
+          "hash": "6xJzA7wtEqeScy0JOqdRHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.LifetimeServiceActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.LifetimeServiceActivator.html",
+          "hash": "y3JWamafREHmq/zjPeSSbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection-1.html",
+          "hash": "g+Lgpu8X3MbIdHTY3agv1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.LifetimeServiceDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.LifetimeServiceDescriptor.html",
+          "hash": "94H/arLDBzdrijLvtAJkdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.NonSingletonServiceCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.NonSingletonServiceCollection-1.html",
+          "hash": "jwwT9I+LGyZJrFrx+FPB1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.NonSingletonServiceDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.NonSingletonServiceDescriptor.html",
+          "hash": "nhvTWokHxf10KWmmq33x3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.ScopedServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.ScopedServiceCollection.html",
+          "hash": "wNIEqMQtnDHjQJBhqYuOlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.ScopedServiceDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.ScopedServiceDescriptor.html",
+          "hash": "b8n3NwNp0Fx1iALEYufmjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.SingletonServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.SingletonServiceCollection.html",
+          "hash": "I0Ab39+wruzT9w34kRVy5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html",
+          "hash": "cajUNgKoPJjfJYvYQdFYsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.TransientServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.TransientServiceCollection.html",
+          "hash": "2upc57BoCi4+Wx7VhbXgtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html",
+          "hash": "4JvC0BdcrJHscxwa2L2HeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.DependencyInjection.html",
+          "hash": "5W+AmX7+HAKQJBGIs9e+Ww=="
         }
       },
       "is_incremental": false,
@@ -5610,7 +5610,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Component.ValueAssigner.Builder.ValueAssignerServiceCollection.html",
-          "hash": "2zUGzFNa2igCMEpuKre4Yw=="
+          "hash": "0MoDsYJk6z0RWwYjZLjEdA=="
         }
       },
       "is_incremental": false,
@@ -5838,7 +5838,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.CustomFacade.JSCustomFacadeActivatorInterceptorBuilderOptions.html",
-          "hash": "t5P/GDNHVzW/ejakTC80Kg=="
+          "hash": "pAlCjM/wdkWlsOcZgIoqrQ=="
         }
       },
       "is_incremental": false,
@@ -6054,7 +6054,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Dynamic.JSDynamicProxyInterceptorBuilderOptions.html",
-          "hash": "n5ILal09kpZYjDFvyw7Ngw=="
+          "hash": "Lb93o0DBorWlga9bCm5ZPw=="
         }
       },
       "is_incremental": false,
@@ -6318,7 +6318,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Facade.JSFacadeHubActivatorInterceptorBuilderOptions.html",
-          "hash": "uO/nTFYhYC/i4vdiaGA25w=="
+          "hash": "1UnMVUEZtI0mmq57VhIlaA=="
         }
       },
       "is_incremental": false,
@@ -6570,7 +6570,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.Interceptor.Builder.IJSInterceptorServiceCollection.html",
-          "hash": "wVMzY7yBKaSgiBZbjx2EYA=="
+          "hash": "9XcOu8IY0r0ZI5EKAGxBnQ=="
         }
       },
       "is_incremental": false,
@@ -6594,7 +6594,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.Interceptor.Builder.JSInterceptorBuilder-1.html",
-          "hash": "987j1UFQAjz3vmLoiC0XpQ=="
+          "hash": "Li2aMj44U0w67IvfdtU7Mg=="
         }
       },
       "is_incremental": false,
@@ -6618,7 +6618,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.Interceptor.Builder.JSInterceptorBuilderOptions-1.html",
-          "hash": "02JgjvOk9IRyX2m0KXwLlw=="
+          "hash": "zav4mWlyB2XloAmdthWQNA=="
         }
       },
       "is_incremental": false,
@@ -6654,7 +6654,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.Interceptor.Builder.JSInterceptorDescriptor.html",
-          "hash": "PgfXX7oaO5GT5Kngd6OqxQ=="
+          "hash": "llh/n+EetesRSYxIYRSL2g=="
         }
       },
       "is_incremental": false,
@@ -7050,7 +7050,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.JSLocalObjectInterceptorBuilderOptions.html",
-          "hash": "75eBRo7K+gq3aXbiznomJg=="
+          "hash": "7Yh5VMp7MUJNCNRNRLFAbA=="
         }
       },
       "is_incremental": false,
@@ -7242,7 +7242,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.JSModuleInterceptorBuilderOptions.html",
-          "hash": "VpUrQhXgdjIP4oQfi9/7Gg=="
+          "hash": "coUJO4atCY75pG8rtnWp0Q=="
         }
       },
       "is_incremental": false,
@@ -11646,7 +11646,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "lW/9qPMHJZUS3kudZxi7Fw=="
+          "hash": "YyUm8/ry1r4OMgKeK6VMWg=="
         }
       },
       "is_incremental": false,

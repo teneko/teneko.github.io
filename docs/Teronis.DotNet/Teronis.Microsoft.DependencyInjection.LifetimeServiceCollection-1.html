@@ -1,0 +1,794 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class LifetimeServiceCollection&lt;TDescriptor&gt;
+   | Documentations </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class LifetimeServiceCollection&lt;TDescriptor&gt;
+   | Documentations ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body class="dark-theme" data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img src="https://de.gravatar.com/userimage/149412585/2742e1b44abd0b2596b7a034db275915?size=44" alt="Teroneko's Blog">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1">
+  
+  
+  <h1 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1" class="text-break">Class LifetimeServiceCollection&lt;TDescriptor&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LifetimeServiceCollection&lt;TDescriptor&gt;</span></div>
+      <div class="level2"><a class="xref" href="Teronis.Microsoft.DependencyInjection.NonSingletonServiceCollection-1.html">NonSingletonServiceCollection&lt;TNonSingletonServiceDescriptor&gt;</a></div>
+      <div class="level2"><a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceCollection.html">SingletonServiceCollection</a></div>
+      <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Component.ValueAssigner.Builder.ValueAssignerServiceCollection.html">ValueAssignerServiceCollection</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html">ILifetimeServiceCollection</a>&lt;TDescriptor&gt;</div>
+    <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html">IReadOnlyLifetimeServiceCollection</a>&lt;TDescriptor&gt;</div>
+    <div><span class="xref">IReadOnlyList</span>&lt;TDescriptor&gt;</div>
+    <div><span class="xref">IList</span>&lt;TDescriptor&gt;</div>
+    <div><span class="xref">ICollection</span>&lt;TDescriptor&gt;</div>
+    <div><span class="xref">IEnumerable</span>&lt;TDescriptor&gt;</div>
+    <div><span class="xref">IEnumerable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.DependencyInjection.html">Teronis.Microsoft.DependencyInjection</a></h6>
+  <h6><strong>Assembly</strong>: Teronis.Microsoft.DependencyInjection.dll</h6>
+  <h5 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class LifetimeServiceCollection&lt;TDescriptor&gt; : object, ILifetimeServiceCollection&lt;TDescriptor&gt;, IReadOnlyLifetimeServiceCollection&lt;TDescriptor&gt;, IReadOnlyList&lt;TDescriptor&gt;, IList&lt;TDescriptor&gt;, ICollection&lt;TDescriptor&gt;, IEnumerable&lt;TDescriptor&gt;, IEnumerable where TDescriptor : LifetimeServiceDescriptor</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDescriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1__ctor.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L32">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1__ctor_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.#ctor*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1__ctor" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.#ctor">LifetimeServiceCollection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LifetimeServiceCollection()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1__ctor_System_Nullable_Type__.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.%23ctor(System.Nullable%7BType%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L26">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1__ctor_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.#ctor*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1__ctor_System_Nullable_Type__" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.#ctor(System.Nullable{Type})">LifetimeServiceCollection(Nullable&lt;Type&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LifetimeServiceCollection(Type? baseType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Type</span>&gt;</td>
+        <td><span class="parametername">baseType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_BaseType.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.BaseType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L22">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_BaseType_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.BaseType*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_BaseType" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.BaseType">BaseType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Type BaseType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Count.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L16">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Count_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Count*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Count" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Count">Count</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Descriptors.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.Descriptors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L24">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Descriptors_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Descriptors*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Descriptors" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Descriptors">Descriptors</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual List&lt;TDescriptor&gt; Descriptors { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;TDescriptor&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_IsReadOnly.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.IsReadOnly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L19">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_IsReadOnly_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.IsReadOnly*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_IsReadOnly" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.IsReadOnly">IsReadOnly</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsReadOnly { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Item_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L69">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Item_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Item*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Item_System_Int32_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Item(System.Int32)">Item[Int32]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TDescriptor this[int index] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDescriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Lifetime.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.Lifetime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L14">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Lifetime_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Lifetime*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Lifetime" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Lifetime">Lifetime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ServiceLifetime Lifetime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ServiceLifetime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Clear.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L78">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Clear_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Clear*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Clear" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Clear">Clear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Contains__0_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.Contains(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L81">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Contains_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Contains*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Contains__0_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Contains(`0)">Contains(TDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(TDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDescriptor</span></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_CopyTo__0___System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.CopyTo(%600%5B%5D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L84">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_CopyTo_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.CopyTo*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_CopyTo__0___System_Int32_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.CopyTo(`0[],System.Int32)">CopyTo(TDescriptor[], Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyTo(TDescriptor[] array, int arrayIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TDescriptor[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">arrayIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_EnsureAssignableFromBaseType__0_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.EnsureAssignableFromBaseType(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L42">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_EnsureAssignableFromBaseType_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.EnsureAssignableFromBaseType*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_EnsureAssignableFromBaseType__0_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.EnsureAssignableFromBaseType(`0)">EnsureAssignableFromBaseType(TDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void EnsureAssignableFromBaseType(TDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDescriptor</span></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_EnsureAssignableFromBaseType_Type_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.EnsureAssignableFromBaseType(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L35">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_EnsureAssignableFromBaseType_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.EnsureAssignableFromBaseType*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_EnsureAssignableFromBaseType_Type_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.EnsureAssignableFromBaseType(Type)">EnsureAssignableFromBaseType(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void EnsureAssignableFromBaseType(Type serviceType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">serviceType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_GetEnumerator.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L90">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_GetEnumerator_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.GetEnumerator*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_GetEnumerator" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;TDescriptor&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span>&lt;TDescriptor&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_IndexOf__0_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.IndexOf(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L51">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_IndexOf_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.IndexOf*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_IndexOf__0_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.IndexOf(`0)">IndexOf(TDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOf(TDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDescriptor</span></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Insert_System_Int32__0_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.Insert(System.Int32%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L54">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Insert_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Insert*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Insert_System_Int32__0_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Insert(System.Int32,`0)">Insert(Int32, TDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Insert(int index, TDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TDescriptor</span></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Remove__0_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.Remove(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L87">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Remove_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Remove*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_Remove__0_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.Remove(`0)">Remove(TDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(TDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDescriptor</span></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_RemoveAt_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601.RemoveAt(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L66">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_RemoveAt_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.RemoveAt*"></a>
+  <h4 id="Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1_RemoveAt_System_Int32_" data-uid="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection`1.RemoveAt(System.Int32)">RemoveAt(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAt(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html">ILifetimeServiceCollection&lt;TDescriptor&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html">IReadOnlyLifetimeServiceCollection&lt;TDescriptor&gt;</a>
+  </div>
+  <div>
+      <span class="xref">IReadOnlyList&lt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">IList&lt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">ICollection&lt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">IEnumerable&lt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">IEnumerable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_1.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0/src/LifetimeServiceCollection.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <div class="page__footer-copyright" style="">© 2021 Teroneko. Powered by <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>, <a href="https://dotnet.github.io/docfx/" rel="nofollow">DocFX</a> &amp; <a href="https://github.com/steffen-wilke/darkfx" rel="nofollow">darkFX</a>. Text on this page is available under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
