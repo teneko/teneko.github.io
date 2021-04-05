@@ -101,14 +101,14 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_DescriptorActivator_Scoped.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.DescriptorActivator.Scoped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0.Abstractions/src/DescriptorActivator.cs/#L8">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0.Abstractions/src/DescriptorActivator.cs/#L10">View Source</a>
   </span>
   <h4 id="Teronis_Microsoft_DependencyInjection_DescriptorActivator_Scoped" data-uid="Teronis.Microsoft.DependencyInjection.DescriptorActivator.Scoped">Scoped</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly DescriptorActivatorBase&lt;ScopedServiceDescriptor&gt; Scoped</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly DescriptorActivatorBase&lt;IServiceProvider, ScopedServiceDescriptor&gt; Scoped</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,7 +120,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.DependencyInjection.DescriptorActivatorBase-1.html">DescriptorActivatorBase</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.ScopedServiceDescriptor.html">ScopedServiceDescriptor</a>&gt;</td>
+        <td><a class="xref" href="Teronis.Microsoft.DependencyInjection.DescriptorActivatorBase-2.html">DescriptorActivatorBase</a>&lt;<span class="xref">IServiceProvider</span>, <a class="xref" href="Teronis.Microsoft.DependencyInjection.ScopedServiceDescriptor.html">ScopedServiceDescriptor</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -130,14 +130,14 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_DescriptorActivator_Singleton.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.DescriptorActivator.Singleton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0.Abstractions/src/DescriptorActivator.cs/#L9">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0.Abstractions/src/DescriptorActivator.cs/#L11">View Source</a>
   </span>
   <h4 id="Teronis_Microsoft_DependencyInjection_DescriptorActivator_Singleton" data-uid="Teronis.Microsoft.DependencyInjection.DescriptorActivator.Singleton">Singleton</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly DescriptorActivatorBase&lt;SingletonServiceDescriptor&gt; Singleton</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly DescriptorActivatorBase&lt;IServiceProvider, SingletonServiceDescriptor&gt; Singleton</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,7 +149,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.DependencyInjection.DescriptorActivatorBase-1.html">DescriptorActivatorBase</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</td>
+        <td><a class="xref" href="Teronis.Microsoft.DependencyInjection.DescriptorActivatorBase-2.html">DescriptorActivatorBase</a>&lt;<span class="xref">IServiceProvider</span>, <a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -159,14 +159,14 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_DescriptorActivator_Transient.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.DescriptorActivator.Transient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0.Abstractions/src/DescriptorActivator.cs/#L10">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0.Abstractions/src/DescriptorActivator.cs/#L12">View Source</a>
   </span>
   <h4 id="Teronis_Microsoft_DependencyInjection_DescriptorActivator_Transient" data-uid="Teronis.Microsoft.DependencyInjection.DescriptorActivator.Transient">Transient</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly DescriptorActivatorBase&lt;TransientServiceDescriptor&gt; Transient</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly DescriptorActivatorBase&lt;IServiceProvider, TransientServiceDescriptor&gt; Transient</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,7 +178,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.DependencyInjection.DescriptorActivatorBase-1.html">DescriptorActivatorBase</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</td>
+        <td><a class="xref" href="Teronis.Microsoft.DependencyInjection.DescriptorActivatorBase-2.html">DescriptorActivatorBase</a>&lt;<span class="xref">IServiceProvider</span>, <a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -194,7 +194,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_DependencyInjection_DescriptorActivator.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.DependencyInjection.DescriptorActivator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0.Abstractions/src/DescriptorActivator.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/DependencyInjection/0.Abstractions/src/DescriptorActivator.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

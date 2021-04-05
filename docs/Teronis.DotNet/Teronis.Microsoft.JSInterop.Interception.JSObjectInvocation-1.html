@@ -123,7 +123,7 @@
       <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocationBase-1.html#Teronis_Microsoft_JSInterop_Interception_JSObjectInvocationBase_1_Arguments">JSObjectInvocationBase&lt;ValueTask&lt;TValue&gt;&gt;.Arguments</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocationBase-1.html#Teronis_Microsoft_JSInterop_Interception_JSObjectInvocationBase_1_DefinitionAttributes">JSObjectInvocationBase&lt;ValueTask&lt;TValue&gt;&gt;.DefinitionAttributes</a>
+      <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocationBase-1.html#Teronis_Microsoft_JSInterop_Interception_JSObjectInvocationBase_1_InvocationAttributes">JSObjectInvocationBase&lt;ValueTask&lt;TValue&gt;&gt;.InvocationAttributes</a>
     </div>
     <div>
       <a class="xref" href="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocationBase-1.html#Teronis_Microsoft_JSInterop_Interception_JSObjectInvocationBase_1_SetAlternativeResult__0_">JSObjectInvocationBase&lt;ValueTask&lt;TValue&gt;&gt;.SetAlternativeResult(ValueTask&lt;TValue&gt;)</a>
@@ -157,18 +157,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Definition.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation%601.Definition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_InvocationDefinition.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation%601.InvocationDefinition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L27">View Source</a>
   </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Definition_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.Definition*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Definition" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.Definition">Definition</h4>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_InvocationDefinition_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.InvocationDefinition*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_InvocationDefinition" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.InvocationDefinition">InvocationDefinition</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDefinition Definition { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override IMemberDefinition InvocationDefinition { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,7 +180,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.IDefinition.html">IDefinition</a></td>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.IMemberDefinition.html">IMemberDefinition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Teronis.Microsoft.JSInterop.Interception.JSObjectInvocationBase&lt;ValueTask&lt;TValue&gt;&gt;.InvocationDefinition</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_TaskArgumentAttributes.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation%601.TaskArgumentAttributes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L17">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_TaskArgumentAttributes_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.TaskArgumentAttributes*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_TaskArgumentAttributes" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.TaskArgumentAttributes">TaskArgumentAttributes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICustomAttributes TaskArgumentAttributes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html">ICustomAttributes</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -217,36 +249,6 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Teronis.Microsoft.JSInterop.Interception.JSObjectInvocationBase&lt;ValueTask&lt;TValue&gt;&gt;.TaskArgumentType</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_TaskArgumentTypeAttributes.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation%601.TaskArgumentTypeAttributes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L17">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_TaskArgumentTypeAttributes_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.TaskArgumentTypeAttributes*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_TaskArgumentTypeAttributes" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.TaskArgumentTypeAttributes">TaskArgumentTypeAttributes</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICustomAttributes TaskArgumentTypeAttributes { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Teronis.Microsoft.JSInterop.Reflection.ICustomAttributes.html">ICustomAttributes</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -254,7 +256,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Clone.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation%601.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L90">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L91">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Clone_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.Clone*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Clone" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.Clone">Clone()</h4>
@@ -284,7 +286,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_GetDeterminedResult.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation%601.GetDeterminedResult%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L81">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L82">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_GetDeterminedResult_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.GetDeterminedResult*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_GetDeterminedResult" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.GetDeterminedResult">GetDeterminedResult()</h4>
@@ -321,7 +323,7 @@ depending on <see cref="!:CancellationToken"></see> and
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_GetNonDeterminedResult__1.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation%601.GetNonDeterminedResult%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L63">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L64">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_GetNonDeterminedResult_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.GetNonDeterminedResult*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_GetNonDeterminedResult__1" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.GetNonDeterminedResult``1">GetNonDeterminedResult&lt;TNonDeterminedValue&gt;()</h4>
@@ -368,7 +370,7 @@ depending on <see cref="!:CancellationToken"></see> and
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation_TValue__Clone.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation%601.Teronis%23Microsoft%23JSInterop%23Interception%23IJSObjectInvocation%7BTValue%7D%23Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L93">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Core/src/Interception/JSObjectInvocation{`1}.cs/#L94">View Source</a>
   </span>
   <a id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation_TValue__Clone_" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.Teronis#Microsoft#JSInterop#Interception#IJSObjectInvocation{TValue}#Clone*"></a>
   <h4 id="Teronis_Microsoft_JSInterop_Interception_JSObjectInvocation_1_Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocation_TValue__Clone" data-uid="Teronis.Microsoft.JSInterop.Interception.JSObjectInvocation`1.Teronis#Microsoft#JSInterop#Interception#IJSObjectInvocation{TValue}#Clone">IJSObjectInvocation&lt;TValue&gt;.Clone()</h4>
