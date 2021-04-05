@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class JSDynamicModuleClassAttribute
+    <title>Class JSModuleAttribute
    | Documentations </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class JSDynamicModuleClassAttribute
+    <meta name="title" content="Class JSModuleAttribute
    | Documentations ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -76,37 +76,94 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSDynamicModuleClassAttribute">
+            <article class="content wrap" id="_content" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute">
   
   
-  <h1 id="Teronis_Microsoft_JSInterop_Annotations_JSDynamicModuleClassAttribute" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSDynamicModuleClassAttribute" class="text-break">Class JSDynamicModuleClassAttribute
+  <h1 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute" class="text-break">Class JSModuleAttribute
   </h1>
-  <div class="markdown level0 summary"><p>Decoratable on interface. It provides
-<a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.html#Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase_NameOrPath">NameOrPath</a>
-to those properties with facade attribute that are using
-parameterless constructor but not
-<see cref="!:AssignDynamicModuleAttribute(string)"></see>.</p>
+  <div class="markdown level0 summary"><p>This ttribute provides the module name or path
+when it has not been specified in
+<a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignModuleAttribute.html">AssignModuleAttribute</a> or
+<a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignDynamicModuleAttribute.html">AssignDynamicModuleAttribute</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.html">JSModuleAttributeBase</a></div>
-    <div class="level2"><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.JSModuleClassAttribute.html">JSModuleClassAttribute</a></div>
-    <div class="level3"><span class="xref">JSDynamicModuleClassAttribute</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.html#Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase_NameOrPath">JSModuleAttributeBase.NameOrPath</a>
-    </div>
+    <div class="level1"><span class="xref">JSModuleAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.html">Teronis.Microsoft.JSInterop.Annotations</a></h6>
   <h6><strong>Assembly</strong>: Teronis.Microsoft.JSInterop.Abstractions.dll</h6>
-  <h5 id="Teronis_Microsoft_JSInterop_Annotations_JSDynamicModuleClassAttribute_syntax">Syntax</h5>
+  <h5 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JSDynamicModuleClassAttribute : JSModuleClassAttribute</code></pre>
+    <pre><code class="lang-csharp hljs">public class JSModuleAttribute : Attribute</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute__ctor_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttribute.cs/#L19">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute__ctor_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.#ctor*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute__ctor_System_String_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.#ctor(System.String)">JSModuleAttribute(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JSModuleAttribute(string nameOrPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">nameOrPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute_NameOrPath.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.NameOrPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttribute.cs/#L17">View Source</a>
+  </span>
+  <a id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute_NameOrPath_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.NameOrPath*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute_NameOrPath" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.NameOrPath">NameOrPath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string NameOrPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -115,10 +172,10 @@ parameterless constructor but not
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSDynamicModuleClassAttribute.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSDynamicModuleClassAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttribute.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSDynamicModuleClassAttribute.cs/#L15" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttribute.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

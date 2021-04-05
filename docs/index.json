@@ -2217,7 +2217,7 @@
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.AssignDynamicModuleAttribute.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.AssignDynamicModuleAttribute.html",
     "title": "Class AssignDynamicModuleAttribute | Documentations",
-    "keywords": "Class AssignDynamicModuleAttribute Inheritance System.Object JSModuleAttributeBase AssignModuleAttribute AssignDynamicModuleAttribute Inherited Members JSModuleAttributeBase.NameOrPath Namespace : Teronis.Microsoft.JSInterop.Annotations Assembly : Teronis.Microsoft.JSInterop.Abstractions.dll Syntax public class AssignDynamicModuleAttribute : AssignModuleAttribute Properties | Improve this Doc View Source InterfaceToBeProxied Only needed to be specified when you are using AssignCustomFacadeAttribute too. Declaration public Type? InterfaceToBeProxied { get; set; } Property Value Type Description System.Nullable < Type >"
+    "keywords": "Class AssignDynamicModuleAttribute Inheritance System.Object AssignModuleAttribute AssignDynamicModuleAttribute Inherited Members AssignModuleAttribute.NameOrPath Namespace : Teronis.Microsoft.JSInterop.Annotations Assembly : Teronis.Microsoft.JSInterop.Abstractions.dll Syntax public class AssignDynamicModuleAttribute : AssignModuleAttribute Properties | Improve this Doc View Source InterfaceToBeProxied Only needed to be specified when you are using AssignCustomFacadeAttribute too. Declaration public Type? InterfaceToBeProxied { get; set; } Property Value Type Description System.Nullable < Type >"
   },
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.AssignGlobalObjectAttribute.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.AssignGlobalObjectAttribute.html",
@@ -2227,27 +2227,17 @@
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.AssignModuleAttribute.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.AssignModuleAttribute.html",
     "title": "Class AssignModuleAttribute | Documentations",
-    "keywords": "Class AssignModuleAttribute Inheritance System.Object JSModuleAttributeBase AssignModuleAttribute AssignDynamicModuleAttribute Inherited Members JSModuleAttributeBase.NameOrPath Namespace : Teronis.Microsoft.JSInterop.Annotations Assembly : Teronis.Microsoft.JSInterop.Abstractions.dll Syntax public class AssignModuleAttribute : JSModuleAttributeBase"
+    "keywords": "Class AssignModuleAttribute Inheritance System.Object AssignModuleAttribute AssignDynamicModuleAttribute Namespace : Teronis.Microsoft.JSInterop.Annotations Assembly : Teronis.Microsoft.JSInterop.Abstractions.dll Syntax public class AssignModuleAttribute : Attribute Constructors | Improve this Doc View Source AssignModuleAttribute() The properties (owned by component - see CreateInstanceAsync<TJSFacadeActivators>(Object) ) of type gets initialized when decorated with this attribute. Declaration public AssignModuleAttribute() Properties | Improve this Doc View Source NameOrPath The module name or path of a JavaScript ESM module relative to \"wwwroot\" (if not changed). Declaration public string? NameOrPath { get; set; } Property Value Type Description System.Nullable < System.String >"
   },
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.html",
     "title": "Namespace Teronis.Microsoft.JSInterop.Annotations | Documentations",
-    "keywords": "Namespace Teronis.Microsoft.JSInterop.Annotations Classes AssignCustomFacadeAttribute AssignDynamicGlobalObjectAttribute AssignDynamicModuleAttribute AssignGlobalObjectAttribute AssignModuleAttribute JSDynamicModuleClassAttribute Decoratable on interface. It provides NameOrPath to those properties with facade attribute that are using parameterless constructor but not . JSModuleAttributeBase JSModuleClassAttribute ReturnDynamicLocalObjectAttribute ReturnDynamicProxyAttribute This attribute should only applied on a method in an interface that is used as proxy. By using this attribute we are definitely expecting a JavaScript object reference when calling GetDeterminedResult() . ReturnLocalObjectAttribute"
+    "keywords": "Namespace Teronis.Microsoft.JSInterop.Annotations Classes AssignCustomFacadeAttribute AssignDynamicGlobalObjectAttribute AssignDynamicModuleAttribute AssignGlobalObjectAttribute AssignModuleAttribute JSModuleAttribute This ttribute provides the module name or path when it has not been specified in AssignModuleAttribute or AssignDynamicModuleAttribute . ReturnDynamicLocalObjectAttribute ReturnDynamicProxyAttribute This attribute should only applied on a method in an interface that is used as proxy. By using this attribute we are definitely expecting a JavaScript object reference when calling GetDeterminedResult() . ReturnLocalObjectAttribute"
   },
-  "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSDynamicModuleClassAttribute.html": {
-    "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSDynamicModuleClassAttribute.html",
-    "title": "Class JSDynamicModuleClassAttribute | Documentations",
-    "keywords": "Class JSDynamicModuleClassAttribute Decoratable on interface. It provides NameOrPath to those properties with facade attribute that are using parameterless constructor but not . Inheritance System.Object JSModuleAttributeBase JSModuleClassAttribute JSDynamicModuleClassAttribute Inherited Members JSModuleAttributeBase.NameOrPath Namespace : Teronis.Microsoft.JSInterop.Annotations Assembly : Teronis.Microsoft.JSInterop.Abstractions.dll Syntax public class JSDynamicModuleClassAttribute : JSModuleClassAttribute"
-  },
-  "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.html": {
-    "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.html",
-    "title": "Class JSModuleAttributeBase | Documentations",
-    "keywords": "Class JSModuleAttributeBase Inheritance System.Object JSModuleAttributeBase AssignModuleAttribute JSModuleClassAttribute Namespace : Teronis.Microsoft.JSInterop.Annotations Assembly : Teronis.Microsoft.JSInterop.Abstractions.dll Syntax public abstract class JSModuleAttributeBase : Attribute Constructors | Improve this Doc View Source JSModuleAttributeBase() The properties (owned by component - see CreateInstanceAsync<TJSFacadeActivators>(Object) ) of type gets initialized when decorated with this attribute. Declaration public JSModuleAttributeBase() Properties | Improve this Doc View Source NameOrPath The module name or path of a JavaScript ESM module relative to \"wwwroot\" (if not changed). Declaration public string? NameOrPath { get; set; } Property Value Type Description System.Nullable < System.String >"
-  },
-  "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleClassAttribute.html": {
-    "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleClassAttribute.html",
-    "title": "Class JSModuleClassAttribute | Documentations",
-    "keywords": "Class JSModuleClassAttribute Inheritance System.Object JSModuleAttributeBase JSModuleClassAttribute JSDynamicModuleClassAttribute Inherited Members JSModuleAttributeBase.NameOrPath Namespace : Teronis.Microsoft.JSInterop.Annotations Assembly : Teronis.Microsoft.JSInterop.Abstractions.dll Syntax public class JSModuleClassAttribute : JSModuleAttributeBase"
+  "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.html": {
+    "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.html",
+    "title": "Class JSModuleAttribute | Documentations",
+    "keywords": "Class JSModuleAttribute This ttribute provides the module name or path when it has not been specified in AssignModuleAttribute or AssignDynamicModuleAttribute . Inheritance System.Object JSModuleAttribute Namespace : Teronis.Microsoft.JSInterop.Annotations Assembly : Teronis.Microsoft.JSInterop.Abstractions.dll Syntax public class JSModuleAttribute : Attribute Constructors | Improve this Doc View Source JSModuleAttribute(String) Declaration public JSModuleAttribute(string nameOrPath) Parameters Type Name Description System.String nameOrPath Properties | Improve this Doc View Source NameOrPath Declaration public string NameOrPath { get; } Property Value Type Description System.String"
   },
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.ReturnDynamicLocalObjectAttribute.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Annotations.ReturnDynamicLocalObjectAttribute.html",
