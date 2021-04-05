@@ -91,12 +91,6 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html">ILifetimeServiceCollection</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</div>
-    <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html">IReadOnlyLifetimeServiceCollection</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</div>
-    <div><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</div>
-    <div><span class="xref">IList</span>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</div>
-    <div><span class="xref">ICollection</span>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</div>
-    <div><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</div>
     <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.ISingletonServiceCollection.html">ISingletonServiceCollection</a></div>
     <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html">ILifetimeServiceCollection</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</div>
     <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html">IReadOnlyLifetimeServiceCollection</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor.html">SingletonServiceDescriptor</a>&gt;</div>
@@ -136,6 +130,9 @@
       <a class="xref" href="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection-2.html#Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_2_Insert_System_Int32__1_">LifetimeServiceCollection&lt;IServiceProvider, SingletonServiceDescriptor&gt;.Insert(Int32, SingletonServiceDescriptor)</a>
     </div>
     <div>
+      <a class="xref" href="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection-2.html#Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_2_Add__1_">LifetimeServiceCollection&lt;IServiceProvider, SingletonServiceDescriptor&gt;.Add(SingletonServiceDescriptor)</a>
+    </div>
+    <div>
       <a class="xref" href="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection-2.html#Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_2_RemoveAt_System_Int32_">LifetimeServiceCollection&lt;IServiceProvider, SingletonServiceDescriptor&gt;.RemoveAt(Int32)</a>
     </div>
     <div>
@@ -161,7 +158,7 @@
   <h6><strong>Assembly</strong>: Teronis.Microsoft.DependencyInjection.dll</h6>
   <h5 id="Teronis_Microsoft_DependencyInjection_SingletonServiceCollection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SingletonServiceCollection : LifetimeServiceCollection&lt;IServiceProvider, SingletonServiceDescriptor&gt;, ILifetimeServiceCollection&lt;SingletonServiceDescriptor&gt;, IReadOnlyLifetimeServiceCollection&lt;SingletonServiceDescriptor&gt;, IReadOnlyList&lt;SingletonServiceDescriptor&gt;, IList&lt;SingletonServiceDescriptor&gt;, ICollection&lt;SingletonServiceDescriptor&gt;, IEnumerable&lt;SingletonServiceDescriptor&gt;, ISingletonServiceCollection, ILifetimeServiceCollection&lt;SingletonServiceDescriptor&gt;, IReadOnlyLifetimeServiceCollection&lt;SingletonServiceDescriptor&gt;, IReadOnlyList&lt;SingletonServiceDescriptor&gt;, IList&lt;SingletonServiceDescriptor&gt;, ICollection&lt;SingletonServiceDescriptor&gt;, IEnumerable&lt;SingletonServiceDescriptor&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class SingletonServiceCollection : LifetimeServiceCollection&lt;IServiceProvider, SingletonServiceDescriptor&gt;, ISingletonServiceCollection, ILifetimeServiceCollection&lt;SingletonServiceDescriptor&gt;, IReadOnlyLifetimeServiceCollection&lt;SingletonServiceDescriptor&gt;, IReadOnlyList&lt;SingletonServiceDescriptor&gt;, IList&lt;SingletonServiceDescriptor&gt;, ICollection&lt;SingletonServiceDescriptor&gt;, IEnumerable&lt;SingletonServiceDescriptor&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -198,24 +195,6 @@
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection&lt;IServiceProvider, Teronis.Microsoft.DependencyInjection.SingletonServiceDescriptor&gt;.Lifetime</span></div>
   <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html">ILifetimeServiceCollection&lt;TDescriptor&gt;</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html">IReadOnlyLifetimeServiceCollection&lt;TDescriptor&gt;</a>
-  </div>
-  <div>
-      <span class="xref">IReadOnlyList&lt;&gt;</span>
-  </div>
-  <div>
-      <span class="xref">IList&lt;&gt;</span>
-  </div>
-  <div>
-      <span class="xref">ICollection&lt;&gt;</span>
-  </div>
-  <div>
-      <span class="xref">IEnumerable&lt;&gt;</span>
-  </div>
   <div>
       <a class="xref" href="Teronis.Microsoft.DependencyInjection.ISingletonServiceCollection.html">ISingletonServiceCollection</a>
   </div>

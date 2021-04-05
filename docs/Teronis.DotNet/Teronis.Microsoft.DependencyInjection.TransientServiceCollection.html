@@ -93,12 +93,6 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.INonSingletonServiceCollection-2.html">INonSingletonServiceCollection</a>&lt;<span class="xref">IServiceProvider</span>, <a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
-    <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html">ILifetimeServiceCollection</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
-    <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html">IReadOnlyLifetimeServiceCollection</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
-    <div><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
-    <div><span class="xref">IList</span>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
-    <div><span class="xref">ICollection</span>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
-    <div><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
     <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.ITransientServiceCollection.html">ITransientServiceCollection</a></div>
     <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html">ILifetimeServiceCollection</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
     <div><a class="xref" href="Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html">IReadOnlyLifetimeServiceCollection</a>&lt;<a class="xref" href="Teronis.Microsoft.DependencyInjection.TransientServiceDescriptor.html">TransientServiceDescriptor</a>&gt;</div>
@@ -138,6 +132,9 @@
       <a class="xref" href="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection-2.html#Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_2_Insert_System_Int32__1_">LifetimeServiceCollection&lt;IServiceProvider, TransientServiceDescriptor&gt;.Insert(Int32, TransientServiceDescriptor)</a>
     </div>
     <div>
+      <a class="xref" href="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection-2.html#Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_2_Add__1_">LifetimeServiceCollection&lt;IServiceProvider, TransientServiceDescriptor&gt;.Add(TransientServiceDescriptor)</a>
+    </div>
+    <div>
       <a class="xref" href="Teronis.Microsoft.DependencyInjection.LifetimeServiceCollection-2.html#Teronis_Microsoft_DependencyInjection_LifetimeServiceCollection_2_RemoveAt_System_Int32_">LifetimeServiceCollection&lt;IServiceProvider, TransientServiceDescriptor&gt;.RemoveAt(Int32)</a>
     </div>
     <div>
@@ -163,7 +160,7 @@
   <h6><strong>Assembly</strong>: Teronis.Microsoft.DependencyInjection.dll</h6>
   <h5 id="Teronis_Microsoft_DependencyInjection_TransientServiceCollection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TransientServiceCollection : NonSingletonServiceCollection&lt;IServiceProvider, TransientServiceDescriptor&gt;, INonSingletonServiceCollection&lt;IServiceProvider, TransientServiceDescriptor&gt;, ILifetimeServiceCollection&lt;TransientServiceDescriptor&gt;, IReadOnlyLifetimeServiceCollection&lt;TransientServiceDescriptor&gt;, IReadOnlyList&lt;TransientServiceDescriptor&gt;, IList&lt;TransientServiceDescriptor&gt;, ICollection&lt;TransientServiceDescriptor&gt;, IEnumerable&lt;TransientServiceDescriptor&gt;, ITransientServiceCollection, ILifetimeServiceCollection&lt;TransientServiceDescriptor&gt;, IReadOnlyLifetimeServiceCollection&lt;TransientServiceDescriptor&gt;, IReadOnlyList&lt;TransientServiceDescriptor&gt;, IList&lt;TransientServiceDescriptor&gt;, ICollection&lt;TransientServiceDescriptor&gt;, IEnumerable&lt;TransientServiceDescriptor&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TransientServiceCollection : NonSingletonServiceCollection&lt;IServiceProvider, TransientServiceDescriptor&gt;, INonSingletonServiceCollection&lt;IServiceProvider, TransientServiceDescriptor&gt;, ITransientServiceCollection, ILifetimeServiceCollection&lt;TransientServiceDescriptor&gt;, IReadOnlyLifetimeServiceCollection&lt;TransientServiceDescriptor&gt;, IReadOnlyList&lt;TransientServiceDescriptor&gt;, IList&lt;TransientServiceDescriptor&gt;, ICollection&lt;TransientServiceDescriptor&gt;, IEnumerable&lt;TransientServiceDescriptor&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -202,24 +199,6 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Teronis.Microsoft.DependencyInjection.INonSingletonServiceCollection-2.html">INonSingletonServiceCollection&lt;TProvider, TNonSingletonServiceDescriptor&gt;</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.Microsoft.DependencyInjection.ILifetimeServiceCollection-1.html">ILifetimeServiceCollection&lt;TDescriptor&gt;</a>
-  </div>
-  <div>
-      <a class="xref" href="Teronis.Microsoft.DependencyInjection.IReadOnlyLifetimeServiceCollection-1.html">IReadOnlyLifetimeServiceCollection&lt;TDescriptor&gt;</a>
-  </div>
-  <div>
-      <span class="xref">IReadOnlyList&lt;&gt;</span>
-  </div>
-  <div>
-      <span class="xref">IList&lt;&gt;</span>
-  </div>
-  <div>
-      <span class="xref">ICollection&lt;&gt;</span>
-  </div>
-  <div>
-      <span class="xref">IEnumerable&lt;&gt;</span>
   </div>
   <div>
       <a class="xref" href="Teronis.Microsoft.DependencyInjection.ITransientServiceCollection.html">ITransientServiceCollection</a>

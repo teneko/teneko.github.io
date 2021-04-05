@@ -116,59 +116,23 @@ gets initialized when decorated with this attribute.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public JSModuleAttributeBase()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase__ctor_System_String_.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeBase.cs/#L30">View Source</a>
-  </span>
-  <a id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase__ctor_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.#ctor*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase__ctor_System_String_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.#ctor(System.String)">JSModuleAttributeBase(String)</h4>
-  <div class="markdown level1 summary"><p>The properties (owned by component - see
-<a class="xref" href="Teronis.Microsoft.JSInterop.Facade.IJSFacadeHubActivator.html#Teronis_Microsoft_JSInterop_Facade_IJSFacadeHubActivator_CreateInstanceAsync__1_System_Object_">CreateInstanceAsync&lt;TJSFacadeActivators&gt;(Object)</a>) of type <see cref="!:IJSObjectReference"></see>
-gets initialized when decorated with this attribute.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JSModuleAttributeBase(string moduleNameOrPath)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">moduleNameOrPath</span></td>
-        <td><p>Relative path where the working directoy is typcially wwwroot.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase_ModuleNameOrPath.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.ModuleNameOrPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase_NameOrPath.md&amp;value=---%0Auid%3A%20Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.NameOrPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/Microsoft/JSInterop/0.Abstractions/src/Annotations/JSModuleAttributeBase.cs/#L15">View Source</a>
   </span>
-  <a id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase_ModuleNameOrPath_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.ModuleNameOrPath*"></a>
-  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase_ModuleNameOrPath" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.ModuleNameOrPath">ModuleNameOrPath</h4>
+  <a id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase_NameOrPath_" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.NameOrPath*"></a>
+  <h4 id="Teronis_Microsoft_JSInterop_Annotations_JSModuleAttributeBase_NameOrPath" data-uid="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttributeBase.NameOrPath">NameOrPath</h4>
   <div class="markdown level1 summary"><p>The module name or path of a JavaScript ESM module relative to &quot;wwwroot&quot; (if not changed).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? ModuleNameOrPath { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? NameOrPath { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
