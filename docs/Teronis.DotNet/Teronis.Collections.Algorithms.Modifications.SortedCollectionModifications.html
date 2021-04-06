@@ -101,10 +101,10 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications%60%601(IEnumerable%7B%60%600%7D%2CIEnumerable%7B%60%600%7D%2CTeronis.Collections.Algorithms.Modifications.SortedCollectionOrder%2CIComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L251">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L248">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___0__" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``1(IEnumerable{``0},IEnumerable{``0},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,IComparer{``0})">YieldCollectionModifications&lt;ItemType&gt;(IEnumerable&lt;ItemType&gt;, IEnumerable&lt;ItemType&gt;, SortedCollectionOrder, IComparer&lt;ItemType&gt;)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___0__" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``1(IEnumerable{``0},IEnumerable{``0},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,IComparer{``0})">YieldCollectionModifications&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, IEnumerable&lt;TItem&gt;, SortedCollectionOrder, IComparer&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>The algorithm creates modifications that can transform one collection into another collection.
 The collection modifications may be used to transform <code data-dev-comment-type="paramref" class="paramref">leftItems</code>.
 Assumes <code data-dev-comment-type="paramref" class="paramref">leftItems</code> and <code data-dev-comment-type="paramref" class="paramref">rightItems</code> to be sorted by that order you specify by <code data-dev-comment-type="paramref" class="paramref">collectionOrder</code>.
@@ -113,7 +113,7 @@ Duplications are allowed but take into account that duplications are yielded as 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;ItemType, ItemType&gt;&gt; YieldCollectionModifications&lt;ItemType&gt;(IEnumerable&lt;ItemType&gt; leftItems, IEnumerable&lt;ItemType&gt; rightItems, SortedCollectionOrder collectionOrder, IComparer&lt;ItemType&gt; comparer)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;TItem, TItem&gt;&gt; YieldCollectionModifications&lt;TItem&gt;(IEnumerable&lt;TItem&gt; leftItems, IEnumerable&lt;TItem&gt; rightItems, SortedCollectionOrder collectionOrder, IComparer&lt;TItem&gt; comparer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,13 +126,13 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TItem&gt;</td>
         <td><span class="parametername">leftItems</span></td>
         <td><p>The collection you want to have transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TItem&gt;</td>
         <td><span class="parametername">rightItems</span></td>
         <td><p>The collection in which <code data-dev-comment-type="paramref" class="paramref">leftItems</code> could be transformed.</p>
 </td>
@@ -144,7 +144,7 @@ Duplications are allowed but take into account that duplications are yielded as 
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IComparer</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IComparer</span>&lt;TItem&gt;</td>
         <td><span class="parametername">comparer</span></td>
         <td><p>The comparer to be used to compare comparable parts of left and right item.</p>
 </td>
@@ -161,7 +161,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;ItemType, ItemType&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;TItem, TItem&gt;&gt;</td>
         <td><p>The collection modifications.</p>
 </td>
       </tr>
@@ -177,7 +177,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">ItemType</span></td>
+        <td><span class="parametername">TItem</span></td>
         <td><p>The item type.</p>
 </td>
       </tr>
@@ -188,10 +188,10 @@ Duplications are allowed but take into account that duplications are yielded as 
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___0__Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications%60%601(IEnumerable%7B%60%600%7D%2CIEnumerable%7B%60%600%7D%2CTeronis.Collections.Algorithms.Modifications.SortedCollectionOrder%2CIComparer%7B%60%600%7D%2CTeronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L222">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L220">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___0__Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``1(IEnumerable{``0},IEnumerable{``0},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,IComparer{``0},Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">YieldCollectionModifications&lt;ItemType&gt;(IEnumerable&lt;ItemType&gt;, IEnumerable&lt;ItemType&gt;, SortedCollectionOrder, IComparer&lt;ItemType&gt;, CollectionModificationsYieldCapabilities)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___0__Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``1(IEnumerable{``0},IEnumerable{``0},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,IComparer{``0},Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">YieldCollectionModifications&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, IEnumerable&lt;TItem&gt;, SortedCollectionOrder, IComparer&lt;TItem&gt;, CollectionModificationsYieldCapabilities)</h4>
   <div class="markdown level1 summary"><p>The algorithm creates modifications that can transform one collection into another collection.
 The collection modifications may be used to transform <code data-dev-comment-type="paramref" class="paramref">leftItems</code>.
 Assumes <code data-dev-comment-type="paramref" class="paramref">leftItems</code> and <code data-dev-comment-type="paramref" class="paramref">rightItems</code> to be sorted by that order you specify by <code data-dev-comment-type="paramref" class="paramref">collectionOrder</code>.
@@ -200,7 +200,7 @@ Duplications are allowed but take into account that duplications are yielded as 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;ItemType, ItemType&gt;&gt; YieldCollectionModifications&lt;ItemType&gt;(IEnumerable&lt;ItemType&gt; leftItems, IEnumerable&lt;ItemType&gt; rightItems, SortedCollectionOrder collectionOrder, IComparer&lt;ItemType&gt; comparer, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;TItem, TItem&gt;&gt; YieldCollectionModifications&lt;TItem&gt;(IEnumerable&lt;TItem&gt; leftItems, IEnumerable&lt;TItem&gt; rightItems, SortedCollectionOrder collectionOrder, IComparer&lt;TItem&gt; comparer, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,13 +213,13 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TItem&gt;</td>
         <td><span class="parametername">leftItems</span></td>
         <td><p>The collection you want to have transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TItem&gt;</td>
         <td><span class="parametername">rightItems</span></td>
         <td><p>The collection in which <code data-dev-comment-type="paramref" class="paramref">leftItems</code> could be transformed.</p>
 </td>
@@ -231,7 +231,7 @@ Duplications are allowed but take into account that duplications are yielded as 
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IComparer</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IComparer</span>&lt;TItem&gt;</td>
         <td><span class="parametername">comparer</span></td>
         <td><p>The comparer to be used to compare comparable parts of left and right item.</p>
 </td>
@@ -254,7 +254,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;ItemType, ItemType&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;TItem, TItem&gt;&gt;</td>
         <td><p>The collection modifications.</p>
 </td>
       </tr>
@@ -270,7 +270,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">ItemType</span></td>
+        <td><span class="parametername">TItem</span></td>
         <td><p>The item type.</p>
 </td>
       </tr>
@@ -281,10 +281,10 @@ Duplications are allowed but take into account that duplications are yielded as 
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications%60%601(IEnumerable%7B%60%600%7D%2CIEnumerable%7B%60%600%7D%2CTeronis.Collections.Algorithms.Modifications.SortedCollectionOrder%2CTeronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L279">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L275">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``1(IEnumerable{``0},IEnumerable{``0},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">YieldCollectionModifications&lt;ItemType&gt;(IEnumerable&lt;ItemType&gt;, IEnumerable&lt;ItemType&gt;, SortedCollectionOrder, CollectionModificationsYieldCapabilities)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__1_IEnumerable___0__IEnumerable___0__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``1(IEnumerable{``0},IEnumerable{``0},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">YieldCollectionModifications&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, IEnumerable&lt;TItem&gt;, SortedCollectionOrder, CollectionModificationsYieldCapabilities)</h4>
   <div class="markdown level1 summary"><p>The algorithm creates modifications that can transform one collection into another collection.
 The collection modifications may be used to transform <code data-dev-comment-type="paramref" class="paramref">leftItems</code>.
 Assumes <code data-dev-comment-type="paramref" class="paramref">leftItems</code> and <code data-dev-comment-type="paramref" class="paramref">rightItems</code> to be sorted by that order you specify by <code data-dev-comment-type="paramref" class="paramref">collectionOrder</code>.
@@ -293,7 +293,7 @@ Duplications are allowed but take into account that duplications are yielded as 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;ItemType, ItemType&gt;&gt; YieldCollectionModifications&lt;ItemType&gt;(IEnumerable&lt;ItemType&gt; leftItems, IEnumerable&lt;ItemType&gt; rightItems, SortedCollectionOrder collectionOrder, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;TItem, TItem&gt;&gt; YieldCollectionModifications&lt;TItem&gt;(IEnumerable&lt;TItem&gt; leftItems, IEnumerable&lt;TItem&gt; rightItems, SortedCollectionOrder collectionOrder, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,13 +306,13 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TItem&gt;</td>
         <td><span class="parametername">leftItems</span></td>
         <td><p>The collection you want to have transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TItem&gt;</td>
         <td><span class="parametername">rightItems</span></td>
         <td><p>The collection in which <code data-dev-comment-type="paramref" class="paramref">leftItems</code> could be transformed.</p>
 </td>
@@ -341,7 +341,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;ItemType, ItemType&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;TItem, TItem&gt;&gt;</td>
         <td><p>The collection modifications.</p>
 </td>
       </tr>
@@ -357,7 +357,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">ItemType</span></td>
+        <td><span class="parametername">TItem</span></td>
         <td><p>The item type.</p>
 </td>
       </tr>
@@ -368,10 +368,10 @@ Duplications are allowed but take into account that duplications are yielded as 
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__3_IEnumerable___0__Func___0___2__IEnumerable___1__Func___1___2__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___2__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications%60%603(IEnumerable%7B%60%600%7D%2CFunc%7B%60%600%2C%60%602%7D%2CIEnumerable%7B%60%601%7D%2CFunc%7B%60%601%2C%60%602%7D%2CTeronis.Collections.Algorithms.Modifications.SortedCollectionOrder%2CIComparer%7B%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L158">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L157">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__3_IEnumerable___0__Func___0___2__IEnumerable___1__Func___1___2__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___2__" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``3(IEnumerable{``0},Func{``0,``2},IEnumerable{``1},Func{``1,``2},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,IComparer{``2})">YieldCollectionModifications&lt;LeftItemType, RightItemType, ComparablePartType&gt;(IEnumerable&lt;LeftItemType&gt;, Func&lt;LeftItemType, ComparablePartType&gt;, IEnumerable&lt;RightItemType&gt;, Func&lt;RightItemType, ComparablePartType&gt;, SortedCollectionOrder, IComparer&lt;ComparablePartType&gt;)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__3_IEnumerable___0__Func___0___2__IEnumerable___1__Func___1___2__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___2__" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``3(IEnumerable{``0},Func{``0,``2},IEnumerable{``1},Func{``1,``2},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,IComparer{``2})">YieldCollectionModifications&lt;TLeftItem, TRightItem, TComparablePart&gt;(IEnumerable&lt;TLeftItem&gt;, Func&lt;TLeftItem, TComparablePart&gt;, IEnumerable&lt;TRightItem&gt;, Func&lt;TRightItem, TComparablePart&gt;, SortedCollectionOrder, IComparer&lt;TComparablePart&gt;)</h4>
   <div class="markdown level1 summary"><p>The algorithm creates modifications that can transform one collection into another collection.
 The collection modifications may be used to transform <code data-dev-comment-type="paramref" class="paramref">leftItems</code>.
 Assumes <code data-dev-comment-type="paramref" class="paramref">leftItems</code> and <code data-dev-comment-type="paramref" class="paramref">rightItems</code> to be sorted by that order you specify by <code data-dev-comment-type="paramref" class="paramref">collectionOrder</code>.
@@ -380,7 +380,7 @@ Duplications are allowed but take into account that duplications are yielded as 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;RightItemType, LeftItemType&gt;&gt; YieldCollectionModifications&lt;LeftItemType, RightItemType, ComparablePartType&gt;(IEnumerable&lt;LeftItemType&gt; leftItems, Func&lt;LeftItemType, ComparablePartType&gt; getComparablePartOfLeftItem, IEnumerable&lt;RightItemType&gt; rightItems, Func&lt;RightItemType, ComparablePartType&gt; getComparablePartOfRightItem, SortedCollectionOrder collectionOrder, IComparer&lt;ComparablePartType&gt; comparer)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;TRightItem, TLeftItem&gt;&gt; YieldCollectionModifications&lt;TLeftItem, TRightItem, TComparablePart&gt;(IEnumerable&lt;TLeftItem&gt; leftItems, Func&lt;TLeftItem, TComparablePart&gt; getComparablePartOfLeftItem, IEnumerable&lt;TRightItem&gt; rightItems, Func&lt;TRightItem, TComparablePart&gt; getComparablePartOfRightItem, SortedCollectionOrder collectionOrder, IComparer&lt;TComparablePart&gt; comparer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -393,25 +393,25 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;LeftItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TLeftItem&gt;</td>
         <td><span class="parametername">leftItems</span></td>
         <td><p>The collection you want to have transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;LeftItemType, ComparablePartType&gt;</td>
+        <td><span class="xref">Func</span>&lt;TLeftItem, TComparablePart&gt;</td>
         <td><span class="parametername">getComparablePartOfLeftItem</span></td>
         <td><p>The part of left item that is comparable with part of right item.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;RightItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TRightItem&gt;</td>
         <td><span class="parametername">rightItems</span></td>
         <td><p>The collection in which <code data-dev-comment-type="paramref" class="paramref">leftItems</code> could be transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;RightItemType, ComparablePartType&gt;</td>
+        <td><span class="xref">Func</span>&lt;TRightItem, TComparablePart&gt;</td>
         <td><span class="parametername">getComparablePartOfRightItem</span></td>
         <td><p>The part of right item that is comparable with part of left item.</p>
 </td>
@@ -423,7 +423,7 @@ Duplications are allowed but take into account that duplications are yielded as 
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IComparer</span>&lt;ComparablePartType&gt;</td>
+        <td><span class="xref">IComparer</span>&lt;TComparablePart&gt;</td>
         <td><span class="parametername">comparer</span></td>
         <td><p>The comparer to be used to compare comparable parts of left and right item.</p>
 </td>
@@ -440,7 +440,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;RightItemType, LeftItemType&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;TRightItem, TLeftItem&gt;&gt;</td>
         <td><p>The collection modifications.</p>
 </td>
       </tr>
@@ -456,17 +456,17 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">LeftItemType</span></td>
+        <td><span class="parametername">TLeftItem</span></td>
         <td><p>The type of left items.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">RightItemType</span></td>
+        <td><span class="parametername">TRightItem</span></td>
         <td><p>The type of right items.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">ComparablePartType</span></td>
+        <td><span class="parametername">TComparablePart</span></td>
         <td><p>The type of the comparable part of left item and right item.</p>
 </td>
       </tr>
@@ -480,7 +480,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L31">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__3_IEnumerable___0__Func___0___2__IEnumerable___1__Func___1___2__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___2__Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``3(IEnumerable{``0},Func{``0,``2},IEnumerable{``1},Func{``1,``2},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,IComparer{``2},Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">YieldCollectionModifications&lt;LeftItemType, RightItemType, ComparablePartType&gt;(IEnumerable&lt;LeftItemType&gt;, Func&lt;LeftItemType, ComparablePartType&gt;, IEnumerable&lt;RightItemType&gt;, Func&lt;RightItemType, ComparablePartType&gt;, SortedCollectionOrder, IComparer&lt;ComparablePartType&gt;, CollectionModificationsYieldCapabilities)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__3_IEnumerable___0__Func___0___2__IEnumerable___1__Func___1___2__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_IComparer___2__Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``3(IEnumerable{``0},Func{``0,``2},IEnumerable{``1},Func{``1,``2},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,IComparer{``2},Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">YieldCollectionModifications&lt;TLeftItem, TRightItem, TComparablePart&gt;(IEnumerable&lt;TLeftItem&gt;, Func&lt;TLeftItem, TComparablePart&gt;, IEnumerable&lt;TRightItem&gt;, Func&lt;TRightItem, TComparablePart&gt;, SortedCollectionOrder, IComparer&lt;TComparablePart&gt;, CollectionModificationsYieldCapabilities)</h4>
   <div class="markdown level1 summary"><p>The algorithm creates modifications that can transform one collection into another collection.
 The collection modifications may be used to transform <code data-dev-comment-type="paramref" class="paramref">leftItems</code>.
 Assumes <code data-dev-comment-type="paramref" class="paramref">leftItems</code> and <code data-dev-comment-type="paramref" class="paramref">rightItems</code> to be sorted by that order you specify by <code data-dev-comment-type="paramref" class="paramref">collectionOrder</code>.
@@ -489,7 +489,7 @@ Duplications are allowed but take into account that duplications are yielded as 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;RightItemType, LeftItemType&gt;&gt; YieldCollectionModifications&lt;LeftItemType, RightItemType, ComparablePartType&gt;(IEnumerable&lt;LeftItemType&gt; leftItems, Func&lt;LeftItemType, ComparablePartType&gt; getComparablePartOfLeftItem, IEnumerable&lt;RightItemType&gt; rightItems, Func&lt;RightItemType, ComparablePartType&gt; getComparablePartOfRightItem, SortedCollectionOrder collectionOrder, IComparer&lt;ComparablePartType&gt; comparer, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;TRightItem, TLeftItem&gt;&gt; YieldCollectionModifications&lt;TLeftItem, TRightItem, TComparablePart&gt;(IEnumerable&lt;TLeftItem&gt; leftItems, Func&lt;TLeftItem, TComparablePart&gt; getComparablePartOfLeftItem, IEnumerable&lt;TRightItem&gt; rightItems, Func&lt;TRightItem, TComparablePart&gt; getComparablePartOfRightItem, SortedCollectionOrder collectionOrder, IComparer&lt;TComparablePart&gt; comparer, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -502,25 +502,25 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;LeftItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TLeftItem&gt;</td>
         <td><span class="parametername">leftItems</span></td>
         <td><p>The collection you want to have transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;LeftItemType, ComparablePartType&gt;</td>
+        <td><span class="xref">Func</span>&lt;TLeftItem, TComparablePart&gt;</td>
         <td><span class="parametername">getComparablePartOfLeftItem</span></td>
         <td><p>The part of left item that is comparable with part of right item.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;RightItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TRightItem&gt;</td>
         <td><span class="parametername">rightItems</span></td>
         <td><p>The collection in which <code data-dev-comment-type="paramref" class="paramref">leftItems</code> could be transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;RightItemType, ComparablePartType&gt;</td>
+        <td><span class="xref">Func</span>&lt;TRightItem, TComparablePart&gt;</td>
         <td><span class="parametername">getComparablePartOfRightItem</span></td>
         <td><p>The part of right item that is comparable with part of left item.</p>
 </td>
@@ -532,7 +532,7 @@ Duplications are allowed but take into account that duplications are yielded as 
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IComparer</span>&lt;ComparablePartType&gt;</td>
+        <td><span class="xref">IComparer</span>&lt;TComparablePart&gt;</td>
         <td><span class="parametername">comparer</span></td>
         <td><p>The comparer to be used to compare comparable parts of left and right item.</p>
 </td>
@@ -555,7 +555,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;RightItemType, LeftItemType&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;TRightItem, TLeftItem&gt;&gt;</td>
         <td><p>The collection modifications.</p>
 </td>
       </tr>
@@ -571,17 +571,17 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">LeftItemType</span></td>
+        <td><span class="parametername">TLeftItem</span></td>
         <td><p>The type of left items.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">RightItemType</span></td>
+        <td><span class="parametername">TRightItem</span></td>
         <td><p>The type of right items.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">ComparablePartType</span></td>
+        <td><span class="parametername">TComparablePart</span></td>
         <td><p>The type of the comparable part of left item and right item.</p>
 </td>
       </tr>
@@ -592,10 +592,10 @@ Duplications are allowed but take into account that duplications are yielded as 
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__3_IEnumerable___0__Func___0___2__IEnumerable___1__Func___1___2__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications%60%603(IEnumerable%7B%60%600%7D%2CFunc%7B%60%600%2C%60%602%7D%2CIEnumerable%7B%60%601%7D%2CFunc%7B%60%601%2C%60%602%7D%2CTeronis.Collections.Algorithms.Modifications.SortedCollectionOrder%2CTeronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L192">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/SortedCollectionModifications.cs/#L190">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__3_IEnumerable___0__Func___0___2__IEnumerable___1__Func___1___2__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``3(IEnumerable{``0},Func{``0,``2},IEnumerable{``1},Func{``1,``2},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">YieldCollectionModifications&lt;LeftItemType, RightItemType, ComparablePartType&gt;(IEnumerable&lt;LeftItemType&gt;, Func&lt;LeftItemType, ComparablePartType&gt;, IEnumerable&lt;RightItemType&gt;, Func&lt;RightItemType, ComparablePartType&gt;, SortedCollectionOrder, CollectionModificationsYieldCapabilities)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_SortedCollectionModifications_YieldCollectionModifications__3_IEnumerable___0__Func___0___2__IEnumerable___1__Func___1___2__Teronis_Collections_Algorithms_Modifications_SortedCollectionOrder_Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.YieldCollectionModifications``3(IEnumerable{``0},Func{``0,``2},IEnumerable{``1},Func{``1,``2},Teronis.Collections.Algorithms.Modifications.SortedCollectionOrder,Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">YieldCollectionModifications&lt;TLeftItem, TRightItem, TComparablePart&gt;(IEnumerable&lt;TLeftItem&gt;, Func&lt;TLeftItem, TComparablePart&gt;, IEnumerable&lt;TRightItem&gt;, Func&lt;TRightItem, TComparablePart&gt;, SortedCollectionOrder, CollectionModificationsYieldCapabilities)</h4>
   <div class="markdown level1 summary"><p>The algorithm creates modifications that can transform one collection into another collection.
 The collection modifications may be used to transform <code data-dev-comment-type="paramref" class="paramref">leftItems</code>.
 Assumes <code data-dev-comment-type="paramref" class="paramref">leftItems</code> and <code data-dev-comment-type="paramref" class="paramref">rightItems</code> to be sorted by that order you specify by <code data-dev-comment-type="paramref" class="paramref">collectionOrder</code>.
@@ -604,7 +604,7 @@ Duplications are allowed but take into account that duplications are yielded as 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;RightItemType, LeftItemType&gt;&gt; YieldCollectionModifications&lt;LeftItemType, RightItemType, ComparablePartType&gt;(IEnumerable&lt;LeftItemType&gt; leftItems, Func&lt;LeftItemType, ComparablePartType&gt; getComparablePartOfLeftItem, IEnumerable&lt;RightItemType&gt; rightItems, Func&lt;RightItemType, ComparablePartType&gt; getComparablePartOfRightItem, SortedCollectionOrder collectionOrder, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;TRightItem, TLeftItem&gt;&gt; YieldCollectionModifications&lt;TLeftItem, TRightItem, TComparablePart&gt;(IEnumerable&lt;TLeftItem&gt; leftItems, Func&lt;TLeftItem, TComparablePart&gt; getComparablePartOfLeftItem, IEnumerable&lt;TRightItem&gt; rightItems, Func&lt;TRightItem, TComparablePart&gt; getComparablePartOfRightItem, SortedCollectionOrder collectionOrder, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -617,25 +617,25 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;LeftItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TLeftItem&gt;</td>
         <td><span class="parametername">leftItems</span></td>
         <td><p>The collection you want to have transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;LeftItemType, ComparablePartType&gt;</td>
+        <td><span class="xref">Func</span>&lt;TLeftItem, TComparablePart&gt;</td>
         <td><span class="parametername">getComparablePartOfLeftItem</span></td>
         <td><p>The part of left item that is comparable with part of right item.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;RightItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TRightItem&gt;</td>
         <td><span class="parametername">rightItems</span></td>
         <td><p>The collection in which <code data-dev-comment-type="paramref" class="paramref">leftItems</code> could be transformed.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;RightItemType, ComparablePartType&gt;</td>
+        <td><span class="xref">Func</span>&lt;TRightItem, TComparablePart&gt;</td>
         <td><span class="parametername">getComparablePartOfRightItem</span></td>
         <td><p>The part of right item that is comparable with part of left item.</p>
 </td>
@@ -664,7 +664,7 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;RightItemType, LeftItemType&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;TRightItem, TLeftItem&gt;&gt;</td>
         <td><p>The collection modifications.</p>
 </td>
       </tr>
@@ -680,17 +680,17 @@ Duplications are allowed but take into account that duplications are yielded as 
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">LeftItemType</span></td>
+        <td><span class="parametername">TLeftItem</span></td>
         <td><p>The type of left items.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">RightItemType</span></td>
+        <td><span class="parametername">TRightItem</span></td>
         <td><p>The type of right items.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="parametername">ComparablePartType</span></td>
+        <td><span class="parametername">TComparablePart</span></td>
         <td><p>The type of the comparable part of left item and right item.</p>
 </td>
       </tr>

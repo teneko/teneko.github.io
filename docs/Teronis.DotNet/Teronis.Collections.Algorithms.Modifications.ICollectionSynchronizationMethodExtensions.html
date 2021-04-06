@@ -101,15 +101,15 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethodExtensions_YieldCollectionModifications__1_Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethod___0__IEnumerable___0__System_Nullable_IEnumerable___0___.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethodExtensions.YieldCollectionModifications%60%601(Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod%7B%60%600%7D%2CIEnumerable%7B%60%600%7D%2CSystem.Nullable%7BIEnumerable%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/ICollectionSynchronizationMethod`1Extensions.cs/#L10">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/ICollectionSynchronizationMethod{`1}Extensions.cs/#L10">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethodExtensions_YieldCollectionModifications_" data-uid="Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethodExtensions.YieldCollectionModifications*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethodExtensions_YieldCollectionModifications__1_Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethod___0__IEnumerable___0__System_Nullable_IEnumerable___0___" data-uid="Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethodExtensions.YieldCollectionModifications``1(Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod{``0},IEnumerable{``0},System.Nullable{IEnumerable{``0}})">YieldCollectionModifications&lt;ItemType&gt;(ICollectionSynchronizationMethod&lt;ItemType&gt;, IEnumerable&lt;ItemType&gt;, Nullable&lt;IEnumerable&lt;ItemType&gt;&gt;)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethodExtensions_YieldCollectionModifications__1_Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethod___0__IEnumerable___0__System_Nullable_IEnumerable___0___" data-uid="Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethodExtensions.YieldCollectionModifications``1(Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod{``0},IEnumerable{``0},System.Nullable{IEnumerable{``0}})">YieldCollectionModifications&lt;TItem&gt;(ICollectionSynchronizationMethod&lt;TItem&gt;, IEnumerable&lt;TItem&gt;, Nullable&lt;IEnumerable&lt;TItem&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;ItemType, ItemType&gt;&gt; YieldCollectionModifications&lt;ItemType&gt;(this ICollectionSynchronizationMethod&lt;ItemType&gt; synchronizationMethod, IEnumerable&lt;ItemType&gt; leftItems, IEnumerable&lt;ItemType&gt;? rightItems)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;CollectionModification&lt;TItem, TItem&gt;&gt; YieldCollectionModifications&lt;TItem&gt;(this ICollectionSynchronizationMethod&lt;TItem&gt; synchronizationMethod, IEnumerable&lt;TItem&gt; leftItems, IEnumerable&lt;TItem&gt;? rightItems)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,17 +122,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod-1.html">ICollectionSynchronizationMethod</a>&lt;ItemType&gt;</td>
+        <td><a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod-1.html">ICollectionSynchronizationMethod</a>&lt;TItem&gt;</td>
         <td><span class="parametername">synchronizationMethod</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;ItemType&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TItem&gt;</td>
         <td><span class="parametername">leftItems</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IEnumerable</span>&lt;ItemType&gt;&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IEnumerable</span>&lt;TItem&gt;&gt;</td>
         <td><span class="parametername">rightItems</span></td>
         <td></td>
       </tr>
@@ -148,7 +148,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;ItemType, ItemType&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html">CollectionModification</a>&lt;TItem, TItem&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -163,7 +163,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">ItemType</span></td>
+        <td><span class="parametername">TItem</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -179,7 +179,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethodExtensions.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethodExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/ICollectionSynchronizationMethod`1Extensions.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/ICollectionSynchronizationMethod{`1}Extensions.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
