@@ -2334,7 +2334,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionModificationIterationTools.html",
-          "hash": "DHTpBR9LPSfu62XdIn14sg=="
+          "hash": "YJ55p8Ox+Zo7FfoUpEOLXQ=="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionModificationIterationWithIndexDelegate.html",
-          "hash": "KfEuM+ZKVqI94RpWusWIKQ=="
+          "hash": "KXzabtIztMDN19fVaLZYfQ=="
         }
       },
       "is_incremental": false,
@@ -2430,7 +2430,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.ISynchronizedCollection-1.html",
-          "hash": "3AIDJ/Y6cQaANcwl1YYbow=="
+          "hash": "a0kFRP3NyU4fHuvfTdK1Zg=="
         }
       },
       "is_incremental": false,
@@ -2438,11 +2438,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.ISynchronizedCollection_1Extensions.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.ISynchronizedCollectionGenericExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.ISynchronizedCollection_1Extensions.html",
-          "hash": "xJGLh+eurtC05CW7NfwZGQ=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.ISynchronizedCollectionGenericExtensions.html",
+          "hash": "38jeNGjBTxAuVfRzqfPxUA=="
         }
       },
       "is_incremental": false,
@@ -2490,7 +2490,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizableCollection-1.html",
-          "hash": "QyS7GoI91buTGOQEPxbeug=="
+          "hash": "0GMTia6jWrQqKgq3nr8UzQ=="
         }
       },
       "is_incremental": false,
@@ -2502,7 +2502,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html",
-          "hash": "Sv6ZTF781kYgmDFY5WyCuA=="
+          "hash": "/OVbgT9jMpGZFIFAf2vfDA=="
         }
       },
       "is_incremental": false,
@@ -2574,7 +2574,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.ItemCollection-2.html",
-          "hash": "63bY8AG6vVTE3MbbIAPM0Q=="
+          "hash": "hIFa3Xl1cXi7FMG4YKiAEA=="
         }
       },
       "is_incremental": false,
@@ -2634,7 +2634,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.SubItemCollection.html",
-          "hash": "quIqETg/VDkh6uVHxv2eXQ=="
+          "hash": "iRXFxGgAFaeEUO0QhvNPeA=="
         }
       },
       "is_incremental": false,
@@ -2646,7 +2646,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.SuperItemCollection.html",
-          "hash": "lc8jM7UDdj3jl8DI/ZNB7g=="
+          "hash": "xNVMwRFVqkj5UQM++OJfjg=="
         }
       },
       "is_incremental": false,
@@ -2658,7 +2658,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.html",
-          "hash": "cMni46AEwH6m/Rhjw2n3Hg=="
+          "hash": "tSCdclvZDn8AzB54+93WLg=="
         }
       },
       "is_incremental": false,
@@ -2694,7 +2694,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.html",
-          "hash": "5pmTCCXxkQuWMNUk77WYFQ=="
+          "hash": "h8aYEMddHMJUpQvWm2ZqgQ=="
         }
       },
       "is_incremental": false,
@@ -11754,7 +11754,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "MSiescu7BKgP+FU70ckmmg=="
+          "hash": "2kYUKLqoqE/St14mGnnREg=="
         }
       },
       "is_incremental": false,
