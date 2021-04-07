@@ -4226,6 +4226,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.IValuable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.IValuable-1.html",
+          "hash": "S61W/Yz65N0FIEVdH05/ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.IValuableGenericExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.IValuableGenericExtensions.html",
+          "hash": "aj6Vrw4fx20fCzQF1gHJkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.IYetNullable-1.yml",
       "output": {
         ".html": {
@@ -5618,6 +5642,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Component.Assigners.InterceptorValueAssignerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Component.Assigners.InterceptorValueAssignerContext.html",
+          "hash": "Td4/OFJseJnylLkM8faj5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Microsoft.JSInterop.Component.Assigners.JSCustomFacadeWrappingAssigner.yml",
       "output": {
         ".html": {
@@ -5706,7 +5742,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Component.Assigners.ValueAssignerContext.html",
-          "hash": "3pABH4BD7wKqCclT2ZiTrA=="
+          "hash": "aIoWlJFIFtignXvQ/D9d/w=="
         }
       },
       "is_incremental": false,
@@ -5718,7 +5754,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Component.Assigners.html",
-          "hash": "RcKopcKXHnFgvRWp65klTA=="
+          "hash": "vm6QYWvnaNFs6LOj/aeEZw=="
         }
       },
       "is_incremental": false,
@@ -6786,7 +6822,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Interception.Interceptors.JSIterativeValueAssigningInterceptor.html",
-          "hash": "AAwVJ8RK06XaxCNzpGZf1w=="
+          "hash": "gpwf8POTtedsLa8RI1I6UA=="
         }
       },
       "is_incremental": false,
@@ -10194,7 +10230,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.SlimLazyGenericExtensions.html",
-          "hash": "0LAcy0i4F7q0D0QbKBJATw=="
+          "hash": "785eSGDaHG3XdUUwzUiDbw=="
         }
       },
       "is_incremental": false,
@@ -10711,6 +10747,30 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Utils.html",
           "hash": "HmAzlaAmJ1u8Zh0inU6beg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Valuable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Valuable-1.html",
+          "hash": "BcDWAl/xWrhRyso2Qnk1uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Valuable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Valuable.html",
+          "hash": "7mOvCFEDzYKEnlqujP6vZQ=="
         }
       },
       "is_incremental": false,
@@ -11694,7 +11754,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.YetNullable-1.html",
-          "hash": "XTGhtMbLvXtjFAv+0M7zmQ=="
+          "hash": "OL0gsdBIfXBuasUiK8Z/XA=="
         }
       },
       "is_incremental": false,
@@ -11706,7 +11766,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.YetNullable.html",
-          "hash": "GaarwX4VJl8JWYTwpUMplw=="
+          "hash": "2M89NNG1taW6ISCJ0Q1/Aw=="
         }
       },
       "is_incremental": false,
@@ -11718,7 +11778,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.YetNullableExtensions.html",
-          "hash": "gfKtf/ihNDQpaH7GhFqTuw=="
+          "hash": "MrFAXJ41QzW4V3lE3BTVLQ=="
         }
       },
       "is_incremental": false,
@@ -11730,7 +11790,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.html",
-          "hash": "CoiZmwJKoYuXd0oVYh7aqg=="
+          "hash": "y462yet+bJ+oezxj+K1BKw=="
         }
       },
       "is_incremental": false,
@@ -11742,7 +11802,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "rzSW/nRfyUzmaWheDyYUXA=="
+          "hash": "SEXcPZEYMPraz1UQoHoGGQ=="
         }
       },
       "is_incremental": false,
@@ -11781,7 +11841,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 976,
+          "total_file_count": 981,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
