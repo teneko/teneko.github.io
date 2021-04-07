@@ -85,32 +85,47 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignCustomFacadeAttribute.html">AssignCustomFacadeAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignDynamicGlobalObjectAttribute.html">AssignDynamicGlobalObjectAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignDynamicModuleAttribute.html">AssignDynamicModuleAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignGlobalObjectAttribute.html">AssignGlobalObjectAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignModuleAttribute.html">AssignModuleAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.html">JSModuleAttribute</a></h4>
-      <section><p>This ttribute provides the module name or path
-when it has not been specified in
-<a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignModuleAttribute.html">AssignModuleAttribute</a> or
-<a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.AssignDynamicModuleAttribute.html">AssignDynamicModuleAttribute</a>.</p>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateCustomFacadeAttribute.html">ActivateCustomFacadeAttribute</a></h4>
+      <section><p>Used in value assigner.</p>
 </section>
-      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ReturnDynamicLocalObjectAttribute.html">ReturnDynamicLocalObjectAttribute</a></h4>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateDynamicGlobalObjectAttribute.html">ActivateDynamicGlobalObjectAttribute</a></h4>
       <section></section>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateDynamicLocalObjectAttribute.html">ActivateDynamicLocalObjectAttribute</a></h4>
+      <section><p>Decoratable on methods that return ValueTask{IJSLocalObject} in proxy interfaces
+where IJSLocalObject can be any interface that derives from it. Used in interceptor.</p>
+</section>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateDynamicModuleAttribute.html">ActivateDynamicModuleAttribute</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateGlobalObjectAttribute.html">ActivateGlobalObjectAttribute</a></h4>
+      <section><p>Used in value assigner.</p>
+</section>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateLocalObjectAttribute.html">ActivateLocalObjectAttribute</a></h4>
+      <section><p>Decoratable on methods that return ValueTask{IJSLocalObject} in proxy interfaces. Used in interceptor.</p>
+</section>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateModuleAttribute.html">ActivateModuleAttribute</a></h4>
+      <section><p>Used in value assigner.</p>
+</section>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.JSModuleAttribute.html">JSModuleAttribute</a></h4>
+      <section><p>This attribute provides the module name or path
+when it has not been specified in
+<a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateModuleAttribute.html">ActivateModuleAttribute</a> or
+<a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ActivateDynamicModuleAttribute.html">ActivateDynamicModuleAttribute</a>.</p>
+</section>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.LocalObjectAttributeBase.html">LocalObjectAttributeBase</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ReturnDynamicLocalObjectAttribute.html">ReturnDynamicLocalObjectAttribute</a></h4>
+      <section><p>Used in interceptor.</p>
+</section>
       <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ReturnDynamicProxyAttribute.html">ReturnDynamicProxyAttribute</a></h4>
       <section><p>This attribute should only applied on a method in an interface that
 is used as proxy. By using this attribute we are definitely expecting
 a JavaScript object reference when calling
-<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocationBase-1.html#Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocationBase_1_GetDeterminedResult">GetDeterminedResult()</a>.</p>
+<a class="xref" href="Teronis.Microsoft.JSInterop.Interception.IJSObjectInvocationBase-1.html#Teronis_Microsoft_JSInterop_Interception_IJSObjectInvocationBase_1_GetDeterminedResult">GetDeterminedResult()</a>.
+Used in interceptor.</p>
 </section>
       <h4><a class="xref" href="Teronis.Microsoft.JSInterop.Annotations.ReturnLocalObjectAttribute.html">ReturnLocalObjectAttribute</a></h4>
-      <section></section>
+      <section><p>Used in interceptor.</p>
+</section>
 </article>
           </div>
           
