@@ -3057,7 +3057,7 @@
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.html",
     "title": "Namespace Teronis.Microsoft.JSInterop.Module | Documentations",
-    "keywords": "Namespace Teronis.Microsoft.JSInterop.Module Classes DynamicModuleCreationOptions IJSDynamicModuleActivatorExtensions JSDynamicModuleActivator JSDynamicModuleProvider<TModule> Provides a specific module. It can be registered as open generic type. JSModule JSModuleActivator JSModuleCreationOptions JSModuleInterceptorServicesOptions JSModuleValueAssignerServicesOptions Interfaces IJSDynamicModuleActivator IJSModule IJSModuleActivator"
+    "keywords": "Namespace Teronis.Microsoft.JSInterop.Module Classes DynamicModuleCreationOptions IJSDynamicModuleActivatorExtensions JSDynamicModuleActivator JSDynamicModuleProvider<TModule> Provide the same dynamic module of type TModule within this instance. JSModule JSModuleActivator JSModuleCreationOptions JSModuleInterceptorServicesOptions JSModuleValueAssignerServicesOptions Interfaces IJSDynamicModuleActivator IJSModule IJSModuleActivator"
   },
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.IJSDynamicModuleActivator.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.IJSDynamicModuleActivator.html",
@@ -3087,7 +3087,7 @@
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.JSDynamicModuleProvider-1.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.JSDynamicModuleProvider-1.html",
     "title": "Class JSDynamicModuleProvider<TModule> | Documentations",
-    "keywords": "Class JSDynamicModuleProvider<TModule> Provides a specific module. It can be registered as open generic type. Inheritance System.Object JSDynamicModuleProvider<TModule> Namespace : Teronis.Microsoft.JSInterop.Module Assembly : Teronis.Microsoft.JSInterop.Dynamic.Core.dll Syntax public class JSDynamicModuleProvider<TModule> : object where TModule : class, IJSModule Type Parameters Name Description TModule Constructors | Improve this Doc View Source JSDynamicModuleProvider(IJSDynamicModuleActivator) Declaration public JSDynamicModuleProvider(IJSDynamicModuleActivator jsDynamicModuleActivator) Parameters Type Name Description IJSDynamicModuleActivator jsDynamicModuleActivator Properties | Improve this Doc View Source Module Declaration public SlimLazy<ValueTask<TModule>> Module { get; } Property Value Type Description SlimLazy < ValueTask <TModule>>"
+    "keywords": "Class JSDynamicModuleProvider<TModule> Provide the same dynamic module of type TModule within this instance. Inheritance System.Object JSDynamicModuleProvider<TModule> Namespace : Teronis.Microsoft.JSInterop.Module Assembly : Teronis.Microsoft.JSInterop.Dynamic.Core.dll Syntax public sealed class JSDynamicModuleProvider<TModule> : object where TModule : class, IJSModule Type Parameters Name Description TModule The type to be proxied. Remarks It is intended to be registered as open generic service. Constructors | Improve this Doc View Source JSDynamicModuleProvider(IServiceProvider) Declaration public JSDynamicModuleProvider(IServiceProvider serviceProvider) Parameters Type Name Description IServiceProvider serviceProvider Properties | Improve this Doc View Source Module Declaration public SlimLazy<ValueTask<TModule>> Module { get; } Property Value Type Description SlimLazy < ValueTask <TModule>>"
   },
   "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.JSModule.html": {
     "href": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Module.JSModule.html",
