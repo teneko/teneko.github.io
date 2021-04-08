@@ -1542,7 +1542,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.CovariantKeyValuePair.html",
-          "hash": "YEqR8wAgF9NxkMkb/fXucg=="
+          "hash": "3CpHlkQM4x8zId4521rFtA=="
         }
       },
       "is_incremental": false,
@@ -10794,7 +10794,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.ViewModels.ViewModelBase.DefaultDataErrorInfos.html",
-          "hash": "sVhP6JsSITAg24uB6/sSkw=="
+          "hash": "vLPgUZ9jIO9b7eximEFzjQ=="
         }
       },
       "is_incremental": false,
@@ -10806,7 +10806,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.ViewModels.ViewModelBase.html",
-          "hash": "UHtC3z0txw/Rr1VGaUQr7w=="
+          "hash": "oTdklmw3RLewHYCboFlIhQ=="
         }
       },
       "is_incremental": false,
