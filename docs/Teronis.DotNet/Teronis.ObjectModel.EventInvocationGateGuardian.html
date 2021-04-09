@@ -87,24 +87,25 @@
   <h6><strong>Assembly</strong>: Teronis.NetStandard.Core.dll</h6>
   <h5 id="Teronis_ObjectModel_EventInvocationGateGuardian_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct EventInvocationGateGuardian</code></pre>
+    <pre><code class="lang-csharp hljs">public struct EventInvocationGateGuardian : IReleasableEventInvocationGate</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_ObjectModel_EventInvocationGateGuardian_LetPassThrough.md&amp;value=---%0Auid%3A%20Teronis.ObjectModel.EventInvocationGateGuardian.LetPassThrough%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_ObjectModel_EventInvocationGateGuardian_ReleaseGate.md&amp;value=---%0Auid%3A%20Teronis.ObjectModel.EventInvocationGateGuardian.ReleaseGate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/ObjectModel/EventInvocationGateGuardian.cs/#L15">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/ObjectModel/EventInvocationGateGuardian.cs/#L16">View Source</a>
   </span>
-  <a id="Teronis_ObjectModel_EventInvocationGateGuardian_LetPassThrough_" data-uid="Teronis.ObjectModel.EventInvocationGateGuardian.LetPassThrough*"></a>
-  <h4 id="Teronis_ObjectModel_EventInvocationGateGuardian_LetPassThrough" data-uid="Teronis.ObjectModel.EventInvocationGateGuardian.LetPassThrough">LetPassThrough()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Teronis_ObjectModel_EventInvocationGateGuardian_ReleaseGate_" data-uid="Teronis.ObjectModel.EventInvocationGateGuardian.ReleaseGate*"></a>
+  <h4 id="Teronis_ObjectModel_EventInvocationGateGuardian_ReleaseGate" data-uid="Teronis.ObjectModel.EventInvocationGateGuardian.ReleaseGate">ReleaseGate()</h4>
+  <div class="markdown level1 summary"><p>Releases the gate and all withheld invocation are invoked at once.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void LetPassThrough()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ReleaseGate()</code></pre>
   </div>
 </article>
           </div>
