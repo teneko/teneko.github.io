@@ -2502,7 +2502,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html",
-          "hash": "0iKm/Py8eKtmojbvnPcxWg=="
+          "hash": "9LoZLxccCXozqkvYHQPfTg=="
         }
       },
       "is_incremental": false,
@@ -2550,7 +2550,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollection-2.html",
-          "hash": "dTGwMUEELwWSET7rk+kfvQ=="
+          "hash": "cjoDBU+JaTCJxk3DMjICHw=="
         }
       },
       "is_incremental": false,
@@ -2707,6 +2707,330 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.html",
           "hash": "/qXCTZEFF/RX2Fcq5xKxhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Annotations.StringValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Annotations.StringValueAttribute.html",
+          "hash": "h199WbH0yCuvVVEx8+hCGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Annotations.StringValueAttributeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Annotations.StringValueAttributeExtensions.html",
+          "hash": "3k+DDKBplT9GmDqdb/wtqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Annotations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Annotations.html",
+          "hash": "TgeuIZVESM56c3ztXJhxFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.DataErrorInfosBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.DataErrorInfosBase.html",
+          "hash": "iMC7s7/YzFnviDTGExoXNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.EventInvocationForwarder-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.EventInvocationForwarder-2.html",
+          "hash": "32FbpIUt8Ez7uazY2kWakQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.EventInvocationGate-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.EventInvocationGate-2.html",
+          "hash": "n62Zy+P+ZtoNdb9aKw/XYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.EventInvocationGateGuardian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.EventInvocationGateGuardian.html",
+          "hash": "7jbJlt6nxT9Kx3U5CdVayw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.IEventInvocablePropertyChangeComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.IEventInvocablePropertyChangeComponent.html",
+          "hash": "rgMOBNiQQqTkcXaAQcwasg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.IMemberCallablePropertyChangeComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.IMemberCallablePropertyChangeComponent.html",
+          "hash": "SpOt7jhdLr4teN+FvSA7kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.IWorking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.IWorking.html",
+          "hash": "OL/7rm3zhXCNF5ZOSJm6bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.HavingParentsEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.HavingParentsEventArgs.html",
+          "hash": "oRRJ3v1PLf5UC8WM2xXmBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.HavingParentsEventArgsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.HavingParentsEventArgsExtensions.html",
+          "hash": "kOvGf5MaCcJBxdi3XPWszQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.IHaveParents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.IHaveParents.html",
+          "hash": "9LZjItaZMqe6/m40A1bK1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.IHaveRegisteredParents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.IHaveRegisteredParents.html",
+          "hash": "MBCbaX2Yo7quYMFGTG2cKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.ParentsCollector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.ParentsCollector.html",
+          "hash": "eFU7DgyDHUVTIQq3vaQAzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.ParentsContainer.ParentCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.ParentsContainer.ParentCollection.html",
+          "hash": "81T9r3xug66VLUaz5toI0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.ParentsContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.ParentsContainer.html",
+          "hash": "k2o4vN5IPJZotb1ayBWIOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.ParentsRequestedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.ParentsRequestedEventHandler.html",
+          "hash": "hqR6oxQ8l4e2E0VBGwlIbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.RegisteredRequestParentHandlerDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.RegisteredRequestParentHandlerDictionary.html",
+          "hash": "HI0sxZQeML0XiG8rC2pbMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.SingleParentByTypeDynamicObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.SingleParentByTypeDynamicObject.html",
+          "hash": "pRucCxmpkmKmq4fYqVsPhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Parenthood.html",
+          "hash": "rnZi9FsMJ3AqGbFDYYshGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.PropertyChangeComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.PropertyChangeComponent.html",
+          "hash": "WawSVw6sVGIlj1OoCBxBIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.PropertyChangeForwarder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.PropertyChangeForwarder-1.html",
+          "hash": "TYM7fhas1RCfT4p//gnyXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.PropertyChangedForwarder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.PropertyChangedForwarder.html",
+          "hash": "7sITSFBWNgdVMyIZhj2dVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.PropertyChangingForwarder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.PropertyChangingForwarder.html",
+          "hash": "0LT044BoaM8+F32CPTFWYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Work.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Work.html",
+          "hash": "gu1N3ma74mFDdnlE6cxXUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.html",
+          "hash": "cl89/Y5ERRC92ruSyMRZeA=="
         }
       },
       "is_incremental": false,
@@ -4278,7 +4602,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.IYetNullable-1.html",
-          "hash": "oafQ1E970Z+22gSTcEsB7g=="
+          "hash": "00QS34YsD6CFA5T0gKm35g=="
         }
       },
       "is_incremental": false,
@@ -9398,330 +9722,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Annotations.StringValueAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Annotations.StringValueAttribute.html",
-          "hash": "7mria9KW/j9H4mecLdqCHg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Annotations.StringValueAttributeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Annotations.StringValueAttributeExtensions.html",
-          "hash": "TCVuYIVoo9ckwF3C+zDh/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Annotations.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Annotations.html",
-          "hash": "YRBcNwAvRD1k+jwwIks2Sg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.DataErrorInfosBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.DataErrorInfosBase.html",
-          "hash": "sRGqZjdkDfCPGVfxWF4hLQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.EventInvocationForwarder-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.EventInvocationForwarder-2.html",
-          "hash": "RGlqCU8rgyaYHeVug1Hqeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.EventInvocationGate-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.EventInvocationGate-2.html",
-          "hash": "Oh8AVLVJdsUBKBmxI+iAAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.EventInvocationGateGuardian.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.EventInvocationGateGuardian.html",
-          "hash": "QfPqkvlAeg9kC0KecW0gvA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.IEventInvocablePropertyChangeComponent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.IEventInvocablePropertyChangeComponent.html",
-          "hash": "W2LA/jzK4HcnZccaAaX5sg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.IMemberCallablePropertyChangeComponent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.IMemberCallablePropertyChangeComponent.html",
-          "hash": "C1YTV3TRgMELOMYkEDgdCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.IWorking.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.IWorking.html",
-          "hash": "XU72dtkigoXfo0Qztz0Qhg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.HavingParentsEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.HavingParentsEventArgs.html",
-          "hash": "zSF4ofOoBtC19a5ybhuyOg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.HavingParentsEventArgsExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.HavingParentsEventArgsExtensions.html",
-          "hash": "Fhz5LAPVma9U0Qgr5Ssw1A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.IHaveParents.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.IHaveParents.html",
-          "hash": "UwRJ6tmA51x0DcWYaukGDw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.IHaveRegisteredParents.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.IHaveRegisteredParents.html",
-          "hash": "tPI6nQHAiWSA8MmGlBCErw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.ParentsCollector.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.ParentsCollector.html",
-          "hash": "FyeaoGKwK5OojiHIjhBBNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.ParentsContainer.ParentCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.ParentsContainer.ParentCollection.html",
-          "hash": "ZpOcidf5eOgs/gwPw83IgQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.ParentsContainer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.ParentsContainer.html",
-          "hash": "i/q/dMbsbkESFXDIReGJag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.ParentsRequestedEventHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.ParentsRequestedEventHandler.html",
-          "hash": "cuyBnNbOC6Grs9GEpZ2QHQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.RegisteredRequestParentHandlerDictionary.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.RegisteredRequestParentHandlerDictionary.html",
-          "hash": "gPUSjwroDuHHQclFocUKCw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.SingleParentByTypeDynamicObject.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.SingleParentByTypeDynamicObject.html",
-          "hash": "gkiwZvF0gBsTMn0QmVzPYA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Parenthood.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Parenthood.html",
-          "hash": "1DWL+U1e5clGoYBuZPe2SA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.PropertyChangeComponent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.PropertyChangeComponent.html",
-          "hash": "HtgyJQEVQhxgZJD7UlaSlA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.PropertyChangeForwarder-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.PropertyChangeForwarder-1.html",
-          "hash": "xM2DXDwyY0mD0tLzHPDhXQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.PropertyChangedForwarder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.PropertyChangedForwarder.html",
-          "hash": "ZWbU/tE/CInQXimMnJHt9A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.PropertyChangingForwarder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.PropertyChangingForwarder.html",
-          "hash": "jk9o504XO1aicM/lvFsT+w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.Work.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.Work.html",
-          "hash": "L+CbrHj08bA+a/c/VkmFzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ObjectModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ObjectModel.html",
-          "hash": "wHtyZUFgKHAJKrpLFCwTyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Reflection.AttributeMemberInfo-1.yml",
       "output": {
         ".html": {
@@ -10602,7 +10602,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Valuable-1.html",
-          "hash": "hoTRLFXt0bYfdf5i04qCog=="
+          "hash": "R5bMWOwKHg9xkmAVe/LArw=="
         }
       },
       "is_incremental": false,
@@ -10626,7 +10626,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.ViewModels.ViewModelBase.DefaultDataErrorInfos.html",
-          "hash": "NK4djHdI5wgQSBQ7dDSW9A=="
+          "hash": "YZp4JSS7X3o7YOIuBwXlDg=="
         }
       },
       "is_incremental": false,
@@ -10638,7 +10638,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.ViewModels.ViewModelBase.html",
-          "hash": "UontFbw3Mt1lyhq0GsXRGw=="
+          "hash": "3AybXtJaFfU/BGqNin+FAA=="
         }
       },
       "is_incremental": false,
@@ -11598,7 +11598,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.YetNullable-1.html",
-          "hash": "8x6z9b15erWXGMQMxV878g=="
+          "hash": "OEiGzN1fIFT3ZZCW6+Zvaw=="
         }
       },
       "is_incremental": false,
@@ -11646,7 +11646,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "6xNaELCLYuqxckteQHTh3Q=="
+          "hash": "idGuGK0gZ8j9EF99J37dNw=="
         }
       },
       "is_incremental": false,

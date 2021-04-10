@@ -86,13 +86,14 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.IValuable-1.html">IValuable</a>&lt;T&gt;</div>
+    <div><a class="xref" href="Teronis.IYetNullable-1.html">IYetNullable</a>&lt;T&gt;</div>
     <div><a class="xref" href="Teronis.INullable-1.html">INullable</a>&lt;T&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.html">Teronis</a></h6>
   <h6><strong>Assembly</strong>: Teronis.NetStandard.Core.dll</h6>
   <h5 id="Teronis_Valuable_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct Valuable&lt;T&gt; : IValuable&lt;T&gt;, INullable&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public struct Valuable&lt;T&gt; : IValuable&lt;T&gt;, IYetNullable&lt;T&gt;, INullable&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,7 +117,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1__ctor__0_.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L31">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L45">View Source</a>
   </span>
   <a id="Teronis_Valuable_1__ctor_" data-uid="Teronis.Valuable`1.#ctor*"></a>
   <h4 id="Teronis_Valuable_1__ctor__0_" data-uid="Teronis.Valuable`1.#ctor(`0)">Valuable(T)</h4>
@@ -207,6 +208,66 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_IsNotNull.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.IsNotNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L27">View Source</a>
+  </span>
+  <a id="Teronis_Valuable_1_IsNotNull_" data-uid="Teronis.Valuable`1.IsNotNull*"></a>
+  <h4 id="Teronis_Valuable_1_IsNotNull" data-uid="Teronis.Valuable`1.IsNotNull">IsNotNull</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNotNull { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_IsNull.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.IsNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L20">View Source</a>
+  </span>
+  <a id="Teronis_Valuable_1_IsNull_" data-uid="Teronis.Valuable`1.IsNull*"></a>
+  <h4 id="Teronis_Valuable_1_IsNull" data-uid="Teronis.Valuable`1.IsNull">IsNull</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNull { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_Value.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -242,7 +303,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_Equals_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.Equals(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L40">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L54">View Source</a>
   </span>
   <a id="Teronis_Valuable_1_Equals_" data-uid="Teronis.Valuable`1.Equals*"></a>
   <h4 id="Teronis_Valuable_1_Equals_System_Nullable_System_Object__" data-uid="Teronis.Valuable`1.Equals(System.Nullable{System.Object})">Equals(Nullable&lt;Object&gt;)</h4>
@@ -289,7 +350,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_GetHashCode.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L57">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L71">View Source</a>
   </span>
   <a id="Teronis_Valuable_1_GetHashCode_" data-uid="Teronis.Valuable`1.GetHashCode*"></a>
   <h4 id="Teronis_Valuable_1_GetHashCode" data-uid="Teronis.Valuable`1.GetHashCode">GetHashCode()</h4>
@@ -319,7 +380,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_GetValueOrDefault.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.GetValueOrDefault%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L34">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L48">View Source</a>
   </span>
   <a id="Teronis_Valuable_1_GetValueOrDefault_" data-uid="Teronis.Valuable`1.GetValueOrDefault*"></a>
   <h4 id="Teronis_Valuable_1_GetValueOrDefault" data-uid="Teronis.Valuable`1.GetValueOrDefault">GetValueOrDefault()</h4>
@@ -349,7 +410,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_GetValueOrDefault__0_.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.GetValueOrDefault(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L37">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L51">View Source</a>
   </span>
   <a id="Teronis_Valuable_1_GetValueOrDefault_" data-uid="Teronis.Valuable`1.GetValueOrDefault*"></a>
   <h4 id="Teronis_Valuable_1_GetValueOrDefault__0_" data-uid="Teronis.Valuable`1.GetValueOrDefault(`0)">GetValueOrDefault(T)</h4>
@@ -396,7 +457,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_ToString.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L60">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L74">View Source</a>
   </span>
   <a id="Teronis_Valuable_1_ToString_" data-uid="Teronis.Valuable`1.ToString*"></a>
   <h4 id="Teronis_Valuable_1_ToString" data-uid="Teronis.Valuable`1.ToString">ToString()</h4>
@@ -428,7 +489,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_op_Explicit_Teronis_Valuable__0____0.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.op_Explicit(Teronis.Valuable%7B%600%7D)~%600%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L66">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L80">View Source</a>
   </span>
   <a id="Teronis_Valuable_1_op_Explicit_" data-uid="Teronis.Valuable`1.op_Explicit*"></a>
   <h4 id="Teronis_Valuable_1_op_Explicit_Teronis_Valuable__0____0" data-uid="Teronis.Valuable`1.op_Explicit(Teronis.Valuable{`0})~`0">Explicit(Valuable&lt;T&gt; to T)</h4>
@@ -475,7 +536,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Valuable_1_op_Implicit__0__Teronis_Valuable__0_.md&amp;value=---%0Auid%3A%20Teronis.Valuable%601.op_Implicit(%600)~Teronis.Valuable%7B%600%7D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L63">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Core/Core/src/Valuable{`1}.cs/#L77">View Source</a>
   </span>
   <a id="Teronis_Valuable_1_op_Implicit_" data-uid="Teronis.Valuable`1.op_Implicit*"></a>
   <h4 id="Teronis_Valuable_1_op_Implicit__0__Teronis_Valuable__0_" data-uid="Teronis.Valuable`1.op_Implicit(`0)~Teronis.Valuable{`0}">Implicit(T to Valuable&lt;T&gt;)</h4>
@@ -520,6 +581,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Teronis.IValuable-1.html">IValuable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="Teronis.IYetNullable-1.html">IYetNullable&lt;T&gt;</a>
   </div>
   <div>
       <a class="xref" href="Teronis.INullable-1.html">INullable&lt;T&gt;</a>
