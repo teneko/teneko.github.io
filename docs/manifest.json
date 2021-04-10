@@ -2822,18 +2822,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.IWorking.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.IWorking.html",
-          "hash": "HZHAZDf4kWuQzYDtgHpCCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Parenthood.HavingParentsEventArgs.yml",
       "output": {
         ".html": {
@@ -3014,23 +3002,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.Work.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.ComponentModel.Work.html",
-          "hash": "OBzuTGi4NbQbQR4yJ5bSBw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.ComponentModel.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.ComponentModel.html",
-          "hash": "cl89/Y5ERRC92ruSyMRZeA=="
+          "hash": "6bx2lUPc7Gw0K1MSzt+Ehw=="
         }
       },
       "is_incremental": false,
@@ -3218,30 +3194,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Drawing.ECancelScanIteration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Drawing.ECancelScanIteration.html",
-          "hash": "JUjG5oroFBvsC6KA4BPUyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Drawing.EPointType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Drawing.EPointType.html",
-          "hash": "hBtOMZOAcwWlFhRnIxbXFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Drawing.IBitmapData.yml",
       "output": {
         ".html": {
@@ -3254,11 +3206,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Drawing.ISnapshot.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Drawing.IBitmapSnapshot.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Drawing.ISnapshot.html",
-          "hash": "hVBe9YUmOLBNKBWFsBcPdg=="
+          "relative_path": "Teronis.DotNet/Teronis.Drawing.IBitmapSnapshot.html",
+          "hash": "U5Nnl++e/upPi+2awHifSg=="
         }
       },
       "is_incremental": false,
@@ -3283,6 +3235,18 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Drawing.IXYZ.html",
           "hash": "xja4E8QXkTJLVJBdIA6eJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Drawing.PointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Drawing.PointType.html",
+          "hash": "nIEQtiYMhoK35VpATIExpg=="
         }
       },
       "is_incremental": false,
@@ -3366,7 +3330,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Drawing.html",
-          "hash": "2GK5QFlHfMrOwv08vX0onA=="
+          "hash": "unjrlJHefZJBE5MsyMq2iw=="
         }
       },
       "is_incremental": false,
@@ -3810,7 +3774,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Extensions.ImageExtensions.html",
-          "hash": "z9N7FhN14e4f7QZ2KFgIvA=="
+          "hash": "FR87gLb6cC+iuzQNEAk8cw=="
         }
       },
       "is_incremental": false,
@@ -10638,7 +10602,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Windows.Drawing.Area.html",
-          "hash": "vSe8l9yyrl72nZ5yxXsWAg=="
+          "hash": "U01QdTMZwJhETF39WgrCAg=="
         }
       },
       "is_incremental": false,
@@ -10686,7 +10650,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Windows.Drawing.BitmapShot.html",
-          "hash": "YCEoZl6eaUhWL8EOwG+h1w=="
+          "hash": "aR01nHoZrSFSYfY3G6a4oQ=="
         }
       },
       "is_incremental": false,
@@ -10718,18 +10682,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Drawing.EPointType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Windows.Drawing.EPointType.html",
-          "hash": "czrC3OTNcmwKQOT/zIQjkQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Drawing.IBitmapData.yml",
       "output": {
         ".html": {
@@ -10742,11 +10694,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Drawing.ISnapshot.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Drawing.IBitmapSnapshot.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Windows.Drawing.ISnapshot.html",
-          "hash": "vuxdmoFytipOTA0BUWnQ1w=="
+          "relative_path": "Teronis.DotNet/Teronis.Windows.Drawing.IBitmapSnapshot.html",
+          "hash": "Qo0o9BP384Fx9jPtqAOQYg=="
         }
       },
       "is_incremental": false,
@@ -10778,11 +10730,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Drawing.PointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Windows.Drawing.PointType.html",
+          "hash": "bItBC4qKxy/a+iwE4IYGOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Drawing.Position.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Windows.Drawing.Position.html",
-          "hash": "lI4AyVdEqyqopGqYxwI2yg=="
+          "hash": "H1qoJcVipMqPD3NqqplkVw=="
         }
       },
       "is_incremental": false,
@@ -10818,7 +10782,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Windows.Drawing.html",
-          "hash": "5JzEIyGBX4CMAkQIrKevdg=="
+          "hash": "TZowHIqFZYf63qHc9/p4iA=="
         }
       },
       "is_incremental": false,
@@ -11550,7 +11514,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "7njL6V1uB9VWz3XL7D/e8Q=="
+          "hash": "Dx42getWlCqo9Ei5brileA=="
         }
       },
       "is_incremental": false,
@@ -11589,7 +11553,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 960,
+          "total_file_count": 957,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
