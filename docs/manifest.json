@@ -1542,7 +1542,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.CovariantKeyValuePairCollection-2.html",
-          "hash": "J23/+MgBNrZSBicS4oVI9Q=="
+          "hash": "QWL5w9k5DkcTUSng0xU6uA=="
         }
       },
       "is_incremental": false,
@@ -1554,7 +1554,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.CovariantKeyValuePairCollectionExtensions.html",
-          "hash": "NNxATDY5QkO0EsUkH5C++g=="
+          "hash": "ia7ov2t+CmaVTGJyfY5k+g=="
         }
       },
       "is_incremental": false,
@@ -1590,7 +1590,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.ICovariantKeyValuePair-2.html",
-          "hash": "ILvCN+b39ZASn15aUIHfPA=="
+          "hash": "ZhQ2589nC0pNpzjRHrEfIA=="
         }
       },
       "is_incremental": false,
@@ -1614,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.ICovariantKeyValuePairExtensions.html",
-          "hash": "XhpF+TwbGlyvKkge7rM6zg=="
+          "hash": "wWCqVUkV7sXHXYisAvVLVQ=="
         }
       },
       "is_incremental": false,
@@ -8010,7 +8010,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.ScopedRouteTemplateConvention.html",
-          "hash": "2bZOxmnP+vE9cKbDvFNW4Q=="
+          "hash": "IyCeSAHgyTVbUhdM28QFBQ=="
         }
       },
       "is_incremental": false,
@@ -8154,7 +8154,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Filters.ProblemDetailsExceptionFilter.html",
-          "hash": "j8OAjIRg5CHUnzs+ihDF+g=="
+          "hash": "NPOJOK+JELEFKG8Chg1iRw=="
         }
       },
       "is_incremental": false,
@@ -8214,7 +8214,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilderExtensions.html",
-          "hash": "JRXNbfen3oOuOYUJwkJF8g=="
+          "hash": "75HR4akQ2v4QLjFMbTMjpw=="
         }
       },
       "is_incremental": false,
@@ -8274,7 +8274,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.AggregateExceptionProblemDetailsMapper.html",
-          "hash": "KijqQvPy6tmREvXlvjI8fQ=="
+          "hash": "y/sBaPckzP5UnvYdDlNjKQ=="
         }
       },
       "is_incremental": false,
@@ -8286,7 +8286,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ApiVersionProblemDetailsMapper.html",
-          "hash": "gLpqEkEMl/99ScKuixPWsw=="
+          "hash": "XqfBVZ/2RdLWf2ldHU5z4w=="
         }
       },
       "is_incremental": false,
@@ -8298,7 +8298,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.DefaultExceptionProblemDetailsMapper.html",
-          "hash": "AR1G9YP68MrJ23o6KqWGnA=="
+          "hash": "5Q/tPnMQaXJNGQMGs6kvKQ=="
         }
       },
       "is_incremental": false,
@@ -8382,7 +8382,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ExceptionProblemDetailsMapper-1.html",
-          "hash": "u7AFlUTN5fGmfwXr7UvUXA=="
+          "hash": "nvQ/xMjJc8Wzd8yLS8PjCg=="
         }
       },
       "is_incremental": false,
@@ -8454,7 +8454,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ModelStateProblemDetailsMapper.html",
-          "hash": "6woufEvIeviCwWqhNof+AA=="
+          "hash": "i2JZxJ0E0p8NkL6I27sWsA=="
         }
       },
       "is_incremental": false,
@@ -8478,7 +8478,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper.html",
-          "hash": "BMUXGtgUfmGpchW1Th7UaA=="
+          "hash": "vFt+W/oa1Br5jgtMjmk1eA=="
         }
       },
       "is_incremental": false,
@@ -8490,7 +8490,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.StatusCodeProblemDetailsMapper.html",
-          "hash": "SwiphUkXCAlxvZpI9ih6bg=="
+          "hash": "UY1remRCyznNmiR2ZvkHWw=="
         }
       },
       "is_incremental": false,
@@ -8502,7 +8502,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.html",
-          "hash": "sdYaU66OAnQWONE25+STmw=="
+          "hash": "1y1X7gdBxejKlwnT3vRmkw=="
         }
       },
       "is_incremental": false,
@@ -8514,7 +8514,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddleware.html",
-          "hash": "h4mLkPZB+5+MyJIuD8dcvA=="
+          "hash": "hflwXM+FtlCQF3cyNGp2Lg=="
         }
       },
       "is_incremental": false,
@@ -8526,7 +8526,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContext.html",
-          "hash": "5NNus81QBG7IGwE/Q9l7Lg=="
+          "hash": "dcwKVfepWexRTbgNLJIaMQ=="
         }
       },
       "is_incremental": false,
@@ -8534,23 +8534,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextExtensions.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextExtensions.html",
-          "hash": "bySMhmi5Kwqg25maTVlbZg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextProxy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextProxy.html",
-          "hash": "SX+Z7eMC6FawV5Ysro5L/Q=="
+          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextProvider.html",
+          "hash": "DgsUn6rkMERYTO2YWLaB+g=="
         }
       },
       "is_incremental": false,
@@ -8562,7 +8550,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.html",
-          "hash": "ZwfcGYEeYyZZmZcRHMBFlA=="
+          "hash": "gyD8lX93IxpLADLL76WV3g=="
         }
       },
       "is_incremental": false,
@@ -8598,7 +8586,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsOptions.ProblemDetailsMapperDescriptorCollection.html",
-          "hash": "GlsB8YQLRi94zqDkDZwy5g=="
+          "hash": "TkWAvzSPn59PpkfAcpWftQ=="
         }
       },
       "is_incremental": false,
@@ -8610,7 +8598,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsOptions.html",
-          "hash": "t3nFKRh/eskPIohuYEMOYw=="
+          "hash": "6oGZXui7eKIOFVgA0ECGzw=="
         }
       },
       "is_incremental": false,
@@ -8766,7 +8754,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Versioning.ApiVersionProblemDetailsResponseProvider.html",
-          "hash": "1p+mEC+5mqRofTjxaUqj9Q=="
+          "hash": "tqQsOiYMqgyOJKsSh3uIvw=="
         }
       },
       "is_incremental": false,
@@ -8802,7 +8790,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Mvc.MvcBuilderContext.html",
-          "hash": "l9Z5ikhCJMIwSsf8ysEXNA=="
+          "hash": "tKM7P0QiNi8CvxCEoCr2+A=="
         }
       },
       "is_incremental": false,
@@ -11430,7 +11418,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.YetNullable-1.html",
-          "hash": "OEiGzN1fIFT3ZZCW6+Zvaw=="
+          "hash": "lzCF3XGrxsERRBKaTfH6xQ=="
         }
       },
       "is_incremental": false,
@@ -11442,7 +11430,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.YetNullable.html",
-          "hash": "2M89NNG1taW6ISCJ0Q1/Aw=="
+          "hash": "Mr3zKEhug9OIkZZerkuKwA=="
         }
       },
       "is_incremental": false,
@@ -11454,7 +11442,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.YetNullableExtensions.html",
-          "hash": "MrFAXJ41QzW4V3lE3BTVLQ=="
+          "hash": "wIrfz+k+WahpjKwjRgt4vQ=="
         }
       },
       "is_incremental": false,
@@ -11478,7 +11466,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "Qj1vrz5qw5xLoz0KP15akw=="
+          "hash": "DqiIQOF6W7Ye+SWTcGb4TQ=="
         }
       },
       "is_incremental": false,
@@ -11517,7 +11505,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 954,
+          "total_file_count": 953,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
