@@ -101,7 +101,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder__ctor_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.%23ctor(System.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L95">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L105">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder__ctor_" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder__ctor_System_Int32_System_Int32_System_Boolean_" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.#ctor(System.Int32,System.Int32,System.Boolean)">IteratorBuilder(Int32, Int32, Boolean)</h4>
@@ -109,7 +109,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IteratorBuilder(int iterationCount, int backIndexOffset, bool iteratesBackward)</code></pre>
+    <pre><code class="lang-csharp hljs">public IteratorBuilder(int iterationCount, int collectionStartIndex, bool iteratesBackward)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -128,7 +128,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">backIndexOffset</span></td>
+        <td><span class="parametername">collectionStartIndex</span></td>
         <td></td>
       </tr>
       <tr>
@@ -145,7 +145,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_IteratesBackward.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.IteratesBackward%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L89">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L92">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_IteratesBackward_" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.IteratesBackward*"></a>
   <h4 id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_IteratesBackward" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.IteratesBackward">IteratesBackward</h4>
@@ -177,11 +177,12 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Add_Teronis_Collections_Synchronization_CollectionModificationIterationDelegate_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Add(Teronis.Collections.Synchronization.CollectionModificationIterationDelegate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L113">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L133">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Add_" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Add*"></a>
   <h4 id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Add_Teronis_Collections_Synchronization_CollectionModificationIterationDelegate_" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Add(Teronis.Collections.Synchronization.CollectionModificationIterationDelegate)">Add(CollectionModificationIterationDelegate)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds a non-parameterized function handler to the per-item-iteration pipeline.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -224,11 +225,12 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Add_Teronis_Collections_Synchronization_CollectionModificationIterationWithIndexDelegate_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Add(Teronis.Collections.Synchronization.CollectionModificationIterationWithIndexDelegate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L103">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L118">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Add_" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Add*"></a>
   <h4 id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Add_Teronis_Collections_Synchronization_CollectionModificationIterationWithIndexDelegate_" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Add(Teronis.Collections.Synchronization.CollectionModificationIterationWithIndexDelegate)">Add(CollectionModificationIterationWithIndexDelegate)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds a function handler to the per-item-iteration pipeline.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -271,11 +273,12 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Iterate.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Iterate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L123">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L146">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Iterate_" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Iterate*"></a>
   <h4 id="Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Iterate" data-uid="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.Iterate">Iterate()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Iterates each previously added action handler per modification item.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -292,7 +295,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L86" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/CollectionModificationIterationTools.cs/#L89" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

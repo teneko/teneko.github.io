@@ -1082,23 +1082,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Algorithms.Modifications.CollectionModification-2.CollectionModificationPartBase-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Algorithms.Modifications.CollectionModification-2.CollectionModificationPartBase-2.html",
-          "hash": "qRkFIv0FDO0pndGBjnqG8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Algorithms.Modifications.CollectionModification-2.yml",
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Algorithms.Modifications.CollectionModification-2.html",
-          "hash": "l8qzK78M2u08qwu32NAWvw=="
+          "hash": "OBDgRDho5yWM7a3ROJYOZQ=="
         }
       },
       "is_incremental": false,
@@ -1326,7 +1314,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Algorithms.Modifications.SortedCollectionModifications.html",
-          "hash": "diFIXthT4gzJ9RqegpoQug=="
+          "hash": "l2BCuPKp9/7OH/uw+BqESQ=="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Algorithms.Modifications.html",
-          "hash": "gI+f5SohyzbIzGpCNplHOw=="
+          "hash": "qkUsX2bKO2YdTKz6AliWgg=="
         }
       },
       "is_incremental": false,
@@ -1530,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.CovariantKeyValuePair-2.html",
-          "hash": "tyl2jiWXdo5pPo3V1XuzRg=="
+          "hash": "+r9o/GWXlze3JgAMOfmDjA=="
         }
       },
       "is_incremental": false,
@@ -1554,7 +1542,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.CovariantKeyValuePairCollection-2.html",
-          "hash": "AJHbPajPYue2I2PvryTBCw=="
+          "hash": "J23/+MgBNrZSBicS4oVI9Q=="
         }
       },
       "is_incremental": false,
@@ -1578,7 +1566,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.CovariantKeyValuePairExtensions.html",
-          "hash": "uqUQYyKjw8sILGTKMGn7QQ=="
+          "hash": "GPd/3FPuwH+1XtNQCaVhaA=="
         }
       },
       "is_incremental": false,
@@ -1602,7 +1590,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.ICovariantKeyValuePair-2.html",
-          "hash": "R66LNZXAgub0FQK+ub47sg=="
+          "hash": "ILvCN+b39ZASn15aUIHfPA=="
         }
       },
       "is_incremental": false,
@@ -1626,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.ICovariantKeyValuePairExtensions.html",
-          "hash": "dWICQ1hL4SirhmhPMH1Ayg=="
+          "hash": "XhpF+TwbGlyvKkge7rM6zg=="
         }
       },
       "is_incremental": false,
@@ -1650,7 +1638,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.ICovariantReadOnlyNullableKeyDictionary-2.html",
-          "hash": "bZPwZRXVo9jpjyf9nr45Pg=="
+          "hash": "1jAsnphOK8MRsVtxrAvz/w=="
         }
       },
       "is_incremental": false,
@@ -1670,11 +1658,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.IKeyValuePairEnumeratorExtensions.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.IKeyValuePairEnumerableExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.IKeyValuePairEnumeratorExtensions.html",
-          "hash": "yth0O6HTQ776wvTiI0NtBg=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.IKeyValuePairEnumerableExtensions.html",
+          "hash": "Mbe4EeZPXNDI+0HbehqAQA=="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.INullableKeyDictionary-2.html",
-          "hash": "hfPtvuheLj1BBwfzfu4Nlw=="
+          "hash": "99Aa9Wcjot7HzmRgfKf/pQ=="
         }
       },
       "is_incremental": false,
@@ -1746,7 +1734,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.IReadOnlyNullableKeyDictionary-2.html",
-          "hash": "He+9iy/jwIxT67TLbRyHcQ=="
+          "hash": "eNrCE8xM20Rd2wt7NA0VFQ=="
         }
       },
       "is_incremental": false,
@@ -1818,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.ListQueue-1.html",
-          "hash": "Sy4nUBJJB/EZ321t6364EQ=="
+          "hash": "wPk2Tr3FPTDLxUwLOPLe2g=="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.NullableKeyDictionary-2.html",
-          "hash": "zmNL3mgcqAFiUk0cSWo5pQ=="
+          "hash": "PPgypQb25ubSNu3bvo6pKQ=="
         }
       },
       "is_incremental": false,
@@ -1862,11 +1850,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.SuccessivKeys-2.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.SuccessiveKeys-2.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.SuccessivKeys-2.html",
-          "hash": "U/y834Dnzz3KXlfbATqK3w=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.SuccessiveKeys-2.html",
+          "hash": "ySu8tP1/Uy6CFZLpLG1f1Q=="
         }
       },
       "is_incremental": false,
@@ -1874,11 +1862,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.SuccessivKeys.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.SuccessiveKeys.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.SuccessivKeys.html",
-          "hash": "XA3TjzFGyZNKGlrXwKmg5w=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.SuccessiveKeys.html",
+          "hash": "WnGLYex1WHyD9+rmxfth6Q=="
         }
       },
       "is_incremental": false,
@@ -1886,11 +1874,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.SuccessivKeysComparer-2.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.SuccessiveKeysComparer-2.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.SuccessivKeysComparer-2.html",
-          "hash": "vEWEZ6yQMeaHDId+4l+oBg=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.SuccessiveKeysComparer-2.html",
+          "hash": "hCUq7D2Jnk9fVExoIsjFCQ=="
         }
       },
       "is_incremental": false,
@@ -1898,11 +1886,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.SuccessivKeysNonNullableKeyException.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Generic.SuccessiveKeysNonNullableKeyException.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.SuccessivKeysNonNullableKeyException.html",
-          "hash": "TOlJ25A08G1q1POmu1e24A=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.SuccessiveKeysNonNullableKeyException.html",
+          "hash": "4AjbJtvTMeH6saiKNaJ1FQ=="
         }
       },
       "is_incremental": false,
@@ -1914,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.ValueIndexPair-1.html",
-          "hash": "ndReRKFXruB11GMONTMnQw=="
+          "hash": "ev6JoVs6lff5mHva8+FO6g=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +1914,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Generic.html",
-          "hash": "0nbBsK21ntB3ZyetU/tWbA=="
+          "hash": "KQbsOMELjhyRFfj5ur0HtA=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.ObjectModel.ReadOnlyNullableDictionary-2.html",
-          "hash": "KjnsUWNwVlC2aTpWbElHMg=="
+          "hash": "rfRowuxi4tspWp8UyHcetg=="
         }
       },
       "is_incremental": false,
@@ -2234,11 +2222,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.CollectionChangeHandler-1.DecoupledHandler.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.CollectionChangeHandler-1.Behaviour.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.DecoupledHandler.html",
-          "hash": "7Uzu8sdyAI8j95R4o0Hrog=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.Behaviour.html",
+          "hash": "2cjuN5XRlXY0vz5CMONqUg=="
         }
       },
       "is_incremental": false,
@@ -2246,11 +2234,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.CollectionChangeHandler-1.DecoupledItemReplacingHandler.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.CollectionChangeHandler-1.CollectionItemReplaceBehaviour.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.DecoupledItemReplacingHandler.html",
-          "hash": "SSi+Uzj+j/r1ytw4dx0nlQ=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.CollectionItemReplaceBehaviour.html",
+          "hash": "WAUAVB8kDrAAXygGhOur7w=="
         }
       },
       "is_incremental": false,
@@ -2258,35 +2246,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.CollectionChangeHandler-1.DependencyInjectedHandler.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.CollectionChangeHandler-1.IBehaviour.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.DependencyInjectedHandler.html",
-          "hash": "WACGh5qMuMvQNN8+3zgKlA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.CollectionChangeHandler-1.IDecoupledHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.IDecoupledHandler.html",
-          "hash": "vqPL6jFEohs0bVRzCBKVJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.CollectionChangeHandler-1.IDependencyInjectedHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.IDependencyInjectedHandler.html",
-          "hash": "07uKtXihECfYrgQAc9ojdw=="
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.IBehaviour.html",
+          "hash": "Emhkv7sH+5/JFcIqe32uYQ=="
         }
       },
       "is_incremental": false,
@@ -2298,7 +2262,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionChangeHandler-1.html",
-          "hash": "z+rTT088dplCxr1Nn/auTQ=="
+          "hash": "4lz5RfN1pPw95gfOrXQ6eQ=="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2274,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionModificationIterationDelegate.html",
-          "hash": "Dr+xj+OuLf1pGsaEMRpNBQ=="
+          "hash": "Jqe/SNWd/NM16oMSMkD9+w=="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2286,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.html",
-          "hash": "i45wRqE+xukfc74y2W9INA=="
+          "hash": "oPa6tR0WdJytqOB32UbMjw=="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionModificationIterationTools.html",
-          "hash": "YJ55p8Ox+Zo7FfoUpEOLXQ=="
+          "hash": "hOpKk88st8awNKXw/W0nFA=="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionModificationIterationWithIndexDelegate.html",
-          "hash": "KXzabtIztMDN19fVaLZYfQ=="
+          "hash": "pFAS/aOtXaTdBM328cRZBw=="
         }
       },
       "is_incremental": false,
@@ -2382,7 +2346,19 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.CollectionUpdateItemDelegate-2.html",
-          "hash": "UBTUEncTly4DD5llc2Oemg=="
+          "hash": "eN/dyhM1SXhDJ2TQbif9sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Collections.Synchronization.ICollectionChangeHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.ICollectionChangeHandler-1.html",
+          "hash": "hGNK36PEamACiAahJLwWqg=="
         }
       },
       "is_incremental": false,
@@ -2478,7 +2454,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizableCollection-1.Options.html",
-          "hash": "69H9zQ31PG9BHCVXWrbh4Q=="
+          "hash": "8FRIyInBQJ/DRcOJM81R8A=="
         }
       },
       "is_incremental": false,
@@ -2490,7 +2466,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizableCollection-1.html",
-          "hash": "RFeGNqPfJcLa3LFG9mLobQ=="
+          "hash": "B1hjrox620P+VDZsZ3ekhA=="
         }
       },
       "is_incremental": false,
@@ -2502,7 +2478,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html",
-          "hash": "9LoZLxccCXozqkvYHQPfTg=="
+          "hash": "IB3WUqI37rf7q7qavIgJLg=="
         }
       },
       "is_incremental": false,
@@ -2550,7 +2526,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollection-2.html",
-          "hash": "cjoDBU+JaTCJxk3DMjICHw=="
+          "hash": "7odEQZO9INlfX+DFB9r8mA=="
         }
       },
       "is_incremental": false,
@@ -2562,7 +2538,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.ApplyingCollectionModifications.html",
-          "hash": "SemfG8fncYK5rpvNC0kAtA=="
+          "hash": "XgIOxvKOD/tZ1F8MLX+img=="
         }
       },
       "is_incremental": false,
@@ -2574,7 +2550,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.ItemCollection-2.html",
-          "hash": "lsCsmnN5DtANGBlIChdU2w=="
+          "hash": "GdfMzqm5PmyU2g11WpdKTg=="
         }
       },
       "is_incremental": false,
@@ -2586,7 +2562,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.Options.ItemsOptions-1.html",
-          "hash": "OfExR4iG8jMcAuFOeOEUYg=="
+          "hash": "fjsKWKCMJTF/T6rLRaeH9w=="
         }
       },
       "is_incremental": false,
@@ -2598,7 +2574,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.Options.OptionsForSubItems.html",
-          "hash": "riLoo/Y6ov9Qq9DlxN1gLg=="
+          "hash": "5SCqINPmXcx0DxVYQg/tIg=="
         }
       },
       "is_incremental": false,
@@ -2610,7 +2586,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.Options.OptionsForSuperItems.html",
-          "hash": "Cys4QEKT+l1gfkCjS17wwA=="
+          "hash": "hG3DHEm4yxMMRyCih9HKjA=="
         }
       },
       "is_incremental": false,
@@ -2634,7 +2610,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.SubItemCollection.html",
-          "hash": "f23kPi0fUee7lNb4Fcsinw=="
+          "hash": "te+dcXvOtGc6gyLNHkwNyA=="
         }
       },
       "is_incremental": false,
@@ -2646,7 +2622,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.SuperItemCollection.html",
-          "hash": "Uka20RsJnBIQkFCsoCZnZQ=="
+          "hash": "fc89fXvy+IOir8SdcOfRXw=="
         }
       },
       "is_incremental": false,
@@ -2658,7 +2634,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.html",
-          "hash": "PidHfr6a/hkKVSD1QDKz+w=="
+          "hash": "n0nnYmXVu4TW/hVyA61gUA=="
         }
       },
       "is_incremental": false,
@@ -2694,7 +2670,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Collections.Synchronization.html",
-          "hash": "h8aYEMddHMJUpQvWm2ZqgQ=="
+          "hash": "uz8q9Ibm4WLLEcGp14EutA=="
         }
       },
       "is_incremental": false,
@@ -2958,7 +2934,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.ComponentModel.PropertyChangeComponent.html",
-          "hash": "H+JbjT3qvLb+8bcezl5WZw=="
+          "hash": "j8/jfZ6yuLup/MfDxen6Ww=="
         }
       },
       "is_incremental": false,
@@ -3282,7 +3258,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Drawing.XY.html",
-          "hash": "Lly8Np/zob7iYKkEv4ivng=="
+          "hash": "YF9QglT1+2zD2Rp61RGElg=="
         }
       },
       "is_incremental": false,
@@ -3294,7 +3270,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Drawing.XYEqualityComparer.html",
-          "hash": "DtYiUUMaC0kMoGpSBfQe5Q=="
+          "hash": "nbff620ffue35Fh3XfXE0g=="
         }
       },
       "is_incremental": false,
@@ -3306,7 +3282,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Drawing.XYZ.html",
-          "hash": "KCxtdeJF7FTHztP2us7XXQ=="
+          "hash": "iFPRvjAZChXs0DAHvul+Tg=="
         }
       },
       "is_incremental": false,
@@ -3318,7 +3294,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Drawing.XYZEqualityComparer.html",
-          "hash": "dcwXCx3IYRn/WPk95C5etA=="
+          "hash": "w44+5x+v4E4hEUIZqZZpAA=="
         }
       },
       "is_incremental": false,
@@ -3475,18 +3451,6 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.EntityFrameworkCore.Query.html",
           "hash": "in9Z+u/iDVNVZMOCPOlcXg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Extensions.ArrayGenericExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Extensions.ArrayGenericExtensions.html",
-          "hash": "MbxGw9ob7B73xSwYq7JCcQ=="
         }
       },
       "is_incremental": false,
@@ -3690,7 +3654,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Extensions.IEnumerableGenericExtensions.html",
-          "hash": "N5WGssP1yFRDykT3pzznrw=="
+          "hash": "DK0w/fKABVjFN6NjNebp4Q=="
         }
       },
       "is_incremental": false,
@@ -3763,6 +3727,18 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Extensions.IListPointExtensions.html",
           "hash": "FwQCgk5ON7b+kAMrZFBdfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Extensions.IReadOnlyDictionaryGenericExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Extensions.IReadOnlyDictionaryGenericExtensions.html",
+          "hash": "53YnWJknVxW59ePXUtNNpQ=="
         }
       },
       "is_incremental": false,
@@ -4014,7 +3990,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Extensions.html",
-          "hash": "MLrcCaZ9un04E1+TrdW2dg=="
+          "hash": "DEuaX8XX3zTTVh2NGECOXw=="
         }
       },
       "is_incremental": false,
@@ -4314,7 +4290,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.IO.FileLocking.IFileLocker.html",
-          "hash": "hCoebBgS67IZRAIKW0zKYQ=="
+          "hash": "WubnJERR+SzGYhiwRcFRWw=="
         }
       },
       "is_incremental": false,
@@ -4387,18 +4363,6 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.IO.html",
           "hash": "gE10b2tU8/68wUIUpTLv7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.IPbkdf2Hash.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.IPbkdf2Hash.html",
-          "hash": "AHxlFwcEB47IzXnMkhKINw=="
         }
       },
       "is_incremental": false,
@@ -7386,7 +7350,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.JSInterop.Locality.JSDynamicLocalObjectActivator.html",
-          "hash": "WxXyDMr+k8lOHl2f5pcndw=="
+          "hash": "R1KF60PhpJWRaRf0xmWWkw=="
         }
       },
       "is_incremental": false,
@@ -7830,7 +7794,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Models.DialogButtonDefaults.html",
-          "hash": "IPSVokntC+JZMALodJRGww=="
+          "hash": "c87rLg0qnSLevWoxfBudAA=="
         }
       },
       "is_incremental": false,
@@ -7842,7 +7806,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Models.DialogButtons.html",
-          "hash": "UKDD4Pq3yR2C9xX4qf0wkw=="
+          "hash": "HgTCF2o6+0EAakPvbkm7Aw=="
         }
       },
       "is_incremental": false,
@@ -7854,7 +7818,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Models.DialogModel.html",
-          "hash": "SPG7BDqHm6/nep5v2XyYvw=="
+          "hash": "88khIW59swCH5jI6xwH4lw=="
         }
       },
       "is_incremental": false,
@@ -7866,7 +7830,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Models.IDialogModel.html",
-          "hash": "M34rSQPAn7OC69i3qrpWHA=="
+          "hash": "EUhH5e3s+G6SHjAXAVHxCw=="
         }
       },
       "is_incremental": false,
@@ -9642,7 +9606,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Reflection.Caching.PropertyCacheRemovedEventArgs-1.html",
-          "hash": "7fBdNmWqJ4IZPrEU1TOBwQ=="
+          "hash": "d/t9Zto1P5ljU6ewl4Ly8Q=="
         }
       },
       "is_incremental": false,
@@ -9690,7 +9654,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Reflection.Caching.PropertyCachingEventArgs-1.html",
-          "hash": "c7Kf+NTpxbCvwrMmlDPwCg=="
+          "hash": "qnEHp3TGogjEe2zTsKUgwQ=="
         }
       },
       "is_incremental": false,
@@ -9798,7 +9762,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Reflection.PropertyEventArgsBase-1.html",
-          "hash": "dNPLxEf1ipEVmDcWDUOAjQ=="
+          "hash": "C3hfieafX0jRNzMXUGpO2w=="
         }
       },
       "is_incremental": false,
@@ -10110,7 +10074,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Threading.Tasks.AsyncEventSequenceStatus.html",
-          "hash": "69qDHs2BWSnrMEucrVVE+A=="
+          "hash": "6gNzwcZuIwIE7mm+Py8ouQ=="
         }
       },
       "is_incremental": false,
@@ -10134,7 +10098,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Threading.Tasks.IHasAsyncEventSequence.html",
-          "hash": "yFdqhLUbqnnN4TcZSxybVQ=="
+          "hash": "hcYiRB3aK8FNOrx1U5Viww=="
         }
       },
       "is_incremental": false,
@@ -10146,7 +10110,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Threading.Tasks.IHasAsyncableEventSequence-1.html",
-          "hash": "9xEErbSojBHc6KuqHR9JNg=="
+          "hash": "KcQ+6kIhkmkflKtEZn+RQw=="
         }
       },
       "is_incremental": false,
@@ -10386,7 +10350,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Utils.RectangleUtils.html",
-          "hash": "y9yU08cqNqPSTTh45rqVdw=="
+          "hash": "XMELizRgfBOlTW18sn6O7g=="
         }
       },
       "is_incremental": false,
@@ -10410,7 +10374,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Utils.SystemParametersUtils.html",
-          "hash": "mPpp5rCtiOngSIqVmU2dpA=="
+          "hash": "oq/7S5w8VDIWzttoFzadPw=="
         }
       },
       "is_incremental": false,
@@ -11502,7 +11466,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.html",
-          "hash": "8RiAf2I7Hu8MiG7SR9zg1w=="
+          "hash": "fJ4JQa/W3AtzKNZj7N0+Hw=="
         }
       },
       "is_incremental": false,
@@ -11514,7 +11478,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "Dx42getWlCqo9Ei5brileA=="
+          "hash": "Qj1vrz5qw5xLoz0KP15akw=="
         }
       },
       "is_incremental": false,
@@ -11553,7 +11517,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 957,
+          "total_file_count": 954,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

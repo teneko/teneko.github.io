@@ -109,7 +109,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CollectionChangeHandler&lt;TItem&gt;.IDependencyInjectedHandler CollectionChangeHandler { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ICollectionChangeHandler&lt;TItem&gt; CollectionChangeHandler { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,7 +121,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.IDependencyInjectedHandler.html">CollectionChangeHandler.IDependencyInjectedHandler</a>&lt;&gt;</td>
+        <td><a class="xref" href="Teronis.Collections.Synchronization.ICollectionChangeHandler-1.html">ICollectionChangeHandler</a>&lt;TItem&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -165,7 +165,7 @@
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_UpdateItem_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.Options.UpdateItem*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_UpdateItem" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.Options.UpdateItem">UpdateItem</h4>
-  <div class="markdown level1 summary"><p>If not null it is called in <a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ReplaceItemsByModification_Teronis_Collections_Synchronization_SynchronizingCollectionBase__0__1__ApplyingCollectionModifications_">ReplaceItemsByModification(SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ApplyingCollectionModifications)</a>
+  <div class="markdown level1 summary"><p>If not null it is called in <a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ReplaceItems_Teronis_Collections_Synchronization_SynchronizingCollectionBase__0__1__ApplyingCollectionModifications_">ReplaceItems(SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ApplyingCollectionModifications)</a>
 but after the items could have been replaced.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -333,18 +333,18 @@ but after the items could have been replaced.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_IList__0__Teronis_Collections_Synchronization_CollectionChangeHandler__0__IDecoupledHandler_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.Options.SetItems(IList%7B%600%7D%2CTeronis.Collections.Synchronization.CollectionChangeHandler%7B%600%7D.IDecoupledHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_IList__0__Teronis_Collections_Synchronization_CollectionChangeHandler__0__IBehaviour_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.Options.SetItems(IList%7B%600%7D%2CTeronis.Collections.Synchronization.CollectionChangeHandler%7B%600%7D.IBehaviour)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.Options.cs/#L52">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.Options.SetItems*"></a>
-  <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_IList__0__Teronis_Collections_Synchronization_CollectionChangeHandler__0__IDecoupledHandler_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.Options.SetItems(IList{`0},Teronis.Collections.Synchronization.CollectionChangeHandler{`0}.IDecoupledHandler)">SetItems(IList&lt;TItem&gt;, CollectionChangeHandler&lt;TItem&gt;.IDecoupledHandler)</h4>
+  <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_IList__0__Teronis_Collections_Synchronization_CollectionChangeHandler__0__IBehaviour_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.Options.SetItems(IList{`0},Teronis.Collections.Synchronization.CollectionChangeHandler{`0}.IBehaviour)">SetItems(IList&lt;TItem&gt;, CollectionChangeHandler&lt;TItem&gt;.IBehaviour)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SynchronizableCollection&lt;TItem&gt;.Options SetItems(IList&lt;TItem&gt; items, CollectionChangeHandler&lt;TItem&gt;.IDecoupledHandler decoupledHandler)</code></pre>
+    <pre><code class="lang-csharp hljs">public SynchronizableCollection&lt;TItem&gt;.Options SetItems(IList&lt;TItem&gt; items, CollectionChangeHandler&lt;TItem&gt;.IBehaviour decoupledHandler)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -362,7 +362,7 @@ but after the items could have been replaced.</p>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.IDecoupledHandler.html">CollectionChangeHandler.IDecoupledHandler</a>&lt;&gt;</td>
+        <td><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.IBehaviour.html">CollectionChangeHandler.IBehaviour</a>&lt;&gt;</td>
         <td><span class="parametername">decoupledHandler</span></td>
         <td></td>
       </tr>
@@ -385,18 +385,18 @@ but after the items could have been replaced.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_Teronis_Collections_Synchronization_CollectionChangeHandler__0__IDecoupledHandler_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.Options.SetItems(Teronis.Collections.Synchronization.CollectionChangeHandler%7B%600%7D.IDecoupledHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_Teronis_Collections_Synchronization_CollectionChangeHandler__0__IBehaviour_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.Options.SetItems(Teronis.Collections.Synchronization.CollectionChangeHandler%7B%600%7D.IBehaviour)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.Options.cs/#L58">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.Options.SetItems*"></a>
-  <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_Teronis_Collections_Synchronization_CollectionChangeHandler__0__IDecoupledHandler_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.Options.SetItems(Teronis.Collections.Synchronization.CollectionChangeHandler{`0}.IDecoupledHandler)">SetItems(CollectionChangeHandler&lt;TItem&gt;.IDecoupledHandler)</h4>
+  <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_Options_SetItems_Teronis_Collections_Synchronization_CollectionChangeHandler__0__IBehaviour_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.Options.SetItems(Teronis.Collections.Synchronization.CollectionChangeHandler{`0}.IBehaviour)">SetItems(CollectionChangeHandler&lt;TItem&gt;.IBehaviour)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SynchronizableCollection&lt;TItem&gt;.Options SetItems(CollectionChangeHandler&lt;TItem&gt;.IDecoupledHandler decoupledHandler)</code></pre>
+    <pre><code class="lang-csharp hljs">public SynchronizableCollection&lt;TItem&gt;.Options SetItems(CollectionChangeHandler&lt;TItem&gt;.IBehaviour collectionChangeBehavior)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -409,8 +409,8 @@ but after the items could have been replaced.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.IDecoupledHandler.html">CollectionChangeHandler.IDecoupledHandler</a>&lt;&gt;</td>
-        <td><span class="parametername">decoupledHandler</span></td>
+        <td><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.IBehaviour.html">CollectionChangeHandler.IBehaviour</a>&lt;&gt;</td>
+        <td><span class="parametername">collectionChangeBehavior</span></td>
         <td></td>
       </tr>
     </tbody>
