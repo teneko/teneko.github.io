@@ -398,11 +398,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Identity.AccountManaging.Controllers.IMvcBuilderExtensions.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Identity.AccountManaging.Controllers.IMvcBuilderAccountControllerExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Identity.AccountManaging.Controllers.IMvcBuilderExtensions.html",
-          "hash": "KsM6zSSzcfbMEAEE6olj3w=="
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Identity.AccountManaging.Controllers.IMvcBuilderAccountControllerExtensions.html",
+          "hash": "QcrGffWf4fTDIYORKZWgpg=="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Identity.AccountManaging.Controllers.html",
-          "hash": "F/ef7sj1044MKqlypQQPlA=="
+          "hash": "G5Hb43yUBIricsMXnlyxsA=="
         }
       },
       "is_incremental": false,
@@ -446,11 +446,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Identity.AccountManaging.IdentityBuilderExtensions.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Identity.AccountManaging.IdentityBuilderAccountManagerExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Identity.AccountManaging.IdentityBuilderExtensions.html",
-          "hash": "vVRfws2SBF8NBBvXAAGR1Q=="
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Identity.AccountManaging.IdentityBuilderAccountManagerExtensions.html",
+          "hash": "fpww8o42I1wfjG5cr+uP2g=="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Identity.AccountManaging.html",
-          "hash": "yLvYI3DIWjnGId3R2oQR8Q=="
+          "hash": "CSK/6HBy5pF3X9uVfN2UfA=="
         }
       },
       "is_incremental": false,
@@ -738,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Identity.Bearer.SignInManaging.Controllers.IMvcBuilderExtensions.html",
-          "hash": "gdIaj8hErpj7O/rJUTPpUg=="
+          "hash": "sSc09vPgjly16KthgLkehA=="
         }
       },
       "is_incremental": false,
@@ -1027,6 +1027,1002 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Identity.Extensions.html",
           "hash": "VZcCbvGpe+sKJt0Ft77Vyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.ControllerModelConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.ControllerModelConfiguration.html",
+          "hash": "sfTOX+RzfV9Bp2+gUQNxjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.ControllerTypeFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.ControllerTypeFilter.html",
+          "hash": "P3sTRJAmw0d7j7xe1ICt0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.IActionModelFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.IActionModelFilter.html",
+          "hash": "WwgGhLjzfyPAsGQl61EQ6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.IApplicationModelFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.IApplicationModelFilter.html",
+          "hash": "s9syiLnxiC4jVakdCvTfJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.IControllerModelFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.IControllerModelFilter.html",
+          "hash": "ydlTAQ06EA+pccXGA++B1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.IParameterModelFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.IParameterModelFilter.html",
+          "hash": "mb/NIiCRg931JdHJ70QzBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.html",
+          "hash": "HcvvsQwf5/jZz6CwY3vEtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.IControllerModelConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.IControllerModelConfigurationExtensions.html",
+          "hash": "8nJiAU5bmysClphjxDMYZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.ISelectedControllerModelConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.ISelectedControllerModelConfiguration.html",
+          "hash": "tpernrtQhQQUYDKJrXR6Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.IServiceCollectionExtensions.html",
+          "hash": "IuaFnwcBsZkaJGxzFgaViw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.RouteTemplateCaseFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.RouteTemplateCaseFormatter.html",
+          "hash": "1aFJbf3gkJa50lNeyHEglg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.RouteTemplateConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.RouteTemplateConvention.html",
+          "hash": "KtcJACNsT4UUkDoBlwIr0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.ScopedRouteTemplateConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.ScopedRouteTemplateConvention.html",
+          "hash": "PCzzDE+wSuYyzS7pnx0oKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.SelectorRouteApplicableConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.SelectorRouteApplicableConvention.html",
+          "hash": "FI0Fr/tLNmRFDVNW/RyRRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.html",
+          "hash": "1VSOtgl+ZaX7+0Zoq/tqtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationParts.TypesProvidingApplicationPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationParts.TypesProvidingApplicationPart.html",
+          "hash": "3VmJVz/AnA6qudB2Nuuh4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationParts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationParts.html",
+          "hash": "lUPtydxE2QyPRP7sU1IeUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Case.CaseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Case.CaseExtensions.html",
+          "hash": "lSCE0zxCCD7nqYCi5iXBbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Case.CaseFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Case.CaseFormatter.html",
+          "hash": "tWvw3vzkUrSzJUD95/JiCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Case.CaseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Case.CaseType.html",
+          "hash": "nbokqEqt4oAgtinWwoyllw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Case.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Case.html",
+          "hash": "OLLTsooM+ghwKbtWhcATuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Hosting.ApplicationPartManagerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Hosting.ApplicationPartManagerOptions.html",
+          "hash": "Hc2OnvO2nC954o23O6sBvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Hosting.HostingStartupAssemblies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Hosting.HostingStartupAssemblies.html",
+          "hash": "IlqJZVpaAAZwoipIxtWz8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Hosting.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Hosting.IServiceCollectionExtensions.html",
+          "hash": "m9JSrsk+uWtm4BtZ+zB1WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Hosting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Hosting.html",
+          "hash": "W9utEGf7Zr3mpeWFs6Dy0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.AllowInheritancesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.AllowInheritancesAttribute.html",
+          "hash": "nd5DABpZ9pIWFaJXaz+pMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Filters.ProblemDetailsActionFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Filters.ProblemDetailsActionFilter.html",
+          "hash": "7ogwrG7mKsVzFNUT3bavOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Filters.ProblemDetailsExceptionFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Filters.ProblemDetailsExceptionFilter.html",
+          "hash": "JP/FX0i0mz7S35DJzblGtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Filters.html",
+          "hash": "6JAh5WNo7qZE7seqVZGoyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.IApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.IApplicationBuilderExtensions.html",
+          "hash": "FL3sv04TQQLl7hbTa0WMxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.IHasProblemDetailsStatusCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.IHasProblemDetailsStatusCode.html",
+          "hash": "eVmy+4YIaP5RX3indFnqbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilder.html",
+          "hash": "c+dRMZpAteYny6gUik4mQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilderExtensions.html",
+          "hash": "AN6SujnSqtE7ygwWJrjhqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.IServiceCollectionExtensions.html",
+          "hash": "SM9XuQ8sG7SpAsVh4aIeMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.MappableObjectResolvers.DefaultActionResultObjectResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.MappableObjectResolvers.DefaultActionResultObjectResolver.html",
+          "hash": "5JmJlXw5YvgNuNSjPdjioQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.MappableObjectResolvers.IMappableObjectResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.MappableObjectResolvers.IMappableObjectResolver.html",
+          "hash": "Vh9CkegZdlKvA+n61+RMow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.MappableObjectResolvers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.MappableObjectResolvers.html",
+          "hash": "Wby+9/CDl/z7qYTy2PMWpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.AggregateExceptionProblemDetailsMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.AggregateExceptionProblemDetailsMapper.html",
+          "hash": "vUhQKK1ZM+sazhxO4KYA3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ApiVersionProblemDetailsMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ApiVersionProblemDetailsMapper.html",
+          "hash": "scwzlvtcDLNEQUDbGLxC7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.DefaultExceptionProblemDetailsMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.DefaultExceptionProblemDetailsMapper.html",
+          "hash": "shm+xIz0SkQKmqPT6wh+6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.html",
+          "hash": "bORP5URTanJU7nVA8R12GQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorOptions.html",
+          "hash": "Rm6JKf8oRU8eJ+BUK7mNGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorOptionsExtensions.html",
+          "hash": "z1vQMhp9iNly44RaqHJapQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorUtils.html",
+          "hash": "hj2H2J6JPedNsEo9JrhRYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.StatusCodeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.StatusCodeRange.html",
+          "hash": "57EYHbeDxg7zv5+WZbGa0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.Description.html",
+          "hash": "0tJf5UcVu3u4bMSoA5bUsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ExceptionProblemDetailsMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ExceptionProblemDetailsMapper-1.html",
+          "hash": "I+g8kWT3rVJxn1yZQ+VmFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.IMapperContext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.IMapperContext-1.html",
+          "hash": "Rde8c+ie/3DyBCBZqPDawQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.IMapperContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.IMapperContext.html",
+          "hash": "XCCwmlOY2JGi+ITK9fX6Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.IProblemDetailsMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.IProblemDetailsMapper.html",
+          "hash": "PIFlVjJtuglRkJ+k6zEKHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.MapperContext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.MapperContext-1.html",
+          "hash": "wlc6ZOCBCtlV7Hbl943w6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.MapperContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.MapperContext.html",
+          "hash": "edpF1E8L3o4Er1yDQMeO8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ModelStateProblemDetailsMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ModelStateProblemDetailsMapper.html",
+          "hash": "BIXOJc4H2Udbe3xpfYULQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper-1.html",
+          "hash": "zrr1yErPI8zDKQVYb8EQFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper.html",
+          "hash": "jYOuNajX4058S058Ysxl8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.StatusCodeProblemDetailsMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.StatusCodeProblemDetailsMapper.html",
+          "hash": "g3R2XRVLSdtIr08XyP8F3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Mappers.html",
+          "hash": "NnAgox3sqKBPin8HniDAZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddleware.html",
+          "hash": "665jZNt3hmwtg/JMchNHxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContext.html",
+          "hash": "DtpQ8Ljh+bXIXuGuzkCPdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextProvider.html",
+          "hash": "/5vokROxiicYXHkkGOMStA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Middleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Middleware.html",
+          "hash": "HhErw4tADLJl/BLjSYbeCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsFactoryScoped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsFactoryScoped.html",
+          "hash": "0VHUy4JAbTHaByprMAjD8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsMapperProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsMapperProvider.html",
+          "hash": "S9DvpbDesAw8bPdDdp8QTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsOptions.ProblemDetailsMapperDescriptorCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsOptions.ProblemDetailsMapperDescriptorCollection.html",
+          "hash": "NfwTRFrKi1PUetflteEdFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsOptions.html",
+          "hash": "72fQBPf9fBE8Ftjvz0RXOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsOptionsExtensions.html",
+          "hash": "vcBve0HcnZKl6K02ZVadoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsResult.html",
+          "hash": "1omYJTDLPjby5Rt510t3LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsResultExecutor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsResultExecutor.html",
+          "hash": "r1AAOoT/iqHf+LqXPu6m4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsResultProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsResultProvider.html",
+          "hash": "jd8xzqVKBoCtjBTn3sNRIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.ProblemDetailsUtils.html",
+          "hash": "vyEfZNs2yloCcE6IUD56mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea.html",
+          "hash": "RkzQxpbiOsy3MtJkcQEheA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation.html",
+          "hash": "dOgSHqoRI9qGmPJTZNvjgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.MapperContextParameterEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.MapperContextParameterEvaluation.html",
+          "hash": "ua5MQtkq339MTEw8epiMlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.ParameterEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.ParameterEvaluation.html",
+          "hash": "McDkcMQAlOVh6YsTVz180w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.ParameterEvaluationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.ParameterEvaluationExtensions.html",
+          "hash": "pQCIPT0/k6MCAB5eDJPKkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Reflection.html",
+          "hash": "vy7Sf3dIxvMhhFsHdm3U4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.StatusCodeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.StatusCodeException.html",
+          "hash": "JtECRKXtkxIWCZo/gwiL4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Versioning.ApiVersionProblemDetailsResponseProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Versioning.ApiVersionProblemDetailsResponseProvider.html",
+          "hash": "8dUn8EUS2vdgGQUCg4nXmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.Versioning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.Versioning.html",
+          "hash": "BHud5E2yTjsKIxjH/I6HZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.JsonProblemDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.JsonProblemDetails.html",
+          "hash": "tUW6M2tpEzt9qdn695M0MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.MvcBuilderContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.MvcBuilderContext.html",
+          "hash": "GjK5dhwkBIS3s9DmwPfl/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.MvcBuilderContextCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.MvcBuilderContextCreator.html",
+          "hash": "gWiRKMybuMtLaUx5EX7tUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.html",
+          "hash": "r96EUEx0kyUQVOoGUDvrgQ=="
         }
       },
       "is_incremental": false,
@@ -7610,990 +8606,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.ControllerModelConfiguration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.ControllerModelConfiguration.html",
-          "hash": "de3nkBOhqbZ7A/SKpF7XRg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.Filters.ControllerTypeFilter.html",
-          "hash": "sXgu/8KML6TqrzZZjW7Klw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.Filters.IActionModelFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.Filters.IActionModelFilter.html",
-          "hash": "78kpRd/SRHIQDNJdql6KHw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.Filters.IApplicationModelFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.Filters.IApplicationModelFilter.html",
-          "hash": "Prs7oyLc3GKHLT4usLVBKg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.Filters.IControllerModelFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.Filters.IControllerModelFilter.html",
-          "hash": "2JdwteQylkE+M001TodRQQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.Filters.IParameterModelFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.Filters.IParameterModelFilter.html",
-          "hash": "+W+6qVOQSOHJQwRwrg1zmA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.Filters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.Filters.html",
-          "hash": "U7rIPMHfEgesmcibHNI7Rg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.IControllerModelConfigurationExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.IControllerModelConfigurationExtensions.html",
-          "hash": "dEQHbyT99fACqlB7B0um3g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.ISelectedControllerModelConfiguration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.ISelectedControllerModelConfiguration.html",
-          "hash": "og4BjuN4XSMGxdi5Lq+GlQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.IServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.IServiceCollectionExtensions.html",
-          "hash": "eScJe+0GApB0lXyiTWcfNw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.RouteTemplateCaseFormatter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.RouteTemplateCaseFormatter.html",
-          "hash": "XUlUasOnlliEjcnrwXbhAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.RouteTemplateConvention.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.RouteTemplateConvention.html",
-          "hash": "NuhDSxPJdeOiOkCiuAoG/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.ScopedRouteConvention.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.ScopedRouteConvention.html",
-          "hash": "DeLwH97AUS1dxflWoHd6gA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.ScopedRouteTemplateConvention.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.ScopedRouteTemplateConvention.html",
-          "hash": "IyCeSAHgyTVbUhdM28QFBQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.ApplicationModels.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.ApplicationModels.html",
-          "hash": "rMrnIU+nfgYCo5viEBokzQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.Case.CaseExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.Case.CaseExtensions.html",
-          "hash": "9lSXyEbhnmufTcguf72KMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.Case.CaseFormatter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.Case.CaseFormatter.html",
-          "hash": "tpJ30y9BR9PJa4njIX1OtA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.Case.CaseType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.Case.CaseType.html",
-          "hash": "tE7ioqKiQ1Ue6M3/WjWNeA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.Case.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.Case.html",
-          "hash": "a/s/rHqVlXnhRWcKde5U/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.Hosting.ApplicationPartManagerOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.Hosting.ApplicationPartManagerOptions.html",
-          "hash": "fnSaiHpa4TDc7wBBt9M3Ig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.Hosting.HostingStartupAssemblies.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.Hosting.HostingStartupAssemblies.html",
-          "hash": "Re9OA/BOpGvX9dcnC/pS4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.Hosting.IServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.Hosting.IServiceCollectionExtensions.html",
-          "hash": "Xxf56jUidO0o5XzkuI+BAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.Hosting.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.Hosting.html",
-          "hash": "+eWOewZbr3ck37vX04F0LA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.AllowInheritancesAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.AllowInheritancesAttribute.html",
-          "hash": "mCcE9sf/x9YOX10ngOnk8Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Filters.ProblemDetailsActionFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Filters.ProblemDetailsActionFilter.html",
-          "hash": "EaW4og5DPhzjSyqb/AS3CQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Filters.ProblemDetailsExceptionFilter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Filters.ProblemDetailsExceptionFilter.html",
-          "hash": "NPOJOK+JELEFKG8Chg1iRw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Filters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Filters.html",
-          "hash": "thAjb5/4EzV9zJip0zmkcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.IApplicationBuilderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.IApplicationBuilderExtensions.html",
-          "hash": "UtVdPRkjEo1z7LC30HtSsA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.IHasProblemDetailsStatusCode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.IHasProblemDetailsStatusCode.html",
-          "hash": "bBKY+p2Xa0qbW2m2daBzxw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilder.html",
-          "hash": "WdIXCoxF7CzkUNADK30wZg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.IJsonProblemDetailsBuilderExtensions.html",
-          "hash": "75HR4akQ2v4QLjFMbTMjpw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.IServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.IServiceCollectionExtensions.html",
-          "hash": "HvWtFk2QuL91IZI3rOzg1A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.MappableObjectResolvers.DefaultActionResultObjectResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.MappableObjectResolvers.DefaultActionResultObjectResolver.html",
-          "hash": "COLuK9Voe04Wn3loq3/5mw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.MappableObjectResolvers.IMappableObjectResolver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.MappableObjectResolvers.IMappableObjectResolver.html",
-          "hash": "yo3ofX2ahzUmfkGnNxbKEg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.MappableObjectResolvers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.MappableObjectResolvers.html",
-          "hash": "y8KDwYgYTOy7HQVQDoSB+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.AggregateExceptionProblemDetailsMapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.AggregateExceptionProblemDetailsMapper.html",
-          "hash": "y/sBaPckzP5UnvYdDlNjKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.ApiVersionProblemDetailsMapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ApiVersionProblemDetailsMapper.html",
-          "hash": "XqfBVZ/2RdLWf2ldHU5z4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.DefaultExceptionProblemDetailsMapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.DefaultExceptionProblemDetailsMapper.html",
-          "hash": "5Q/tPnMQaXJNGQMGs6kvKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptor.html",
-          "hash": "NL6MRBVVTCqTeogIPvkMCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorOptions.html",
-          "hash": "yUwaXcL2S60gjhXAfFSqCw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorOptionsExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorOptionsExtensions.html",
-          "hash": "oxNpowbNflCB61AKL9PRuQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorUtils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.Description.ProblemDetailsMapperDescriptorUtils.html",
-          "hash": "L0M32dx/xJpYhOD072HwRA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.Description.StatusCodeRange.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.Description.StatusCodeRange.html",
-          "hash": "3+1c6/fsdRma3mQQtxDVXQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.Description.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.Description.html",
-          "hash": "oxleujQKR1qe2CGOJ1rELA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.ExceptionProblemDetailsMapper-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ExceptionProblemDetailsMapper-1.html",
-          "hash": "nvQ/xMjJc8Wzd8yLS8PjCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.IMapperContext-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.IMapperContext-1.html",
-          "hash": "1jYFQ8bNPVMquWUTPbT7bQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.IMapperContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.IMapperContext.html",
-          "hash": "WRMqVtxkyvmR5d15+HJfrQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.IProblemDetailsMapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.IProblemDetailsMapper.html",
-          "hash": "LzWDy5nBH2kaqgp0FVCdQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.MapperContext-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.MapperContext-1.html",
-          "hash": "1zAoYFnzF1Ktv+kASgIO7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.MapperContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.MapperContext.html",
-          "hash": "G9n/DQkanwFdy2Y1F0Qx1g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.ModelStateProblemDetailsMapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ModelStateProblemDetailsMapper.html",
-          "hash": "i2JZxJ0E0p8NkL6I27sWsA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper-1.html",
-          "hash": "ZPJwKzRjGFEEgvHaS9toiQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.ProblemDetailsMapper.html",
-          "hash": "vFt+W/oa1Br5jgtMjmk1eA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.StatusCodeProblemDetailsMapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.StatusCodeProblemDetailsMapper.html",
-          "hash": "UY1remRCyznNmiR2ZvkHWw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Mappers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Mappers.html",
-          "hash": "1y1X7gdBxejKlwnT3vRmkw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddleware.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddleware.html",
-          "hash": "hflwXM+FtlCQF3cyNGp2Lg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContext.html",
-          "hash": "dcwKVfepWexRTbgNLJIaMQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.ProblemDetailsMiddlewareContextProvider.html",
-          "hash": "DgsUn6rkMERYTO2YWLaB+g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Middleware.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Middleware.html",
-          "hash": "gyD8lX93IxpLADLL76WV3g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsFactoryScoped.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsFactoryScoped.html",
-          "hash": "igBn6HdI1vOl9rqiERRSFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsMapperProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsMapperProvider.html",
-          "hash": "7zCKQSeXPVRJYJSRNDNlpw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsOptions.ProblemDetailsMapperDescriptorCollection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsOptions.ProblemDetailsMapperDescriptorCollection.html",
-          "hash": "TkWAvzSPn59PpkfAcpWftQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsOptions.html",
-          "hash": "6oGZXui7eKIOFVgA0ECGzw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsOptionsExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsOptionsExtensions.html",
-          "hash": "RBfaLnmO+vfdVxENLnn89g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsResult.html",
-          "hash": "LBCu5HLEiW9B8DQUwdDofQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsResultExecutor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsResultExecutor.html",
-          "hash": "GAJ1xKku3e78rLAsXfdg+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsResultProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsResultProvider.html",
-          "hash": "p5vEEYVuOkZ4ntmqvRm3cQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.ProblemDetailsUtils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.ProblemDetailsUtils.html",
-          "hash": "Vgyux2F0szUDP2jpeaZSHA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorArea.html",
-          "hash": "IRbAFjVHpovOWNO4YgSEdw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Reflection.MapperConstructorEvaluation.html",
-          "hash": "GUss6M2Dp/Ge+1iwaP7C+w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Reflection.MapperContextParameterEvaluation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Reflection.MapperContextParameterEvaluation.html",
-          "hash": "eyVUjLKuu9WkMd+EzRQI/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Reflection.ParameterEvaluation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Reflection.ParameterEvaluation.html",
-          "hash": "VKoxz2NnstfHYlQLpdiWAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Reflection.ParameterEvaluationExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Reflection.ParameterEvaluationExtensions.html",
-          "hash": "oCt3JeGmun8zYJeg2ddNNg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Reflection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Reflection.html",
-          "hash": "Sxw3E+LUeWtLtDSPX85EQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.StatusCodeException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.StatusCodeException.html",
-          "hash": "mmh/i4SND4rDlvk21yllEw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Versioning.ApiVersionProblemDetailsResponseProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Versioning.ApiVersionProblemDetailsResponseProvider.html",
-          "hash": "tqQsOiYMqgyOJKsSh3uIvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.Versioning.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.Versioning.html",
-          "hash": "qPHGy2wNpgRvo9jjC6Mk9Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.JsonProblemDetails.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.JsonProblemDetails.html",
-          "hash": "shQFZSCmrIf9+OVxd27HNA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.MvcBuilderContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.MvcBuilderContext.html",
-          "hash": "tKM7P0QiNi8CvxCEoCr2+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.MvcBuilderContextCreator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.MvcBuilderContextCreator.html",
-          "hash": "CMvfL1mjoUCuikUxlPVWmg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.TypesProvidingApplicationPart.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.TypesProvidingApplicationPart.html",
-          "hash": "+noVlY4cn4UZ//mAObU7uA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Mvc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Mvc.html",
-          "hash": "9PUGQIzVt97BxHxYz6xiEw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.NUnit.Api.ITestResultExtensions.yml",
       "output": {
         ".html": {
@@ -10782,7 +10794,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "qkD/7NEwb1JYJHli7Yvy8Q=="
+          "hash": "jEOJiMGPmYXH+KcohXvevw=="
         }
       },
       "is_incremental": false,
@@ -10821,7 +10833,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 896,
+          "total_file_count": 897,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
