@@ -1050,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.Filters.ControllerTypeFilter.html",
-          "hash": "P3sTRJAmw0d7j7xe1ICt0A=="
+          "hash": "uYlQz97efvaVE5cexqGCGQ=="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.IControllerModelConfigurationExtensions.html",
-          "hash": "8nJiAU5bmysClphjxDMYZw=="
+          "hash": "e/MXDfnF6TqwqoTpdG9biw=="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.ISelectedControllerModelConfiguration.html",
-          "hash": "tpernrtQhQQUYDKJrXR6Ng=="
+          "hash": "Y39Ia39selIUbJhHsgU+Kg=="
         }
       },
       "is_incremental": false,
@@ -1178,11 +1178,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.ScopedRouteTemplateConvention.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.SelectorRouteApplicableConvention.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.ScopedRouteTemplateConvention.html",
-          "hash": "PCzzDE+wSuYyzS7pnx0oKg=="
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.SelectorRouteApplicableConvention.html",
+          "hash": "vfIsk9ySCa+B7HKZpi1NyQ=="
         }
       },
       "is_incremental": false,
@@ -1190,11 +1190,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.SelectorRouteApplicableConvention.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ApplicationModels.SelectorRouteTemplateApplicableConvention.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.SelectorRouteApplicableConvention.html",
-          "hash": "FI0Fr/tLNmRFDVNW/RyRRw=="
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.SelectorRouteTemplateApplicableConvention.html",
+          "hash": "hS5/ZDw9a5MKoVFi1PW0Aw=="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ApplicationModels.html",
-          "hash": "1VSOtgl+ZaX7+0Zoq/tqtg=="
+          "hash": "vwuRcVdBmNc7hKYWLokD/A=="
         }
       },
       "is_incremental": false,
@@ -1286,6 +1286,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ControllerAssistance-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ControllerAssistance-1.html",
+          "hash": "ZjSro9yy17wG/W7XGhV5xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.ControllerAssistance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.ControllerAssistance.html",
+          "hash": "WPHLKVKtUfFc+N+JXavJIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.Hosting.ApplicationPartManagerOptions.yml",
       "output": {
         ".html": {
@@ -1327,6 +1351,18 @@
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.Hosting.html",
           "hash": "W9utEGf7Zr3mpeWFs6Dy0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.AspNetCore.Mvc.IMvcBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.IMvcBuilderExtensions.html",
+          "hash": "Hfu3Zg0n5uhBfNuRj00uIA=="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.AspNetCore.Mvc.html",
-          "hash": "r96EUEx0kyUQVOoGUDvrgQ=="
+          "hash": "DtXeStTpwHpyJLBDabZNQg=="
         }
       },
       "is_incremental": false,
@@ -5838,7 +5874,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.AspNetCore.Authorization.Extensions.AuthorizationOptionsExtensions.html",
-          "hash": "NHIp3hUQ5KAb+ee22Ud8Nw=="
+          "hash": "ommtpQr81XM5+oe2VQM7gg=="
         }
       },
       "is_incremental": false,
@@ -10794,7 +10830,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "jEOJiMGPmYXH+KcohXvevw=="
+          "hash": "q2dYL9d8RfQuVnlYk3WSiQ=="
         }
       },
       "is_incremental": false,
@@ -10833,7 +10869,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 897,
+          "total_file_count": 900,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
