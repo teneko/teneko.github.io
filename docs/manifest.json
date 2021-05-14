@@ -5874,7 +5874,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Microsoft.AspNetCore.Authorization.Extensions.AuthorizationOptionsExtensions.html",
-          "hash": "ommtpQr81XM5+oe2VQM7gg=="
+          "hash": "bFGWvLVE2CHaPT3FuVfUrg=="
         }
       },
       "is_incremental": false,
@@ -10242,7 +10242,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Extensions.ControlExtensions.html",
-          "hash": "3EJIsbvMddWHxvYtjz3PAA=="
+          "hash": "+isNhBab3DNZWgpag75gbQ=="
         }
       },
       "is_incremental": false,
@@ -10286,11 +10286,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.EHotkeyState.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.ChildHotkey.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.EHotkeyState.html",
-          "hash": "10ffr/Y6BSPTDmxbfii/5g=="
+          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.ChildHotkey.html",
+          "hash": "xCFBX6QvXummj37fhyAQcw=="
         }
       },
       "is_incremental": false,
@@ -10298,11 +10298,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.EKeyboardModifier.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.HotkeyState.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.EKeyboardModifier.html",
-          "hash": "+x9oEfWwNt+roSVKiERcgQ=="
+          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.HotkeyState.html",
+          "hash": "Rf6GUywVrKwZiAxtzUu1Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.KeyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.KeyEventArgs.html",
+          "hash": "hM7o0NXPXtEFSYs/T6tmlg=="
         }
       },
       "is_incremental": false,
@@ -10326,7 +10338,19 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.KeyboardHookManager.html",
-          "hash": "Q59HXLgat7UCgWnpgt3bdQ=="
+          "hash": "pXSC28t2ghSh0FmLGI3Tvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.KeyboardModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.KeyboardModifier.html",
+          "hash": "RbKlV6d4ZrWaJ/49gkDsow=="
         }
       },
       "is_incremental": false,
@@ -10358,35 +10382,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.TChildHotkey.yml",
+      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.ParentHotkey.yml",
       "output": {
         ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.TChildHotkey.html",
-          "hash": "PFCugBONutmErPWaabieOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.TKeyEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.TKeyEventArgs.html",
-          "hash": "XLM3qp+VjWB6BKqVORakFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Teronis.DotNet~DocFxMetadata/Teronis.Windows.Forms.Hooks.TParentHotkey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.TParentHotkey.html",
-          "hash": "EoUl5cPuMrfZHVPGyE8hgg=="
+          "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.ParentHotkey.html",
+          "hash": "+cXJU9qb6Pm8b7WeCjU5IQ=="
         }
       },
       "is_incremental": false,
@@ -10398,7 +10398,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/Teronis.Windows.Forms.Hooks.html",
-          "hash": "+tk73AUFPGXLP5+D5p6IpA=="
+          "hash": "QkV2mky5M8jc/+WLDBhOhA=="
         }
       },
       "is_incremental": false,
@@ -10830,7 +10830,7 @@
       "output": {
         ".html": {
           "relative_path": "Teronis.DotNet/toc.html",
-          "hash": "q2dYL9d8RfQuVnlYk3WSiQ=="
+          "hash": "qAGvHfo2HjtJ6EuiUItYZA=="
         }
       },
       "is_incremental": false,
