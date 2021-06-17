@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;ItemType, NewItemType&gt;
+    <title>Class SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;TItem, TNewItem&gt;
    | Documentations </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;ItemType, NewItemType&gt;
+    <meta name="title" content="Class SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;TItem, TNewItem&gt;
    | Documentations ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -79,97 +79,137 @@
             <article class="content wrap" id="_content" data-uid="Teronis.Collections.Synchronization.SynchronizingCollectionBase`2.ItemCollection`2">
   
   
-  <h1 id="Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ItemCollection_2" data-uid="Teronis.Collections.Synchronization.SynchronizingCollectionBase`2.ItemCollection`2" class="text-break">Class SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;ItemType, NewItemType&gt;
+  <h1 id="Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ItemCollection_2" data-uid="Teronis.Collections.Synchronization.SynchronizingCollectionBase`2.ItemCollection`2" class="text-break">Class SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;TItem, TNewItem&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html">SynchronizableCollectionBase</a>&lt;ItemType, NewItemType&gt;</div>
-    <div class="level2"><span class="xref">SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;ItemType, NewItemType&gt;</span></div>
+    <div class="level1"><a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html">SynchronizableCollectionBase</a>&lt;TItem, TNewItem&gt;</div>
+    <div class="level2"><span class="xref">SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;TItem, TNewItem&gt;</span></div>
       <div class="level3"><a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.SubItemCollection.html">SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.SubItemCollection</a></div>
       <div class="level3"><a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.SuperItemCollection.html">SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.SuperItemCollection</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Teronis.Collections.Synchronization.ISynchronizedCollection-1.html">ISynchronizedCollection</a>&lt;ItemType&gt;</div>
-    <div><span class="xref">IEnumerable</span>&lt;ItemType&gt;</div>
-    <div><span class="xref">IEnumerable</span></div>
-    <div><span class="xref">IReadOnlyCollection</span>&lt;ItemType&gt;</div>
-    <div><span class="xref">IReadOnlyList</span>&lt;ItemType&gt;</div>
-    <div><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionSynchronizing-1.html">INotifyCollectionSynchronizing</a>&lt;ItemType&gt;</div>
-    <div><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionModification-1.html">INotifyCollectionModification</a>&lt;ItemType&gt;</div>
-    <div><span class="xref">INotifyCollectionChanged</span></div>
-    <div><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionSynchronized-1.html">INotifyCollectionSynchronized</a>&lt;ItemType&gt;</div>
+    <div><a class="xref" href="Teronis.Collections.Synchronization.ISynchronizedCollection-1.html">ISynchronizedCollection</a>&lt;TItem&gt;</div>
     <div><span class="xref">INotifyPropertyChanged</span></div>
     <div><span class="xref">INotifyPropertyChanging</span></div>
+    <div><span class="xref">IEnumerable</span>&lt;TItem&gt;</div>
+    <div><span class="xref">IEnumerable</span></div>
+    <div><span class="xref">IReadOnlyCollection</span>&lt;TItem&gt;</div>
+    <div><span class="xref">IReadOnlyList</span>&lt;TItem&gt;</div>
+    <div><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionSynchronizing-1.html">INotifyCollectionSynchronizing</a>&lt;TItem&gt;</div>
+    <div><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionModification-1.html">INotifyCollectionModification</a>&lt;TItem&gt;</div>
+    <div><span class="xref">INotifyCollectionChanged</span></div>
+    <div><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionSynchronized-1.html">INotifyCollectionSynchronized</a>&lt;TItem&gt;</div>
+    <div><span class="xref">IObservable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModification-2.html">ICollectionModification</a>&lt;TItem, TItem&gt;&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_PropertyChanged">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.PropertyChanged</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CountString">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.CountString</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_PropertyChanging">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.PropertyChanging</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_IndexerName">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.IndexerName</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CollectionSynchronizing">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.CollectionSynchronizing</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_PropertyChanged">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.PropertyChanged</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CollectionModified">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.CollectionModified</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_PropertyChanging">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.PropertyChanging</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CollectionSynchronized">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.CollectionSynchronized</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CollectionSynchronizing">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.CollectionSynchronizing</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_ChangeComponent">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.ChangeComponent</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CollectionModified">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.CollectionModified</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CollectionChangeHandler">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.CollectionChangeHandler</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CollectionSynchronized">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.CollectionSynchronized</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_InsertItem_System_Int32__0_">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.InsertItem(Int32, ItemType)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_ChangeComponent">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.ChangeComponent</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_SetItem_System_Int32__0_">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.SetItem(Int32, ItemType)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnCollectionSynchronizing">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnCollectionSynchronizing()</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_MoveItems_System_Int32_System_Int32_System_Int32_">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.MoveItems(Int32, Int32, Int32)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnCollectionSynchronized">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnCollectionSynchronized()</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_Move_System_Int32_System_Int32_System_Int32_">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.Move(Int32, Int32, Int32)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnCollectionModified_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnCollectionModified(ICollectionModification&lt;TItem, TItem&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_Move_System_Int32_System_Int32_">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.Move(Int32, Int32)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeAddItem_System_Int32__0_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnBeforeAddItem(Int32, TItem)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_DisposeItem_System_Int32_">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.DisposeItem(Int32)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterAddItem_System_Int32__0_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnAfterAddItem(Int32, TItem)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_RemoveItem_System_Int32_">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.RemoveItem(Int32)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_InsertItem_System_Int32__0_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.InsertItem(Int32, TItem)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_ClearItems">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.ClearItems()</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeRemoveItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnBeforeRemoveItem(Int32)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateCollectionModifiedEventArgs_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.CreateCollectionModifiedEventArgs(ICollectionModification&lt;ItemType, ItemType&gt;)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterRemoveItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnAfterRemoveItem(Int32)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_InvokeCollectionModified_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.InvokeCollectionModified(ICollectionModification&lt;ItemType, ItemType&gt;)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_RemoveItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.RemoveItem(Int32)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateSynchronizedDictionary__1_Func__0___0__IEqualityComparer___0__">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.CreateSynchronizedDictionary&lt;TKey&gt;(Func&lt;ItemType, TKey&gt;, IEqualityComparer&lt;TKey&gt;)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeReplaceItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnBeforeReplaceItem(Int32)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateSynchronizedDictionary__1_Func__0___0__">SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;.CreateSynchronizedDictionary&lt;KeyType&gt;(Func&lt;ItemType, KeyType&gt;)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterReplaceItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnAfterReplaceItem(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_SetItem_System_Int32__0_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.SetItem(Int32, TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeMoveItems">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnBeforeMoveItems()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterMoveItems">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnAfterMoveItems()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_MoveItems_System_Int32_System_Int32_System_Int32_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.MoveItems(Int32, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_Move_System_Int32_System_Int32_System_Int32_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.Move(Int32, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_Move_System_Int32_System_Int32_">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.Move(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeResetItems">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnBeforeResetItems()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterResetItems">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.OnAfterResetItems()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_ClearItems">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.ClearItems()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_Subscribe_IObserver_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0___">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.Subscribe(IObserver&lt;ICollectionModification&lt;TItem, TItem&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateCollectionModifiedEventArgs_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.CreateCollectionModifiedEventArgs(ICollectionModification&lt;TItem, TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateSynchronizedDictionary__1_Func__0___0__IEqualityComparer___0__">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.CreateSynchronizedDictionary&lt;TKey&gt;(Func&lt;TItem, TKey&gt;, IEqualityComparer&lt;TKey&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateSynchronizedDictionary__1_Func__0___0__">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;.CreateSynchronizedDictionary&lt;KeyType&gt;(Func&lt;TItem, KeyType&gt;)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Collections.Synchronization.html">Teronis.Collections.Synchronization</a></h6>
   <h6><strong>Assembly</strong>: Teronis.NetStandard.Collections.Synchronization.dll</h6>
   <h5 id="Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ItemCollection_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ItemCollection&lt;ItemType, NewItemType&gt; : SynchronizableCollectionBase&lt;ItemType, NewItemType&gt;, ISynchronizedCollection&lt;ItemType&gt;, IEnumerable&lt;ItemType&gt;, IEnumerable, IReadOnlyCollection&lt;ItemType&gt;, IReadOnlyList&lt;ItemType&gt;, INotifyCollectionSynchronizing&lt;ItemType&gt;, INotifyCollectionModification&lt;ItemType&gt;, INotifyCollectionChanged, INotifyCollectionSynchronized&lt;ItemType&gt;, INotifyPropertyChanged, INotifyPropertyChanging</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ItemCollection&lt;TItem, TNewItem&gt; : SynchronizableCollectionBase&lt;TItem, TNewItem&gt;, ISynchronizedCollection&lt;TItem&gt;, INotifyPropertyChanged, INotifyPropertyChanging, IEnumerable&lt;TItem&gt;, IEnumerable, IReadOnlyCollection&lt;TItem&gt;, IReadOnlyList&lt;TItem&gt;, INotifyCollectionSynchronizing&lt;TItem&gt;, INotifyCollectionModification&lt;TItem&gt;, INotifyCollectionChanged, INotifyCollectionSynchronized&lt;TItem&gt;, IObservable&lt;ICollectionModification&lt;TItem, TItem&gt;&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,11 +221,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">ItemType</span></td>
+        <td><span class="parametername">TItem</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="parametername">NewItemType</span></td>
+        <td><span class="parametername">TNewItem</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -194,18 +234,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ItemCollection_2__ctor_IList__2__Teronis_Collections_Synchronization_SynchronizingCollectionBase__0__1__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizingCollectionBase%602.ItemCollection%602.%23ctor(IList%7B%602%7D%2CTeronis.Collections.Synchronization.SynchronizingCollectionBase%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ItemCollection_2__ctor_IList__2__Teronis_Collections_Synchronization_ISynchronizableCollectionItemsOptions__2__Teronis_Collections_Synchronization_SynchronizingCollectionBase__0__1__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizingCollectionBase%602.ItemCollection%602.%23ctor(IList%7B%602%7D%2CTeronis.Collections.Synchronization.ISynchronizableCollectionItemsOptions%7B%602%7D%2CTeronis.Collections.Synchronization.SynchronizingCollectionBase%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizingCollectionBase{`2}.ItemCollection.cs/#L14">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ItemCollection_2__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizingCollectionBase`2.ItemCollection`2.#ctor*"></a>
-  <h4 id="Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ItemCollection_2__ctor_IList__2__Teronis_Collections_Synchronization_SynchronizingCollectionBase__0__1__" data-uid="Teronis.Collections.Synchronization.SynchronizingCollectionBase`2.ItemCollection`2.#ctor(IList{`2},Teronis.Collections.Synchronization.SynchronizingCollectionBase{`0,`1})">ItemCollection(IList&lt;ItemType&gt;, SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;)</h4>
+  <h4 id="Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_ItemCollection_2__ctor_IList__2__Teronis_Collections_Synchronization_ISynchronizableCollectionItemsOptions__2__Teronis_Collections_Synchronization_SynchronizingCollectionBase__0__1__" data-uid="Teronis.Collections.Synchronization.SynchronizingCollectionBase`2.ItemCollection`2.#ctor(IList{`2},Teronis.Collections.Synchronization.ISynchronizableCollectionItemsOptions{`2},Teronis.Collections.Synchronization.SynchronizingCollectionBase{`0,`1})">ItemCollection(IList&lt;TItem&gt;, ISynchronizableCollectionItemsOptions&lt;TItem&gt;, SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemCollection(IList&lt;ItemType&gt; list, SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt; synchronizingCollection)</code></pre>
+    <pre><code class="lang-csharp hljs">public ItemCollection(IList&lt;TItem&gt; items, ISynchronizableCollectionItemsOptions&lt;TItem&gt; options, SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt; synchronizingCollection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -218,8 +258,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;ItemType&gt;</td>
-        <td><span class="parametername">list</span></td>
+        <td><span class="xref">IList</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Teronis.Collections.Synchronization.ISynchronizableCollectionItemsOptions-1.html">ISynchronizableCollectionItemsOptions</a>&lt;TItem&gt;</td>
+        <td><span class="parametername">options</span></td>
         <td></td>
       </tr>
       <tr>
@@ -244,7 +289,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract ICollectionModification&lt;ItemType, ItemType&gt; GetCollectionModification(CollectionModifiedEventArgs&lt;TSuperItem, TSubItem&gt; args)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract ICollectionModification&lt;TItem, TItem&gt; GetCollectionModification(CollectionModifiedEventArgs&lt;TSuperItem, TSubItem&gt; args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -273,7 +318,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModification-2.html">ICollectionModification</a>&lt;ItemType, ItemType&gt;</td>
+        <td><a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModification-2.html">ICollectionModification</a>&lt;TItem, TItem&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -281,6 +326,12 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Teronis.Collections.Synchronization.ISynchronizedCollection-1.html">ISynchronizedCollection&lt;TItem&gt;</a>
+  </div>
+  <div>
+      <span class="xref">INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">INotifyPropertyChanging</span>
   </div>
   <div>
       <span class="xref">IEnumerable&lt;&gt;</span>
@@ -307,10 +358,7 @@
       <a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionSynchronized-1.html">INotifyCollectionSynchronized&lt;TItem&gt;</a>
   </div>
   <div>
-      <span class="xref">INotifyPropertyChanged</span>
-  </div>
-  <div>
-      <span class="xref">INotifyPropertyChanging</span>
+      <span class="xref">IObservable&lt;&gt;</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

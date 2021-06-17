@@ -92,13 +92,13 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModification-2.html">ICollectionModification</a>&lt;TNewItem, TOldItem&gt;</div>
-    <div><a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModificationParameters.html">ICollectionModificationParameters</a></div>
+    <div><a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModificationInfo.html">ICollectionModificationInfo</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Teronis.Collections.Algorithms.Modifications.html">Teronis.Collections.Algorithms.Modifications</a></h6>
   <h6><strong>Assembly</strong>: Teronis.NetStandard.Collections.Algorithms.dll</h6>
   <h5 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CollectionModification&lt;TNewItem, TOldItem&gt; : object, ICollectionModification&lt;TNewItem, TOldItem&gt;, ICollectionModificationParameters</code></pre>
+    <pre><code class="lang-csharp hljs">public class CollectionModification&lt;TNewItem, TOldItem&gt; : object, ICollectionModification&lt;TNewItem, TOldItem&gt;, ICollectionModificationInfo</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,7 +126,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction__1_System_Int32__0_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.%23ctor(NotifyCollectionChangedAction%2C%601%2CSystem.Int32%2C%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L71">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L58">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction__1_System_Int32__0_System_Int32_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor(NotifyCollectionChangedAction,`1,System.Int32,`0,System.Int32)">CollectionModification(NotifyCollectionChangedAction, TOldItem, Int32, TNewItem, Int32)</h4>
@@ -134,7 +134,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CollectionModification(NotifyCollectionChangedAction changeAction, TOldItem oldItem, int oldIndex, TNewItem newItem, int newIndex)</code></pre>
+    <pre><code class="lang-csharp hljs">protected CollectionModification(NotifyCollectionChangedAction changeAction, TOldItem oldItem, int oldIndex, TNewItem newItem, int newIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,18 +175,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction__1_System_Int32_IReadOnlyList__0__System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.%23ctor(NotifyCollectionChangedAction%2C%601%2CSystem.Int32%2CIReadOnlyList%7B%600%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction__1_System_Int32_System_Nullable_IReadOnlyList__0___System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.%23ctor(NotifyCollectionChangedAction%2C%601%2CSystem.Int32%2CSystem.Nullable%7BIReadOnlyList%7B%600%7D%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L74">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L55">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction__1_System_Int32_IReadOnlyList__0__System_Int32_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor(NotifyCollectionChangedAction,`1,System.Int32,IReadOnlyList{`0},System.Int32)">CollectionModification(NotifyCollectionChangedAction, TOldItem, Int32, IReadOnlyList&lt;TNewItem&gt;, Int32)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction__1_System_Int32_System_Nullable_IReadOnlyList__0___System_Int32_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor(NotifyCollectionChangedAction,`1,System.Int32,System.Nullable{IReadOnlyList{`0}},System.Int32)">CollectionModification(NotifyCollectionChangedAction, TOldItem, Int32, Nullable&lt;IReadOnlyList&lt;TNewItem&gt;&gt;, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CollectionModification(NotifyCollectionChangedAction changeAction, TOldItem oldItem, int oldIndex, IReadOnlyList&lt;TNewItem&gt; newItems, int newIndex)</code></pre>
+    <pre><code class="lang-csharp hljs">protected CollectionModification(NotifyCollectionChangedAction changeAction, TOldItem oldItem, int oldIndex, IReadOnlyList&lt;TNewItem&gt;? newItems, int newIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -214,7 +214,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;TNewItem&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IReadOnlyList</span>&lt;TNewItem&gt;&gt;</td>
         <td><span class="parametername">newItems</span></td>
         <td></td>
       </tr>
@@ -227,18 +227,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction_IReadOnlyList__1__System_Int32__0_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.%23ctor(NotifyCollectionChangedAction%2CIReadOnlyList%7B%601%7D%2CSystem.Int32%2C%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction_System_Nullable_IReadOnlyList__1___System_Int32__0_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.%23ctor(NotifyCollectionChangedAction%2CSystem.Nullable%7BIReadOnlyList%7B%601%7D%7D%2CSystem.Int32%2C%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L68">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L52">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction_IReadOnlyList__1__System_Int32__0_System_Int32_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor(NotifyCollectionChangedAction,IReadOnlyList{`1},System.Int32,`0,System.Int32)">CollectionModification(NotifyCollectionChangedAction, IReadOnlyList&lt;TOldItem&gt;, Int32, TNewItem, Int32)</h4>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction_System_Nullable_IReadOnlyList__1___System_Int32__0_System_Int32_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor(NotifyCollectionChangedAction,System.Nullable{IReadOnlyList{`1}},System.Int32,`0,System.Int32)">CollectionModification(NotifyCollectionChangedAction, Nullable&lt;IReadOnlyList&lt;TOldItem&gt;&gt;, Int32, TNewItem, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CollectionModification(NotifyCollectionChangedAction changeAction, IReadOnlyList&lt;TOldItem&gt; oldValues, int oldIndex, TNewItem newItem, int newIndex)</code></pre>
+    <pre><code class="lang-csharp hljs">protected CollectionModification(NotifyCollectionChangedAction changeAction, IReadOnlyList&lt;TOldItem&gt;? oldValues, int oldIndex, TNewItem newItem, int newIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,7 +256,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;TOldItem&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IReadOnlyList</span>&lt;TOldItem&gt;&gt;</td>
         <td><span class="parametername">oldValues</span></td>
         <td></td>
       </tr>
@@ -282,7 +282,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction_System_Nullable_IReadOnlyList__1___System_Int32_System_Nullable_IReadOnlyList__0___System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.%23ctor(NotifyCollectionChangedAction%2CSystem.Nullable%7BIReadOnlyList%7B%601%7D%7D%2CSystem.Int32%2CSystem.Nullable%7BIReadOnlyList%7B%600%7D%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L61">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L45">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2__ctor_NotifyCollectionChangedAction_System_Nullable_IReadOnlyList__1___System_Int32_System_Nullable_IReadOnlyList__0___System_Int32_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.#ctor(NotifyCollectionChangedAction,System.Nullable{IReadOnlyList{`1}},System.Int32,System.Nullable{IReadOnlyList{`0}},System.Int32)">CollectionModification(NotifyCollectionChangedAction, Nullable&lt;IReadOnlyList&lt;TOldItem&gt;&gt;, Int32, Nullable&lt;IReadOnlyList&lt;TNewItem&gt;&gt;, Int32)</h4>
@@ -290,7 +290,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CollectionModification(NotifyCollectionChangedAction changeAction, IReadOnlyList&lt;TOldItem&gt;? oldItems, int oldIndex, IReadOnlyList&lt;TNewItem&gt;? newItems, int newIndex)</code></pre>
+    <pre><code class="lang-csharp hljs">protected CollectionModification(NotifyCollectionChangedAction changeAction, IReadOnlyList&lt;TOldItem&gt;? oldItems, int oldIndex, IReadOnlyList&lt;TNewItem&gt;? newItems, int newIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -336,7 +336,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Action.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.Action%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L37">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L19">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Action_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Action*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Action" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Action">Action</h4>
@@ -366,7 +366,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewIndex.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.NewIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L52">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L36">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewIndex_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.NewIndex*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewIndex" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.NewIndex">NewIndex</h4>
@@ -396,7 +396,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewItems.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.NewItems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L49">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L33">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewItems_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.NewItems*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewItems" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.NewItems">NewItems</h4>
@@ -426,7 +426,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewPart.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.NewPart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L47">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L30">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewPart_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.NewPart*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_NewPart" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.NewPart">NewPart</h4>
@@ -456,7 +456,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldIndex.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.OldIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L44">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L27">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldIndex_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.OldIndex*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldIndex" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.OldIndex">OldIndex</h4>
@@ -486,7 +486,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldItems.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.OldItems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L41">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L24">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldItems_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.OldItems*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldItems" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.OldItems">OldItems</h4>
@@ -516,7 +516,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldPart.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.OldPart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L39">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L21">View Source</a>
   </span>
   <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldPart_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.OldPart*"></a>
   <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_OldPart" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.OldPart">OldPart</h4>
@@ -545,18 +545,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationParameters_NewItemsCount.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.Teronis%23Collections%23Algorithms%23Modifications%23ICollectionModificationParameters%23NewItemsCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationInfo_NewItemsCount.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.Teronis%23Collections%23Algorithms%23Modifications%23ICollectionModificationInfo%23NewItemsCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L82">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L66">View Source</a>
   </span>
-  <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationParameters_NewItemsCount_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Teronis#Collections#Algorithms#Modifications#ICollectionModificationParameters#NewItemsCount*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationParameters_NewItemsCount" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Teronis#Collections#Algorithms#Modifications#ICollectionModificationParameters#NewItemsCount">ICollectionModificationParameters.NewItemsCount</h4>
+  <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationInfo_NewItemsCount_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Teronis#Collections#Algorithms#Modifications#ICollectionModificationInfo#NewItemsCount*"></a>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationInfo_NewItemsCount" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Teronis#Collections#Algorithms#Modifications#ICollectionModificationInfo#NewItemsCount">ICollectionModificationInfo.NewItemsCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int? ICollectionModificationParameters.NewItemsCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">int? ICollectionModificationInfo.NewItemsCount { get; }</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -575,18 +575,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationParameters_OldItemsCount.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.Teronis%23Collections%23Algorithms%23Modifications%23ICollectionModificationParameters%23OldItemsCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationInfo_OldItemsCount.md&amp;value=---%0Auid%3A%20Teronis.Collections.Algorithms.Modifications.CollectionModification%602.Teronis%23Collections%23Algorithms%23Modifications%23ICollectionModificationInfo%23OldItemsCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L79">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Algorithms/src/Modifications/CollectionModification{`2}.cs/#L63">View Source</a>
   </span>
-  <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationParameters_OldItemsCount_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Teronis#Collections#Algorithms#Modifications#ICollectionModificationParameters#OldItemsCount*"></a>
-  <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationParameters_OldItemsCount" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Teronis#Collections#Algorithms#Modifications#ICollectionModificationParameters#OldItemsCount">ICollectionModificationParameters.OldItemsCount</h4>
+  <a id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationInfo_OldItemsCount_" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Teronis#Collections#Algorithms#Modifications#ICollectionModificationInfo#OldItemsCount*"></a>
+  <h4 id="Teronis_Collections_Algorithms_Modifications_CollectionModification_2_Teronis_Collections_Algorithms_Modifications_ICollectionModificationInfo_OldItemsCount" data-uid="Teronis.Collections.Algorithms.Modifications.CollectionModification`2.Teronis#Collections#Algorithms#Modifications#ICollectionModificationInfo#OldItemsCount">ICollectionModificationInfo.OldItemsCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int? ICollectionModificationParameters.OldItemsCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">int? ICollectionModificationInfo.OldItemsCount { get; }</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -608,7 +608,7 @@
       <a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModification-2.html">ICollectionModification&lt;TNewItem, TOldItem&gt;</a>
   </div>
   <div>
-      <a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModificationParameters.html">ICollectionModificationParameters</a>
+      <a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModificationInfo.html">ICollectionModificationInfo</a>
   </div>
 </article>
           </div>

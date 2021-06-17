@@ -92,6 +92,8 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Teronis.Collections.Synchronization.ISynchronizedCollection-1.html">ISynchronizedCollection</a>&lt;TItem&gt;</div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
+    <div><span class="xref">INotifyPropertyChanging</span></div>
     <div><span class="xref">IEnumerable</span>&lt;TItem&gt;</div>
     <div><span class="xref">IEnumerable</span></div>
     <div><span class="xref">IReadOnlyCollection</span>&lt;TItem&gt;</div>
@@ -100,11 +102,16 @@
     <div><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionModification-1.html">INotifyCollectionModification</a>&lt;TItem&gt;</div>
     <div><span class="xref">INotifyCollectionChanged</span></div>
     <div><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionSynchronized-1.html">INotifyCollectionSynchronized</a>&lt;TItem&gt;</div>
-    <div><span class="xref">INotifyPropertyChanged</span></div>
-    <div><span class="xref">INotifyPropertyChanging</span></div>
+    <div><span class="xref">IObservable</span>&lt;<a class="xref" href="Teronis.Collections.Algorithms.Modifications.ICollectionModification-2.html">ICollectionModification</a>&lt;TItem, TItem&gt;&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CountString">SynchronizableCollectionBase&lt;TItem, TItem&gt;.CountString</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_IndexerName">SynchronizableCollectionBase&lt;TItem, TItem&gt;.IndexerName</a>
+    </div>
     <div>
       <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_PropertyChanged">SynchronizableCollectionBase&lt;TItem, TItem&gt;.PropertyChanged</a>
     </div>
@@ -124,13 +131,46 @@
       <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_ChangeComponent">SynchronizableCollectionBase&lt;TItem, TItem&gt;.ChangeComponent</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CollectionChangeHandler">SynchronizableCollectionBase&lt;TItem, TItem&gt;.CollectionChangeHandler</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnCollectionSynchronizing">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnCollectionSynchronizing()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnCollectionSynchronized">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnCollectionSynchronized()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnCollectionModified_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnCollectionModified(ICollectionModification&lt;TItem, TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeAddItem_System_Int32__0_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnBeforeAddItem(Int32, TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterAddItem_System_Int32__0_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnAfterAddItem(Int32, TItem)</a>
     </div>
     <div>
       <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_InsertItem_System_Int32__0_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.InsertItem(Int32, TItem)</a>
     </div>
     <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeRemoveItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnBeforeRemoveItem(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterRemoveItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnAfterRemoveItem(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_RemoveItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.RemoveItem(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeReplaceItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnBeforeReplaceItem(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterReplaceItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnAfterReplaceItem(Int32)</a>
+    </div>
+    <div>
       <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_SetItem_System_Int32__0_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.SetItem(Int32, TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeMoveItems">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnBeforeMoveItems()</a>
+    </div>
+    <div>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterMoveItems">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnAfterMoveItems()</a>
     </div>
     <div>
       <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_MoveItems_System_Int32_System_Int32_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.MoveItems(Int32, Int32, Int32)</a>
@@ -142,19 +182,19 @@
       <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_Move_System_Int32_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.Move(Int32, Int32)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_DisposeItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.DisposeItem(Int32)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnBeforeResetItems">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnBeforeResetItems()</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_RemoveItem_System_Int32_">SynchronizableCollectionBase&lt;TItem, TItem&gt;.RemoveItem(Int32)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_OnAfterResetItems">SynchronizableCollectionBase&lt;TItem, TItem&gt;.OnAfterResetItems()</a>
     </div>
     <div>
       <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_ClearItems">SynchronizableCollectionBase&lt;TItem, TItem&gt;.ClearItems()</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateCollectionModifiedEventArgs_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__">SynchronizableCollectionBase&lt;TItem, TItem&gt;.CreateCollectionModifiedEventArgs(ICollectionModification&lt;TItem, TItem&gt;)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_Subscribe_IObserver_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0___">SynchronizableCollectionBase&lt;TItem, TItem&gt;.Subscribe(IObserver&lt;ICollectionModification&lt;TItem, TItem&gt;&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_InvokeCollectionModified_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__">SynchronizableCollectionBase&lt;TItem, TItem&gt;.InvokeCollectionModified(ICollectionModification&lt;TItem, TItem&gt;)</a>
+      <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateCollectionModifiedEventArgs_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__">SynchronizableCollectionBase&lt;TItem, TItem&gt;.CreateCollectionModifiedEventArgs(ICollectionModification&lt;TItem, TItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizableCollectionBase_2_CreateSynchronizedDictionary__1_Func__0___0__IEqualityComparer___0__">SynchronizableCollectionBase&lt;TItem, TItem&gt;.CreateSynchronizedDictionary&lt;TKey&gt;(Func&lt;TItem, TKey&gt;, IEqualityComparer&lt;TKey&gt;)</a>
@@ -167,7 +207,7 @@
   <h6><strong>Assembly</strong>: Teronis.NetStandard.Collections.Synchronization.dll</h6>
   <h5 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SynchronizableCollection&lt;TItem&gt; : SynchronizableCollectionBase&lt;TItem, TItem&gt;, ISynchronizedCollection&lt;TItem&gt;, IEnumerable&lt;TItem&gt;, IEnumerable, IReadOnlyCollection&lt;TItem&gt;, IReadOnlyList&lt;TItem&gt;, INotifyCollectionSynchronizing&lt;TItem&gt;, INotifyCollectionModification&lt;TItem&gt;, INotifyCollectionChanged, INotifyCollectionSynchronized&lt;TItem&gt;, INotifyPropertyChanged, INotifyPropertyChanging, ICollectionSynchronizationContext&lt;TItem&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class SynchronizableCollection&lt;TItem&gt; : SynchronizableCollectionBase&lt;TItem, TItem&gt;, ISynchronizedCollection&lt;TItem&gt;, INotifyPropertyChanged, INotifyPropertyChanging, IEnumerable&lt;TItem&gt;, IEnumerable, IReadOnlyCollection&lt;TItem&gt;, IReadOnlyList&lt;TItem&gt;, INotifyCollectionSynchronizing&lt;TItem&gt;, INotifyCollectionModification&lt;TItem&gt;, INotifyCollectionChanged, INotifyCollectionSynchronized&lt;TItem&gt;, IObservable&lt;ICollectionModification&lt;TItem, TItem&gt;&gt;, ICollectionSynchronizationContext&lt;TItem&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,7 +231,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L55">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L60">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor">SynchronizableCollection()</h4>
@@ -206,7 +246,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IComparer__0__System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor(IComparer%7B%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L77">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L88">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IComparer__0__System_Boolean_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor(IComparer{`0},System.Boolean)">SynchronizableCollection(IComparer&lt;TItem&gt;, Boolean)</h4>
@@ -243,7 +283,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor(IEqualityComparer%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L65">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L70">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IEqualityComparer__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor(IEqualityComparer{`0})">SynchronizableCollection(IEqualityComparer&lt;TItem&gt;)</h4>
@@ -275,7 +315,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IList__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor(IList%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L46">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L51">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IList__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor(IList{`0})">SynchronizableCollection(IList&lt;TItem&gt;)</h4>
@@ -307,7 +347,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IList__0__IComparer__0__System_Boolean_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor(IList%7B%600%7D%2CIComparer%7B%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L70">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L81">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IList__0__IComparer__0__System_Boolean_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor(IList{`0},IComparer{`0},System.Boolean)">SynchronizableCollection(IList&lt;TItem&gt;, IComparer&lt;TItem&gt;, Boolean)</h4>
@@ -349,7 +389,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IList__0__IEqualityComparer__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor(IList%7B%600%7D%2CIEqualityComparer%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L58">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L63">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IList__0__IEqualityComparer__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor(IList{`0},IEqualityComparer{`0})">SynchronizableCollection(IList&lt;TItem&gt;, IEqualityComparer&lt;TItem&gt;)</h4>
@@ -386,7 +426,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IList__0__Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethod__0__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor(IList%7B%600%7D%2CTeronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L38">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L43">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_IList__0__Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethod__0__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor(IList{`0},Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod{`0,`0})">SynchronizableCollection(IList&lt;TItem&gt;, ICollectionSynchronizationMethod&lt;TItem, TItem&gt;)</h4>
@@ -423,7 +463,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethod__0__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor(Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L52">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L57">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_Teronis_Collections_Algorithms_Modifications_ICollectionSynchronizationMethod__0__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor(Teronis.Collections.Algorithms.Modifications.ICollectionSynchronizationMethod{`0,`0})">SynchronizableCollection(ICollectionSynchronizationMethod&lt;TItem, TItem&gt;)</h4>
@@ -455,7 +495,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_Teronis_Collections_Synchronization_SynchronizableCollectionOptions__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.%23ctor(Teronis.Collections.Synchronization.SynchronizableCollectionOptions%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L30">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L40">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1__ctor_Teronis_Collections_Synchronization_SynchronizableCollectionOptions__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.#ctor(Teronis.Collections.Synchronization.SynchronizableCollectionOptions{`0})">SynchronizableCollection(SynchronizableCollectionOptions&lt;TItem&gt;)</h4>
@@ -521,7 +561,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_AddItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.AddItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L82">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L93">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_AddItems_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.AddItems*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_AddItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.AddItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification{`0,`0})">AddItems(ICollectionModification&lt;TItem, TItem&gt;)</h4>
@@ -553,7 +593,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_MirrorSynchronizedCollection_Teronis_Collections_Synchronization_ISynchronizedCollection__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.MirrorSynchronizedCollection(Teronis.Collections.Synchronization.ISynchronizedCollection%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L226">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L239">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_MirrorSynchronizedCollection_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.MirrorSynchronizedCollection*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_MirrorSynchronizedCollection_Teronis_Collections_Synchronization_ISynchronizedCollection__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.MirrorSynchronizedCollection(Teronis.Collections.Synchronization.ISynchronizedCollection{`0})">MirrorSynchronizedCollection(ISynchronizedCollection&lt;TItem&gt;)</h4>
@@ -605,7 +645,7 @@ of this instance.</p>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_MoveItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.MoveItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L127">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L134">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_MoveItems_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.MoveItems*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_MoveItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.MoveItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification{`0,`0})">MoveItems(ICollectionModification&lt;TItem, TItem&gt;)</h4>
@@ -634,74 +674,10 @@ of this instance.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_OnAfterReplaceItem_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.OnAfterReplaceItem(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L106">View Source</a>
-  </span>
-  <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_OnAfterReplaceItem_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.OnAfterReplaceItem*"></a>
-  <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_OnAfterReplaceItem_System_Int32_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.OnAfterReplaceItem(System.Int32)">OnAfterReplaceItem(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnAfterReplaceItem(int replacedItemIndex)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">replacedItemIndex</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_OnBeforeReplaceItem_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.OnBeforeReplaceItem(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L104">View Source</a>
-  </span>
-  <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_OnBeforeReplaceItem_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.OnBeforeReplaceItem*"></a>
-  <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_OnBeforeReplaceItem_System_Int32_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.OnBeforeReplaceItem(System.Int32)">OnBeforeReplaceItem(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnBeforeReplaceItem(int replacedItemIndex)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">replacedItemIndex</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_ProcessModification_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.ProcessModification(Teronis.Collections.Algorithms.Modifications.ICollectionModification%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L136">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L149">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_ProcessModification_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.ProcessModification*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_ProcessModification_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.ProcessModification(Teronis.Collections.Algorithms.Modifications.ICollectionModification{`0,`0})">ProcessModification(ICollectionModification&lt;TItem, TItem&gt;)</h4>
@@ -733,7 +709,7 @@ of this instance.</p>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_RemoveItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.RemoveItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L94">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L106">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_RemoveItems_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.RemoveItems*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_RemoveItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.RemoveItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification{`0,`0})">RemoveItems(ICollectionModification&lt;TItem, TItem&gt;)</h4>
@@ -765,7 +741,7 @@ of this instance.</p>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_ReplaceItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.ReplaceItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L108">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L117">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_ReplaceItems_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.ReplaceItems*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_ReplaceItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.ReplaceItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification{`0,`0})">ReplaceItems(ICollectionModification&lt;TItem, TItem&gt;)</h4>
@@ -797,7 +773,7 @@ of this instance.</p>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_ResetItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.ResetItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification%7B%600%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L133">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L142">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_ResetItems_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.ResetItems*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_ResetItems_Teronis_Collections_Algorithms_Modifications_ICollectionModification__0__0__" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.ResetItems(Teronis.Collections.Algorithms.Modifications.ICollectionModification{`0,`0})">ResetItems(ICollectionModification&lt;TItem, TItem&gt;)</h4>
@@ -829,7 +805,7 @@ of this instance.</p>
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_SynchronizeCollection_System_Nullable_IEnumerable__0___.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.SynchronizeCollection(System.Nullable%7BIEnumerable%7B%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L216">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L229">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_SynchronizeCollection_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.SynchronizeCollection*"></a>
   <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_SynchronizeCollection_System_Nullable_IEnumerable__0___" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.SynchronizeCollection(System.Nullable{IEnumerable{`0}})">SynchronizeCollection(Nullable&lt;IEnumerable&lt;TItem&gt;&gt;)</h4>
@@ -858,18 +834,18 @@ of this instance.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_SynchronizeCollection_System_Nullable_IEnumerable__0___Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.SynchronizeCollection(System.Nullable%7BIEnumerable%7B%600%7D%7D%2CTeronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1_SynchronizeCollection_System_Nullable_IEnumerable__0___Teronis_Collections_Algorithms_Modifications_CollectionModificationYieldCapabilities_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601.SynchronizeCollection(System.Nullable%7BIEnumerable%7B%600%7D%7D%2CTeronis.Collections.Algorithms.Modifications.CollectionModificationYieldCapabilities)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L213">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L226">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_SynchronizableCollection_1_SynchronizeCollection_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.SynchronizeCollection*"></a>
-  <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_SynchronizeCollection_System_Nullable_IEnumerable__0___Teronis_Collections_Algorithms_Modifications_CollectionModificationsYieldCapabilities_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.SynchronizeCollection(System.Nullable{IEnumerable{`0}},Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities)">SynchronizeCollection(Nullable&lt;IEnumerable&lt;TItem&gt;&gt;, CollectionModificationsYieldCapabilities)</h4>
+  <h4 id="Teronis_Collections_Synchronization_SynchronizableCollection_1_SynchronizeCollection_System_Nullable_IEnumerable__0___Teronis_Collections_Algorithms_Modifications_CollectionModificationYieldCapabilities_" data-uid="Teronis.Collections.Synchronization.SynchronizableCollection`1.SynchronizeCollection(System.Nullable{IEnumerable{`0}},Teronis.Collections.Algorithms.Modifications.CollectionModificationYieldCapabilities)">SynchronizeCollection(Nullable&lt;IEnumerable&lt;TItem&gt;&gt;, CollectionModificationYieldCapabilities)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SynchronizeCollection(IEnumerable&lt;TItem&gt;? enumerable, CollectionModificationsYieldCapabilities yieldCapabilities)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SynchronizeCollection(IEnumerable&lt;TItem&gt;? enumerable, CollectionModificationYieldCapabilities yieldCapabilities)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -887,7 +863,7 @@ of this instance.</p>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModificationsYieldCapabilities.html">CollectionModificationsYieldCapabilities</a></td>
+        <td><a class="xref" href="Teronis.Collections.Algorithms.Modifications.CollectionModificationYieldCapabilities.html">CollectionModificationYieldCapabilities</a></td>
         <td><span class="parametername">yieldCapabilities</span></td>
         <td></td>
       </tr>
@@ -896,6 +872,12 @@ of this instance.</p>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Teronis.Collections.Synchronization.ISynchronizedCollection-1.html">ISynchronizedCollection&lt;TItem&gt;</a>
+  </div>
+  <div>
+      <span class="xref">INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">INotifyPropertyChanging</span>
   </div>
   <div>
       <span class="xref">IEnumerable&lt;&gt;</span>
@@ -922,10 +904,7 @@ of this instance.</p>
       <a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionSynchronized-1.html">INotifyCollectionSynchronized&lt;TItem&gt;</a>
   </div>
   <div>
-      <span class="xref">INotifyPropertyChanged</span>
-  </div>
-  <div>
-      <span class="xref">INotifyPropertyChanging</span>
+      <span class="xref">IObservable&lt;&gt;</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
@@ -945,7 +924,7 @@ of this instance.</p>
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_SynchronizableCollection_1.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.SynchronizableCollection%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/SynchronizableCollection{`1}.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

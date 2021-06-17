@@ -92,6 +92,8 @@
       <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.CollectionItemReplaceBehaviour.html">CollectionChangeHandler&lt;TItem&gt;.CollectionItemReplaceBehaviour</a></h4>
       <section><p>Implements the behaviour to replace an item at a given index on request. The default behaviour is not to replace existing items.</p>
 </section>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionModificationIterationContext.html">CollectionModificationIterationContext</a></h4>
+      <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionModificationIterationTools.html">CollectionModificationIterationTools</a></h4>
       <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.html">CollectionModificationIterationTools.IteratorBuilder</a></h4>
@@ -106,11 +108,11 @@
       <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionBase-2.html">SynchronizableCollectionBase&lt;TItem, TNewItem&gt;</a></h4>
       <section></section>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionItemsOptionsBase-2.html">SynchronizableCollectionItemsOptionsBase&lt;TDerived, TItem&gt;</a></h4>
+      <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionOptions-1.html">SynchronizableCollectionOptions&lt;TItem&gt;</a></h4>
       <section></section>
-      <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionOptions-1.OptionsForItems.html">SynchronizableCollectionOptions&lt;TItem&gt;.OptionsForItems</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionOptionsBase-2.html">SynchronizableCollectionOptionsBase&lt;TDerived, TItem&gt;</a></h4>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizableCollectionOptions-1.CollectionItemsOptions.html">SynchronizableCollectionOptions&lt;TItem&gt;.CollectionItemsOptions</a></h4>
       <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizedCollectionMirror-1.html">SynchronizedCollectionMirror&lt;TSuperItem&gt;</a></h4>
       <section></section>
@@ -125,7 +127,7 @@
 <br>Bindable collections are <a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_SubItems">SubItems</a> and <a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.html#Teronis_Collections_Synchronization_SynchronizingCollectionBase_2_SuperItems">SuperItems</a>.
 <br>Remember: All childs are parents (because child extends parent), so all childs are a subset of parent / parent is a superset of child.</p>
 </section>
-      <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.ItemCollection-2.html">SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;ItemType, NewItemType&gt;</a></h4>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.ItemCollection-2.html">SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.ItemCollection&lt;TItem, TNewItem&gt;</a></h4>
       <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.SynchronizingCollectionBase-2.SubItemCollection.html">SynchronizingCollectionBase&lt;TSuperItem, TSubItem&gt;.SubItemCollection</a></h4>
       <section></section>
@@ -165,13 +167,15 @@ for one item except for <see cref="!:NotifyCollectionChangedAction.Reset"></see>
       <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.INotifyCollectionSynchronizing-1.html">INotifyCollectionSynchronizing&lt;TItem&gt;</a></h4>
       <section></section>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.IReadOnlyCollectionItemsOptions.html">IReadOnlyCollectionItemsOptions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.ISynchronizableCollectionItemsOptions-1.html">ISynchronizableCollectionItemsOptions&lt;TItem&gt;</a></h4>
+      <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.ISynchronizedCollection-1.html">ISynchronizedCollection&lt;TItem&gt;</a></h4>
       <section></section>
     <h3 id="delegates">Delegates
   </h3>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionModificationIterationDelegate.html">CollectionModificationIterationDelegate</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionModificationIterationWithIndexDelegate.html">CollectionModificationIterationWithIndexDelegate</a></h4>
       <section><p>Represents the delegate for the handler that is called from <a class="xref" href="Teronis.Collections.Synchronization.CollectionModificationIterationTools.IteratorBuilder.html#Teronis_Collections_Synchronization_CollectionModificationIterationTools_IteratorBuilder_Iterate">Iterate()</a>.</p>
 </section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionUpdateItemDelegate-2.html">CollectionUpdateItemDelegate&lt;ItemType, NewItemType&gt;</a></h4>

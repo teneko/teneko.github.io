@@ -99,7 +99,7 @@
   <h6><strong>Assembly</strong>: Teronis.NetStandard.Collections.Synchronization.dll</h6>
   <h5 id="Teronis_Collections_Synchronization_ISynchronizedCollection_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISynchronizedCollection&lt;TItem&gt; : IEnumerable&lt;TItem&gt;, IEnumerable, IReadOnlyCollection&lt;TItem&gt;, IReadOnlyList&lt;TItem&gt;, INotifyCollectionSynchronizing&lt;TItem&gt;, INotifyCollectionModification&lt;TItem&gt;, INotifyCollectionChanged, INotifyCollectionSynchronized&lt;TItem&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISynchronizedCollection&lt;TItem&gt; : INotifyPropertyChanged, INotifyPropertyChanging, IEnumerable&lt;TItem&gt;, IEnumerable, IReadOnlyCollection&lt;TItem&gt;, IReadOnlyList&lt;TItem&gt;, INotifyCollectionSynchronizing&lt;TItem&gt;, INotifyCollectionModification&lt;TItem&gt;, INotifyCollectionChanged, INotifyCollectionSynchronized&lt;TItem&gt;, IObservable&lt;ICollectionModification&lt;TItem, TItem&gt;&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,7 +123,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_ISynchronizedCollection_1_Count.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.ISynchronizedCollection%601.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/ISynchronizedCollection{`1}.cs/#L15">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/ISynchronizedCollection{`1}.cs/#L20">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_ISynchronizedCollection_1_Count_" data-uid="Teronis.Collections.Synchronization.ISynchronizedCollection`1.Count*"></a>
   <h4 id="Teronis_Collections_Synchronization_ISynchronizedCollection_1_Count" data-uid="Teronis.Collections.Synchronization.ISynchronizedCollection`1.Count">Count</h4>
@@ -153,7 +153,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_ISynchronizedCollection_1_Item_System_Int32_.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.ISynchronizedCollection%601.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/ISynchronizedCollection{`1}.cs/#L14">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/ISynchronizedCollection{`1}.cs/#L19">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_ISynchronizedCollection_1_Item_" data-uid="Teronis.Collections.Synchronization.ISynchronizedCollection`1.Item*"></a>
   <h4 id="Teronis_Collections_Synchronization_ISynchronizedCollection_1_Item_System_Int32_" data-uid="Teronis.Collections.Synchronization.ISynchronizedCollection`1.Item(System.Int32)">Item[Int32]</h4>
@@ -202,7 +202,7 @@
     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_ISynchronizedCollection_1_GetEnumerator.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.ISynchronizedCollection%601.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/ISynchronizedCollection{`1}.cs/#L16">View Source</a>
+    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/ISynchronizedCollection{`1}.cs/#L21">View Source</a>
   </span>
   <a id="Teronis_Collections_Synchronization_ISynchronizedCollection_1_GetEnumerator_" data-uid="Teronis.Collections.Synchronization.ISynchronizedCollection`1.GetEnumerator*"></a>
   <h4 id="Teronis_Collections_Synchronization_ISynchronizedCollection_1_GetEnumerator" data-uid="Teronis.Collections.Synchronization.ISynchronizedCollection`1.GetEnumerator">GetEnumerator()</h4>
@@ -245,7 +245,7 @@
                     <a href="https://github.com/teroneko/Teronis.DotNet/new/develop/apiSpec/new?filename=Teronis_Collections_Synchronization_ISynchronizedCollection_1.md&amp;value=---%0Auid%3A%20Teronis.Collections.Synchronization.ISynchronizedCollection%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/ISynchronizedCollection{`1}.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/teroneko/Teronis.DotNet/blob/develop/src/NetStandard/Collections/Synchronization/src/ISynchronizedCollection{`1}.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
