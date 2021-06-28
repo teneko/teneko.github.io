@@ -87,10 +87,15 @@
   </h3>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.html">CollectionChangeHandler&lt;TItem&gt;</a></h4>
       <section></section>
-      <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.Behaviour.html">CollectionChangeHandler&lt;TItem&gt;.Behaviour</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.CollectionItemReplaceBehaviour.html">CollectionChangeHandler&lt;TItem&gt;.CollectionItemReplaceBehaviour</a></h4>
-      <section><p>Implements the behaviour to replace an item at a given index on request. The default behaviour is not to replace existing items.</p>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.DefaultCollectionChangeBehaviour.html">CollectionChangeHandler&lt;TItem&gt;.DefaultCollectionChangeBehaviour</a></h4>
+      <section><p>The default behaviour for changing the collection on collection-change-notifications.
+Insert, remove, move and reset do as they are named. Only the replace-functionality is
+disabled.</p>
+</section>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.ItemReplacableCollectionChangeBehaviour.html">CollectionChangeHandler&lt;TItem&gt;.ItemReplacableCollectionChangeBehaviour</a></h4>
+      <section><p>Implements the behaviour to replace an item at a given index on request. It is the contrary
+implementation of <a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.DefaultCollectionChangeBehaviour.html">CollectionChangeHandler&lt;TItem&gt;.DefaultCollectionChangeBehaviour</a> as it would not replace
+existing items.</p>
 </section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionModificationIterationContext.html">CollectionModificationIterationContext</a></h4>
       <section></section>
@@ -151,7 +156,7 @@
       <section></section>
     <h3 id="interfaces">Interfaces
   </h3>
-      <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.IBehaviour.html">CollectionChangeHandler&lt;TItem&gt;.IBehaviour</a></h4>
+      <h4><a class="xref" href="Teronis.Collections.Synchronization.CollectionChangeHandler-1.ICollectionChangeBehaviour.html">CollectionChangeHandler&lt;TItem&gt;.ICollectionChangeBehaviour</a></h4>
       <section></section>
       <h4><a class="xref" href="Teronis.Collections.Synchronization.ICollectionChangeHandler-1.html">ICollectionChangeHandler&lt;TItem&gt;</a></h4>
       <section><p>
