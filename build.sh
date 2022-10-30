@@ -9,7 +9,7 @@ SCRIPT_DIR=$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)
 # CONFIGURATION
 ###########################################################################
 
-BUILD_PROJECT_FILE="$SCRIPT_DIR/nukebuild/Teroneko.GitHub.IO.Build.csproj"
+BUILD_PROJECT_FILE="$SCRIPT_DIR/nukebuild/Teneko.GitHub.IO.Build.csproj"
 TEMP_DIRECTORY="$SCRIPT_DIR//.tmp"
 
 DOTNET_GLOBAL_FILE="$SCRIPT_DIR//global.json"

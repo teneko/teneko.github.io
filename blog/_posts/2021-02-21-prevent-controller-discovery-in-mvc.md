@@ -92,5 +92,5 @@ In the above code sequence you can see that we are creating an application part 
 
 [ApiExplorer]: https://github.com/aspnet/AspNetWebStack/blob/main/src/System.Web.Http/Description/ApiExplorer.cs
 [Andrew Lock]: https://andrewlock.net/when-asp-net-core-cant-find-your-controller-debugging-application-parts/
-[TypesProvidingApplicationPart Code]: https://teroneko.de/docs/Teronis.DotNet/Teronis.Mvc.TypesProvidingApplicationPart.html
+[TypesProvidingApplicationPart Code]: https://teneko.de/docs/Teronis.DotNet/Teronis.Mvc.TypesProvidingApplicationPart.html
 [TypesProvidingApplicationPart Package]: https://www.nuget.org/packages/Teronis.AspNetCore.Mvc

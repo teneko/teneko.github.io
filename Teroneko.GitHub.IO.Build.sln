@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teroneko.GitHub.IO.Build", "nukebuild\Teroneko.GitHub.IO.Build.csproj", "{71BD3BE0-4712-4BE4-8323-3F8B3C614604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teneko.GitHub.IO.Build", "nukebuild\Teneko.GitHub.IO.Build.csproj", "{71BD3BE0-4712-4BE4-8323-3F8B3C614604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
